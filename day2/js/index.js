@@ -9,18 +9,17 @@
         setTimeout(() => {
             topLine.classList.add('rotate')
             bottomLine.classList.add('rotate')
-        }, 500)
+        }, 400)
     }
     function close() {
         topLine.classList.remove('rotate')
         bottomLine.classList.remove('rotate')
         setTimeout(() => {
             btn.classList.remove('active')
-        }, 500)
+        }, 400)
     }
     btn.addEventListener('click', function () {
         isOpen = !isOpen
         isOpen ? open() : close()
-        console.log(isOpen)
     })
 })()
