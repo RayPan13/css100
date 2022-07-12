@@ -1,20 +1,26 @@
 'use strict'
 ;(function () {
-    let isClose = false
-    document.querySelector('.btn').addEventListener('click', function () {
-        if (isClose) {
-            document.querySelector('.top').classList.toggle('rotate')
-            document.querySelector('.bottom').classList.toggle('rotate')
-            setTimeout(() => {
-                this.classList.toggle('active')
-            }, 500)
-        } else {
-            this.classList.toggle('active')
-            setTimeout(() => {
-                document.querySelector('.top').classList.toggle('rotate')
-                document.querySelector('.bottom').classList.toggle('rotate')
-            }, 500)
-        }
-        isClose = !isClose
+    const topLine = document.querySelector('.top')
+    const bottomLine = document.querySelector('.bottom')
+    const btn = document.querySelector('.btn')
+    let isOpen = false
+    function open() {
+        btn.classList.add('active')
+        setTimeout(() => {
+            topLine.classList.add('rotate')
+            bottomLine.classList.add('rotate')
+        }, 500)
+    }
+    function close() {
+        topLine.classList.remove('rotate')
+        bottomLine.classList.remove('rotate')
+        setTimeout(() => {
+            btn.classList.remove('active')
+        }, 500)
+    }
+    btn.addEventListener('click', function () {
+        isOpen = !isOpen
+        isOpen ? open() : close()
+        console.log(isOpen)
     })
 })()
