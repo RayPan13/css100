@@ -78,20 +78,38 @@ body {
     border-radius: 4px;
     background-color: #fff;
     position: absolute;
-    left: 0;
+    left: 50%;
     -webkit-box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.2);
             box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: top 0.5s, width 0.5s, -webkit-transform 0.5s;
+    transition: top 0.5s, width 0.5s, -webkit-transform 0.5s;
+    transition: top 0.5s, transform 0.5s, width 0.5s;
+    transition: top 0.5s, transform 0.5s, width 0.5s, -webkit-transform 0.5s;
+    -webkit-transform-origin: center;
+            transform-origin: center;
 }
 .btn .line.top {
     top: 0;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
 }
 .btn .line.middle {
     top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 .btn .line.bottom {
     top: 100%;
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
+    -webkit-transform: translate(-50%, -100%);
+            transform: translate(-50%, -100%);
+}
+.btn.active .top,
+.btn.active .middle,
+.btn.active .bottom {
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.btn.active .middle {
+    width: 0;
 }/*# sourceMappingURL=index.css.map */

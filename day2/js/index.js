@@ -1,2 +1,6 @@
 'use strict'
-;(function () {})()
+;(function () {
+    document.querySelector('.btn').addEventListener('click', function () {
+        this.classList.toggle('active')
+    })
+})()
