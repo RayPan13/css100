@@ -63,7 +63,10 @@ body {
         transform-origin: center;
         &.top {
             top: 0;
-            transform: translate(-50%, 0);
+            transform: translate(-50%, 0) rotate(0deg);
+            &.rotate {
+                transform: translate(-50%, 0) rotate(135deg);
+            }
         }
         &.middle {
             top: 50%;
@@ -71,7 +74,10 @@ body {
         }
         &.bottom {
             top: 100%;
-            transform: translate(-50%, -100%);
+            transform: translate(-50%, -100%) rotate(0deg);
+            &.rotate {
+                transform: translate(-50%, 0) rotate(45deg);
+            }
         }
     }
     &.active {
