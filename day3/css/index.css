@@ -1,3 +1,23 @@
+@-webkit-keyframes sunMove {
+    30%, 40% {
+        -webkit-transform: rotate(330deg);
+                transform: rotate(330deg);
+    }
+    100% {
+        -webkit-transform: rotate(420deg);
+                transform: rotate(420deg);
+    }
+}
+@keyframes sunMove {
+    30%, 40% {
+        -webkit-transform: rotate(330deg);
+                transform: rotate(330deg);
+    }
+    100% {
+        -webkit-transform: rotate(420deg);
+                transform: rotate(420deg);
+    }
+}
 *,
 *::before,
 *::after {
@@ -86,8 +106,14 @@ body {
     border-radius: 50%;
     background-color: #ffef00;
     position: absolute;
-    top: 80px;
-    left: -40px;
+    top: 22px;
+    left: 50%;
+    -webkit-transform-origin: 0 500%;
+            transform-origin: 0 500%;
+    -webkit-transform: rotate(290deg);
+            transform: rotate(290deg);
+    -webkit-animation: sunMove linear 3s infinite;
+            animation: sunMove linear 3s infinite;
 }
 .window .tower1 {
     background-color: #f4f4f4;
