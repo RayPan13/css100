@@ -8,6 +8,21 @@
         transform: rotate(420deg);
     }
 }
+@keyframes shadowMove {
+    30%,
+    40% {
+        clip-path: polygon(100% 100%, 25% 0, 75% 0);
+        height: 30px;
+    }
+    50% {
+        clip-path: polygon(50% 100%, 25% 0, 75% 0);
+        height: 15px;
+    }
+    100% {
+        clip-path: polygon(-50% 100%, 25% 0, 75% 0);
+        height: 30px;
+    }
+}
 @keyframes tower1Shadow {
     0% {
         background-color: #c5c5c5;
@@ -93,13 +108,13 @@ body {
     align-items: center;
 }
 .window {
-    opacity: 0;
+    opacity: 1;
     border-radius: 50%;
     width: 200px;
     height: 200px;
     overflow: hidden;
     position: relative;
-    animation: windowView linear 4.5s infinite;
+    // animation: windowView linear 4.5s infinite;
     .sky {
         background-color: #7ddffc;
         transform: translate(-5%, -10px);
@@ -137,6 +152,17 @@ body {
         top: 80px;
         left: 100px;
         animation: tower2Shadow linear 4.5s infinite;
+    }
+    .shadow {
+        background-color: rgba(0, 0, 0, 0.6);
+        clip-path: polygon(100% 100%, 25% 0, 75% 0);
+        width: 200px;
+        height: 10px;
+        position: absolute;
+        top: 130px;
+        left: 0px;
+        z-index: 1;
+        animation: shadowMove linear 4.5s infinite;
     }
     .ground {
         background-color: #f0de75;
