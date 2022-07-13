@@ -114,7 +114,7 @@ body {
     height: 200px;
     overflow: hidden;
     position: relative;
-    // animation: windowView linear 4.5s infinite;
+    animation: windowView linear 4.5s infinite;
     .sky {
         background-color: #7ddffc;
         transform: translate(-5%, -10px);
@@ -154,7 +154,7 @@ body {
         animation: tower2Shadow linear 4.5s infinite;
     }
     .shadow {
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.3);
         clip-path: polygon(100% 100%, 25% 0, 75% 0);
         width: 200px;
         height: 10px;

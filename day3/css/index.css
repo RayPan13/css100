@@ -193,6 +193,8 @@ body {
     height: 200px;
     overflow: hidden;
     position: relative;
+    -webkit-animation: windowView linear 4.5s infinite;
+            animation: windowView linear 4.5s infinite;
 }
 .window .sky {
     background-color: #7ddffc;
@@ -241,7 +243,7 @@ body {
             animation: tower2Shadow linear 4.5s infinite;
 }
 .window .shadow {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
     -webkit-clip-path: polygon(100% 100%, 25% 0, 75% 0);
             clip-path: polygon(100% 100%, 25% 0, 75% 0);
     width: 200px;
