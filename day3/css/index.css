@@ -22,7 +22,7 @@
     0% {
         background-color: #c5c5c5;
     }
-    30%, 40% {
+    30%, 50% {
         background-color: #f4f4f4;
     }
     100% {
@@ -33,7 +33,7 @@
     0% {
         background-color: #c5c5c5;
     }
-    30%, 40% {
+    30%, 50% {
         background-color: #f4f4f4;
     }
     100% {
@@ -60,6 +60,28 @@
     }
     100% {
         background-color: #f4f4f4;
+    }
+}
+@-webkit-keyframes windowView {
+    0% {
+        opacity: 0;
+    }
+    30%, 80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes windowView {
+    0% {
+        opacity: 0;
+    }
+    30%, 80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
 *,
@@ -131,11 +153,14 @@ body {
 }
 
 .window {
+    opacity: 0;
     border-radius: 50%;
     width: 200px;
     height: 200px;
     overflow: hidden;
     position: relative;
+    -webkit-animation: windowView linear 4.5s infinite;
+            animation: windowView linear 4.5s infinite;
 }
 .window .sky {
     background-color: #7ddffc;
@@ -156,8 +181,8 @@ body {
             transform-origin: 0 500%;
     -webkit-transform: rotate(290deg);
             transform: rotate(290deg);
-    -webkit-animation: sunMove linear 3s infinite;
-            animation: sunMove linear 3s infinite;
+    -webkit-animation: sunMove linear 4.5s infinite;
+            animation: sunMove linear 4.5s infinite;
 }
 .window .tower1 {
     background-color: #f4f4f4;
@@ -168,8 +193,8 @@ body {
     position: absolute;
     top: 80px;
     left: 50px;
-    -webkit-animation: tower1Shadow linear 3s infinite;
-            animation: tower1Shadow linear 3s infinite;
+    -webkit-animation: tower1Shadow linear 4.5s infinite;
+            animation: tower1Shadow linear 4.5s infinite;
 }
 .window .tower2 {
     background-color: #dddada;
@@ -180,8 +205,8 @@ body {
     position: absolute;
     top: 80px;
     left: 100px;
-    -webkit-animation: tower2Shadow linear 3s infinite;
-            animation: tower2Shadow linear 3s infinite;
+    -webkit-animation: tower2Shadow linear 4.5s infinite;
+            animation: tower2Shadow linear 4.5s infinite;
 }
 .window .ground {
     background-color: #f0de75;

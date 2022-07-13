@@ -13,7 +13,7 @@
         background-color: #c5c5c5;
     }
     30%,
-    40% {
+    50% {
         background-color: #f4f4f4;
     }
     100% {
@@ -30,6 +30,18 @@
     }
     100% {
         background-color: #f4f4f4;
+    }
+}
+@keyframes windowView {
+    0% {
+        opacity: 0;
+    }
+    30%,
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }
 
@@ -81,11 +93,13 @@ body {
     align-items: center;
 }
 .window {
+    opacity: 0;
     border-radius: 50%;
     width: 200px;
     height: 200px;
     overflow: hidden;
     position: relative;
+    animation: windowView linear 4.5s infinite;
     .sky {
         background-color: #7ddffc;
         transform: translate(-5%, -10px);
@@ -102,7 +116,7 @@ body {
         left: 50%;
         transform-origin: 0 500%;
         transform: rotate(290deg);
-        animation: sunMove linear 3s infinite;
+        animation: sunMove linear 4.5s infinite;
     }
     .tower1 {
         background-color: #f4f4f4;
@@ -112,7 +126,7 @@ body {
         position: absolute;
         top: 80px;
         left: 50px;
-        animation: tower1Shadow linear 3s infinite;
+        animation: tower1Shadow linear 4.5s infinite;
     }
     .tower2 {
         background-color: #dddada;
@@ -122,7 +136,7 @@ body {
         position: absolute;
         top: 80px;
         left: 100px;
-        animation: tower2Shadow linear 3s infinite;
+        animation: tower2Shadow linear 4.5s infinite;
     }
     .ground {
         background-color: #f0de75;
