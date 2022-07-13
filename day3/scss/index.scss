@@ -8,6 +8,30 @@
         transform: rotate(420deg);
     }
 }
+@keyframes tower1Shadow {
+    0% {
+        background-color: #c5c5c5;
+    }
+    30%,
+    40% {
+        background-color: #f4f4f4;
+    }
+    100% {
+        background-color: #c5c5c5;
+    }
+}
+@keyframes tower2Shadow {
+    0% {
+        background-color: #c5c5c5;
+    }
+    30%,
+    40% {
+        background-color: #dddada;
+    }
+    100% {
+        background-color: #f4f4f4;
+    }
+}
 
 *,
 *::before,
@@ -88,6 +112,7 @@ body {
         position: absolute;
         top: 80px;
         left: 50px;
+        animation: tower1Shadow linear 3s infinite;
     }
     .tower2 {
         background-color: #dddada;
@@ -97,6 +122,7 @@ body {
         position: absolute;
         top: 80px;
         left: 100px;
+        animation: tower2Shadow linear 3s infinite;
     }
     .ground {
         background-color: #f0de75;

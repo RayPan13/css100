@@ -18,6 +18,50 @@
                 transform: rotate(420deg);
     }
 }
+@-webkit-keyframes tower1Shadow {
+    0% {
+        background-color: #c5c5c5;
+    }
+    30%, 40% {
+        background-color: #f4f4f4;
+    }
+    100% {
+        background-color: #c5c5c5;
+    }
+}
+@keyframes tower1Shadow {
+    0% {
+        background-color: #c5c5c5;
+    }
+    30%, 40% {
+        background-color: #f4f4f4;
+    }
+    100% {
+        background-color: #c5c5c5;
+    }
+}
+@-webkit-keyframes tower2Shadow {
+    0% {
+        background-color: #c5c5c5;
+    }
+    30%, 40% {
+        background-color: #dddada;
+    }
+    100% {
+        background-color: #f4f4f4;
+    }
+}
+@keyframes tower2Shadow {
+    0% {
+        background-color: #c5c5c5;
+    }
+    30%, 40% {
+        background-color: #dddada;
+    }
+    100% {
+        background-color: #f4f4f4;
+    }
+}
 *,
 *::before,
 *::after {
@@ -124,6 +168,8 @@ body {
     position: absolute;
     top: 80px;
     left: 50px;
+    -webkit-animation: tower1Shadow linear 3s infinite;
+            animation: tower1Shadow linear 3s infinite;
 }
 .window .tower2 {
     background-color: #dddada;
@@ -134,6 +180,8 @@ body {
     position: absolute;
     top: 80px;
     left: 100px;
+    -webkit-animation: tower2Shadow linear 3s infinite;
+            animation: tower2Shadow linear 3s infinite;
 }
 .window .ground {
     background-color: #f0de75;
