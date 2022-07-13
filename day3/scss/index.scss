@@ -58,6 +58,15 @@ body {
         width: 110%;
         height: 140px;
     }
+    .sun {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #ffef00;
+        position: absolute;
+        top: 80px;
+        left: -40px;
+    }
     .tower1 {
         background-color: #f4f4f4;
         clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
@@ -69,7 +78,7 @@ body {
     }
     .tower2 {
         background-color: #dddada;
-        clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+        clip-path: polygon(0% 0%, 20% 100%, 100% 100%);
         width: 50px;
         height: 50px;
         position: absolute;
