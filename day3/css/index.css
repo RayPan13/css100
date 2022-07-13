@@ -71,6 +71,7 @@ body {
     width: 200px;
     height: 200px;
     overflow: hidden;
+    position: relative;
 }
 .window .sky {
     background-color: #7ddffc;
@@ -78,6 +79,26 @@ body {
             transform: translate(-5%, -10px);
     width: 110%;
     height: 140px;
+}
+.window .tower1 {
+    background-color: #f4f4f4;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+.window .tower2 {
+    background-color: #dddada;
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+            clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
 }
 .window .ground {
     background-color: #f0de75;
