@@ -3,7 +3,7 @@
         -webkit-transform: translate(-50%, -50%) scale(0);
                 transform: translate(-50%, -50%) scale(0);
     }
-    40%, 90% {
+    50%, 70% {
         -webkit-transform: translate(-50%, -50%) scale(1);
                 transform: translate(-50%, -50%) scale(1);
     }
@@ -13,7 +13,7 @@
         -webkit-transform: translate(-50%, -50%) scale(0);
                 transform: translate(-50%, -50%) scale(0);
     }
-    40%, 90% {
+    50%, 70% {
         -webkit-transform: translate(-50%, -50%) scale(1);
                 transform: translate(-50%, -50%) scale(1);
     }
@@ -23,7 +23,7 @@
         -webkit-transform: translate(-50%, -50%) scale(0);
                 transform: translate(-50%, -50%) scale(0);
     }
-    60%, 90% {
+    70%, 80% {
         -webkit-transform: translate(-50%, -50%) scale(1);
                 transform: translate(-50%, -50%) scale(1);
     }
@@ -33,7 +33,7 @@
         -webkit-transform: translate(-50%, -50%) scale(0);
                 transform: translate(-50%, -50%) scale(0);
     }
-    60%, 90% {
+    70%, 80% {
         -webkit-transform: translate(-50%, -50%) scale(1);
                 transform: translate(-50%, -50%) scale(1);
     }
@@ -132,18 +132,18 @@ body {
 .circle.xl {
     width: 100px;
     height: 100px;
-    -webkit-animation: zoomXl linear 1s infinite alternate;
-            animation: zoomXl linear 1s infinite alternate;
+    -webkit-animation: zoomXl linear 2s infinite alternate;
+            animation: zoomXl linear 2s infinite alternate;
 }
 .circle.m {
     width: 70px;
     height: 70px;
-    -webkit-animation: zoomM linear 1s infinite alternate;
-            animation: zoomM linear 1s infinite alternate;
+    -webkit-animation: zoomM linear 2s infinite alternate;
+            animation: zoomM linear 2s infinite alternate;
 }
 .circle.s {
     width: 30px;
     height: 30px;
-    -webkit-animation: zoomS linear 1s infinite alternate;
-            animation: zoomS linear 1s infinite alternate;
+    -webkit-animation: zoomS linear 2s infinite alternate;
+            animation: zoomS linear 2s infinite alternate;
 }/*# sourceMappingURL=index.css.map */
