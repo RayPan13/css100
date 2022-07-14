@@ -1,4 +1,33 @@
 @charset 'UTF-8';
+@keyframes zoomXl {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+    }
+    40%,
+    90% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+@keyframes zoomM {
+    0%,
+    30% {
+        transform: translate(-50%, -50%) scale(0);
+    }
+    60%,
+    90% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+@keyframes zoomS {
+    0%,
+    50% {
+        transform: translate(-50%, -50%) scale(0);
+    }
+    90% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
 *,
 *::before,
 *::after {
@@ -40,29 +69,32 @@ body {
     width: 100%;
     height: 400px;
     max-width: 400px;
-    background-color: #E56262;
+    background-color: #e56262;
     border-radius: 8px;
     position: relative;
 }
 .circle {
     background-color: #fff;
     border-radius: 50%;
-    box-shadow: 0 0 12px 2px rgba(0,0,0,0.3);
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.3);
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     &.xl {
         width: 100px;
         height: 100px;
+        animation: zoomXl linear 1s infinite alternate;
     }
     &.m {
         width: 70px;
         height: 70px;
+        animation: zoomM linear 1s infinite alternate;
     }
     &.s {
         width: 30px;
         height: 30px;
+        animation: zoomS linear 1s infinite alternate;
+
     }
 }
-
