@@ -82,4 +82,30 @@ body {
             }
         }
     }
+    .tips {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-size: 1.4rem;
+        font-weight: 300;
+        padding: 12px 0;
+        p {
+            margin-right: 12px;
+            display: flex;
+            align-items: center;
+            &::before {
+                content: '';
+                display: inline-block;
+                width: 10px;
+                height: 3px;
+                margin-right: 8px;
+            }
+            &:first-child::before {
+                background-color: #fa7373;
+            }
+            &:last-child::before {
+                background-color: #7ba2ff;
+            }
+        }
+    }
 }

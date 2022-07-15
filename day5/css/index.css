@@ -109,4 +109,40 @@ body {
     content: "$";
     display: inline-block;
     margin-right: 2px;
+}
+.card .tips {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding: 12px 0;
+}
+.card .tips p {
+    margin-right: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.card .tips p::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 3px;
+    margin-right: 8px;
+}
+.card .tips p:first-child::before {
+    background-color: #fa7373;
+}
+.card .tips p:last-child::before {
+    background-color: #7ba2ff;
 }/*# sourceMappingURL=index.css.map */
