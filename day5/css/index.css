@@ -201,6 +201,12 @@ body {
     -webkit-transform: translate(-50%, 2px) rotate(45deg);
             transform: translate(-50%, 2px) rotate(45deg);
 }
+.card .chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 .card .chart .viewData {
     position: absolute;
     top: 0;

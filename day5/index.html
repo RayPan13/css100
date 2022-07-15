@@ -27,6 +27,7 @@
                 </div>
                 <div class="chart">
                     <div class="viewData">
+                        <canvas id="viewLine" width="280" height="100"></canvas>
                         <div class="point p1">
                             <span>458</span>
                         </div>
@@ -50,6 +51,7 @@
                         </div>
                     </div>
                     <div class="purchasesData">
+                        <canvas id="purchasesLine" width="280" height="100"></canvas>
                         <div class="point p1">
                             <span>26</span>
                         </div>
@@ -85,5 +87,36 @@
                 </div>
             </div>
         </div>
+        <script>
+            const viewLine = document.querySelector('#viewLine')
+            const viewLineCtx = viewLine.getContext('2d')
+            viewLineCtx.save()
+            viewLineCtx.moveTo(20, 61)
+            viewLineCtx.lineTo(59, 15)
+            viewLineCtx.lineTo(98, 29)
+            viewLineCtx.lineTo(139, 10)
+            viewLineCtx.lineTo(179, 46)
+            viewLineCtx.lineTo(219, 55)
+            viewLineCtx.lineTo(259, 23)
+            viewLineCtx.strokeStyle = '#fa7373'
+            viewLineCtx.lineWidth = 2
+            viewLineCtx.stroke()
+            viewLineCtx.restore()
+
+            const purchasesLine = document.querySelector('#purchasesLine')
+            const purchasesLineCtx = purchasesLine.getContext('2d')
+            purchasesLineCtx.save()
+            purchasesLineCtx.moveTo(20, 26)
+            purchasesLineCtx.lineTo(59, 15)
+            purchasesLineCtx.lineTo(98, 29)
+            purchasesLineCtx.lineTo(139, 18)
+            purchasesLineCtx.lineTo(179, 26)
+            purchasesLineCtx.lineTo(219, 39)
+            purchasesLineCtx.lineTo(259, 23)
+            purchasesLineCtx.strokeStyle = '#7ba2ff'
+            purchasesLineCtx.lineWidth = 2
+            purchasesLineCtx.stroke()
+            purchasesLineCtx.restore()
+        </script>
     </body>
 </html>
