@@ -122,6 +122,85 @@ body {
             top: 50%;
             transform: translate(0, -50%);
         }
+        .point {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .viewData {
+            position: absolute;
+            top: 0;
+            left: 0;
+            .point {
+                background-color: #fa7373;
+            }
+            .p1 {
+                left: 17px;
+                top: 58px;
+            }
+            .p2 {
+                left: 56px;
+                top: 12px;
+            }
+            .p3 {
+                left: 95px;
+                top: 26px;
+            }
+            .p4 {
+                left: 136px;
+                top: 7px;
+            }
+            .p5 {
+                left: 176px;
+                top: 43px;
+            }
+            .p6 {
+                left: 216px;
+                top: 52px;
+            }
+            .p7 {
+                left: 256px;
+                top: 20px;
+            }
+        }
+        .purchasesData {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translate(0, -50%);
+            .point {
+                background-color: #7ba2ff;
+            }
+            .p1 {
+                left: 17px;
+                top: 23px;
+            }
+            .p2 {
+                left: 56px;
+                top: 12px;
+            }
+            .p3 {
+                left: 95px;
+                top: 26px;
+            }
+            .p4 {
+                left: 136px;
+                top: 15px;
+            }
+            .p5 {
+                left: 176px;
+                top: 23px;
+            }
+            .p6 {
+                left: 216px;
+                top: 36px;
+            }
+            .p7 {
+                left: 256px;
+                top: 20px;
+            }
+        }
     }
     .days {
         display: flex;
