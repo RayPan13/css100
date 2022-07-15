@@ -167,13 +167,48 @@ body {
     height: 6px;
     border-radius: 50%;
     position: absolute;
+    z-index: 3;
+    cursor: pointer;
+}
+.card .chart .point:hover span {
+    top: 0;
+    opacity: 1;
+}
+.card .chart span {
+    color: #fff;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    opacity: 0;
+    -webkit-transform: translate(-40%, -131%);
+            transform: translate(-40%, -131%);
+    z-index: 2;
+    padding: 6px;
+    border-radius: 2px;
+    -webkit-transition: top 0.5s, opacity 0.5s;
+    transition: top 0.5s, opacity 0.5s;
+    pointer-events: none;
+}
+.card .chart span::after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    background-color: inherit;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 2px) rotate(45deg);
+            transform: translate(-50%, 2px) rotate(45deg);
 }
 .card .chart .viewData {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
 }
-.card .chart .viewData .point {
+.card .chart .viewData .point,
+.card .chart .viewData span {
     background-color: #fa7373;
 }
 .card .chart .viewData .p1 {
@@ -210,8 +245,10 @@ body {
     left: 0;
     -webkit-transform: translate(0, -50%);
             transform: translate(0, -50%);
+    z-index: 1;
 }
-.card .chart .purchasesData .point {
+.card .chart .purchasesData .point,
+.card .chart .purchasesData span {
     background-color: #7ba2ff;
 }
 .card .chart .purchasesData .p1 {

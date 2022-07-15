@@ -127,12 +127,46 @@ body {
             height: 6px;
             border-radius: 50%;
             position: absolute;
+            z-index: 3;
+            cursor: pointer;
+            &:hover {
+                span {
+                    top: 0;
+                    opacity: 1;
+                }
+            }
+        }
+        span {
+            color: #fff;
+            font-size: 1.2rem;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            opacity: 0;
+            transform: translate(-40%, -131%);
+            z-index: 2;
+            padding: 6px;
+            border-radius: 2px;
+            transition: top 0.5s, opacity 0.5s;
+            pointer-events: none;
+            &::after {
+                content: '';
+                display: block;
+                width: 7px;
+                height: 7px;
+                background-color: inherit;
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%, 2px) rotate(45deg);
+            }
         }
         .viewData {
             position: absolute;
             top: 0;
             left: 0;
-            .point {
+            z-index: 1;
+            .point,
+            span {
                 background-color: #fa7373;
             }
             .p1 {
@@ -169,7 +203,9 @@ body {
             top: 50%;
             left: 0;
             transform: translate(0, -50%);
-            .point {
+            z-index: 1;
+            .point,
+            span {
                 background-color: #7ba2ff;
             }
             .p1 {
