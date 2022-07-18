@@ -75,6 +75,7 @@ body {
     border-radius: 4px;
     width: 80%;
     height: 75%;
+    color: #786450;
     -webkit-box-shadow: 4px 8px 10px 4px rgba(0, 0, 0, 0.3);
             box-shadow: 4px 8px 10px 4px rgba(0, 0, 0, 0.3);
     display: -webkit-box;
@@ -85,6 +86,55 @@ body {
     -webkit-box-flex: 2;
         -ms-flex: 2;
             flex: 2;
+    padding: 32px 0;
+}
+.card .left .pic {
+    width: 84px;
+    margin: 0 auto 12px;
+    position: relative;
+    cursor: pointer;
+}
+.card .left .pic img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.card .left .pic .border {
+    border: 1px solid;
+    border-color: #786450 #786450 #786450 transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    -webkit-transform: scale(1.1) rotate(0);
+            transform: scale(1.1) rotate(0);
+    -webkit-transition: -webkit-transform 2s;
+    transition: -webkit-transform 2s;
+    transition: transform 2s;
+    transition: transform 2s, -webkit-transform 2s;
+}
+.card .left .pic .border.b2 {
+    -webkit-transform: scale(1.2) rotate(180deg);
+            transform: scale(1.2) rotate(180deg);
+}
+.card .left .pic:hover .b1 {
+    -webkit-transform: scale(1.1) rotate(360deg);
+            transform: scale(1.1) rotate(360deg);
+}
+.card .left .pic:hover .b2 {
+    -webkit-transform: scale(1.2) rotate(-180deg);
+            transform: scale(1.2) rotate(-180deg);
+}
+.card .left .txt {
+    text-align: center;
+}
+.card .left .txt h3 {
+    font-size: 1.6rem;
+}
+.card .left .txt p {
+    font-size: 1.4rem;
+    font-weight: 100;
 }
 .card .right {
     -webkit-box-flex: 1;
@@ -130,7 +180,6 @@ body {
 .card .right span {
     font-size: 1.2rem;
     line-height: 1.2;
-    color: #786450;
 }
 .card .right span.number {
     font-size: 1.8rem;
