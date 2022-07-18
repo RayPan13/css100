@@ -1,4 +1,7 @@
 @charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap');
+$googleFonts: 'Noto Sans TC', sans-serif;
+
 *,
 *::before,
 *::after {
@@ -9,6 +12,8 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-size: 10px;
+    font-family: $googleFonts;
 }
 main {
     display: block;
@@ -53,4 +58,39 @@ body {
     width: 80%;
     height: 75%;
     box-shadow: 4px 8px 10px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    .left {
+        flex: 2;
+    }
+    .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        .item {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #f5e8df;
+            border-bottom: 1px solid #fff;
+            transition: background 0.5s;
+            cursor: pointer;
+            &:hover {
+                background-color: #e1cfc2;
+            }
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+        span {
+            font-size: 1.2rem;
+            line-height: 1.2;
+            color: #786450;
+            &.number {
+                font-size: 1.8rem;
+                font-weight: bold;
+            }
+        }
+    }
 }
