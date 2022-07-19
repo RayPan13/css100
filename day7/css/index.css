@@ -67,6 +67,8 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    overflow: hidden;
+    position: relative;
 }
 
 .container {
@@ -77,9 +79,16 @@ body {
     -webkit-box-shadow: 4px 8px 10px 4px rgba(0, 0, 0, 0.3);
             box-shadow: 4px 8px 10px 4px rgba(0, 0, 0, 0.3);
     overflow: hidden;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    position: relative;
+    z-index: 1;
 }
-.container .icon {
-    width: 24px;
+.container.open {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
 }
 .container .title {
     background-color: #5f98cd;
@@ -100,16 +109,17 @@ body {
 .container .title h3 {
     font-size: 1.6rem;
 }
-.container .menu {
+.container .menuBtn {
     height: 18px;
     width: 30px;
     position: relative;
+    z-index: 3;
     opacity: 0.5;
     -webkit-transition: opacity 0.2s;
     transition: opacity 0.2s;
     cursor: pointer;
 }
-.container .menu:hover {
+.container .menuBtn:hover {
     opacity: 1;
 }
 .container .line {
@@ -152,6 +162,7 @@ body {
     transition: left 0.3s, opacity 0.5s;
     outline: none;
     color: #333;
+    z-index: 4;
 }
 .container .search {
     width: 20px;
@@ -168,5 +179,55 @@ body {
     opacity: 1;
 }
 .container .search svg {
+    fill: #fff;
+}
+
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 50%;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    background-color: #43627d;
+    color: #fff;
+    padding: 16px 0;
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.menu.open {
+    left: 10%;
+    opacity: 1;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.4rem;
+    padding: 8px 24px;
+    line-height: 1.5;
+    opacity: 0.5;
+    cursor: pointer;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+.menu li:hover {
+    background-color: #385269;
+    opacity: 1;
+}
+.menu .icon {
+    width: 20px;
+    margin-right: 8px;
+}
+.menu .icon svg {
     fill: #fff;
 }/*# sourceMappingURL=index.css.map */
