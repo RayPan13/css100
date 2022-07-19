@@ -73,7 +73,6 @@ body {
 
 .container {
     width: 80%;
-    height: 75%;
     background-color: #fff;
     border-radius: 4px;
     -webkit-box-shadow: 4px 8px 10px 4px rgba(0, 0, 0, 0.3);
@@ -180,6 +179,49 @@ body {
 }
 .container .title .search svg {
     fill: #fff;
+}
+.container ul {
+    margin: 0;
+    padding: 24px 0;
+    list-style: none;
+    margin: 0 auto;
+    width: 80%;
+    border-left: 4px solid #ddd;
+}
+.container li {
+    margin: 0 0 16px;
+    padding: 0 12px;
+    cursor: pointer;
+    position: relative;
+}
+.container li:hover p {
+    color: #5f98cd;
+}
+.container li::after {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #5f98cd;
+    -webkit-box-shadow: 0 0 0 2px rgb(255, 255, 255);
+            box-shadow: 0 0 0 2px rgb(255, 255, 255);
+    position: absolute;
+    top: -10%;
+    left: -3%;
+}
+.container .time {
+    font-size: 1.2rem;
+    margin: 0 0 4px;
+}
+.container p {
+    color: #666;
+    font-size: 1.4rem;
+    line-height: 1.2;
+}
+.container p span {
+    font-weight: 600;
 }
 
 .menu {

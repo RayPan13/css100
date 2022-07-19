@@ -54,7 +54,6 @@ body {
 }
 .container {
     width: 80%;
-    height: 75%;
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 4px 8px 10px 4px rgba(0, 0, 0, 0.3);
@@ -144,6 +143,50 @@ body {
             svg {
                 fill: #fff;
             }
+        }
+    }
+    ul {
+        margin: 0;
+        padding: 24px 0;
+        list-style: none;
+        margin: 0 auto;
+        width: 80%;
+        border-left: 4px solid #ddd;
+    }
+    li {
+        margin: 0 0 16px;
+        padding: 0 12px;
+        cursor: pointer;
+        position: relative;
+        &:hover {
+            p {
+                color: #5f98cd;
+            }
+        }
+        &::after {
+            content: '';
+            display: block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #fff;
+            border: 2px solid #5f98cd;
+            box-shadow: 0 0 0 2px rgb(255, 255, 255);
+            position: absolute;
+            top: -10%;
+            left: -3%;
+        }
+    }
+    .time {
+        font-size: 1.2rem;
+        margin: 0 0 4px;
+    }
+    p {
+        color: #666;
+        font-size: 1.4rem;
+        line-height: 1.2;
+        span {
+            font-weight: 600;
         }
     }
 }
