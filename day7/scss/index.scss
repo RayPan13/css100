@@ -42,4 +42,18 @@ body {
     max-width: 400px;
     background-color: #264057;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 80%;
+    height: 75%;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 4px 8px 10px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    .icon {
+        width: 24px;
+    }
 }
