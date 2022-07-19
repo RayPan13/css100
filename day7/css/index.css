@@ -77,4 +77,49 @@ body {
 }
 .container .icon {
     width: 24px;
+}
+.container .title {
+    background-color: #5f98cd;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+}
+.container .menu {
+    height: 18px;
+    width: 30px;
+    position: relative;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    cursor: pointer;
+}
+.container .menu:hover {
+    opacity: 1;
+}
+.container .line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+.container .line:first-child {
+    top: 0;
+    bottom: auto;
+}
+.container .line:first-child::after {
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #5f98cd;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    -webkit-transform: translate(20%, -50%);
+            transform: translate(20%, -50%);
 }/*# sourceMappingURL=index.css.map */
