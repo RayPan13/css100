@@ -2,30 +2,30 @@
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    color: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
 }
 
 html,
 body {
-    margin: 0;
-    padding: 0;
-    font-size: 10px;
-    font-family: "Courier Prime", monospace;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: "Courier Prime", monospace;
 }
 
 main {
-    display: block;
+  display: block;
 }
 
 img {
-    width: 100%;
-    vertical-align: middle;
+  width: 100%;
+  vertical-align: middle;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 h1,
@@ -35,97 +35,97 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
-    line-height: 1.5;
+  margin: 0;
+  line-height: 1.5;
 }
 
 #app {
-    width: 100%;
-    height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .card {
-    width: 100%;
-    height: 400px;
-    max-width: 400px;
-    border-radius: 8px;
-    color: #fff;
-    background: linear-gradient(45deg, #43389f 0%, #69c8d0 100%);
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  width: 100%;
+  height: 400px;
+  max-width: 400px;
+  border-radius: 8px;
+  color: #fff;
+  background: linear-gradient(45deg, #43389f 0%, #69c8d0 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .card .number {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .card .one {
-    width: 24px;
-    height: 105px;
-    background-color: #fff;
-    -webkit-transform: translateX(12px);
-            transform: translateX(12px);
-    position: relative;
-    z-index: 1;
-    -webkit-box-shadow: 1px 0 10px 1px rgba(0, 0, 0, 0.3);
-            box-shadow: 1px 0 10px 1px rgba(0, 0, 0, 0.3);
+  width: 24px;
+  height: 105px;
+  background-color: #fff;
+  -webkit-transform: translateX(12px);
+          transform: translateX(12px);
+  position: relative;
+  z-index: 1;
+  -webkit-box-shadow: 1px 0 10px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 0 10px 1px rgba(0, 0, 0, 0.3);
 }
 .card .one::after {
-    content: "";
-    display: inline-block;
-    width: 180%;
-    height: 24px;
-    background-color: rgba(255, 255, 255, 0.9);
-    position: absolute;
-    top: 0;
-    left: -180%;
-    -webkit-transform-origin: right top;
-            transform-origin: right top;
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+  content: "";
+  display: inline-block;
+  width: 180%;
+  height: 24px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  top: 0;
+  left: -180%;
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .card .zero {
-    width: 105px;
-    height: 105px;
-    border-radius: 50%;
-    border: 24px solid #fff;
-    -webkit-box-shadow: 1px 0 10px 1px rgba(0, 0, 0, 0.3);
-            box-shadow: 1px 0 10px 1px rgba(0, 0, 0, 0.3);
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  border: 24px solid #fff;
+  -webkit-box-shadow: 1px 0 10px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 0 10px 1px rgba(0, 0, 0, 0.3);
 }
 .card .zero:nth-child(2) {
-    -webkit-transform: translateX(8px);
-            transform: translateX(8px);
+  -webkit-transform: translateX(8px);
+          transform: translateX(8px);
 }
 .card h1 {
-    text-align: center;
-    font-size: 9rem;
-    font-weight: 600;
-    line-height: 1;
-    margin: 0 0 -18px;
+  text-align: center;
+  font-size: 9rem;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0 0 -18px;
 }
 .card p {
-    text-align: center;
-    font-size: 2.7rem;
-    line-height: 1;
-    margin-left: -4px;
+  text-align: center;
+  font-size: 2.7rem;
+  line-height: 1;
+  margin-left: -4px;
 }/*# sourceMappingURL=index.css.map */
