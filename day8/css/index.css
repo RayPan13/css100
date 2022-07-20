@@ -1,3 +1,23 @@
+@-webkit-keyframes circleRotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+@keyframes circleRotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
 *,
 *::before,
 *::after {
@@ -64,6 +84,8 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-filter: contrast(25);
+            filter: contrast(25);
 }
 
 .circle {
@@ -71,4 +93,45 @@ body {
     height: 80px;
     border-radius: 50%;
     background-color: #fff;
+    position: relative;
+    -webkit-filter: blur(15px);
+            filter: blur(15px);
+}
+.circle .c1 {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transform-origin: 45% 71%;
+            transform-origin: 45% 71%;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-animation: circleRotate 2s linear infinite;
+            animation: circleRotate 2s linear infinite;
+}
+.circle .c2 {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transform-origin: 40% 71%;
+            transform-origin: 40% 71%;
+    position: absolute;
+    top: -7px;
+    left: 27px;
+    -webkit-animation: circleRotate 2s linear infinite;
+            animation: circleRotate 2s linear infinite;
+}
+.circle .c3 {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-transform-origin: 54% 61%;
+            transform-origin: 54% 61%;
+    position: absolute;
+    top: 28px;
+    left: 17px;
+    -webkit-animation: circleRotate 2s linear infinite;
+            animation: circleRotate 2s linear infinite;
 }/*# sourceMappingURL=index.css.map */
