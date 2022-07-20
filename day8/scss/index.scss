@@ -45,9 +45,9 @@ body {
     justify-content: center;
     align-items: center;
 }
-@mixin circleStyle($w: 70%, $h: 70%) {
+@mixin circleStyle($w) {
     width: $w;
-    height: $h;
+    height: $w;
     border-radius: 50%;
     background-color: #fff;
 }
@@ -69,7 +69,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     .circle {
-        @include circleStyle(90px, 90px);
+        @include circleStyle(90px);
         filter: blur(15px);
     }
 }
@@ -82,16 +82,13 @@ body {
         height: 50px;
         transform: rotate((random(300)) + deg);
         &:after {
-            position: absolute;
-            display: block;
             content: '';
-            width: 50px;
-            height: 50px;
-            background: #fff;
-            border-radius: 50%;
+            display: block;
+            @include circleStyle(50px);
             transform-origin: (40 - $i * 3) + px (40 - $i * 3) + px;
-            animation: circleRotate (2.5 + $i / 5) + s ease-in-out ($i / 5) + s infinite;
+            position: absolute;
             filter: blur(5px);
+            animation: circleRotate (2.5 + calc($i / 5)) + s ease-in-out (calc($i / 5)) + s infinite;
         }
     }
 }
@@ -104,15 +101,12 @@ body {
         height: (7 + $i) + px;
         transform: rotate((random(300)) + deg);
         &:after {
-            position: absolute;
-            display: block;
             content: '';
-            width: (7 + $i) + px;
-            height: (7 + $i) + px;
-            background: #fff;
-            border-radius: 50%;
+            display: block;
+            @include circleStyle((7 + $i) + px);
             transform-origin: (60 - $i * 2) + px (60 - $i * 2) + px;
-            animation: circleRotate (3.5 + $i / 5) + s ease-in-out ($i / 5) + s infinite;
+            position: absolute;
+            animation: circleRotate (3.5 + calc($i / 5)) + s ease-in-out calc($i / 5) + s infinite;
             filter: blur(3px);
         }
     }
