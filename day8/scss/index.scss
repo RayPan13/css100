@@ -57,35 +57,63 @@ body {
     max-width: 400px;
     border-radius: 8px;
     background-color: #000;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     filter: contrast(25);
 }
-.circle {
-    @include circleStyle(80px, 80px);
-    position: relative;
-    filter: blur(15px);
-    .c1 {
-        @include circleStyle;
-        transform-origin: 45% 71%;
-        transform: rotate(0deg);
-        animation: circleRotate 2s linear infinite;
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .circle {
+        @include circleStyle(90px, 90px);
+        filter: blur(15px);
     }
-    .c2 {
-        @include circleStyle;
-        transform-origin: 40% 71%;
+}
+@for $i from 1 through 8 {
+    .b#{$i} {
         position: absolute;
-        top: -7px;
-        left: 27px;
-        animation: circleRotate 2s linear infinite;
+        top: 20px;
+        left: 20px;
+        width: 50px;
+        height: 50px;
+        transform: rotate((random(300)) + deg);
+        &:after {
+            position: absolute;
+            display: block;
+            content: '';
+            width: 50px;
+            height: 50px;
+            background: #fff;
+            border-radius: 50%;
+            transform-origin: (40 - $i * 3) + px (40 - $i * 3) + px;
+            animation: circleRotate (2.5 + $i / 5) + s ease-in-out ($i / 5) + s infinite;
+            filter: blur(5px);
+        }
     }
-    .c3 {
-        @include circleStyle;
-        transform-origin: 54% 61%;
+}
+@for $i from 1 through 10 {
+    .s#{$i} {
         position: absolute;
-        top: 28px;
-        left: 17px;
-        animation: circleRotate 2s linear infinite;
+        top: 38px;
+        left: 38px;
+        width: (7 + $i) + px;
+        height: (7 + $i) + px;
+        transform: rotate((random(300)) + deg);
+        &:after {
+            position: absolute;
+            display: block;
+            content: '';
+            width: (7 + $i) + px;
+            height: (7 + $i) + px;
+            background: #fff;
+            border-radius: 50%;
+            transform-origin: (60 - $i * 2) + px (60 - $i * 2) + px;
+            animation: circleRotate (3.5 + $i / 5) + s ease-in-out ($i / 5) + s infinite;
+            filter: blur(3px);
+        }
     }
 }
