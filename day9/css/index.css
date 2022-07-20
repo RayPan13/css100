@@ -92,18 +92,34 @@ body {
   font-size: 5rem;
   line-height: 90px;
   font-weight: 500;
-  margin-right: 12px;
+  margin-right: 20px;
 }
 #app .info .temperature .now {
   -webkit-transform: translateY(4px);
           transform: translateY(4px);
 }
 #app .info .temperature .now p {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   color: #838383;
   margin-bottom: 8px;
 }
 #app .info .temperature .now p:last-child {
+  margin-bottom: 0;
+}
+#app .info .next {
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+#app .info .next span {
+  color: #838383;
+  margin-right: 8px;
+}
+#app .info .next p {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+#app .info .next p:last-child {
   margin-bottom: 0;
 }/*# sourceMappingURL=index.css.map */
