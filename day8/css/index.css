@@ -111,8 +111,8 @@ body {
     left: 20px;
     width: 50px;
     height: 50px;
-    -webkit-transform: rotate(179deg);
-            transform: rotate(179deg);
+    -webkit-transform: rotate(42deg);
+            transform: rotate(42deg);
 }
 .b1:after {
     content: "";
@@ -136,8 +136,8 @@ body {
     left: 20px;
     width: 50px;
     height: 50px;
-    -webkit-transform: rotate(103deg);
-            transform: rotate(103deg);
+    -webkit-transform: rotate(17deg);
+            transform: rotate(17deg);
 }
 .b2:after {
     content: "";
@@ -161,8 +161,8 @@ body {
     left: 20px;
     width: 50px;
     height: 50px;
-    -webkit-transform: rotate(169deg);
-            transform: rotate(169deg);
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
 }
 .b3:after {
     content: "";
@@ -186,8 +186,8 @@ body {
     left: 20px;
     width: 50px;
     height: 50px;
-    -webkit-transform: rotate(29deg);
-            transform: rotate(29deg);
+    -webkit-transform: rotate(293deg);
+            transform: rotate(293deg);
 }
 .b4:after {
     content: "";
@@ -211,8 +211,8 @@ body {
     left: 20px;
     width: 50px;
     height: 50px;
-    -webkit-transform: rotate(161deg);
-            transform: rotate(161deg);
+    -webkit-transform: rotate(139deg);
+            transform: rotate(139deg);
 }
 .b5:after {
     content: "";
@@ -236,8 +236,8 @@ body {
     left: 20px;
     width: 50px;
     height: 50px;
-    -webkit-transform: rotate(143deg);
-            transform: rotate(143deg);
+    -webkit-transform: rotate(94deg);
+            transform: rotate(94deg);
 }
 .b6:after {
     content: "";
@@ -261,8 +261,8 @@ body {
     left: 20px;
     width: 50px;
     height: 50px;
-    -webkit-transform: rotate(195deg);
-            transform: rotate(195deg);
+    -webkit-transform: rotate(221deg);
+            transform: rotate(221deg);
 }
 .b7:after {
     content: "";
@@ -286,8 +286,8 @@ body {
     left: 20px;
     width: 50px;
     height: 50px;
-    -webkit-transform: rotate(100deg);
-            transform: rotate(100deg);
+    -webkit-transform: rotate(300deg);
+            transform: rotate(300deg);
 }
 .b8:after {
     content: "";
@@ -311,8 +311,8 @@ body {
     left: 38px;
     width: 8px;
     height: 8px;
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
+    -webkit-transform: rotate(209deg);
+            transform: rotate(209deg);
 }
 .s1:after {
     content: "";
@@ -336,8 +336,8 @@ body {
     left: 38px;
     width: 9px;
     height: 9px;
-    -webkit-transform: rotate(14deg);
-            transform: rotate(14deg);
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
 }
 .s2:after {
     content: "";
@@ -361,8 +361,8 @@ body {
     left: 38px;
     width: 10px;
     height: 10px;
-    -webkit-transform: rotate(163deg);
-            transform: rotate(163deg);
+    -webkit-transform: rotate(130deg);
+            transform: rotate(130deg);
 }
 .s3:after {
     content: "";
@@ -386,8 +386,8 @@ body {
     left: 38px;
     width: 11px;
     height: 11px;
-    -webkit-transform: rotate(248deg);
-            transform: rotate(248deg);
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
 }
 .s4:after {
     content: "";
@@ -411,8 +411,8 @@ body {
     left: 38px;
     width: 12px;
     height: 12px;
-    -webkit-transform: rotate(288deg);
-            transform: rotate(288deg);
+    -webkit-transform: rotate(300deg);
+            transform: rotate(300deg);
 }
 .s5:after {
     content: "";
@@ -436,8 +436,8 @@ body {
     left: 38px;
     width: 13px;
     height: 13px;
-    -webkit-transform: rotate(164deg);
-            transform: rotate(164deg);
+    -webkit-transform: rotate(56deg);
+            transform: rotate(56deg);
 }
 .s6:after {
     content: "";
@@ -461,8 +461,8 @@ body {
     left: 38px;
     width: 14px;
     height: 14px;
-    -webkit-transform: rotate(294deg);
-            transform: rotate(294deg);
+    -webkit-transform: rotate(201deg);
+            transform: rotate(201deg);
 }
 .s7:after {
     content: "";
@@ -486,8 +486,8 @@ body {
     left: 38px;
     width: 15px;
     height: 15px;
-    -webkit-transform: rotate(205deg);
-            transform: rotate(205deg);
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
 }
 .s8:after {
     content: "";
@@ -511,8 +511,8 @@ body {
     left: 38px;
     width: 16px;
     height: 16px;
-    -webkit-transform: rotate(81deg);
-            transform: rotate(81deg);
+    -webkit-transform: rotate(16deg);
+            transform: rotate(16deg);
 }
 .s9:after {
     content: "";
@@ -536,8 +536,8 @@ body {
     left: 38px;
     width: 17px;
     height: 17px;
-    -webkit-transform: rotate(220deg);
-            transform: rotate(220deg);
+    -webkit-transform: rotate(178deg);
+            transform: rotate(178deg);
 }
 .s10:after {
     content: "";
