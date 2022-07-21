@@ -81,133 +81,133 @@ body {
   width: 6px;
   height: 6px;
   background-color: inherit;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -webkit-transform: translateX(-50%) rotate(45deg);
+          transform: translateX(-50%) rotate(45deg);
   position: absolute;
   top: -1.5px;
-  left: 1.2px;
+  left: 50%;
   -webkit-animation: hide linear 1.5s infinite;
           animation: hide linear 1.5s infinite;
 }
 #app .drop.d1 {
   left: 20px;
-  opacity: 0.5;
-  -webkit-animation-delay: 3.32s;
-          animation-delay: 3.32s;
+  opacity: 0.75;
+  -webkit-animation-delay: 1.24s;
+          animation-delay: 1.24s;
 }
 #app .drop.d2 {
   left: 40px;
   opacity: 0.5;
-  -webkit-animation-delay: 0.24s;
-          animation-delay: 0.24s;
-}
-#app .drop.d3 {
-  left: 60px;
-  opacity: 0.25;
-  -webkit-animation-delay: 1.64s;
-          animation-delay: 1.64s;
-}
-#app .drop.d4 {
-  left: 80px;
-  opacity: 0.25;
-  -webkit-animation-delay: 3.44s;
-          animation-delay: 3.44s;
-}
-#app .drop.d5 {
-  left: 100px;
-  opacity: 0.25;
-  -webkit-animation-delay: 0.48s;
-          animation-delay: 0.48s;
-}
-#app .drop.d6 {
-  left: 120px;
-  opacity: 0.25;
   -webkit-animation-delay: 1.12s;
           animation-delay: 1.12s;
 }
-#app .drop.d7 {
-  left: 140px;
-  opacity: 1;
-  -webkit-animation-delay: 3.32s;
-          animation-delay: 3.32s;
-}
-#app .drop.d8 {
-  left: 160px;
-  opacity: 1;
-  -webkit-animation-delay: 3.76s;
-          animation-delay: 3.76s;
-}
-#app .drop.d9 {
-  left: 180px;
-  opacity: 0.25;
-  -webkit-animation-delay: 0.84s;
-          animation-delay: 0.84s;
-}
-#app .drop.d10 {
-  left: 200px;
+#app .drop.d3 {
+  left: 60px;
   opacity: 0.75;
   -webkit-animation-delay: 2.8s;
           animation-delay: 2.8s;
 }
+#app .drop.d4 {
+  left: 80px;
+  opacity: 1;
+  -webkit-animation-delay: 1.88s;
+          animation-delay: 1.88s;
+}
+#app .drop.d5 {
+  left: 100px;
+  opacity: 0.5;
+  -webkit-animation-delay: 2.64s;
+          animation-delay: 2.64s;
+}
+#app .drop.d6 {
+  left: 120px;
+  opacity: 0.75;
+  -webkit-animation-delay: 3.48s;
+          animation-delay: 3.48s;
+}
+#app .drop.d7 {
+  left: 140px;
+  opacity: 0.75;
+  -webkit-animation-delay: 2.36s;
+          animation-delay: 2.36s;
+}
+#app .drop.d8 {
+  left: 160px;
+  opacity: 0.5;
+  -webkit-animation-delay: 1.36s;
+          animation-delay: 1.36s;
+}
+#app .drop.d9 {
+  left: 180px;
+  opacity: 1;
+  -webkit-animation-delay: 2.68s;
+          animation-delay: 2.68s;
+}
+#app .drop.d10 {
+  left: 200px;
+  opacity: 1;
+  -webkit-animation-delay: 0.52s;
+          animation-delay: 0.52s;
+}
 #app .drop.d11 {
   left: 220px;
-  opacity: 0.75;
-  -webkit-animation-delay: 0.36s;
-          animation-delay: 0.36s;
+  opacity: 0.5;
+  -webkit-animation-delay: 2.36s;
+          animation-delay: 2.36s;
 }
 #app .drop.d12 {
   left: 240px;
   opacity: 0.5;
-  -webkit-animation-delay: 0.12s;
-          animation-delay: 0.12s;
+  -webkit-animation-delay: 1.36s;
+          animation-delay: 1.36s;
 }
 #app .drop.d13 {
   left: 260px;
-  opacity: 0.75;
-  -webkit-animation-delay: 1.6s;
-          animation-delay: 1.6s;
+  opacity: 0.25;
+  -webkit-animation-delay: 3.76s;
+          animation-delay: 3.76s;
 }
 #app .drop.d14 {
   left: 280px;
-  opacity: 0.75;
-  -webkit-animation-delay: 0.88s;
-          animation-delay: 0.88s;
+  opacity: 0.25;
+  -webkit-animation-delay: 2.84s;
+          animation-delay: 2.84s;
 }
 #app .drop.d15 {
   left: 300px;
-  opacity: 0.25;
-  -webkit-animation-delay: 3.64s;
-          animation-delay: 3.64s;
+  opacity: 1;
+  -webkit-animation-delay: 3.84s;
+          animation-delay: 3.84s;
 }
 #app .drop.d16 {
   left: 320px;
-  opacity: 0.25;
-  -webkit-animation-delay: 3.84s;
-          animation-delay: 3.84s;
+  opacity: 0.5;
+  -webkit-animation-delay: 3.96s;
+          animation-delay: 3.96s;
 }
 #app .drop.d17 {
   left: 340px;
   opacity: 1;
-  -webkit-animation-delay: 0.56s;
-          animation-delay: 0.56s;
+  -webkit-animation-delay: 0.72s;
+          animation-delay: 0.72s;
 }
 #app .drop.d18 {
   left: 360px;
   opacity: 1;
-  -webkit-animation-delay: 2.72s;
-          animation-delay: 2.72s;
+  -webkit-animation-delay: 1.92s;
+          animation-delay: 1.92s;
 }
 #app .drop.d19 {
   left: 380px;
-  opacity: 0.25;
-  -webkit-animation-delay: 2.32s;
-          animation-delay: 2.32s;
+  opacity: 0.75;
+  -webkit-animation-delay: 2.48s;
+          animation-delay: 2.48s;
 }
 #app .drop.d20 {
   left: 400px;
-  opacity: 0.25;
-  -webkit-animation-delay: 3.76s;
-          animation-delay: 3.76s;
+  opacity: 0.5;
+  -webkit-animation-delay: 1.24s;
+          animation-delay: 1.24s;
 }
 #app .moon {
   width: 70px;

@@ -65,10 +65,10 @@ body {
             width: 6px;
             height: 6px;
             background-color: inherit;
-            transform: rotate(45deg);
+            transform: translateX(-50%) rotate(45deg);
             position: absolute;
             top: -1.5px;
-            left: 1.2px;
+            left: 50%;
             animation: hide linear 1.5s infinite;
         }
         @for $i from 1 through 20 {
