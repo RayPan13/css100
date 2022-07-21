@@ -53,4 +53,34 @@ body {
     background-color: #242424;
     box-shadow: 0 0 0 7px #3a3a3a;
     position: relative;
+    .pots {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        div {
+            width: 1px;
+            height: 50%;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform-origin: center bottom;
+            &::after {
+                content: '';
+                display: block;
+                width: 2px;
+                height: 2px;
+                border-radius: 50%;
+                background-color: #fff;
+                position: absolute;
+                top: 8px;
+            }
+        }
+        @for $i from 1 through 60 {
+            .p#{$i} {
+                transform: translateX(-50%) rotate($i * 6deg);
+            }
+        }
+    }
 }
