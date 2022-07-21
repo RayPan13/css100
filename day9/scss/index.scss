@@ -74,7 +74,7 @@ body {
         @for $i from 1 through 20 {
             &.d#{$i} {
                 left: #{$i * 20}px;
-                opacity: calc(random(2) * 0.5);
+                opacity: calc(random(4) * 0.25);
                 animation-delay: calc(random(100) / 25) + s;
             }
         }
