@@ -50,6 +50,35 @@ body {
     position: relative;
     box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.3);
     overflow: hidden;
+    .drop {
+        background-color: #7fc1f9;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        position: absolute;
+        top: -20px;
+        left: 0px;
+        transform: rotate(12deg);
+        z-index: 2;
+        animation: down linear 1.5s infinite;
+        .before {
+            width: 6px;
+            height: 6px;
+            background-color: inherit;
+            transform: rotate(45deg);
+            position: absolute;
+            top: -1.5px;
+            left: 1.2px;
+            animation: hide linear 1.5s infinite;
+        }
+        @for $i from 1 through 20 {
+            &.d#{$i} {
+                left: #{$i * 20}px;
+                opacity: calc(random(2) * 0.5);
+                animation-delay: calc(random(100) / 25) + s;
+            }
+        }
+    }
     .moon {
         width: 70px;
         height: 70px;
@@ -59,7 +88,7 @@ body {
         position: absolute;
         top: 230px;
         left: 40px;
-        animation: up linear 1s 1 forwards;
+        animation: up linear 2s 1 forwards;
         overflow: hidden;
     }
     .hole {
@@ -209,5 +238,29 @@ body {
 @keyframes up {
     100% {
         top: 40px;
+    }
+}
+@keyframes down {
+    75% {
+        top: 75%;
+        opacity: 1;
+        width: 8px;
+        transform: translateX(-100px) rotate(45deg);
+    }
+    76% {
+        transform: translateX(-100px) rotate(0deg);
+    }
+    100% {
+        transform: translateX(-100px) rotate(0deg);
+        width: 20px;
+        height: 4px;
+        top: 75%;
+        opacity: 0;
+    }
+}
+@keyframes hide {
+    76% {
+        width: 0;
+        height: 0;
     }
 }
