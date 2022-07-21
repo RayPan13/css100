@@ -11,6 +11,7 @@
         <!-- Reference -  https://100dayscss.com/days/10 -->
         <div id="app">
             <div class="flat">
+                <canvas width="200" height="200"></canvas>
                 <div class="pots">
                     <div class="p1"></div>
                     <div class="p2"></div>
@@ -90,5 +91,41 @@
                 </div>
             </div>
         </div>
+        <script>
+            const canvas = document.querySelector('canvas')
+            const ctx = canvas.getContext('2d')
+            let speed = 3
+            let line = 0
+            let isAdd = true
+            function update() {
+                if (line >= 360) {
+                    line = 0
+                    isAdd = !isAdd
+                }
+                line = line + speed
+                requestAnimationFrame(draw)
+            }
+            function draw() {
+                ctx.save()
+                ctx.beginPath()
+                ctx.translate(100, 100)
+                ctx.rotate(radians(-90))
+                ctx.arc(0, 0, 95, radians(line), radians(line + speed), false)
+                ctx.lineWidth = isAdd ? 3 : 6
+                ctx.strokeStyle = isAdd ? '#ff4336' : '#242424'
+                ctx.stroke()
+                ctx.closePath()
+                ctx.restore()
+            }
+            function setCanvasWH(w, h) {
+                canvas.width = w
+                canvas.height = h
+            }
+            function radians(degrees) {
+                return (Math.PI / 180) * degrees
+            }
+            setCanvasWH(200, 200)
+            setInterval(update, 30)
+        </script>
     </body>
 </html>
