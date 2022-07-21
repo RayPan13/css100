@@ -42,4 +42,15 @@ body {
     max-width: 400px;
     background-color: #4c4c4c;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flat {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #242424;
+    box-shadow: 0 0 0 7px #3a3a3a;
+    position: relative;
 }
