@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap");
 *,
 *::before,
 *::after {
@@ -10,6 +11,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 10px;
 }
 
 main {
@@ -340,4 +343,52 @@ body {
 .flat .pots .p60 {
   -webkit-transform: translateX(-50%) rotate(360deg);
           transform: translateX(-50%) rotate(360deg);
+}
+.flat .txt {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.flat .txt p {
+  line-height: 1;
+}
+.flat .txt .date {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 2px;
+}
+.flat .txt .time {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.flat .txt .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 54%;
+  font-size: 1.2rem;
+  font-weight: 100;
 }/*# sourceMappingURL=index.css.map */
