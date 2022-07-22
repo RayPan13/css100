@@ -74,9 +74,11 @@ body {
 }
 
 @keyframes walk {
-    0% {
-        transform: translateX(-50%) rotate(30deg);
+    0%,
+    5% {
+        transform: translate(-50%) rotate(30deg);
     }
+    95%,
     100% {
         transform: translateX(-50%) rotate(-30deg);
     }
