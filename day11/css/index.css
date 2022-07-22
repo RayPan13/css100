@@ -95,22 +95,30 @@ body {
 }
 
 @-webkit-keyframes walk {
-  0%, 5% {
+  0%, 10% {
     -webkit-transform: translate(-50%) rotate(30deg);
             transform: translate(-50%) rotate(30deg);
+    height: 270px;
   }
-  95%, 100% {
+  30% {
+    height: 250px;
+  }
+  90%, 100% {
     -webkit-transform: translateX(-50%) rotate(-30deg);
             transform: translateX(-50%) rotate(-30deg);
   }
 }
 
 @keyframes walk {
-  0%, 5% {
+  0%, 10% {
     -webkit-transform: translate(-50%) rotate(30deg);
             transform: translate(-50%) rotate(30deg);
+    height: 270px;
   }
-  95%, 100% {
+  30% {
+    height: 250px;
+  }
+  90%, 100% {
     -webkit-transform: translateX(-50%) rotate(-30deg);
             transform: translateX(-50%) rotate(-30deg);
   }
