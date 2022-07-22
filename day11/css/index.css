@@ -61,9 +61,18 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  position: relative;
 }
 #app .floor {
   background-color: #232323;
   width: 100%;
   height: 150px;
+}
+#app .shoe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 154px;
+  height: 133px;
+  background: url("https://100dayscss.com/codepen/doc-martens.svg") center center no-repeat;
 }/*# sourceMappingURL=index.css.map */
