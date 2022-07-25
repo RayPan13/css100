@@ -35,10 +35,26 @@
             </div>
             <p>
                 I know quite certainly that I myself have no special talent; curiosity,
-                <span class="tooltip">obsession</span> and dogged endurance, combined with self-criticism have brought
+                <span class="tooltip"> obsession </span> and dogged endurance, combined with self-criticism have brought
                 me to my ideas.
             </p>
             <p class="author">Albert Einstein</p>
         </div>
+        <script>
+            const info = document.querySelector('.info')
+            const tooltip = document.querySelector('.tooltip')
+            tooltip.addEventListener('mouseenter', function () {
+                info.classList.add('active')
+            })
+            tooltip.addEventListener('mouseleave', function () {
+                info.classList.remove('active')
+            })
+            info.addEventListener('mouseenter', function () {
+                info.classList.add('active')
+            })
+            info.addEventListener('mouseleave', function () {
+                info.classList.remove('active')
+            })
+        </script>
     </body>
 </html>
