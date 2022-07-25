@@ -57,6 +57,16 @@ body {
   color: #fff;
   border-radius: 8px;
   padding: 72px 32px 32px;
+  position: relative;
+}
+#app .quite {
+  position: absolute;
+  top: 30px;
+  left: 14px;
+  width: 90px;
+}
+#app .quite svg {
+  fill: rgba(255, 255, 255, 0.2);
 }
 #app p {
   font-size: 1.6rem;

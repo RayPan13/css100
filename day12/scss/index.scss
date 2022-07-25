@@ -44,6 +44,16 @@ body {
     color: #fff;
     border-radius: 8px;
     padding: 72px 32px 32px;
+    position: relative;
+    .quite {
+        position: absolute;
+        top: 30px;
+        left: 14px;
+        width: 90px;
+        svg {
+            fill: rgba(255, 255, 255, 0.2);
+        }
+    }
     p {
         font-size: 1.6rem;
         &.author {
