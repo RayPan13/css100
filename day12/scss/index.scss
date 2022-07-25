@@ -43,11 +43,11 @@ body {
     background-color: #4cb6de;
     color: #fff;
     border-radius: 8px;
-    padding: 72px 32px 32px;
+    padding: 100px 32px 32px;
     position: relative;
     .quite {
         position: absolute;
-        top: 30px;
+        top: 54px;
         left: 14px;
         width: 90px;
         svg {
@@ -57,7 +57,7 @@ body {
     p {
         font-size: 1.6rem;
         &.author {
-            margin: 24px 0 0;
+            margin: 12px 0 0;
             font-size: 1.4rem;
             font-style: italic;
         }
@@ -68,6 +68,22 @@ body {
         }
     }
     .info {
+        position: absolute;
+        top: 0;
+        left: 30px;
+        width: 80%;
+        opacity: 0;
+        &::after {
+            content: '';
+            display: block;
+            width: 12px;
+            height: 12px;
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: rotate(45deg) translate(-50%, 0);
+            background-color: #286f8a;
+        }
         .voice {
             padding: 8px 12px;
             background-color: #fff;
@@ -85,6 +101,14 @@ body {
                     fill: #286f8a;
                     transform: translateY(3px);
                 }
+            }
+        }
+        .txt {
+            background-color: #286f8a;
+            padding: 12px 24px;
+            font-size: 1.2rem;
+            span {
+                font-weight: bold;
             }
         }
     }
