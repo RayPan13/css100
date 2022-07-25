@@ -43,13 +43,13 @@ body {
     background-color: #4cb6de;
     color: #fff;
     border-radius: 8px;
-    padding: 100px 32px 32px;
+    padding: 84px 32px 32px;
     position: relative;
     .quite {
         position: absolute;
-        top: 70px;
+        top: 57px;
         left: 14px;
-        width: 75px;
+        width: 65px;
         svg {
             fill: rgba(255, 255, 255, 0.2);
         }
@@ -90,7 +90,7 @@ body {
         &.active {
             z-index: 1;
             opacity: 1;
-            top: 36px;
+            top: 22px;
         }
         .voice {
             padding: 8px 12px;
