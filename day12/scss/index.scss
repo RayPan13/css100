@@ -67,4 +67,25 @@ body {
             cursor: pointer;
         }
     }
+    .info {
+        .voice {
+            padding: 8px 12px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            span {
+                font-size: 1.2rem;
+                margin-right: 8px;
+                color: #286f8a;
+            }
+            .icon {
+                width: 20px;
+                display: inline-block;
+                svg {
+                    fill: #286f8a;
+                    transform: translateY(3px);
+                }
+            }
+        }
+    }
 }

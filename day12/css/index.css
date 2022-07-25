@@ -80,4 +80,28 @@ body {
   background-color: #286f8a;
   padding: 4px;
   cursor: pointer;
+}
+#app .info .voice {
+  padding: 8px 12px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#app .info .voice span {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  color: #286f8a;
+}
+#app .info .voice .icon {
+  width: 20px;
+  display: inline-block;
+}
+#app .info .voice .icon svg {
+  fill: #286f8a;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
 }/*# sourceMappingURL=index.css.map */
