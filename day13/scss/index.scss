@@ -120,20 +120,33 @@ $color: (
     bottom: 0;
     display: flex;
     flex-direction: column;
-    z-index: 2;
+    overflow: hidden;
+    &.active {
+        .cover,
+        .txt {
+            transform: translateY(0);
+        }
+        .pic {
+            top: 50%;
+        }
+        .close {
+            top: 10px;
+        }
+    }
     .close {
         width: 50px;
         height: 50px;
         border-radius: 50%;
         background-color: map-get($color, main);
         position: absolute;
-        top: 10px;
+        top: -60px;
         right: 10px;
         cursor: pointer;
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: all 0.5s;
+        transition: backgroundColor 0.3s, top 0.6s ease-out 0.6s;
+        z-index: 5;
         &:hover {
             background-color: #fff;
             .line {
@@ -158,10 +171,13 @@ $color: (
     }
     .cover {
         flex-basis: 100%;
+        transform: translateY(-100%);
+        transition: all 0.6s;
+        z-index: 4;
     }
     .pic {
         position: absolute;
-        top: 50%;
+        top: -25%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100px;
@@ -169,14 +185,20 @@ $color: (
         border-radius: 50%;
         border: 2px solid #fff;
         overflow: hidden;
+        z-index: 5;
+        transition: all 0.6s 0.3s;
     }
-    .bg {
+    .txt {
+        position: relative;
         flex-basis: 100%;
         background-color: map-get($color, main);
+        transform: translateY(100%);
+        transition: all 0.6s;
+        z-index: 4;
     }
     p {
         position: absolute;
-        top: 66.5%;
+        top: 35%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 1.6rem;
@@ -184,7 +206,7 @@ $color: (
     }
     .btnBox {
         position: absolute;
-        top: 75%;
+        top: 52%;
         left: 0;
         right: 0;
         ul {
