@@ -224,4 +224,51 @@ body {
           transform: translate(-50%, -50%);
   font-size: 1.6rem;
   color: #fff;
+}
+.infoBox .btnBox {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  right: 0;
+}
+.infoBox .btnBox ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.infoBox .btnBox li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #fff;
+  margin: 0 12px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.infoBox .btnBox li:hover {
+  background-color: #fff;
+}
+.infoBox .btnBox li:hover svg {
+  fill: #ec6565;
+}
+.infoBox .btnBox li svg {
+  width: 20px;
+  fill: #fff;
 }/*# sourceMappingURL=index.css.map */

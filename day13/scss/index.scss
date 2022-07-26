@@ -182,4 +182,40 @@ $color: (
         font-size: 1.6rem;
         color: #fff;
     }
+    .btnBox {
+        position: absolute;
+        top: 75%;
+        left: 0;
+        right: 0;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        li {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px solid #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #fff;
+            margin: 0 12px;
+            cursor: pointer;
+            transition: all 0.5s;
+            &:hover {
+                background-color: #fff;
+                svg {
+                    fill: map-get($color, main);
+                }
+            }
+            svg {
+                width: 20px;
+                fill: #fff;
+            }
+        }
+    }
 }
