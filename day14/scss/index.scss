@@ -92,7 +92,7 @@ body {
         position: absolute;
         top: 126px;
         overflow: hidden;
-        @for $i from 1 through 6 {
+        @for $i from 1 through 10 {
             .r#{$i} {
                 position: absolute;
                 top: 0;
@@ -125,7 +125,7 @@ body {
                 height: 3px;
                 width: (10 + calc(random(150) / 10)) + px;
                 background: #4b4841;
-                border-radius: 3px;
+                border-radius: 4px;
                 animation: road (0.6 + calc(random(2) / 10)) + s linear (calc(random(10) / 10)) + s infinite;
             }
         }
