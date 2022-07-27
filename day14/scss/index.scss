@@ -49,6 +49,17 @@ body {
         width: 320px;
         height: 180px;
         position: relative;
+        transition: transform 0.6s;
+        &:hover {
+            transform: rotateX(180deg);
+            transform-style: preserve-3d;
+            .front {
+                opacity: 0;
+            }
+            .back {
+                opacity: 1;
+            }
+        }
     }
     .front,
     .back {
@@ -62,6 +73,8 @@ body {
         justify-content: center;
         align-items: center;
         border-radius: 4px;
+        opacity: 1;
+        transition-delay: 0.2s;
         img {
             width: 50%;
         }
@@ -70,6 +83,12 @@ body {
         z-index: 2;
     }
     .back {
-        transform: rotateY(180deg);
+        transform: rotateX(180deg);
+        opacity: 0;
     }
+    // .flipped {
+    //     transform: rotateY(180deg);
+    //     transition: 0.6s;
+    //     transform-style: preserve-3d;
+    // }
 }
