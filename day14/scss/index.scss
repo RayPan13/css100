@@ -86,11 +86,48 @@ body {
             transform-origin: bottom;
         }
     }
+    .road {
+        width: 40%;
+        height: 4px;
+        position: absolute;
+        top: 126px;
+        overflow: hidden;
+        @for $i from 1 through 6 {
+            .r#{$i} {
+                position: absolute;
+                top: 0;
+                right: -24px;
+                height: 3px;
+                width: (2 + $i * 2) + px;
+                background-color: #4b4841;
+                animation: road (0.8 + calc(random(2) / 10)) + s linear calc((random(10) / 10)) + s infinite;
+            }
+        }
+    }
     .back {
         transform: rotateX(180deg);
         opacity: 0;
         img {
             animation: helicopter linear 0.4s infinite alternate;
+        }
+    }
+    .sky {
+        width: 40%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        overflow: hidden;
+        @for $i from 1 through 10 {
+            .c#{$i} {
+                position: absolute;
+                right: -25px;
+                top: (20 + $i * 14) + px;
+                height: 3px;
+                width: (10 + calc(random(150) / 10)) + px;
+                background: #4b4841;
+                border-radius: 3px;
+                animation: road (0.6 + calc(random(2) / 10)) + s linear (calc(random(10) / 10)) + s infinite;
+            }
         }
     }
 }
@@ -111,5 +148,13 @@ body {
     }
     100% {
         transform: translateY(4px);
+    }
+}
+@keyframes road {
+    0% {
+        transform: translate(0) scaleX(1);
+    }
+    100% {
+        transform: translate(-200px) scaleX(0.8);
     }
 }
