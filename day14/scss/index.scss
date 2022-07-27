@@ -40,6 +40,36 @@ body {
     width: 100%;
     height: 400px;
     max-width: 400px;
-    outline: 1px solid red;
+    background-color: #4b4841;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card {
+        width: 320px;
+        height: 180px;
+        position: relative;
+    }
+    .front,
+    .back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ffce4e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        img {
+            width: 50%;
+        }
+    }
+    .front {
+        z-index: 2;
+    }
+    .back {
+        transform: rotateY(180deg);
+    }
 }
