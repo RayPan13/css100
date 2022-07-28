@@ -105,5 +105,8 @@ body {
         margin: 0 auto;
         text-align: center;
         cursor: pointer;
+        &:hover {
+            box-shadow: 0 2px 0 0 #498c25, 0 0 10px 1px #60bb2f;
+        }
     }
 }
