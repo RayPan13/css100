@@ -52,6 +52,7 @@ body {
     box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.3);
     width: 70%;
     height: 65%;
+    position: relative;
     h3 {
         font-size: 1.8rem;
         padding: 12px 0;
@@ -59,6 +60,15 @@ body {
         text-align: center;
         color: #777;
         border-bottom: 1px solid #aaa;
+    }
+    .process {
+        width: 0%;
+        height: 2px;
+        background-color: #6ece3b;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        transition: width 3s;
     }
     .uploadBox {
         width: 120px;

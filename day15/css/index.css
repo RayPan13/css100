@@ -73,6 +73,7 @@ body {
           box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.3);
   width: 70%;
   height: 65%;
+  position: relative;
 }
 .container h3 {
   font-size: 1.8rem;
@@ -81,6 +82,16 @@ body {
   text-align: center;
   color: #777;
   border-bottom: 1px solid #aaa;
+}
+.container .process {
+  width: 0%;
+  height: 2px;
+  background-color: #6ece3b;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  -webkit-transition: width 3s;
+  transition: width 3s;
 }
 .container .uploadBox {
   width: 120px;
