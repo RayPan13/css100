@@ -100,12 +100,16 @@ body {
     .icon {
         position: absolute;
         width: 50px;
+        opacity: 0;
+        transition: opacity 0.5s;
         svg {
             fill: #999;
         }
+        &.upload {
+            opacity: 1;
+        }
         &.transition {
             width: 36px;
-            display: none;
             &.rotate {
                 animation: rotate linear 2s infinite;
             }
@@ -114,8 +118,8 @@ body {
             width: 120px;
             height: 80px;
             margin: 0 auto 24px;
-            position: relative;
-            display: none;
+            position: absolute;
+            display: flex;
             justify-content: center;
             align-items: center;
             svg {

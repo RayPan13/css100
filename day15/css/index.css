@@ -130,13 +130,18 @@ body {
 .container .icon {
   position: absolute;
   width: 50px;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
 }
 .container .icon svg {
   fill: #999;
 }
+.container .icon.upload {
+  opacity: 1;
+}
 .container .icon.transition {
   width: 36px;
-  display: none;
 }
 .container .icon.transition.rotate {
   -webkit-animation: rotate linear 2s infinite;
@@ -146,8 +151,10 @@ body {
   width: 120px;
   height: 80px;
   margin: 0 auto 24px;
-  position: relative;
-  display: none;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
