@@ -142,6 +142,23 @@ body {
   -webkit-animation: rotate linear 2s infinite;
           animation: rotate linear 2s infinite;
 }
+.container .icon.done {
+  width: 120px;
+  height: 80px;
+  margin: 0 auto 24px;
+  position: relative;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .icon.done svg {
+  width: 36px;
+  fill: #999;
+}
 .container .uploadBtn {
   width: 160px;
   padding: 8px;

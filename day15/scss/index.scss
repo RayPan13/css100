@@ -110,6 +110,19 @@ body {
                 animation: rotate linear 2s infinite;
             }
         }
+        &.done {
+            width: 120px;
+            height: 80px;
+            margin: 0 auto 24px;
+            position: relative;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            svg {
+                width: 36px;
+                fill: #999;
+            }
+        }
     }
     .uploadBtn {
         width: 160px;
