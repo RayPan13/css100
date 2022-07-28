@@ -107,9 +107,14 @@ body {
   bottom: 0;
   opacity: 0;
 }
-.container .uploadBox .fileName {
+.container .uploadBox span {
   width: 100%;
+  text-align: center;
   font-size: 1.4rem;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  position: absolute;
 }
 .container .uploadIcon {
   width: 50px;
