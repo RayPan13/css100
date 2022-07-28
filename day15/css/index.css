@@ -77,22 +77,51 @@ body {
 .container h3 {
   font-size: 1.8rem;
   padding: 12px 0;
-  margin: 0 0 24px;
+  margin: 0 0 32px;
   text-align: center;
   color: #777;
   border-bottom: 1px solid #aaa;
 }
 .container .uploadBox {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 80px;
   border: 1px dashed #aaa;
   margin: 0 auto 24px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+.container .uploadBox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}
+.container .uploadBox .fileName {
+  width: 100%;
+  font-size: 1.4rem;
+}
+.container .uploadIcon {
+  width: 50px;
+}
+.container .uploadIcon svg {
+  fill: #999;
 }
 .container .uploadBtn {
-  width: 140px;
+  width: 160px;
   padding: 8px;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 300;
   color: #fff;
   background-color: #6ece3b;
   border-radius: 4px;
