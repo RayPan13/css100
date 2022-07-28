@@ -87,10 +87,18 @@ body {
             position: absolute;
         }
     }
-    .uploadIcon {
+    .icon {
+        position: absolute;
         width: 50px;
         svg {
             fill: #999;
+        }
+        &.transition {
+            width: 36px;
+            display: none;
+            &.rotate {
+                animation: rotate linear 2s infinite;
+            }
         }
     }
     .uploadBtn {
@@ -108,5 +116,14 @@ body {
         &:hover {
             box-shadow: 0 2px 0 0 #498c25, 0 0 10px 1px #60bb2f;
         }
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
     }
 }
