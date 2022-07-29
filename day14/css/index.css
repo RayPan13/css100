@@ -145,8 +145,8 @@ body {
   height: 3px;
   width: 6px;
   background-color: #4b4841;
-  -webkit-animation: road 1s linear 0.3s infinite;
-          animation: road 1s linear 0.3s infinite;
+  -webkit-animation: road 0.9s linear 0.2s infinite;
+          animation: road 0.9s linear 0.2s infinite;
 }
 #app .road .r3 {
   position: absolute;
@@ -155,8 +155,8 @@ body {
   height: 3px;
   width: 8px;
   background-color: #4b4841;
-  -webkit-animation: road 0.9s linear 0.1s infinite;
-          animation: road 0.9s linear 0.1s infinite;
+  -webkit-animation: road 1s linear 0.9s infinite;
+          animation: road 1s linear 0.9s infinite;
 }
 #app .road .r4 {
   position: absolute;
@@ -165,8 +165,8 @@ body {
   height: 3px;
   width: 10px;
   background-color: #4b4841;
-  -webkit-animation: road 0.9s linear 0.8s infinite;
-          animation: road 0.9s linear 0.8s infinite;
+  -webkit-animation: road 1s linear 0.4s infinite;
+          animation: road 1s linear 0.4s infinite;
 }
 #app .road .r5 {
   position: absolute;
@@ -175,8 +175,8 @@ body {
   height: 3px;
   width: 12px;
   background-color: #4b4841;
-  -webkit-animation: road 1s linear 0.8s infinite;
-          animation: road 1s linear 0.8s infinite;
+  -webkit-animation: road 0.9s linear 1s infinite;
+          animation: road 0.9s linear 1s infinite;
 }
 #app .road .r6 {
   position: absolute;
@@ -185,8 +185,8 @@ body {
   height: 3px;
   width: 14px;
   background-color: #4b4841;
-  -webkit-animation: road 1s linear 0.9s infinite;
-          animation: road 1s linear 0.9s infinite;
+  -webkit-animation: road 0.9s linear 0.3s infinite;
+          animation: road 0.9s linear 0.3s infinite;
 }
 #app .road .r7 {
   position: absolute;
@@ -195,8 +195,8 @@ body {
   height: 3px;
   width: 16px;
   background-color: #4b4841;
-  -webkit-animation: road 1s linear 0.2s infinite;
-          animation: road 1s linear 0.2s infinite;
+  -webkit-animation: road 0.9s linear 0.9s infinite;
+          animation: road 0.9s linear 0.9s infinite;
 }
 #app .road .r8 {
   position: absolute;
@@ -205,8 +205,8 @@ body {
   height: 3px;
   width: 18px;
   background-color: #4b4841;
-  -webkit-animation: road 1s linear 0.7s infinite;
-          animation: road 1s linear 0.7s infinite;
+  -webkit-animation: road 0.9s linear 0.5s infinite;
+          animation: road 0.9s linear 0.5s infinite;
 }
 #app .road .r9 {
   position: absolute;
@@ -215,8 +215,8 @@ body {
   height: 3px;
   width: 20px;
   background-color: #4b4841;
-  -webkit-animation: road 1s linear 0.8s infinite;
-          animation: road 1s linear 0.8s infinite;
+  -webkit-animation: road 1s linear 0.5s infinite;
+          animation: road 1s linear 0.5s infinite;
 }
 #app .road .r10 {
   position: absolute;
@@ -225,8 +225,8 @@ body {
   height: 3px;
   width: 22px;
   background-color: #4b4841;
-  -webkit-animation: road 1s linear 0.5s infinite;
-          animation: road 1s linear 0.5s infinite;
+  -webkit-animation: road 0.9s linear 0.8s infinite;
+          animation: road 0.9s linear 0.8s infinite;
 }
 #app .back {
   -webkit-transform: rotateX(180deg);
@@ -249,110 +249,110 @@ body {
   right: -25px;
   top: 34px;
   height: 3px;
-  width: 20.8px;
+  width: 22px;
   background: #4b4841;
   border-radius: 4px;
-  -webkit-animation: road 0.7s linear 0.2s infinite;
-          animation: road 0.7s linear 0.2s infinite;
+  -webkit-animation: road 0.7s linear 0.3s infinite;
+          animation: road 0.7s linear 0.3s infinite;
 }
 #app .sky .c2 {
   position: absolute;
   right: -25px;
   top: 48px;
   height: 3px;
-  width: 22.8px;
+  width: 20px;
   background: #4b4841;
   border-radius: 4px;
-  -webkit-animation: road 0.8s linear 0.1s infinite;
-          animation: road 0.8s linear 0.1s infinite;
+  -webkit-animation: road 0.7s linear 0.1s infinite;
+          animation: road 0.7s linear 0.1s infinite;
 }
 #app .sky .c3 {
   position: absolute;
   right: -25px;
   top: 62px;
   height: 3px;
-  width: 12.9px;
+  width: 13.2px;
   background: #4b4841;
   border-radius: 4px;
-  -webkit-animation: road 0.8s linear 0.2s infinite;
-          animation: road 0.8s linear 0.2s infinite;
+  -webkit-animation: road 0.8s linear 0.5s infinite;
+          animation: road 0.8s linear 0.5s infinite;
 }
 #app .sky .c4 {
   position: absolute;
   right: -25px;
   top: 76px;
   height: 3px;
-  width: 19.4px;
+  width: 16px;
   background: #4b4841;
   border-radius: 4px;
-  -webkit-animation: road 0.7s linear 0.6s infinite;
-          animation: road 0.7s linear 0.6s infinite;
+  -webkit-animation: road 0.7s linear 0.8s infinite;
+          animation: road 0.7s linear 0.8s infinite;
 }
 #app .sky .c5 {
   position: absolute;
   right: -25px;
   top: 90px;
   height: 3px;
-  width: 19.3px;
+  width: 17.6px;
   background: #4b4841;
   border-radius: 4px;
-  -webkit-animation: road 0.7s linear 0.7s infinite;
-          animation: road 0.7s linear 0.7s infinite;
+  -webkit-animation: road 0.8s linear 0.6s infinite;
+          animation: road 0.8s linear 0.6s infinite;
 }
 #app .sky .c6 {
   position: absolute;
   right: -25px;
   top: 104px;
   height: 3px;
-  width: 14.8px;
+  width: 12.8px;
   background: #4b4841;
   border-radius: 4px;
-  -webkit-animation: road 0.8s linear 0.9s infinite;
-          animation: road 0.8s linear 0.9s infinite;
+  -webkit-animation: road 0.8s linear 0.3s infinite;
+          animation: road 0.8s linear 0.3s infinite;
 }
 #app .sky .c7 {
   position: absolute;
   right: -25px;
   top: 118px;
   height: 3px;
-  width: 11px;
+  width: 11.6px;
   background: #4b4841;
   border-radius: 4px;
-  -webkit-animation: road 0.7s linear 0.2s infinite;
-          animation: road 0.7s linear 0.2s infinite;
+  -webkit-animation: road 0.7s linear 0.3s infinite;
+          animation: road 0.7s linear 0.3s infinite;
 }
 #app .sky .c8 {
   position: absolute;
   right: -25px;
   top: 132px;
   height: 3px;
-  width: 11.5px;
+  width: 11.9px;
   background: #4b4841;
   border-radius: 4px;
-  -webkit-animation: road 0.7s linear 0.9s infinite;
-          animation: road 0.7s linear 0.9s infinite;
+  -webkit-animation: road 0.8s linear 0.2s infinite;
+          animation: road 0.8s linear 0.2s infinite;
 }
 #app .sky .c9 {
   position: absolute;
   right: -25px;
   top: 146px;
   height: 3px;
-  width: 10.3px;
+  width: 14.8px;
   background: #4b4841;
   border-radius: 4px;
-  -webkit-animation: road 0.8s linear 0.1s infinite;
-          animation: road 0.8s linear 0.1s infinite;
+  -webkit-animation: road 0.7s linear 0.5s infinite;
+          animation: road 0.7s linear 0.5s infinite;
 }
 #app .sky .c10 {
   position: absolute;
   right: -25px;
   top: 160px;
   height: 3px;
-  width: 11px;
+  width: 19.7px;
   background: #4b4841;
   border-radius: 4px;
-  -webkit-animation: road 0.7s linear 0.1s infinite;
-          animation: road 0.7s linear 0.1s infinite;
+  -webkit-animation: road 0.8s linear 0.2s infinite;
+          animation: road 0.8s linear 0.2s infinite;
 }
 
 @-webkit-keyframes bike {
