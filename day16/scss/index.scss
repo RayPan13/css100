@@ -69,12 +69,18 @@ body {
         background-color: #fff;
         animation: octagon 5s ease-in-out infinite;
     }
-    .octagonLight {
+    .triangle {
+        @include center(100);
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        background-color: #fff;
+        animation: triangle 5s ease-in-out infinite;
+    }
+    .octagonLight,
+    .triangleLight {
         @include center(200);
         display: flex;
         justify-content: center;
         align-items: center;
-        animation: octagonLight 5s ease-in-out infinite;
         .light {
             width: 100%;
             height: 4px;
@@ -105,6 +111,17 @@ body {
                 transform: rotate(135deg);
                 width: 120%;
             }
+        }
+    }
+    .octagonLight {
+        animation: octagonLight 5s ease-in-out infinite;
+    }
+    .triangleLight {
+        animation: triangleLight 5s ease-in-out infinite;
+        .l1::after,
+        .l2::before,
+        .l3::after {
+            display: none;
         }
     }
 }
@@ -198,6 +215,44 @@ body {
         opacity: 1;
     }
     40%,
+    100% {
+        transform: translate3d(-100px, -100px, 0) scale(1.4);
+        opacity: 0;
+    }
+}
+@keyframes triangle {
+    0%,
+    52% {
+        transform: translate3d(-50px, -50px, 0) scale(0);
+    }
+    58% {
+        transform: translate3d(-50px, -50px, 0) scale(1.2);
+    }
+    62% {
+        transform: translate3d(-50px, -50px, 0) scale(0.9);
+    }
+    64%,
+    66% {
+        transform: translate3d(-50px, -50px, 0) scale(1);
+    }
+    70% {
+        transform: translate3d(-50px, -50px, 0) scale(1.2);
+    }
+    76%,
+    100% {
+        transform: translate3d(-50px, -50px, 0) scale(0);
+    }
+}
+@keyframes triangleLight {
+    0%,
+    52% {
+        transform: translate3d(-100px, -100px, 0) scale(0);
+        opacity: 1;
+    }
+    58% {
+        opacity: 1;
+    }
+    62%,
     100% {
         transform: translate3d(-100px, -100px, 0) scale(1.4);
         opacity: 0;
