@@ -71,4 +71,40 @@ body {
   background-color: #333;
   -webkit-box-shadow: 8px 8px 20px 2px rgba(0, 0, 0, 0.3);
           box-shadow: 8px 8px 20px 2px rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#app .polygon {
+  width: 160px;
+  height: 140px;
+  overflow: hidden;
+}
+#app .polygon:hover .middle {
+  fill: #eee;
+}
+#app .polygon:hover .dark {
+  fill: #ccc;
+}
+#app .polygon:hover .light {
+  fill: #aaa;
+}
+#app .polygon polygon {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+#app .polygon .middle {
+  fill: #ccc;
+}
+#app .polygon .dark {
+  fill: #aaa;
+}
+#app .polygon .light {
+  fill: #eee;
 }/*# sourceMappingURL=index.css.map */
