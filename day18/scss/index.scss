@@ -69,14 +69,12 @@ body {
         }
         .front {
             background-color: #37d493;
-            transform: rotateX(180deg);
             z-index: 1;
         }
         .back {
             background-color: #444;
             height: 98%;
             backface-visibility: hidden;
-            transform: rotateX(0);
             z-index: 2;
         }
     }
@@ -109,7 +107,6 @@ body {
     50% {
         transform: rotateX(90deg);
     }
-
     65% {
         transform: rotateX(30deg);
     }
