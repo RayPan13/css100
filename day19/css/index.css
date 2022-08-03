@@ -75,6 +75,10 @@ body {
 #app .btnBox #r1:checked ~ .bg {
   background-color: #9b59b6;
 }
+#app .btnBox #r1:checked ~ .bg .b1 {
+  z-index: 1;
+  width: 100%;
+}
 #app .btnBox #r2:checked ~ .active {
   -webkit-transform: translateX(56px);
           transform: translateX(56px);
@@ -82,12 +86,20 @@ body {
 #app .btnBox #r2:checked ~ .bg {
   background-color: #3498db;
 }
+#app .btnBox #r2:checked ~ .bg .b2 {
+  z-index: 1;
+  width: 100%;
+}
 #app .btnBox #r3:checked ~ .active {
   -webkit-transform: translateX(112px);
           transform: translateX(112px);
 }
 #app .btnBox #r3:checked ~ .bg {
   background-color: #1abc9c;
+}
+#app .btnBox #r3:checked ~ .bg .b3 {
+  z-index: 1;
+  width: 100%;
 }
 #app .btnBox label {
   display: inline-block;

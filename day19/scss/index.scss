@@ -55,6 +55,10 @@ body {
             }
             ~ .bg {
                 background-color: #9b59b6;
+                .b1 {
+                    z-index: 1;
+                    width: 100%;
+                }
             }
         }
         #r2:checked {
@@ -63,6 +67,10 @@ body {
             }
             ~ .bg {
                 background-color: #3498db;
+                .b2 {
+                    z-index: 1;
+                    width: 100%;
+                }
             }
         }
         #r3:checked {
@@ -71,6 +79,10 @@ body {
             }
             ~ .bg {
                 background-color: #1abc9c;
+                .b3 {
+                    z-index: 1;
+                    width: 100%;
+                }
             }
         }
         label {
