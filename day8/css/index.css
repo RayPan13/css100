@@ -111,8 +111,8 @@ body {
   left: 20px;
   width: 50px;
   height: 50px;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(203deg);
+          transform: rotate(203deg);
 }
 .b1:after {
   content: "";
@@ -136,8 +136,8 @@ body {
   left: 20px;
   width: 50px;
   height: 50px;
-  -webkit-transform: rotate(93deg);
-          transform: rotate(93deg);
+  -webkit-transform: rotate(292deg);
+          transform: rotate(292deg);
 }
 .b2:after {
   content: "";
@@ -161,8 +161,8 @@ body {
   left: 20px;
   width: 50px;
   height: 50px;
-  -webkit-transform: rotate(105deg);
-          transform: rotate(105deg);
+  -webkit-transform: rotate(143deg);
+          transform: rotate(143deg);
 }
 .b3:after {
   content: "";
@@ -186,8 +186,8 @@ body {
   left: 20px;
   width: 50px;
   height: 50px;
-  -webkit-transform: rotate(234deg);
-          transform: rotate(234deg);
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
 }
 .b4:after {
   content: "";
@@ -211,8 +211,8 @@ body {
   left: 20px;
   width: 50px;
   height: 50px;
-  -webkit-transform: rotate(283deg);
-          transform: rotate(283deg);
+  -webkit-transform: rotate(280deg);
+          transform: rotate(280deg);
 }
 .b5:after {
   content: "";
@@ -236,8 +236,8 @@ body {
   left: 20px;
   width: 50px;
   height: 50px;
-  -webkit-transform: rotate(159deg);
-          transform: rotate(159deg);
+  -webkit-transform: rotate(92deg);
+          transform: rotate(92deg);
 }
 .b6:after {
   content: "";
@@ -261,8 +261,8 @@ body {
   left: 20px;
   width: 50px;
   height: 50px;
-  -webkit-transform: rotate(54deg);
-          transform: rotate(54deg);
+  -webkit-transform: rotate(61deg);
+          transform: rotate(61deg);
 }
 .b7:after {
   content: "";
@@ -286,8 +286,8 @@ body {
   left: 20px;
   width: 50px;
   height: 50px;
-  -webkit-transform: rotate(246deg);
-          transform: rotate(246deg);
+  -webkit-transform: rotate(228deg);
+          transform: rotate(228deg);
 }
 .b8:after {
   content: "";
@@ -311,8 +311,8 @@ body {
   left: 38px;
   width: 8px;
   height: 8px;
-  -webkit-transform: rotate(101deg);
-          transform: rotate(101deg);
+  -webkit-transform: rotate(11deg);
+          transform: rotate(11deg);
 }
 .s1:after {
   content: "";
@@ -336,8 +336,8 @@ body {
   left: 38px;
   width: 9px;
   height: 9px;
-  -webkit-transform: rotate(274deg);
-          transform: rotate(274deg);
+  -webkit-transform: rotate(141deg);
+          transform: rotate(141deg);
 }
 .s2:after {
   content: "";
@@ -361,8 +361,8 @@ body {
   left: 38px;
   width: 10px;
   height: 10px;
-  -webkit-transform: rotate(86deg);
-          transform: rotate(86deg);
+  -webkit-transform: rotate(238deg);
+          transform: rotate(238deg);
 }
 .s3:after {
   content: "";
@@ -386,8 +386,8 @@ body {
   left: 38px;
   width: 11px;
   height: 11px;
-  -webkit-transform: rotate(26deg);
-          transform: rotate(26deg);
+  -webkit-transform: rotate(132deg);
+          transform: rotate(132deg);
 }
 .s4:after {
   content: "";
@@ -411,8 +411,8 @@ body {
   left: 38px;
   width: 12px;
   height: 12px;
-  -webkit-transform: rotate(59deg);
-          transform: rotate(59deg);
+  -webkit-transform: rotate(204deg);
+          transform: rotate(204deg);
 }
 .s5:after {
   content: "";
@@ -436,8 +436,8 @@ body {
   left: 38px;
   width: 13px;
   height: 13px;
-  -webkit-transform: rotate(78deg);
-          transform: rotate(78deg);
+  -webkit-transform: rotate(85deg);
+          transform: rotate(85deg);
 }
 .s6:after {
   content: "";
@@ -461,8 +461,8 @@ body {
   left: 38px;
   width: 14px;
   height: 14px;
-  -webkit-transform: rotate(276deg);
-          transform: rotate(276deg);
+  -webkit-transform: rotate(100deg);
+          transform: rotate(100deg);
 }
 .s7:after {
   content: "";
@@ -486,8 +486,8 @@ body {
   left: 38px;
   width: 15px;
   height: 15px;
-  -webkit-transform: rotate(40deg);
-          transform: rotate(40deg);
+  -webkit-transform: rotate(232deg);
+          transform: rotate(232deg);
 }
 .s8:after {
   content: "";
@@ -536,8 +536,8 @@ body {
   left: 38px;
   width: 17px;
   height: 17px;
-  -webkit-transform: rotate(271deg);
-          transform: rotate(271deg);
+  -webkit-transform: rotate(241deg);
+          transform: rotate(241deg);
 }
 .s10:after {
   content: "";
