@@ -53,36 +53,24 @@ body {
             ~ .active {
                 transform: translateX(0);
             }
-            ~ .bg {
-                background-color: #9b59b6;
-                .b1 {
-                    z-index: 1;
-                    width: 100%;
-                }
+            ~ .bg .color {
+                transform: translateX(0);
             }
         }
         #r2:checked {
             ~ .active {
                 transform: translateX(56px);
             }
-            ~ .bg {
-                background-color: #3498db;
-                .b2 {
-                    z-index: 1;
-                    width: 100%;
-                }
+            ~ .bg .color {
+                transform: translateX(-400px);
             }
         }
         #r3:checked {
             ~ .active {
                 transform: translateX(112px);
             }
-            ~ .bg {
-                background-color: #1abc9c;
-                .b3 {
-                    z-index: 1;
-                    width: 100%;
-                }
+            ~ .bg .color {
+                transform: translateX(-800px);
             }
         }
         label {
@@ -117,22 +105,22 @@ body {
             bottom: 0;
             z-index: -1;
             transition-delay: 0.5s;
-            div {
-                width: 0;
+            display: flex;
+            overflow: hidden;
+            .color {
+                width: 300%;
                 height: 100%;
-                position: absolute;
-                top: 0;
-                left: 0;
-                transition: width 0.5s;
-            }
-            .b1 {
-                background-color: #9b59b6;
-            }
-            .b2 {
-                background-color: #3498db;
-            }
-            .b3 {
-                background-color: #1abc9c;
+                flex-shrink: 0;
+                transition: transform 0.5s;
+                background: linear-gradient(
+                    90deg,
+                    #9b59b6 0px,
+                    #9b59b6 400px,
+                    #3498db 400px,
+                    #3498db 800px,
+                    #1abc9c 800px,
+                    #1abc9c 1200px
+                );
             }
         }
     }
