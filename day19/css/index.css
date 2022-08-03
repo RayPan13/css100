@@ -53,7 +53,6 @@ body {
   width: 100%;
   height: 400px;
   max-width: 400px;
-  background-color: #9b59b6;
   border-radius: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -64,8 +63,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-#app .btnBox {
   position: relative;
 }
 #app .btnBox input {
@@ -75,13 +72,22 @@ body {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
+#app .btnBox #r1:checked ~ .bg {
+  background-color: #9b59b6;
+}
 #app .btnBox #r2:checked ~ .active {
   -webkit-transform: translateX(56px);
           transform: translateX(56px);
 }
+#app .btnBox #r2:checked ~ .bg {
+  background-color: #3498db;
+}
 #app .btnBox #r3:checked ~ .active {
   -webkit-transform: translateX(112px);
           transform: translateX(112px);
+}
+#app .btnBox #r3:checked ~ .bg {
+  background-color: #1abc9c;
 }
 #app .btnBox label {
   display: inline-block;
@@ -98,8 +104,8 @@ body {
 }
 #app .btnBox .active {
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 179px;
+  left: 123px;
   width: 38px;
   height: 38px;
   border-radius: 50%;
@@ -109,4 +115,32 @@ body {
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
+}
+#app .btnBox .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+#app .btnBox .bg div {
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+#app .btnBox .bg .b1 {
+  background-color: #9b59b6;
+}
+#app .btnBox .bg .b2 {
+  background-color: #3498db;
+}
+#app .btnBox .bg .b3 {
+  background-color: #1abc9c;
 }/*# sourceMappingURL=index.css.map */

@@ -40,24 +40,38 @@ body {
     width: 100%;
     height: 400px;
     max-width: 400px;
-    background-color: #9b59b6;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     .btnBox {
-        position: relative;
         input {
             display: none;
         }
-        #r1:checked ~ .active {
-            transform: translateX(0);
+        #r1:checked {
+            ~ .active {
+                transform: translateX(0);
+            }
+            ~ .bg {
+                background-color: #9b59b6;
+            }
         }
-        #r2:checked ~ .active {
-            transform: translateX(56px);
+        #r2:checked {
+            ~ .active {
+                transform: translateX(56px);
+            }
+            ~ .bg {
+                background-color: #3498db;
+            }
         }
-        #r3:checked ~ .active {
-            transform: translateX(112px);
+        #r3:checked {
+            ~ .active {
+                transform: translateX(112px);
+            }
+            ~ .bg {
+                background-color: #1abc9c;
+            }
         }
         label {
             display: inline-block;
@@ -74,14 +88,40 @@ body {
         }
         .active {
             position: absolute;
-            top: 5px;
-            left: 5px;
+            top: 179px;
+            left: 123px;
             width: 38px;
             height: 38px;
             border-radius: 50%;
             background-color: #fff;
             pointer-events: none;
             transition: transform 0.5s;
+        }
+        .bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            transition-delay: 0.5s;
+            div {
+                width: 0;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transition: width 0.5s;
+            }
+            .b1 {
+                background-color: #9b59b6;
+            }
+            .b2 {
+                background-color: #3498db;
+            }
+            .b3 {
+                background-color: #1abc9c;
+            }
         }
     }
 }
