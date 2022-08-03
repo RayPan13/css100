@@ -65,50 +65,47 @@ body {
           align-items: center;
   position: relative;
 }
-#app .btnBox input {
+#app input {
   display: none;
 }
-#app .btnBox #r1:checked ~ .active {
+#app #r1:checked ~ .active,
+#app #r1:checked ~ .bg .color {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
-#app .btnBox #r1:checked ~ .bg .color {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-}
-#app .btnBox #r2:checked ~ .active {
+#app #r2:checked ~ .active {
   -webkit-transform: translateX(56px);
           transform: translateX(56px);
 }
-#app .btnBox #r2:checked ~ .bg .color {
+#app #r2:checked ~ .bg .color {
   -webkit-transform: translateX(-400px);
           transform: translateX(-400px);
 }
-#app .btnBox #r3:checked ~ .active {
+#app #r3:checked ~ .active {
   -webkit-transform: translateX(112px);
           transform: translateX(112px);
 }
-#app .btnBox #r3:checked ~ .bg .color {
+#app #r3:checked ~ .bg .color {
   -webkit-transform: translateX(-800px);
           transform: translateX(-800px);
 }
-#app .btnBox label {
+#app label {
   display: inline-block;
   width: 48px;
   height: 48px;
   border-radius: 50%;
   border: 1px solid #fff;
-  margin: 0 4px 0 0;
+  margin: 0 8px 0 0;
   position: relative;
   cursor: pointer;
 }
-#app .btnBox label:last-child {
+#app label:last-child {
   margin: 0;
 }
-#app .btnBox .active {
+#app .active {
   position: absolute;
-  top: 179px;
-  left: 123px;
+  top: 181px;
+  left: 121px;
   width: 38px;
   height: 38px;
   border-radius: 50%;
@@ -119,21 +116,19 @@ body {
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
 }
-#app .btnBox .bg {
+#app .bg {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: -1;
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
 }
-#app .btnBox .bg .color {
+#app .bg .color {
   width: 300%;
   height: 100%;
   -ms-flex-negative: 0;
