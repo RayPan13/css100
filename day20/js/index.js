@@ -6,12 +6,7 @@
     let plane = document.querySelector('.plane')
     function setButtonAnimation() {
         if (btn.classList.contains('reset')) {
-            btn.style = ''
-            btn.classList.remove('reset')
-            circle.classList.remove('send')
-            mail.classList.remove('send')
-            plane.classList.remove('send')
-            btn.textContent = 'SEND MAIL'
+            initStatus()
         } else {
             btn.classList.add('send')
             setMailAnimation()
@@ -35,6 +30,14 @@
     }
     function setCircleAnimation() {
         circle.classList.add('send')
+    }
+    function initStatus() {
+        btn.style = ''
+        btn.classList.remove('reset')
+        circle.classList.remove('send')
+        mail.classList.remove('send')
+        plane.classList.remove('send')
+        btn.textContent = 'SEND MAIL'
     }
     btn.addEventListener('click', setButtonAnimation)
 })()

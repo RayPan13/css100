@@ -66,7 +66,7 @@ body {
   border-radius: 50%;
   background-color: #354a5f;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -102,7 +102,7 @@ body {
   stroke-linecap: square;
   stroke-dasharray: 325 325;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -146,7 +146,7 @@ body {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 32px;
+  bottom: 14%;
   cursor: pointer;
 }
 #app .btn:hover {
