@@ -67,12 +67,17 @@ body {
   margin: 60px auto 28px;
 }
 #app .btn {
+  display: block;
   width: 200px;
+  height: 40px;
   margin: 0 auto;
   font-size: 1.6rem;
-  font-weight: bold;
-  padding: 8px;
+  font-weight: 600;
+  padding: 12px;
   border-radius: 24px;
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   text-align: center;
   background-color: #fff;
   cursor: pointer;
@@ -80,4 +85,66 @@ body {
 #app .btn:hover {
   background-color: #1abc9c;
   color: #fff;
+}
+#app .btn.send {
+  -webkit-animation: button 1.5s ease-in-out 1.7s forwards;
+          animation: button 1.5s ease-in-out 1.7s forwards;
+}
+#app .btn.reset {
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+
+@-webkit-keyframes button {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  30% {
+    background-color: #1abc9c;
+    color: transparent;
+  }
+  50%, 60% {
+    width: 40px;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  70% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    width: 40px;
+    background: #1abc9c;
+    color: transparent;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+}
+
+@keyframes button {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  30% {
+    background-color: #1abc9c;
+    color: transparent;
+  }
+  50%, 60% {
+    width: 40px;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  70% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    width: 40px;
+    background: #1abc9c;
+    color: transparent;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
 }/*# sourceMappingURL=index.css.map */
