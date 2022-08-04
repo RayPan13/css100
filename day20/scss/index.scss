@@ -53,6 +53,36 @@ body {
         border-radius: 50%;
         background-color: #354a5f;
         margin: 60px auto 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon {
+        fill: none;
+        stroke-width: 2px;
+        stroke: #ecf0f1;
+        stroke-linecap: square;
+        stroke-dasharray: 325 325;
+        &.mail {
+            width: 120px;
+            height: 70px;
+            stroke-dashoffset: 0;
+            &.send {
+                stroke-dashoffset: 326;
+                transition: stroke-dashoffset 1s ease-in-out;
+            }
+        }
+        &.plane {
+            position: absolute;
+            width: 120px;
+            height: 105px;
+            stroke-dashoffset: 325;
+            &.send {
+                stroke-dashoffset: 0;
+                transition: stroke-dashoffset 1s ease-in-out 0.6s;
+                animation: fly 2.4s ease-in-out forwards;
+            }
+        }
     }
     .btn {
         display: block;
@@ -101,5 +131,24 @@ body {
         background: #1abc9c;
         color: transparent;
         transform: scale(0);
+    }
+}
+@keyframes fly {
+    0%,
+    50% {
+        transform: translate3d(0, 0, 0) scale(1);
+    }
+    60% {
+        transform: translate3d(-10px, 5px, 0) scale(1.05);
+    }
+    70% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 0;
+    }
+    100% {
+        transform: translate3d(300px, -150px, 0) scale(0.4);
+        opacity: 0;
     }
 }

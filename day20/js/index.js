@@ -1,23 +1,34 @@
 'use strict'
 ;(function () {
-    document.querySelector('.btn').addEventListener('click', function () {
-        if (this.classList.contains('reset')) {
-            this.style = ''
-            this.classList.remove('reset')
-            this.textContent = 'SEND MAIL'
+    let btn = document.querySelector('.btn')
+    let mail = document.querySelector('.mail')
+    let plane = document.querySelector('.plane')
+    function setButtonAnimation() {
+        if (btn.classList.contains('reset')) {
+            btn.style = ''
+            btn.classList.remove('reset')
+            mail.classList.remove('send')
+            plane.classList.remove('send')
+            btn.textContent = 'SEND MAIL'
         } else {
-            this.classList.add('send')
+            btn.classList.add('send')
+            setMailAnimation()
             setTimeout(() => {
-                this.classList.remove('send')
-                this.classList.add('reset')
-                this.style.transform = 'scale(0)'
-                this.style.opacity = '0'
-                this.textContent = 'RESET'
+                btn.classList.remove('send')
+                btn.classList.add('reset')
+                btn.style.transform = 'scale(0)'
+                btn.style.opacity = '0'
+                btn.textContent = 'RESET'
             }, 3200)
             setTimeout(() => {
-                this.style.transform = 'scale(1)'
-                this.style.opacity = '1'
+                btn.style.transform = 'scale(1)'
+                btn.style.opacity = '1'
             }, 3700)
         }
-    })
+    }
+    function setMailAnimation() {
+        mail.classList.add('send')
+        plane.classList.add('send')
+    }
+    btn.addEventListener('click', setButtonAnimation)
 })()
