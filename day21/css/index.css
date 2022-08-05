@@ -88,20 +88,16 @@ body {
   width: 100%;
   height: 50%;
   background-color: #f4d146;
-  -webkit-transform-origin: top center;
-          transform-origin: top center;
 }
 #app .pacman .top {
-  -webkit-transform: rotate(320deg);
-          transform: rotate(320deg);
   -webkit-transform-origin: bottom center;
           transform-origin: bottom center;
   -webkit-animation: top linear 0.3s infinite alternate;
           animation: top linear 0.3s infinite alternate;
 }
 #app .pacman .bottom {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -webkit-transform-origin: top center;
+          transform-origin: top center;
   -webkit-animation: bottom linear 0.3s infinite alternate;
           animation: bottom linear 0.3s infinite alternate;
 }
