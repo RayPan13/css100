@@ -96,8 +96,54 @@ body {
           transform: rotate(320deg);
   -webkit-transform-origin: bottom center;
           transform-origin: bottom center;
+  -webkit-animation: top linear 0.5s infinite alternate;
+          animation: top linear 0.5s infinite alternate;
 }
 #app .pacman .bottom {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+  -webkit-animation: bottom linear 0.5s infinite alternate;
+          animation: bottom linear 0.5s infinite alternate;
+}
+
+@-webkit-keyframes bottom {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+}
+
+@keyframes bottom {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+}
+@-webkit-keyframes top {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+}
+@keyframes top {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
 }/*# sourceMappingURL=index.css.map */
