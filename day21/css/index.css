@@ -179,8 +179,8 @@ body {
             transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(-50px);
-            transform: translateX(-50px);
+    -webkit-transform: translateX(-66px);
+            transform: translateX(-66px);
   }
 }
 @keyframes dot {
@@ -189,7 +189,7 @@ body {
             transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(-50px);
-            transform: translateX(-50px);
+    -webkit-transform: translateX(-66px);
+            transform: translateX(-66px);
   }
 }/*# sourceMappingURL=index.css.map */
