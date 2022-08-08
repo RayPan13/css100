@@ -77,7 +77,6 @@ body {
   width: 120px;
   height: 120px;
   margin: 0 auto;
-  border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,7 +90,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 10px solid #27e1ae;
   position: relative;
 }
 #app .circle p {
@@ -103,6 +101,18 @@ body {
 #app .circle span {
   font-size: 1.4rem;
   color: #648192;
+}
+#app .circle svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#app .circle svg circle {
+  stroke: #1b2a33;
+  stroke-width: 10;
+  fill: transparent;
 }
 #app .big {
   margin-bottom: 12px;
@@ -121,9 +131,6 @@ body {
 #app .small .circle {
   width: 100px;
   height: 100px;
-  margin: 0;
-  border-width: 8px;
-  border-color: #5ce1ec;
 }
 #app .small .circle:nth-child(1) {
   margin-right: 12px;
