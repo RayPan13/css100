@@ -114,6 +114,18 @@ body {
   stroke-width: 10;
   fill: transparent;
 }
+#app .circle svg .bar {
+  stroke: #27e1ae;
+  stroke-linecap: round;
+  stroke-dasharray: 352.56;
+  stroke-dashoffset: 60;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: big 1.5s ease-out;
+          animation: big 1.5s ease-out;
+}
 #app .big {
   margin-bottom: 12px;
 }
@@ -143,4 +155,22 @@ body {
 }
 #app .small .circle span {
   font-size: 1.2rem;
+}
+
+@-webkit-keyframes big {
+  from {
+    stroke-dashoffset: 326.56;
+  }
+  to {
+    stroke-dashoffset: 60;
+  }
+}
+
+@keyframes big {
+  from {
+    stroke-dashoffset: 326.56;
+  }
+  to {
+    stroke-dashoffset: 60;
+  }
 }/*# sourceMappingURL=index.css.map */

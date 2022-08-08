@@ -90,6 +90,15 @@ body {
                 stroke-width: 10;
                 fill: transparent;
             }
+            .bar {
+                stroke: #27e1ae;
+                stroke-linecap: round;
+                stroke-dasharray: 352.56;
+                stroke-dashoffset: 60;
+                transform: rotate(-90deg);
+                transform-origin: center;
+                animation: big 1.5s ease-out;
+            }
         }
     }
     .big {
@@ -115,5 +124,13 @@ body {
                 font-size: 1.2rem;
             }
         }
+    }
+}
+@keyframes big {
+    from {
+        stroke-dashoffset: (52 * 2 * 3.14);
+    }
+    to {
+        stroke-dashoffset: 60;
     }
 }
