@@ -115,9 +115,10 @@ body {
   fill: transparent;
 }
 #app .circle svg .bar {
+  stroke-width: 8px;
   stroke: #27e1ae;
   stroke-linecap: round;
-  stroke-dasharray: 352.56;
+  stroke-dasharray: 326.56;
   stroke-dashoffset: 60;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
@@ -150,11 +151,24 @@ body {
 #app .small .circle:nth-child(2) {
   margin-left: 12px;
 }
+#app .small .circle:nth-child(2) .bar {
+  stroke-dashoffset: 140;
+  -webkit-animation: two 1.5s ease-out;
+          animation: two 1.5s ease-out;
+}
 #app .small .circle p {
   font-size: 1.8rem;
 }
 #app .small .circle span {
   font-size: 1.2rem;
+}
+#app .small .circle .bar {
+  stroke-width: 6px;
+  stroke: #5ce1ec;
+  stroke-dasharray: 232.36;
+  stroke-dashoffset: 80;
+  -webkit-animation: one 1.5s ease-out;
+          animation: one 1.5s ease-out;
 }
 
 @-webkit-keyframes big {
@@ -172,5 +186,37 @@ body {
   }
   to {
     stroke-dashoffset: 60;
+  }
+}
+@-webkit-keyframes one {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 80;
+  }
+}
+@keyframes one {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 80;
+  }
+}
+@-webkit-keyframes two {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 140;
+  }
+}
+@keyframes two {
+  from {
+    stroke-dashoffset: 232.36;
+  }
+  to {
+    stroke-dashoffset: 140;
   }
 }/*# sourceMappingURL=index.css.map */
