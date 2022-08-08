@@ -69,7 +69,8 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        border: 10px solid #1b2a33;
+        border: 10px solid #27e1ae;
+        position: relative;
         p {
             font-size: 2rem;
             line-height: 1;
@@ -92,6 +93,8 @@ body {
             width: 100px;
             height: 100px;
             margin: 0;
+            border-width: 8px;
+            border-color: #5ce1ec;
             &:nth-child(1) {
                 margin-right: 12px;
             }

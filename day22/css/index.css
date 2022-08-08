@@ -91,7 +91,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 10px solid #1b2a33;
+  border: 10px solid #27e1ae;
+  position: relative;
 }
 #app .circle p {
   font-size: 2rem;
@@ -121,6 +122,8 @@ body {
   width: 100px;
   height: 100px;
   margin: 0;
+  border-width: 8px;
+  border-color: #5ce1ec;
 }
 #app .small .circle:nth-child(1) {
   margin-right: 12px;
