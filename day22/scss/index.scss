@@ -95,10 +95,9 @@ body {
                 stroke: #27e1ae;
                 stroke-linecap: round;
                 stroke-dasharray: (52 * 2 * 3.14);
-                stroke-dashoffset: 60;
                 transform: rotate(-90deg);
                 transform-origin: center;
-                animation: big 1.5s ease-out;
+                animation: big 1.5s ease-out forwards;
             }
         }
     }
@@ -118,8 +117,7 @@ body {
             &:nth-child(2) {
                 margin-left: 12px;
                 .bar {
-                    stroke-dashoffset: 140;
-                    animation: two 1.5s ease-out;
+                    animation: small2 1.5s ease-out forwards;
                 }
             }
             p {
@@ -132,8 +130,7 @@ body {
                 stroke-width: 6px;
                 stroke: #5ce1ec;
                 stroke-dasharray: (37 * 2 * 3.14);
-                stroke-dashoffset: 80;
-                animation: one 1.5s ease-out;
+                animation: small1 1.5s ease-out forwards;
             }
         }
     }
@@ -147,16 +144,16 @@ body {
     }
 }
 
-@keyframes one {
+@keyframes small1 {
     from {
         stroke-dashoffset: (37 * 2 * 3.14);
     }
     to {
-        stroke-dashoffset: 80;
+        stroke-dashoffset: 50;
     }
 }
 
-@keyframes two {
+@keyframes small2 {
     from {
         stroke-dashoffset: (37 * 2 * 3.14);
     }

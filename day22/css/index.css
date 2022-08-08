@@ -119,13 +119,12 @@ body {
   stroke: #27e1ae;
   stroke-linecap: round;
   stroke-dasharray: 326.56;
-  stroke-dashoffset: 60;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
   -webkit-transform-origin: center;
           transform-origin: center;
-  -webkit-animation: big 1.5s ease-out;
-          animation: big 1.5s ease-out;
+  -webkit-animation: big 1.5s ease-out forwards;
+          animation: big 1.5s ease-out forwards;
 }
 #app .big {
   margin-bottom: 12px;
@@ -152,9 +151,8 @@ body {
   margin-left: 12px;
 }
 #app .small .circle:nth-child(2) .bar {
-  stroke-dashoffset: 140;
-  -webkit-animation: two 1.5s ease-out;
-          animation: two 1.5s ease-out;
+  -webkit-animation: small2 1.5s ease-out forwards;
+          animation: small2 1.5s ease-out forwards;
 }
 #app .small .circle p {
   font-size: 1.8rem;
@@ -166,9 +164,8 @@ body {
   stroke-width: 6px;
   stroke: #5ce1ec;
   stroke-dasharray: 232.36;
-  stroke-dashoffset: 80;
-  -webkit-animation: one 1.5s ease-out;
-          animation: one 1.5s ease-out;
+  -webkit-animation: small1 1.5s ease-out forwards;
+          animation: small1 1.5s ease-out forwards;
 }
 
 @-webkit-keyframes big {
@@ -188,23 +185,23 @@ body {
     stroke-dashoffset: 60;
   }
 }
-@-webkit-keyframes one {
+@-webkit-keyframes small1 {
   from {
     stroke-dashoffset: 232.36;
   }
   to {
-    stroke-dashoffset: 80;
+    stroke-dashoffset: 50;
   }
 }
-@keyframes one {
+@keyframes small1 {
   from {
     stroke-dashoffset: 232.36;
   }
   to {
-    stroke-dashoffset: 80;
+    stroke-dashoffset: 50;
   }
 }
-@-webkit-keyframes two {
+@-webkit-keyframes small2 {
   from {
     stroke-dashoffset: 232.36;
   }
@@ -212,7 +209,7 @@ body {
     stroke-dashoffset: 140;
   }
 }
-@keyframes two {
+@keyframes small2 {
   from {
     stroke-dashoffset: 232.36;
   }
