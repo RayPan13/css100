@@ -63,7 +63,7 @@ body {
 #app .title {
   text-align: center;
   color: #fff;
-  margin-top: 48px 0 12px;
+  margin: 48px 0 24px;
 }
 #app .title p {
   font-size: 1.6rem;
@@ -72,4 +72,65 @@ body {
 #app .title h3 {
   font-size: 2.4rem;
   line-height: 1;
+}
+#app .circle {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 10px solid #1b2a33;
+}
+#app .circle p {
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 600;
+  color: #fff;
+}
+#app .circle span {
+  font-size: 1.4rem;
+  color: #648192;
+}
+#app .big {
+  margin-bottom: 12px;
+}
+#app .small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#app .small .circle {
+  width: 100px;
+  height: 100px;
+  margin: 0;
+}
+#app .small .circle:nth-child(1) {
+  margin-right: 12px;
+}
+#app .small .circle:nth-child(2) {
+  margin-left: 12px;
+}
+#app .small .circle p {
+  font-size: 1.8rem;
+}
+#app .small .circle span {
+  font-size: 1.2rem;
 }/*# sourceMappingURL=index.css.map */

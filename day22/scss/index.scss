@@ -50,7 +50,7 @@ body {
     .title {
         text-align: center;
         color: #fff;
-        margin-top: 48px 0 12px;
+        margin: 48px 0 24px;
         p {
             font-size: 1.6rem;
             font-weight: 100;
@@ -58,6 +58,52 @@ body {
         h3 {
             font-size: 2.4rem;
             line-height: 1;
+        }
+    }
+    .circle {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 10px solid #1b2a33;
+        p {
+            font-size: 2rem;
+            line-height: 1;
+            font-weight: 600;
+            color: #fff;
+        }
+        span {
+            font-size: 1.4rem;
+            color: #648192;
+        }
+    }
+    .big {
+        margin-bottom: 12px;
+    }
+    .small {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .circle {
+            width: 100px;
+            height: 100px;
+            margin: 0;
+            &:nth-child(1) {
+                margin-right: 12px;
+            }
+            &:nth-child(2) {
+                margin-left: 12px;
+            }
+            p {
+                font-size: 1.8rem;
+            }
+            span {
+                font-size: 1.2rem;
+            }
         }
     }
 }
