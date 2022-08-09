@@ -1,4 +1,6 @@
 @charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap');
+$googleFonts: 'Noto Sans TC', sans-serif;
 *,
 *::before,
 *::after {
@@ -9,6 +11,8 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: $googleFonts;
+    font-size: 10px;
 }
 main {
     display: block;
@@ -36,10 +40,43 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+@mixin center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@mixin wh($w, $h: $w) {
+    width: $w;
+    height: $h;
+}
+
 #app {
     width: 100%;
     height: 400px;
     max-width: 400px;
-    outline: 1px solid red;
+    background-color: #e16d6c;
     border-radius: 8px;
+    position: relative;
+    .circle {
+        @include center;
+        @include wh(60px);
+        border-radius: 50%;
+        background-color: #fff;
+        animation: circle 1s ease-in-out forwards;
+    }
+}
+
+@keyframes circle {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+    90%,
+    100% {
+        transform: translate(-50%, -50%) scale(0);
+    }
 }

@@ -91,123 +91,123 @@ body {
 }
 #app .drop.d1 {
   left: 20px;
-  opacity: 0.75;
-  -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
+  opacity: 1;
+  -webkit-animation-delay: 3.2s;
+          animation-delay: 3.2s;
 }
 #app .drop.d2 {
   left: 40px;
-  opacity: 0.5;
-  -webkit-animation-delay: 2.04s;
-          animation-delay: 2.04s;
+  opacity: 0.25;
+  -webkit-animation-delay: 1.64s;
+          animation-delay: 1.64s;
 }
 #app .drop.d3 {
   left: 60px;
   opacity: 1;
-  -webkit-animation-delay: 0.28s;
-          animation-delay: 0.28s;
-}
-#app .drop.d4 {
-  left: 80px;
-  opacity: 0.5;
   -webkit-animation-delay: 3.16s;
           animation-delay: 3.16s;
 }
+#app .drop.d4 {
+  left: 80px;
+  opacity: 0.25;
+  -webkit-animation-delay: 3.44s;
+          animation-delay: 3.44s;
+}
 #app .drop.d5 {
   left: 100px;
-  opacity: 0.75;
-  -webkit-animation-delay: 1.2s;
-          animation-delay: 1.2s;
+  opacity: 1;
+  -webkit-animation-delay: 1.72s;
+          animation-delay: 1.72s;
 }
 #app .drop.d6 {
   left: 120px;
-  opacity: 0.75;
-  -webkit-animation-delay: 1.68s;
-          animation-delay: 1.68s;
+  opacity: 1;
+  -webkit-animation-delay: 3.52s;
+          animation-delay: 3.52s;
 }
 #app .drop.d7 {
   left: 140px;
-  opacity: 0.25;
-  -webkit-animation-delay: 2.84s;
-          animation-delay: 2.84s;
+  opacity: 0.75;
+  -webkit-animation-delay: 0.32s;
+          animation-delay: 0.32s;
 }
 #app .drop.d8 {
   left: 160px;
   opacity: 1;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 3.36s;
+          animation-delay: 3.36s;
 }
 #app .drop.d9 {
   left: 180px;
-  opacity: 1;
-  -webkit-animation-delay: 0.24s;
-          animation-delay: 0.24s;
+  opacity: 0.5;
+  -webkit-animation-delay: 2.04s;
+          animation-delay: 2.04s;
 }
 #app .drop.d10 {
   left: 200px;
-  opacity: 0.5;
-  -webkit-animation-delay: 1.4s;
-          animation-delay: 1.4s;
+  opacity: 0.75;
+  -webkit-animation-delay: 1.28s;
+          animation-delay: 1.28s;
 }
 #app .drop.d11 {
   left: 220px;
-  opacity: 0.75;
-  -webkit-animation-delay: 3.96s;
-          animation-delay: 3.96s;
+  opacity: 0.25;
+  -webkit-animation-delay: 3.56s;
+          animation-delay: 3.56s;
 }
 #app .drop.d12 {
   left: 240px;
-  opacity: 0.5;
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
+  opacity: 1;
+  -webkit-animation-delay: 1.72s;
+          animation-delay: 1.72s;
 }
 #app .drop.d13 {
   left: 260px;
-  opacity: 1;
-  -webkit-animation-delay: 3.92s;
-          animation-delay: 3.92s;
+  opacity: 0.5;
+  -webkit-animation-delay: 2.8s;
+          animation-delay: 2.8s;
 }
 #app .drop.d14 {
   left: 280px;
   opacity: 0.5;
-  -webkit-animation-delay: 0.28s;
-          animation-delay: 0.28s;
+  -webkit-animation-delay: 3.36s;
+          animation-delay: 3.36s;
 }
 #app .drop.d15 {
   left: 300px;
   opacity: 1;
-  -webkit-animation-delay: 2.88s;
-          animation-delay: 2.88s;
+  -webkit-animation-delay: 0.56s;
+          animation-delay: 0.56s;
 }
 #app .drop.d16 {
   left: 320px;
-  opacity: 0.5;
-  -webkit-animation-delay: 0.24s;
-          animation-delay: 0.24s;
+  opacity: 0.75;
+  -webkit-animation-delay: 2.88s;
+          animation-delay: 2.88s;
 }
 #app .drop.d17 {
   left: 340px;
-  opacity: 0.75;
-  -webkit-animation-delay: 1.76s;
-          animation-delay: 1.76s;
+  opacity: 0.25;
+  -webkit-animation-delay: 2.2s;
+          animation-delay: 2.2s;
 }
 #app .drop.d18 {
   left: 360px;
   opacity: 0.75;
-  -webkit-animation-delay: 2.56s;
-          animation-delay: 2.56s;
+  -webkit-animation-delay: 2.08s;
+          animation-delay: 2.08s;
 }
 #app .drop.d19 {
   left: 380px;
-  opacity: 0.75;
-  -webkit-animation-delay: 3.24s;
-          animation-delay: 3.24s;
+  opacity: 1;
+  -webkit-animation-delay: 0.36s;
+          animation-delay: 0.36s;
 }
 #app .drop.d20 {
   left: 400px;
   opacity: 0.75;
-  -webkit-animation-delay: 0.92s;
-          animation-delay: 0.92s;
+  -webkit-animation-delay: 3.44s;
+          animation-delay: 3.44s;
 }
 #app .moon {
   width: 70px;
