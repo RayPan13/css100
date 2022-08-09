@@ -150,6 +150,36 @@ body {
   -webkit-animation: moments 0.4s 2.2s ease-in-out forwards;
           animation: moments 0.4s 2.2s ease-in-out forwards;
 }
+#app .collect {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 39%;
+  font-size: 3rem;
+  font-weight: 200;
+  color: #fff;
+  opacity: 0;
+  -webkit-animation: collect 0.6s 2.8s ease-in-out forwards;
+          animation: collect 0.6s 2.8s ease-in-out forwards;
+}
+#app .notThings {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 62%;
+  font-size: 3rem;
+  font-weight: 200;
+  color: #fff;
+  opacity: 0;
+  width: 100%;
+  text-align: center;
+  -webkit-animation: notThings 0.6s 2.8s ease-in-out forwards;
+          animation: notThings 0.6s 2.8s ease-in-out forwards;
+}
 
 @-webkit-keyframes circle {
   0% {
@@ -262,5 +292,49 @@ body {
   100% {
     -webkit-transform: translate(-50%, -50%) scaleY(1);
             transform: translate(-50%, -50%) scaleY(1);
+  }
+}
+@-webkit-keyframes collect {
+  0% {
+    -webkit-transform: translate(-70%, -50%);
+            transform: translate(-70%, -50%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+@keyframes collect {
+  0% {
+    -webkit-transform: translate(-70%, -50%);
+            transform: translate(-70%, -50%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes notThings {
+  0% {
+    -webkit-transform: translate(-30%, -50%);
+            transform: translate(-30%, -50%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+@keyframes notThings {
+  0% {
+    -webkit-transform: translate(-30%, -50%);
+            transform: translate(-30%, -50%);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    opacity: 1;
   }
 }/*# sourceMappingURL=index.css.map */
