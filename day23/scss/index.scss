@@ -75,9 +75,46 @@ body {
         animation: lineBox 1s 1s ease-in-out forwards;
         .line {
             width: 50%;
-            height: 2px;
+            height: 4px;
             background-color: #fff;
             animation: line 0.8s 1.5s ease-in-out forwards;
+        }
+        .bracket {
+            width: 4px;
+            height: 0px;
+            background-color: #fff;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            animation: bracket 0.5s 2.2s ease-in-out forwards;
+            &::after,
+            &::before {
+                content: '';
+                display: block;
+                width: 0px;
+                height: 4px;
+                background-color: inherit;
+                position: absolute;
+                top: 0;
+                animation: bracket2 0.2s 2.6s ease-in-out forwards;
+            }
+            &::before {
+                top: 100%;
+            }
+            &.left {
+                left: 0;
+                &::after,
+                &::before {
+                    left: 0;
+                }
+            }
+            &.right {
+                left: 100%;
+                &::after,
+                &::before {
+                    right: 0;
+                }
+            }
         }
     }
 }
@@ -109,5 +146,21 @@ body {
     }
     100% {
         width: 0%;
+    }
+}
+@keyframes bracket {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 70px;
+    }
+}
+@keyframes bracket2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 20px;
     }
 }
