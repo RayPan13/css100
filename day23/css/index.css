@@ -175,8 +175,6 @@ body {
   font-weight: 200;
   color: #fff;
   opacity: 0;
-  width: 100%;
-  text-align: center;
   -webkit-animation: notThings 0.6s 2.8s ease-in-out forwards;
           animation: notThings 0.6s 2.8s ease-in-out forwards;
 }
@@ -296,10 +294,11 @@ body {
 }
 @-webkit-keyframes collect {
   0% {
-    -webkit-transform: translate(-70%, -50%);
-            transform: translate(-70%, -50%);
+    -webkit-transform: translate(-80%, -50%);
+            transform: translate(-80%, -50%);
   }
   100% {
+    top: 39%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     opacity: 1;
@@ -307,10 +306,11 @@ body {
 }
 @keyframes collect {
   0% {
-    -webkit-transform: translate(-70%, -50%);
-            transform: translate(-70%, -50%);
+    -webkit-transform: translate(-80%, -50%);
+            transform: translate(-80%, -50%);
   }
   100% {
+    top: 39%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     opacity: 1;
@@ -318,10 +318,11 @@ body {
 }
 @-webkit-keyframes notThings {
   0% {
-    -webkit-transform: translate(-30%, -50%);
-            transform: translate(-30%, -50%);
+    -webkit-transform: translate(-20%, -50%);
+            transform: translate(-20%, -50%);
   }
   100% {
+    top: 62%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     opacity: 1;
@@ -329,10 +330,11 @@ body {
 }
 @keyframes notThings {
   0% {
-    -webkit-transform: translate(-30%, -50%);
-            transform: translate(-30%, -50%);
+    -webkit-transform: translate(-20%, -50%);
+            transform: translate(-20%, -50%);
   }
   100% {
+    top: 62%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     opacity: 1;

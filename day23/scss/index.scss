@@ -141,8 +141,6 @@ body {
         font-weight: 200;
         color: #fff;
         opacity: 0;
-        width: 100%;
-        text-align: center;
         animation: notThings 0.6s 2.8s ease-in-out forwards;
     }
 }
@@ -202,18 +200,20 @@ body {
 }
 @keyframes collect {
     0% {
-        transform: translate(-70%, -50%);
+        transform: translate(-80%, -50%);
     }
     100% {
+        top: 39%;
         transform: translate(-50%, -50%);
         opacity: 1;
     }
 }
 @keyframes notThings {
     0% {
-        transform: translate(-30%, -50%);
+        transform: translate(-20%, -50%);
     }
     100% {
+        top: 62%;
         transform: translate(-50%, -50%);
         opacity: 1;
     }
