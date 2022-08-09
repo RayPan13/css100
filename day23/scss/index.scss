@@ -66,6 +66,20 @@ body {
         background-color: #fff;
         animation: circle 1s ease-in-out forwards;
     }
+    .lineBox {
+        @include center;
+        width: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        animation: lineBox 1s 1s ease-in-out forwards;
+        .line {
+            width: 50%;
+            height: 2px;
+            background-color: #fff;
+            animation: line 0.8s 1.5s ease-in-out forwards;
+        }
+    }
 }
 
 @keyframes circle {
@@ -78,5 +92,22 @@ body {
     90%,
     100% {
         transform: translate(-50%, -50%) scale(0);
+    }
+}
+@keyframes lineBox {
+    0% {
+        width: 0%;
+    }
+    50%,
+    100% {
+        width: 80%;
+    }
+}
+@keyframes line {
+    0% {
+        width: 50%;
+    }
+    100% {
+        width: 0%;
     }
 }
