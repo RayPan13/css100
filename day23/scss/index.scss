@@ -117,6 +117,14 @@ body {
             }
         }
     }
+    .moments {
+        @include center;
+        transform: translate(-50%, -50%) scaleY(0);
+        font-size: 5rem;
+        color: #fff;
+        font-weight: 900;
+        animation: moments 0.4s 2.2s ease-in-out forwards;
+    }
 }
 
 @keyframes circle {
@@ -162,5 +170,13 @@ body {
     }
     100% {
         width: 20px;
+    }
+}
+@keyframes moments {
+    0% {
+        transform: translate(-50%, -50%) scaleY(0);
+    }
+    100% {
+        transform: translate(-50%, -50%) scaleY(1);
     }
 }

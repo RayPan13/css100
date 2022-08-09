@@ -136,6 +136,20 @@ body {
 #app .lineBox .bracket.right::after, #app .lineBox .bracket.right::before {
   right: 0;
 }
+#app .moments {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%) scaleY(0);
+          transform: translate(-50%, -50%) scaleY(0);
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 900;
+  -webkit-animation: moments 0.4s 2.2s ease-in-out forwards;
+          animation: moments 0.4s 2.2s ease-in-out forwards;
+}
 
 @-webkit-keyframes circle {
   0% {
@@ -228,5 +242,25 @@ body {
   }
   100% {
     width: 20px;
+  }
+}
+@-webkit-keyframes moments {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scaleY(0);
+            transform: translate(-50%, -50%) scaleY(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scaleY(1);
+            transform: translate(-50%, -50%) scaleY(1);
+  }
+}
+@keyframes moments {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scaleY(0);
+            transform: translate(-50%, -50%) scaleY(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scaleY(1);
+            transform: translate(-50%, -50%) scaleY(1);
   }
 }/*# sourceMappingURL=index.css.map */
