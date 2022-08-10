@@ -74,6 +74,7 @@ body {
 #app label {
   width: 60%;
   height: 60px;
+  color: #fff;
   border: 2px solid #fff;
   border-radius: 30px;
   display: -webkit-box;
@@ -91,7 +92,40 @@ body {
   background-color: #37be77;
 }
 #app label span {
-  color: #fff;
   font-size: 2rem;
   font-weight: 500;
+}
+#app input:checked ~ label {
+  -webkit-animation: button 1s forwards;
+          animation: button 1s forwards;
+}
+
+@-webkit-keyframes button {
+  0% {
+    width: 60%;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    width: 60px;
+    border-color: #45b078;
+    background: transparent;
+    color: transparent;
+  }
+}
+
+@keyframes button {
+  0% {
+    width: 60%;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    width: 60px;
+    border-color: #45b078;
+    background: transparent;
+    color: transparent;
+  }
 }/*# sourceMappingURL=index.css.map */
