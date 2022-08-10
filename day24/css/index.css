@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap");
 *,
 *::before,
 *::after {
@@ -10,6 +11,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 10px;
 }
 
 main {
@@ -55,4 +58,40 @@ body {
   max-width: 400px;
   background-color: #57d895;
   border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#app [type=checkbox] {
+  display: none;
+}
+#app label {
+  width: 60%;
+  height: 60px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+#app label:hover {
+  background-color: #37be77;
+}
+#app label span {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
 }/*# sourceMappingURL=index.css.map */
