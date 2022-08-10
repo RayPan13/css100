@@ -50,6 +50,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     [type='checkbox'] {
         display: none;
     }
@@ -70,10 +71,41 @@ body {
             font-size: 2rem;
             font-weight: 500;
         }
+        svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 25px;
+            fill: #57d895;
+            opacity: 0;
+        }
+    }
+    .circle {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-90deg);
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+        stroke-linecap: round;
+        stroke-dasharray: 183 183;
+        stroke-dashoffset: 183;
+        pointer-events: none;
     }
     input:checked {
         & ~ label {
-            animation: button 1s forwards;
+            animation: button 2s forwards;
+            svg {
+                animation: show 0.5s 2s forwards;
+            }
+        }
+        & ~ .circle {
+            animation: circle 2s 1s;
         }
     }
 }
@@ -81,13 +113,51 @@ body {
     0% {
         width: 60%;
     }
-    50% {
+    25% {
         color: transparent;
     }
-    100% {
+    50%,
+    99% {
         width: 60px;
         border-color: #45b078;
         background: transparent;
         color: transparent;
+    }
+    100% {
+        width: 60px;
+        background: #fff;
+    }
+}
+@keyframes buttonBG {
+    0% {
+        background: transparent;
+    }
+    100% {
+        background: #fff;
+    }
+}
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes circle {
+    0% {
+        stroke-dashoffset: 183;
+    }
+    50% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 183;
+        transform: translate(-50%, -50%) rotate(-90deg) scale(1);
+        opacity: 1;
+    }
+    90%,
+    100% {
+        stroke-dasharray: 500 500;
+        transform: translate(-50%, -50%) rotate(-90deg) scale(2);
+        opacity: 0;
     }
 }

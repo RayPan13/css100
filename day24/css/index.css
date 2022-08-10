@@ -67,6 +67,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 #app [type=checkbox] {
   display: none;
@@ -95,23 +96,62 @@ body {
   font-size: 2rem;
   font-weight: 500;
 }
+#app label svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 25px;
+  fill: #57d895;
+  opacity: 0;
+}
+#app .circle {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+          transform: translate(-50%, -50%) rotate(-90deg);
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-dasharray: 183 183;
+  stroke-dashoffset: 183;
+  pointer-events: none;
+}
 #app input:checked ~ label {
-  -webkit-animation: button 1s forwards;
-          animation: button 1s forwards;
+  -webkit-animation: button 2s forwards;
+          animation: button 2s forwards;
+}
+#app input:checked ~ label svg {
+  -webkit-animation: show 0.5s 2s forwards;
+          animation: show 0.5s 2s forwards;
+}
+#app input:checked ~ .circle {
+  -webkit-animation: circle 2s 1s;
+          animation: circle 2s 1s;
 }
 
 @-webkit-keyframes button {
   0% {
     width: 60%;
   }
-  50% {
+  25% {
     color: transparent;
   }
-  100% {
+  50%, 99% {
     width: 60px;
     border-color: #45b078;
     background: transparent;
     color: transparent;
+  }
+  100% {
+    width: 60px;
+    background: #fff;
   }
 }
 
@@ -119,13 +159,85 @@ body {
   0% {
     width: 60%;
   }
-  50% {
+  25% {
     color: transparent;
   }
-  100% {
+  50%, 99% {
     width: 60px;
     border-color: #45b078;
     background: transparent;
     color: transparent;
+  }
+  100% {
+    width: 60px;
+    background: #fff;
+  }
+}
+@-webkit-keyframes buttonBG {
+  0% {
+    background: transparent;
+  }
+  100% {
+    background: #fff;
+  }
+}
+@keyframes buttonBG {
+  0% {
+    background: transparent;
+  }
+  100% {
+    background: #fff;
+  }
+}
+@-webkit-keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes circle {
+  0% {
+    stroke-dashoffset: 183;
+  }
+  50% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 183;
+    -webkit-transform: translate(-50%, -50%) rotate(-90deg) scale(1);
+            transform: translate(-50%, -50%) rotate(-90deg) scale(1);
+    opacity: 1;
+  }
+  90%, 100% {
+    stroke-dasharray: 500 500;
+    -webkit-transform: translate(-50%, -50%) rotate(-90deg) scale(2);
+            transform: translate(-50%, -50%) rotate(-90deg) scale(2);
+    opacity: 0;
+  }
+}
+@keyframes circle {
+  0% {
+    stroke-dashoffset: 183;
+  }
+  50% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 183;
+    -webkit-transform: translate(-50%, -50%) rotate(-90deg) scale(1);
+            transform: translate(-50%, -50%) rotate(-90deg) scale(1);
+    opacity: 1;
+  }
+  90%, 100% {
+    stroke-dasharray: 500 500;
+    -webkit-transform: translate(-50%, -50%) rotate(-90deg) scale(2);
+            transform: translate(-50%, -50%) rotate(-90deg) scale(2);
+    opacity: 0;
   }
 }/*# sourceMappingURL=index.css.map */
