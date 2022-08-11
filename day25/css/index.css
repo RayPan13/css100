@@ -119,6 +119,15 @@ body {
   -webkit-transition: all 1s;
   transition: all 1s;
 }
+#app .info label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 32px;
+  z-index: 2;
+  cursor: pointer;
+}
 #app .info .pic {
   margin-bottom: 12px;
 }
@@ -156,6 +165,9 @@ body {
   position: absolute;
   top: 25%;
   right: 0;
+}
+#app input {
+  display: none;
 }
 #app input:checked ~ .marker {
   -webkit-transform: translate(-50%, -50%) rotateY(-90deg);
