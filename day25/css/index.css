@@ -73,8 +73,8 @@ body {
   -webkit-transform: translate(-50%, -50%) rotateY(0deg);
           transform: translate(-50%, -50%) rotateY(0deg);
   opacity: 1;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 #app .marker label {
   position: absolute;
@@ -116,8 +116,8 @@ body {
   -webkit-box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.3);
   opacity: 0;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 #app .info label {
   position: absolute;
