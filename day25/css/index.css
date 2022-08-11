@@ -10,6 +10,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-size: 10px;
 }
 
 main {
@@ -103,10 +104,70 @@ body {
   -webkit-animation: shadow 1s infinite alternate;
           animation: shadow 1s infinite alternate;
 }
+#app .info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotateY(-90deg);
+          transform: translate(-50%, -50%) rotateY(-90deg);
+  width: 60%;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+#app .info .pic {
+  margin-bottom: 12px;
+}
+#app .info .txt {
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+#app .info .txt h3 {
+  font-size: 1.6rem;
+}
+#app .info .txt p {
+  font-size: 1.2rem;
+}
+#app .info .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#app .info .links a {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 8px;
+  color: #1f8de4;
+  position: relative;
+}
+#app .info .links a:first-child::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 50%;
+  background-color: #1f8de4;
+  position: absolute;
+  top: 25%;
+  right: 0;
+}
 #app input:checked ~ .marker {
   -webkit-transform: translate(-50%, -50%) rotateY(-90deg);
           transform: translate(-50%, -50%) rotateY(-90deg);
   opacity: 0;
+}
+#app input:checked ~ .info {
+  -webkit-transform: translate(-50%, -50%) rotateY(0deg);
+          transform: translate(-50%, -50%) rotateY(0deg);
+  opacity: 1;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
 }
 
 @-webkit-keyframes marker {
