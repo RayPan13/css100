@@ -40,9 +40,55 @@ body {
     width: 100%;
     height: 400px;
     max-width: 400px;
-    background-color: #2196F3;
+    background-color: #2196f3;
     border-radius: 8px;
-    svg {
-        fill: #1F8DE4;
+    position: relative;
+    .bg {
+        width: 100%;
+        height: 100%;
+        svg {
+            fill: #1f8de4;
+        }
+    }
+    .marker {
+        width: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        svg {
+            width: 100%;
+            fill: #ffcc30;
+            animation: marker 1s infinite alternate;
+        }
+        .shadow {
+            width: 17px;
+            height: 6px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.2);
+            position: absolute;
+            bottom: -4px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            animation: shadow 1s infinite alternate;
+        }
+    }
+}
+
+@keyframes marker {
+    0% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes shadow {
+    0% {
+        width: 22px;
+    }
+    100% {
+        width: 17px;
     }
 }
