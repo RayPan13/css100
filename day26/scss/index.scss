@@ -73,7 +73,7 @@ body {
             }
         }
         .txt {
-            padding: 24px 12px;
+            padding: 24px;
             text-align: center;
             h3 {
                 color: #616e7d;
@@ -91,6 +91,10 @@ body {
             border: 0;
             padding: 12px;
             width: 100%;
+            cursor: pointer;
+            &:hover {
+                background-color: #2196f3;
+            }
         }
     }
 }

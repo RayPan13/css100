@@ -95,7 +95,7 @@ body {
           transform: translate(-50%, -3px) rotate(-45deg);
 }
 #app .card .txt {
-  padding: 24px 12px;
+  padding: 24px;
   text-align: center;
 }
 #app .card .txt h3 {
@@ -113,4 +113,8 @@ body {
   border: 0;
   padding: 12px;
   width: 100%;
+  cursor: pointer;
+}
+#app .card button:hover {
+  background-color: #2196f3;
 }/*# sourceMappingURL=index.css.map */
