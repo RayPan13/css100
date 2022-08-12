@@ -76,18 +76,18 @@ body {
   overflow: hidden;
 }
 #app .card.first {
-  -webkit-animation: first 2s;
-          animation: first 2s;
+  -webkit-animation: first 1.5s;
+          animation: first 1.5s;
 }
 #app .card .number {
   background-color: #8391a1;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   position: absolute;
-  right: -25px;
-  top: -25px;
+  right: -30px;
+  top: -30px;
 }
 #app .card .number span {
   color: #fff;
@@ -95,8 +95,8 @@ body {
   position: absolute;
   bottom: 0;
   left: 50%;
-  -webkit-transform: translate(-50%, -3px) rotate(-45deg);
-          transform: translate(-50%, -3px) rotate(-45deg);
+  -webkit-transform: translate(-50%, -4px) rotate(-45deg);
+          transform: translate(-50%, -4px) rotate(-45deg);
 }
 #app .card .txt {
   padding: 24px;
@@ -129,15 +129,15 @@ body {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-  25% {
+  50% {
     opacity: 0;
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
   }
-  50% {
+  52% {
     opacity: 0;
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
   }
   100% {
     -webkit-transform: scale(1);
@@ -152,15 +152,15 @@ body {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-  25% {
+  50% {
     opacity: 0;
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
   }
-  50% {
+  52% {
     opacity: 0;
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
   }
   100% {
     -webkit-transform: scale(1);

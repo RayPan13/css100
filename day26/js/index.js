@@ -24,10 +24,10 @@
         count++
         setTimeout(() => {
             setContent(count)
-        }, 1000)
+        }, 750)
         setTimeout(() => {
             card.classList.remove('first')
-        }, 2000)
+        }, 1500)
     })
 
     function setContent(count) {

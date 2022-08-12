@@ -56,23 +56,23 @@ body {
         position: relative;
         overflow: hidden;
         &.first {
-            animation: first 2s;
+            animation: first 1.5s;
         }
         .number {
             background-color: #8391a1;
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             transform: rotate(45deg);
             position: absolute;
-            right: -25px;
-            top: -25px;
+            right: -30px;
+            top: -30px;
             span {
                 color: #fff;
                 font-size: 1.2rem;
                 position: absolute;
                 bottom: 0;
                 left: 50%;
-                transform: translate(-50%, -3px) rotate(-45deg);
+                transform: translate(-50%, -4px) rotate(-45deg);
             }
         }
         .txt {
@@ -106,13 +106,13 @@ body {
         opacity: 1;
         transform: scale(1);
     }
-    25% {
+    50% {
         opacity: 0;
         transform: scale(1.5);
     }
-    50% {
+    52% {
         opacity: 0;
-        transform: scale(0.5);
+        transform: scale(0.8);
     }
     100% {
         transform: scale(1);
