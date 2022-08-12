@@ -76,8 +76,8 @@ body {
   overflow: hidden;
 }
 #app .card.first {
-  -webkit-animation: first 1s;
-          animation: first 1s;
+  -webkit-animation: first 2s;
+          animation: first 2s;
 }
 #app .card .number {
   background-color: #8391a1;
