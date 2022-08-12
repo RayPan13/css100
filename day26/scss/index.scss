@@ -55,6 +55,9 @@ body {
         background-color: #fff;
         position: relative;
         overflow: hidden;
+        &.first {
+            animation: first 1s;
+        }
         .number {
             background-color: #8391a1;
             width: 50px;
@@ -96,5 +99,23 @@ body {
                 background-color: #2196f3;
             }
         }
+    }
+}
+@keyframes first {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    25% {
+        opacity: 0;
+        transform: scale(1.5);
+    }
+    50% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
     }
 }

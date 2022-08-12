@@ -75,6 +75,10 @@ body {
   position: relative;
   overflow: hidden;
 }
+#app .card.first {
+  -webkit-animation: first 1s;
+          animation: first 1s;
+}
 #app .card .number {
   background-color: #8391a1;
   width: 50px;
@@ -117,4 +121,50 @@ body {
 }
 #app .card button:hover {
   background-color: #2196f3;
+}
+
+@-webkit-keyframes first {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes first {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.css.map */
