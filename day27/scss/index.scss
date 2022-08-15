@@ -55,6 +55,7 @@ body {
     .todo {
         width: 60%;
         background-color: #fff;
+        color: #777;
         padding: 24px;
     }
     h3 {
@@ -67,4 +68,27 @@ body {
         text-align: center;
         margin: 0 0 24px;
     }
+    ul {
+        border-top: 1px solid #ddd;
+        padding: 24px 0 0;
+        margin: 0;
+        list-style: none;
+    }
+    li {
+        font-size: 1.4rem;
+        margin: 0 0 8px;
+        &:last-child {
+            margin: 0;
+        }
+    }
+    input {
+        &:checked ~ label {
+            opacity: 0.5;
+        }
+    }
+    label {
+        cursor: pointer;
+        transition: opacity 0.5s;
+    }
+
 }
