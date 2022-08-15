@@ -93,16 +93,44 @@ body {
 }
 #app li {
   font-size: 1.4rem;
-  margin: 0 0 8px;
+  margin: 0 0 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #app li:last-child {
   margin: 0;
 }
+#app input {
+  display: none;
+}
 #app input:checked ~ label {
   opacity: 0.5;
+}
+#app input:checked ~ .dot {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 0;
 }
 #app label {
   cursor: pointer;
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
+}
+#app .dot {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 1px solid #777;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }/*# sourceMappingURL=index.css.map */
