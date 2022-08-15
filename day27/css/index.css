@@ -121,8 +121,6 @@ body {
 }
 #app input:checked ~ .check {
   opacity: 0.5;
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
 }
 #app input:checked ~ .check::before {
   width: 8px;
@@ -131,8 +129,8 @@ body {
 }
 #app input:checked ~ .check::after {
   width: 12px;
-  -webkit-transition-delay: 0.9s;
-          transition-delay: 0.9s;
+  -webkit-transition-delay: 0.85s;
+          transition-delay: 0.85s;
 }
 #app label {
   cursor: pointer;
@@ -147,8 +145,8 @@ body {
   border: 1px solid #777;
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
 }
 #app .check {
   position: absolute;

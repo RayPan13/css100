@@ -94,14 +94,13 @@ body {
         }
         &:checked ~ .check {
             opacity: 0.5;
-            transition-delay: 0.5s;
             &::before {
                 width: 8px;
                 transition-delay: 0.75s;
             }
             &::after {
                 width: 12px;
-                transition-delay: 0.9s;
+                transition-delay: 0.85s;
             }
         }
     }
@@ -116,7 +115,7 @@ body {
         border-radius: 50%;
         border: 1px solid #777;
         transform: scale(1);
-        transition: all 1s;
+        transition: all 0.8s;
     }
     .check {
         position: absolute;
@@ -126,7 +125,6 @@ body {
         height: 14px;
         opacity: 0;
         transition: all 0.5s;
-
         &::before,
         &::after {
             content: '';
