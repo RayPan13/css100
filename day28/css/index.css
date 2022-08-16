@@ -67,7 +67,55 @@ body {
 }
 #app .bell {
   width: 50px;
+  -webkit-animation: bell 2s infinite;
+          animation: bell 2s infinite;
 }
 #app .bell svg {
   fill: #fff;
+}
+
+@-webkit-keyframes bell {
+  0%, 50%, 100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  5%, 10%, 15%, 20%, 25%, 30%, 35%, 40% {
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
+  }
+  45% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  7.5%, 12.5%, 17.5%, 22.5%, 27.5%, 32.5%, 37.5%, 42.5% {
+    -webkit-transform: rotate(-6deg);
+            transform: rotate(-6deg);
+  }
+  47.5% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+}
+
+@keyframes bell {
+  0%, 50%, 100% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  5%, 10%, 15%, 20%, 25%, 30%, 35%, 40% {
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
+  }
+  45% {
+    -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+  }
+  7.5%, 12.5%, 17.5%, 22.5%, 27.5%, 32.5%, 37.5%, 42.5% {
+    -webkit-transform: rotate(-6deg);
+            transform: rotate(-6deg);
+  }
+  47.5% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
 }/*# sourceMappingURL=index.css.map */
