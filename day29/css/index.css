@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap");
 *,
 *::before,
 *::after {
@@ -10,6 +11,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 10px;
 }
 
 main {
@@ -71,7 +74,8 @@ body {
   display: flex;
 }
 #app .inputBox input {
-  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: 600;
   border: 0;
   background-color: #fff;
   padding: 8px 12px;
@@ -89,4 +93,21 @@ body {
   width: 50%;
   margin: 0 auto;
   fill: #5CA4EA;
+}
+#app .autocomplete {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  list-style: none;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+}
+#app .autocomplete li {
+  padding: 8px;
+}
+#app .autocomplete li p {
+  font-size: 1.4rem;
+}
+#app .autocomplete li span {
+  font-weight: 600;
 }/*# sourceMappingURL=index.css.map */
