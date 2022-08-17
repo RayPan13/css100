@@ -68,6 +68,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+#app .search {
+  position: relative;
+}
 #app .inputBox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,6 +104,10 @@ body {
   list-style: none;
   -webkit-transform: translateY(1px);
           transform: translateY(1px);
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 #app .autocomplete li {
   padding: 8px;

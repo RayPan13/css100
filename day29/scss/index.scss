@@ -50,6 +50,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    .search {
+        position: relative;
+    }
     .inputBox {
         display: flex;
         input {
@@ -80,7 +83,10 @@ body {
         background-color: #fff;
         list-style: none;
         transform: translateY(1px);
-        // display: none;
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
         li {
             padding: 8px;
             p {
