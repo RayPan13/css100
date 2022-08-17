@@ -114,6 +114,10 @@ body {
 }
 #app .autocomplete li p {
   font-size: 1.4rem;
+  cursor: pointer;
+}
+#app .autocomplete li p:hover {
+  color: #5CA4EA;
 }
 #app .autocomplete li span {
   font-weight: 600;

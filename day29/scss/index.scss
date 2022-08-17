@@ -91,6 +91,10 @@ body {
             padding: 8px;
             p {
                 font-size: 1.4rem;
+                cursor: pointer;
+                &:hover {
+                    color: #5CA4EA;
+                }
             }
             span {
                 font-weight: 600;
