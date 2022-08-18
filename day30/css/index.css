@@ -53,6 +53,49 @@ body {
   width: 100%;
   height: 400px;
   max-width: 400px;
-  outline: 1px solid red;
+  background-color: #16A085;
   border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#app .circle {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  -webkit-animation: circle 2.5s ease-out infinite;
+          animation: circle 2.5s ease-out infinite;
+}
+
+@-webkit-keyframes circle {
+  0%, 50% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  70%, 100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes circle {
+  0%, 50% {
+    opacity: 1;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  70%, 100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }/*# sourceMappingURL=index.css.map */
