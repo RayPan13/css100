@@ -50,7 +50,7 @@ body {
         height: 24px;
         border: 3px solid #fff;
         border-radius: 50%;
-        animation: circle 2.5s ease-out infinite;
+        animation: circle 2.5s linear infinite;
     }
     svg {
         position: absolute;
@@ -61,6 +61,7 @@ body {
         stroke: #fff;
         stroke-width: 3px;
         stroke-linecap: round;
+        animation: line 2.5s linear infinite;
     }
 }
 @keyframes circle {
@@ -71,5 +72,15 @@ body {
 	70%,100% {
 		opacity: 0;
 		transform: scale(1);
+	}
+}
+@keyframes line {
+	0% {
+		stroke-dasharray: 50 660;
+		stroke-dashoffset: 780;
+	}
+	100% {
+		stroke-dasharray: 50 660;
+		stroke-dashoffset: 70;
 	}
 }

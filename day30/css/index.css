@@ -70,8 +70,8 @@ body {
   height: 24px;
   border: 3px solid #fff;
   border-radius: 50%;
-  -webkit-animation: circle 2.5s ease-out infinite;
-          animation: circle 2.5s ease-out infinite;
+  -webkit-animation: circle 2.5s linear infinite;
+          animation: circle 2.5s linear infinite;
 }
 #app svg {
   position: absolute;
@@ -83,6 +83,8 @@ body {
   stroke: #fff;
   stroke-width: 3px;
   stroke-linecap: round;
+  -webkit-animation: line 2.5s linear infinite;
+          animation: line 2.5s linear infinite;
 }
 
 @-webkit-keyframes circle {
@@ -108,5 +110,25 @@ body {
     opacity: 0;
     -webkit-transform: scale(1);
             transform: scale(1);
+  }
+}
+@-webkit-keyframes line {
+  0% {
+    stroke-dasharray: 50 660;
+    stroke-dashoffset: 780;
+  }
+  100% {
+    stroke-dasharray: 50 660;
+    stroke-dashoffset: 70;
+  }
+}
+@keyframes line {
+  0% {
+    stroke-dasharray: 50 660;
+    stroke-dashoffset: 780;
+  }
+  100% {
+    stroke-dasharray: 50 660;
+    stroke-dashoffset: 70;
   }
 }/*# sourceMappingURL=index.css.map */
