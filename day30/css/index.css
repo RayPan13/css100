@@ -66,8 +66,8 @@ body {
           align-items: center;
 }
 #app .circle {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   border: 3px solid #fff;
   border-radius: 50%;
   -webkit-animation: circle 2.5s linear infinite;
