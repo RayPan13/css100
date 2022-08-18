@@ -52,6 +52,16 @@ body {
         border-radius: 50%;
         animation: circle 2.5s ease-out infinite;
     }
+    svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        fill: none;
+        stroke: #fff;
+        stroke-width: 3px;
+        stroke-linecap: round;
+    }
 }
 @keyframes circle {
 	0%,50% {
