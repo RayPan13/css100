@@ -73,4 +73,55 @@ body {
   border-radius: 20px;
   -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+.count .minus, .count .plus {
+  width: 32px;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.count .minus svg, .count .plus svg {
+  width: 70%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.count .minus {
+  left: 4px;
+}
+.count .minus:hover {
+  background-color: #E26E6E;
+}
+.count .minus:hover svg {
+  fill: #fff;
+}
+.count .minus svg {
+  fill: #E26E6E;
+}
+.count .plus {
+  right: 4px;
+}
+.count .plus:hover {
+  background-color: #8ED273;
+}
+.count .plus:hover svg {
+  fill: #fff;
+}
+.count .plus svg {
+  fill: #8ED273;
 }/*# sourceMappingURL=index.css.map */

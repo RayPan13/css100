@@ -52,4 +52,46 @@ body {
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.3);
+    position: relative;
+    .minus,.plus {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 50%;
+        transform: translate(0,-50%);
+        transition: all 0.5s;
+        border-radius: 50%;
+        cursor: pointer;
+        svg {
+            width: 70%;
+            transition: all 0.5s;
+        }
+    }
+    .minus {
+        left: 4px;
+        &:hover {
+            background-color: #E26E6E;
+            svg {
+                fill: #fff;
+            }
+        }
+        svg {
+            fill: #E26E6E;
+        }
+    }
+    .plus {
+        right: 4px;
+        &:hover {
+            background-color: #8ED273;
+            svg {
+                fill: #fff;
+            }
+        }
+        svg {
+            fill: #8ED273;
+        }
+    }
 }
