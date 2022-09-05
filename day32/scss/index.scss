@@ -85,9 +85,10 @@ body {
     .number {
         span {
             color: #6A85A0;
-            font-size: 24px;
+            font-size: 20px;
             font-weight: bold;
             font-family: sans-serif;
+            user-select: none;
         }
     }
     .plus {

@@ -120,9 +120,13 @@ body {
 }
 .count .number span {
   color: #6A85A0;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   font-family: sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 .count .plus {
   margin-right: 4px;
