@@ -93,12 +93,12 @@ body {
             transform: scale(1);
             opacity: 1;
             &.up {
-                transition: all 0.5s;
+                transition: all 0.4s;
                 transform: scale(1.4);
                 opacity: 0;
             }
             &.down {
-                transition: all 0.5s;
+                transition: all 0.4s;
                 transform: scale(0.4);
                 opacity: 0;
             }

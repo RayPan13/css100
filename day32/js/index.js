@@ -12,7 +12,7 @@
             number.classList.remove('down')
             number.classList.remove('up')
             setNumber()
-        }, 500);
+        }, 380);
     }
     document.querySelector('.minus').addEventListener('click',function(){
         number.classList.add('down')
