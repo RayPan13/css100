@@ -74,6 +74,15 @@ body {
   -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .count .minus, .count .plus {
   width: 32px;
@@ -87,10 +96,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   border-radius: 50%;
@@ -102,7 +107,7 @@ body {
   transition: all 0.5s;
 }
 .count .minus {
-  left: 4px;
+  margin-left: 4px;
 }
 .count .minus:hover {
   background-color: #E26E6E;
@@ -113,8 +118,14 @@ body {
 .count .minus svg {
   fill: #E26E6E;
 }
+.count .number span {
+  color: #6A85A0;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
 .count .plus {
-  right: 4px;
+  margin-right: 4px;
 }
 .count .plus:hover {
   background-color: #8ED273;

@@ -53,15 +53,15 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.3);
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     .minus,.plus {
         width: 32px;
         height: 32px;
         display: flex;
         justify-content: center;
         align-items: center;
-        position: absolute;
-        top: 50%;
-        transform: translate(0,-50%);
         transition: all 0.5s;
         border-radius: 50%;
         cursor: pointer;
@@ -71,7 +71,7 @@ body {
         }
     }
     .minus {
-        left: 4px;
+        margin-left: 4px;
         &:hover {
             background-color: #E26E6E;
             svg {
@@ -82,8 +82,16 @@ body {
             fill: #E26E6E;
         }
     }
+    .number {
+        span {
+            color: #6A85A0;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+    }
     .plus {
-        right: 4px;
+        margin-right: 4px;
         &:hover {
             background-color: #8ED273;
             svg {
