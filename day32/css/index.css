@@ -55,4 +55,22 @@ body {
   max-width: 400px;
   background: linear-gradient(45deg, #D2592A 0%, #FDB03A 100%);
   border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.count {
+  width: 130px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
 }/*# sourceMappingURL=index.css.map */

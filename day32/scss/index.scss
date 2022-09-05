@@ -42,4 +42,14 @@ body {
     max-width: 400px;
     background: linear-gradient(45deg, #D2592A 0%, #FDB03A 100%);
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count {
+    width: 130px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.3);
 }
