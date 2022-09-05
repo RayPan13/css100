@@ -1,6 +1,6 @@
 'use strict';
 ;(function() {
-    let nowNumber = 5
+    let nowNumber = 0
     const number = document.querySelector('.number span')
 
     function setNumber(){
@@ -8,12 +8,18 @@
     }
     function calcNumber(direction){
         nowNumber = nowNumber + direction
-        setNumber()
+        setTimeout(() => {
+            number.classList.remove('down')
+            number.classList.remove('up')
+            setNumber()
+        }, 500);
     }
     document.querySelector('.minus').addEventListener('click',function(){
+        number.classList.add('down')
         calcNumber(-1)
     })
     document.querySelector('.plus').addEventListener('click',function(){
+        number.classList.add('up')
         calcNumber(1)
     })
     setNumber()

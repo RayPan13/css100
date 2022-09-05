@@ -84,11 +84,24 @@ body {
     }
     .number {
         span {
+            display: block;
             color: #6A85A0;
             font-size: 20px;
             font-weight: bold;
             font-family: sans-serif;
             user-select: none;
+            transform: scale(1);
+            opacity: 1;
+            &.up {
+                transition: all 0.5s;
+                transform: scale(1.4);
+                opacity: 0;
+            }
+            &.down {
+                transition: all 0.5s;
+                transform: scale(0.4);
+                opacity: 0;
+            }
         }
     }
     .plus {
