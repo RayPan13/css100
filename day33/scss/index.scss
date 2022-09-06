@@ -42,4 +42,15 @@ body {
     max-width: 400px;
     background-color: #75C1E8;
     border-radius: 8px;
+    position: relative;
+    .sun {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background-color: #FFD93C;
+        box-shadow: 0 0 10px 0 rgba(#FFD93C,0.3);
+        position: absolute;
+        top: 40px;
+        left: 52px;
+    }
 }
