@@ -53,9 +53,11 @@ body {
         position: absolute;
         top: 40px;
         left: 52px;
+        animation: moveRight 60s linear infinite alternate;
     }
     .cloud {
         position: absolute;
+        animation: moveLeft 60s linear infinite alternate;
         svg {
             fill: #fff;
             filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.1));
@@ -76,4 +78,22 @@ body {
             left: 280px;
         }
     }
+}
+
+@keyframes moveLeft {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-300%);
+	}
+}
+
+@keyframes moveRight {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(100%);
+	}
 }

@@ -68,9 +68,13 @@ body {
   position: absolute;
   top: 40px;
   left: 52px;
+  -webkit-animation: moveRight 60s linear infinite alternate;
+          animation: moveRight 60s linear infinite alternate;
 }
 #app .cloud {
   position: absolute;
+  -webkit-animation: moveLeft 60s linear infinite alternate;
+          animation: moveLeft 60s linear infinite alternate;
 }
 #app .cloud svg {
   fill: #fff;
@@ -91,4 +95,46 @@ body {
   width: 151px;
   top: 160px;
   left: 280px;
+}
+
+@-webkit-keyframes moveLeft {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-300%);
+            transform: translateX(-300%);
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-300%);
+            transform: translateX(-300%);
+  }
+}
+@-webkit-keyframes moveRight {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+}
+@keyframes moveRight {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
 }/*# sourceMappingURL=index.css.map */
