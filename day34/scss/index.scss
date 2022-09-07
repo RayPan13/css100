@@ -65,8 +65,25 @@ body {
             bottom: 0;
         }
     }
-    svg {
-        fill: #fff;
+    .text {
+        stroke: #EA4C89;
+        stroke-dasharray: 270;
+        stroke-dashoffset: 0;
+        .a1 {
+            fill: #fff;
+            stroke-width: 6;
+            animation: fill 1.2s ease-in-out forwards;
+        }
+        .a2 {
+            fill: none;
+            stroke-width: 12;
+            animation: fill 1.7s ease-in-out forwards;
+        }
+        .a3 {
+            fill: none;
+            stroke-width: 18;
+            animation: fill 2.2s ease-in-out forwards;
+        }
     }
 }
 
@@ -78,4 +95,11 @@ body {
         width: 100%;
     }
 }
-
+@keyframes fill {
+	from {
+		stroke-dashoffset: 0;
+	}
+	to {
+		stroke-dashoffset: 270;
+	}
+}

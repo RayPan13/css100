@@ -87,8 +87,28 @@ body {
 #app .line:last-child {
   bottom: 0;
 }
-#app svg {
+#app .text {
+  stroke: #EA4C89;
+  stroke-dasharray: 270;
+  stroke-dashoffset: 0;
+}
+#app .text .a1 {
   fill: #fff;
+  stroke-width: 6;
+  -webkit-animation: fill 1.2s ease-in-out forwards;
+          animation: fill 1.2s ease-in-out forwards;
+}
+#app .text .a2 {
+  fill: none;
+  stroke-width: 12;
+  -webkit-animation: fill 1.7s ease-in-out forwards;
+          animation: fill 1.7s ease-in-out forwards;
+}
+#app .text .a3 {
+  fill: none;
+  stroke-width: 18;
+  -webkit-animation: fill 2.2s ease-in-out forwards;
+          animation: fill 2.2s ease-in-out forwards;
 }
 
 @-webkit-keyframes line {
@@ -106,5 +126,21 @@ body {
   }
   100% {
     width: 100%;
+  }
+}
+@-webkit-keyframes fill {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 270;
+  }
+}
+@keyframes fill {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 270;
   }
 }/*# sourceMappingURL=index.css.map */
