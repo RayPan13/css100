@@ -76,8 +76,10 @@ body {
   stroke: #fff;
   stroke-width: 4px;
   stroke-dasharray: 288;
-  -webkit-animation: line 4s linear infinite;
-          animation: line 4s linear infinite;
+  -webkit-animation: line 4s linear infinite, turn 3s linear infinite;
+          animation: line 4s linear infinite, turn 3s linear infinite;
+  -webkit-transform-origin: center;
+          transform-origin: center;
 }
 
 @-webkit-keyframes line {
@@ -95,5 +97,25 @@ body {
   }
   100% {
     stroke-dashoffset: 576;
+  }
+}
+@-webkit-keyframes turn {
+  0% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  100% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+}
+@keyframes turn {
+  0% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  100% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
   }
 }/*# sourceMappingURL=index.css.map */

@@ -57,7 +57,8 @@ body {
         stroke: #fff;
         stroke-width: 4px;
         stroke-dasharray: 288;
-        animation: line 4s linear infinite;
+        animation: line 4s linear infinite, turn 3s linear infinite;
+        transform-origin: center;
     }
 }
 @keyframes line {
@@ -66,5 +67,13 @@ body {
 	}
 	100% {
 		stroke-dashoffset: (288 * 2);
+	}
+}
+@keyframes turn {
+	0% {
+		transform: rotate(-90deg);
+	}
+	100% {
+		transform: rotate(270deg);
 	}
 }
