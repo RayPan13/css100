@@ -45,9 +45,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    .bg {
+    svg {
         fill: transparent;
+
+    }
+    .bg {
         stroke: #12836D;
         stroke-width: 4px;
     }
+    .loader {
+        stroke: #fff;
+        stroke-width: 4px;
+        stroke-dasharray: 288;
+        animation: line 4s linear infinite;
+    }
+}
+@keyframes line {
+	0% {
+		stroke-dashoffset: (288 * 4);
+	}
+	100% {
+		stroke-dashoffset: (288 * 2);
+	}
 }

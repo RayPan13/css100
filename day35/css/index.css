@@ -65,8 +65,35 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-#app .bg {
+#app svg {
   fill: transparent;
+}
+#app .bg {
   stroke: #12836D;
   stroke-width: 4px;
+}
+#app .loader {
+  stroke: #fff;
+  stroke-width: 4px;
+  stroke-dasharray: 288;
+  -webkit-animation: line 4s linear infinite;
+          animation: line 4s linear infinite;
+}
+
+@-webkit-keyframes line {
+  0% {
+    stroke-dashoffset: 1152;
+  }
+  100% {
+    stroke-dashoffset: 576;
+  }
+}
+
+@keyframes line {
+  0% {
+    stroke-dashoffset: 1152;
+  }
+  100% {
+    stroke-dashoffset: 576;
+  }
 }/*# sourceMappingURL=index.css.map */
