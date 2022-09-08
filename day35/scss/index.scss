@@ -42,4 +42,12 @@ body {
     max-width: 400px;
     background-color: #1BBE9E;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .bg {
+        fill: transparent;
+        stroke: #12836D;
+        stroke-width: 4px;
+    }
 }
