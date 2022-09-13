@@ -16,7 +16,7 @@
         setTimeout(() => {
             content.classList.remove('active')
             animation = false
-        }, 1000);
+        }, 1100);
     }
     tabs.forEach(el => {
         el.addEventListener('click',function(e){

@@ -123,21 +123,6 @@ body {
     }
 }
 @keyframes content {
-    0%,
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    5%,
-    95% {
-        transform: translateY(20px);
-    }
-    20%,
-    80% {
-        opacity: 0;
-    }
-}
-@keyframes content {
     0% {
         opacity: 1;
         transform: translateY(0);
@@ -147,7 +132,7 @@ body {
         transform: translateY(20px);
     }
     100%{
-        opacity: 1;
         transform: translateY(0);
+        opacity: 1;
     }
 }
