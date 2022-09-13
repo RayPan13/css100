@@ -78,6 +78,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 .container .tabs .tab {
   width: 40px;
@@ -111,6 +112,11 @@ body {
   fill: #8398AD;
   width: 45%;
   pointer-events: none;
+}
+.container .tabs .search {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .container .content {
   padding: 24px;

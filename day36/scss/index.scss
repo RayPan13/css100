@@ -55,6 +55,7 @@ body {
         background-color: #3D4D5E;
         height: 40px;
         display: flex;
+        position: relative;
         .tab {
             width: 40px;
             height: 40px;
@@ -82,7 +83,11 @@ body {
                 pointer-events: none;
             }
         }
-
+        .search {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
     }
     .content {
         padding: 24px;
