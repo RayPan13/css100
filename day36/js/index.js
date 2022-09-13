@@ -18,9 +18,12 @@
             animation = false
         }, 1100);
     }
-    tabs.forEach(el => {
-        el.addEventListener('click',function(e){
-            animation ? '': clickTab(e.target)
-        })
+    tabs.forEach((el,index) => {
+        if(index < textMapping.length){
+            el.addEventListener('click',function(e){
+                animation ? '': clickTab(e.target)
+            })
+        }
+
     })
 })()
