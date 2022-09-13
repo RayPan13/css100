@@ -86,10 +86,14 @@ body {
     }
     .content {
         padding: 24px;
+        &.active {
+            animation: content 1s;
+        }
         h3 {
             margin: 0;
             font-size: 1.8rem;
             margin: 0 0 12px;
+            color: #415868;
         }
         p {
             margin: 0 0 12px;
@@ -116,5 +120,34 @@ body {
                 }
             }
         }
+    }
+}
+@keyframes content {
+    0%,
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    5%,
+    95% {
+        transform: translateY(20px);
+    }
+    20%,
+    80% {
+        opacity: 0;
+    }
+}
+@keyframes content {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
     }
 }
