@@ -42,4 +42,15 @@ body {
     max-width: 400px;
     background-color: #2B3642;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 320px;
+    .tabs {
+        width: 100%;
+        background-color: #3D4D5E;
+        height: 40px;
+    }
 }
