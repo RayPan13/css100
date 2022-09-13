@@ -73,4 +73,40 @@ body {
   width: 100%;
   background-color: #3D4D5E;
   height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container .tabs .tab {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+.container .tabs .tab.active {
+  background-color: #5DA2ED;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+.container .tabs .tab.active svg {
+  fill: #fff;
+}
+.container .tabs .tab:hover svg {
+  fill: #fff;
+}
+.container .tabs .tab svg {
+  fill: #8398AD;
+  width: 50%;
+  pointer-events: none;
 }/*# sourceMappingURL=index.css.map */

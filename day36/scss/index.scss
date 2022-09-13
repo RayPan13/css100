@@ -52,5 +52,34 @@ body {
         width: 100%;
         background-color: #3D4D5E;
         height: 40px;
+        display: flex;
+        .tab {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            transition: background-color 0.5s;
+            cursor: pointer;
+            &.active {
+                background-color: #5DA2ED;
+                transition: background-color 0.5s;
+                svg {
+                    fill: #fff;
+                }
+            }
+            &:hover {
+                svg {
+                    fill: #fff;
+                }
+            }
+            svg {
+                fill: #8398AD;
+                width: 50%;
+                pointer-events: none;
+            }
+        }
+
     }
 }
