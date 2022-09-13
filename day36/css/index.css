@@ -10,6 +10,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-size: 10px;
 }
 
 main {
@@ -68,6 +69,7 @@ body {
 
 .container {
   width: 320px;
+  background-color: #fff;
 }
 .container .tabs {
   width: 100%;
@@ -107,6 +109,38 @@ body {
 }
 .container .tabs .tab svg {
   fill: #8398AD;
-  width: 50%;
+  width: 45%;
   pointer-events: none;
+}
+.container .content {
+  padding: 24px;
+}
+.container .content h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  margin: 0 0 12px;
+}
+.container .content p {
+  margin: 0 0 12px;
+}
+.container .content p span {
+  display: block;
+  margin: 0 0 6px;
+  height: 4px;
+  background-color: #E9E9E9;
+}
+.container .content p span:nth-child(1) {
+  width: 100%;
+}
+.container .content p span:nth-child(2) {
+  width: 70%;
+}
+.container .content p span:nth-child(3) {
+  width: 90%;
+}
+.container .content p span:nth-child(4) {
+  width: 100%;
+}
+.container .content p span:nth-child(5) {
+  width: 30%;
 }/*# sourceMappingURL=index.css.map */
