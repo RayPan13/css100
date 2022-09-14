@@ -51,6 +51,8 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        transform: perspective(100px);
+	    transform-style: preserve-3d;
     }
     .card {
         width: 140px;
@@ -107,44 +109,35 @@ body {
     }
     @keyframes c1 {
         0%, 100% {
-            transform: translate3d(0,0,0);
-            box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
+            transform: translate3d(0,0,0) scale(1);
         }
         33.33% {
-            transform: translate3d(120px,0,-45px);
-            box-shadow: 2px 4px 6px 0px rgba(0,0,0,0.2);
+            transform: translate3d(100px,0,-20px) scale(0.8);
         }
         66.66% {
-            transform: translate3d(-120px,0,-45px);
-            box-shadow: 2px 4px 6px 0px rgba(0,0,0,0.2);
+            transform: translate3d(-100px,0,-20px) scale(0.8);
         }
     }
     @keyframes c2 {
         0%, 100% {
-            transform: translate3d(120px,0,-45px);
-            box-shadow: 2px 4px 6px 0px rgba(0,0,0,0.2);
+            transform: translate3d(100px,0,-20px) scale(0.8);
         }
         33.33% {
-            transform: translate3d(-120px,0,-45px);
-            box-shadow: 2px 4px 6px 0px rgba(0,0,0,0.2);
+            transform: translate3d(-100px,0,-20px) scale(0.8);
         }
         66.66% {
-            transform: translate3d(0,0,0);
-            box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
+            transform: translate3d(0,0,0) scale(1);
         }
     }
     @keyframes c3 {
         0%, 100% {
-            transform: translate3d(-120px,0,-45px);
-            box-shadow: 2px 4px 6px 0px rgba(0,0,0,0.2);
+            transform: translate3d(-100px,0,-20px) scale(0.8);
         }
         33.33% {
-            transform: translate3d(0,0,0);
-            box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
+            transform: translate3d(0,0,0) scale(1);
         }
         66.66% {
-            transform: translate3d(120px,0,-45px);
-            box-shadow: 2px 4px 6px 0px rgba(0,0,0,0.2);
+            transform: translate3d(100px,0,-20px) scale(0.8);
         }
     }
 }
