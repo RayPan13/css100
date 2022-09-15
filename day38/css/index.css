@@ -69,15 +69,33 @@ body {
   overflow: hidden;
 }
 #app .white {
-  -webkit-transition: -webkit-transform 1s;
-  transition: -webkit-transform 1s;
-  transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s;
+  -webkit-transition: all 0.8s ease-in 0.2s;
+  transition: all 0.8s ease-in 0.2s;
 }
 #app .white svg {
   fill: #fff;
 }
-#app .white.big {
+#app .purple {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+#app .purple svg {
+  fill: #9B59B6;
+}
+#app.change .white {
   -webkit-transform: scale(10);
           transform: scale(10);
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+#app.change .purple {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: all 0.5s ease-out 0.3s;
+  transition: all 0.5s ease-out 0.3s;
 }/*# sourceMappingURL=index.css.map */

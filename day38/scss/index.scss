@@ -49,12 +49,29 @@ body {
     cursor: pointer;
     overflow: hidden;
     .white {
-        transition: transform 1s;
+        transition: all .8s ease-in .2s;
         svg {
             fill: #fff;
         }
-        &.big {
+    }
+    .purple {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(0);
+        transition: all .5s ease-in;
+        svg {
+            fill: #9B59B6;
+        }
+    }
+    &.change {
+        .white {
             transform: scale(10);
+            transition: all .5s ease-in;
+        }
+        .purple {
+            transform: translate(-50%,-50%) scale(1);
+            transition: all .5s ease-out .3s;
         }
     }
 }
