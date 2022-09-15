@@ -42,13 +42,19 @@ body {
     max-width: 400px;
     background-color: #9B59B6;
     border-radius: 8px;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    overflow: hidden;
     .white {
+        transition: transform 1s;
         svg {
             fill: #fff;
+        }
+        &.big {
+            transform: scale(10);
         }
     }
 }

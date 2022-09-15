@@ -55,6 +55,7 @@ body {
   max-width: 400px;
   background-color: #9B59B6;
   border-radius: 8px;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -65,7 +66,18 @@ body {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  overflow: hidden;
+}
+#app .white {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
 }
 #app .white svg {
   fill: #fff;
+}
+#app .white.big {
+  -webkit-transform: scale(10);
+          transform: scale(10);
 }/*# sourceMappingURL=index.css.map */
