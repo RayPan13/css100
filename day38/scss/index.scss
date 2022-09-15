@@ -42,4 +42,13 @@ body {
     max-width: 400px;
     background-color: #9B59B6;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    .white {
+        svg {
+            fill: #fff;
+        }
+    }
 }

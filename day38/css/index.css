@@ -55,4 +55,17 @@ body {
   max-width: 400px;
   background-color: #9B59B6;
   border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+#app .white svg {
+  fill: #fff;
 }/*# sourceMappingURL=index.css.map */
