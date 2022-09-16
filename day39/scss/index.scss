@@ -63,6 +63,7 @@ body {
             animation: lineClose 1s forwards;
             & + .menu {
                 opacity: 0;
+                pointer-events: none;
             }
         }
     }

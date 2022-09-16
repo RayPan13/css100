@@ -88,6 +88,7 @@ body {
 }
 #app .icon.close + .menu {
   opacity: 0;
+  pointer-events: none;
 }
 #app .menu {
   position: absolute;
