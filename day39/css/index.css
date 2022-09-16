@@ -77,9 +77,17 @@ body {
   -webkit-animation: lineOpen 1s forwards;
           animation: lineOpen 1s forwards;
 }
+#app .icon.open + .menu {
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+  opacity: 1;
+}
 #app .icon.close {
   -webkit-animation: lineClose 1s forwards;
           animation: lineClose 1s forwards;
+}
+#app .icon.close + .menu {
+  opacity: 0;
 }
 #app .menu {
   position: absolute;
@@ -88,6 +96,9 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 80%;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
 }
 #app .menu ul {
   width: 100%;

@@ -54,9 +54,16 @@ body {
         cursor: pointer;
         &.open {
             animation: lineOpen 1s forwards;
+            & + .menu {
+                transition-delay: 0.5s;
+                opacity: 1;
+            }
         }
         &.close {
             animation: lineClose 1s forwards;
+            & + .menu {
+                opacity: 0;
+            }
         }
     }
     .menu {
@@ -65,6 +72,8 @@ body {
         left: 50%;
         transform: translate(-50%,-50%);
         width: 80%;
+        opacity: 0;
+        transition: opacity 1s;
         ul {
             width: 100%;
             margin: 0;
