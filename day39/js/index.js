@@ -1,6 +1,8 @@
 'use strict';
 ;(function() {
-    document.querySelector('.icon').addEventListener('click',function(){
-        this.classList.add('open')
+    const icon = document.querySelector('.icon')
+    icon.addEventListener('click',function(){
+        icon.classList.add('open')
+        icon.classList.remove('close')
     })
 })()
