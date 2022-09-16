@@ -51,5 +51,26 @@ body {
         width: 50px;
         height: 28px;
         cursor: pointer;
+        &.open {
+            animation: lineOpen linear 1s forwards;
+        }
     }
 }
+@keyframes lineOpen {
+    10%,
+    15% {
+        height: 24px;
+        border-width: 4px;
+    }
+    40% {
+        width: 50px;
+        height: 60px;
+        border-width: 2px;
+    }
+    100% {
+        width: 70%;
+        height: 60px;
+        border-width: 2px;
+    }
+}
+
