@@ -73,12 +73,12 @@ body {
   cursor: pointer;
 }
 #app .icon.open {
-  -webkit-animation: lineOpen linear 1s forwards;
-          animation: lineOpen linear 1s forwards;
+  -webkit-animation: lineOpen 1s forwards;
+          animation: lineOpen 1s forwards;
 }
 #app .icon.close {
-  -webkit-animation: lineClose linear 1s forwards;
-          animation: lineClose linear 1s forwards;
+  -webkit-animation: lineClose 1s forwards;
+          animation: lineClose 1s forwards;
 }
 
 @-webkit-keyframes lineOpen {
@@ -120,7 +120,7 @@ body {
     height: 60px;
     border-width: 2px;
   }
-  60%, 70% {
+  70%, 80% {
     width: 50px;
     height: 60px;
     border-width: 2px;
@@ -136,7 +136,7 @@ body {
     height: 60px;
     border-width: 2px;
   }
-  60%, 70% {
+  70%, 80% {
     width: 50px;
     height: 60px;
     border-width: 2px;
