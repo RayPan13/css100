@@ -43,46 +43,57 @@ body {
     border-radius: 8px;
 }
 .container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
     .pic {
-        margin: 2px;
-        flex-basis: calc(33.33% - 4px);
-        transition: transform 0.5s;
+        position: relative;
+        flex-basis: 33.33%;
         background-color: #000;
+        border: 2px solid #fff;
         cursor: pointer;
         img {
             width: 100%;
-            transition: opacity 0.5s;
+            transform: scale(1);
+            transition: transform 0.5s, opacity 0.5s;
         }
-        &.p1 {
+        &.p1 img {
             transform-origin: top left;
         }
-        &.p2 {
+        &.p2 img {
             transform-origin: top center;
         }
-        &.p3 {
+        &.p3 img {
             transform-origin: top right;
         }
-        &.p4 {
+        &.p4 img {
             transform-origin: center left;
         }
-        &.p5 {
+        &.p5 img {
             transform-origin: center center;
         }
-        &.p6 {
+        &.p6 img {
             transform-origin: center right;
         }
-        &.p7 {
+        &.p7 img {
             transform-origin: bottom left;
         }
-        &.p8 {
+        &.p8 img {
             transform-origin: bottom center;
         }
-        &.p9 {
+        &.p9 img {
             transform-origin: bottom right;
+        }
+        &.active {
+            z-index: 2;
+            img {
+                transform: scale(3.0963);
+                border: 0;
+            }
         }
         &.away img {
             opacity: 0;
