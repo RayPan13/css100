@@ -55,45 +55,44 @@ body {
         flex-basis: 33.33%;
         background-color: #000;
         border: 2px solid #fff;
+        transition: transform 0.5s;
         cursor: pointer;
         img {
             width: 100%;
             transform: scale(1);
             transition: transform 0.5s, opacity 0.5s;
         }
-        &.p1 img {
+        &.p1 {
             transform-origin: top left;
         }
-        &.p2 img {
+        &.p2 {
             transform-origin: top center;
         }
-        &.p3 img {
+        &.p3 {
             transform-origin: top right;
         }
-        &.p4 img {
+        &.p4 {
             transform-origin: center left;
         }
-        &.p5 img {
+        &.p5 {
             transform-origin: center center;
         }
-        &.p6 img {
+        &.p6 {
             transform-origin: center right;
         }
-        &.p7 img {
+        &.p7 {
             transform-origin: bottom left;
         }
-        &.p8 img {
+        &.p8 {
             transform-origin: bottom center;
         }
-        &.p9 img {
+        &.p9 {
             transform-origin: bottom right;
         }
         &.active {
             z-index: 2;
-            img {
-                transform: scale(3.0963);
-                border: 0;
-            }
+            border: 0;
+            transform: scale(3.0963);
         }
         &.away img {
             opacity: 0;
