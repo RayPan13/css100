@@ -49,19 +49,15 @@ body {
     align-items: center;
     flex-wrap: wrap;
     overflow: hidden;
-    position: relative;
     .pic {
-        position: relative;
         flex-basis: 33.33%;
         background-color: #000;
         border: 2px solid #fff;
         transition: transform 0.5s;
-        animation: away 0.5s forwards;
+        animation: small 0.5s forwards;
         cursor: pointer;
         img {
-            width: 100%;
-            transform: scale(1);
-            transition: transform 0.5s, opacity 0.5s;
+            transition: opacity 0.5s;
         }
         &.p1 {
             transform-origin: top left;
@@ -90,19 +86,19 @@ body {
         &.p9 {
             transform-origin: bottom right;
         }
-        &.active {
+        &.big {
+            transform: scale(3.0963);
             z-index: 2;
             border: 0;
-            transform: scale(3.0963);
             animation: none;
         }
-        &.away img {
+        &.small img {
             opacity: 0;
         }
     }
 }
 
-@keyframes away {
+@keyframes small {
     0%,90%{
         z-index: 2;
     }

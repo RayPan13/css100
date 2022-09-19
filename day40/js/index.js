@@ -8,10 +8,10 @@
     })
     function toggleActive(idx) {
         pics.forEach((pic,index) => {
-            pic.classList.toggle('away')
+            pic.classList.toggle('small')
             if(idx === index){
-                pic.classList.remove('away')
-                pic.classList.toggle('active')
+                pic.classList.remove('small')
+                pic.classList.toggle('big')
             }
         })
     }
