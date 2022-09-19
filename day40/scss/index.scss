@@ -48,8 +48,44 @@ body {
     align-items: center;
     flex-wrap: wrap;
     .pic {
-        padding: 2px;
-        flex-basis: 33.333%;
+        margin: 2px;
+        flex-basis: calc(33.33% - 4px);
+        transition: transform 0.5s;
+        background-color: #000;
         cursor: pointer;
+        img {
+            width: 100%;
+            transition: opacity 0.5s;
+        }
+        &.p1 {
+            transform-origin: top left;
+        }
+        &.p2 {
+            transform-origin: top center;
+        }
+        &.p3 {
+            transform-origin: top right;
+        }
+        &.p4 {
+            transform-origin: center left;
+        }
+        &.p5 {
+            transform-origin: center center;
+        }
+        &.p6 {
+            transform-origin: center right;
+        }
+        &.p7 {
+            transform-origin: bottom left;
+        }
+        &.p8 {
+            transform-origin: bottom center;
+        }
+        &.p9 {
+            transform-origin: bottom right;
+        }
+        &.away img {
+            opacity: 0;
+        }
     }
 }
