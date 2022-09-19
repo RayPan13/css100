@@ -11,7 +11,7 @@
             pic.classList.toggle('away')
             if(idx === index){
                 pic.classList.remove('away')
-                pic.classList.add('active')
+                pic.classList.toggle('active')
             }
         })
     }
