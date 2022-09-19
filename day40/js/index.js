@@ -3,10 +3,10 @@
     let pics = document.querySelectorAll('.pic')
     pics.forEach((el, index) => {
         el.addEventListener('click', function () {
-            setAway(index)
+            toggleActive(index)
         })
     })
-    function setAway(idx) {
+    function toggleActive(idx) {
         pics.forEach((pic,index) => {
             pic.classList.toggle('away')
             if(idx === index){

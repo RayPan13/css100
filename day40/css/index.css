@@ -82,6 +82,8 @@ body {
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
   transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-animation: away 0.5s forwards;
+          animation: away 0.5s forwards;
   cursor: pointer;
 }
 .container .pic img {
@@ -134,7 +136,27 @@ body {
   border: 0;
   -webkit-transform: scale(3.0963);
           transform: scale(3.0963);
+  -webkit-animation: none;
+          animation: none;
 }
 .container .pic.away img {
   opacity: 0;
+}
+
+@-webkit-keyframes away {
+  0%, 90% {
+    z-index: 2;
+  }
+  100% {
+    z-index: 1;
+  }
+}
+
+@keyframes away {
+  0%, 90% {
+    z-index: 2;
+  }
+  100% {
+    z-index: 1;
+  }
 }/*# sourceMappingURL=index.css.map */
