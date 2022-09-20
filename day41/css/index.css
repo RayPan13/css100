@@ -55,4 +55,26 @@ body {
   max-width: 400px;
   background-color: #3F3F3F;
   border-radius: 8px;
+  position: relative;
+}
+
+.alert {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.8);
+  padding: 24px 0 0;
+}
+.alert .icon {
+  width: 40px;
+  margin: 0 auto;
+}
+.alert .icon svg {
+  fill: #ff3232;
 }/*# sourceMappingURL=index.css.map */
