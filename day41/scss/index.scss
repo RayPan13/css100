@@ -49,17 +49,15 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%) scale(0);
     width: 75%;
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 0 10px 1px rgba(0,0,0,0.8);
     padding: 24px 0 0;
+    animation: hide 0.7s forwards;
     &.show {
-        animation: show 0.7s 0.3s;
-    }
-    &.hide {
-        animation: hide 0.5s forwards;
+        animation: show 0.7s 0.3s forwards;
     }
     .icon {
         width: 40px;
@@ -115,11 +113,14 @@ body {
 @keyframes hide {
     0% {
         transform: translate(-50%,-50%) scale(1);
+        opacity: 1;
     }
-    20% {
+    30% {
         transform: translate(-50%,-50%) scale(1.1);
+        opacity: 1;
     }
     100% {
         transform: translate(-50%,-50%) scale(0);
+        opacity: 0;
     }
 }
