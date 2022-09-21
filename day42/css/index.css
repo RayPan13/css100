@@ -68,9 +68,1217 @@ body {
 }
 
 .camera {
-  width: 80%;
-  height: 80%;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   background: -webkit-gradient(linear, left top, left bottom, from(#1d4253), to(#6bb5c4));
   background: linear-gradient(#1d4253 0%, #6bb5c4 100%);
+  position: relative;
+}
+.camera .star {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: #fff;
+}
+.camera .s1 {
+  top: 42px;
+  left: 196px;
+}
+.camera .s2 {
+  top: 3px;
+  left: 132px;
+}
+.camera .s3 {
+  top: 15px;
+  left: 48px;
+}
+.camera .s4 {
+  top: 6px;
+  left: 145px;
+}
+.camera .s5 {
+  top: 35px;
+  left: 183px;
+}
+.camera .s6 {
+  top: 151px;
+  left: 236px;
+}
+.camera .s7 {
+  top: 95px;
+  left: 230px;
+}
+.camera .s8 {
+  top: 209px;
+  left: 106px;
+}
+.camera .s9 {
+  top: 47px;
+  left: 179px;
+}
+.camera .s10 {
+  top: 258px;
+  left: 173px;
+}
+.camera .s11 {
+  top: 201px;
+  left: 190px;
+}
+.camera .s12 {
+  top: 51px;
+  left: 15px;
+}
+.camera .s13 {
+  top: 27px;
+  left: 104px;
+}
+.camera .s14 {
+  top: 164px;
+  left: 48px;
+}
+.camera .s15 {
+  top: 97px;
+  left: 149px;
+}
+.camera .s16 {
+  top: 141px;
+  left: 259px;
+}
+.camera .s17 {
+  top: 137px;
+  left: 135px;
+}
+.camera .s18 {
+  top: 12px;
+  left: 217px;
+}
+.camera .s19 {
+  top: 55px;
+  left: 107px;
+}
+.camera .s20 {
+  top: 289px;
+  left: 174px;
+}
+.camera .s21 {
+  top: 177px;
+  left: 236px;
+}
+.camera .s22 {
+  top: 162px;
+  left: 240px;
+}
+.camera .s23 {
+  top: 111px;
+  left: 259px;
+}
+.camera .s24 {
+  top: 174px;
+  left: 274px;
+}
+.camera .s25 {
+  top: 178px;
+  left: 46px;
+}
+.camera .s26 {
+  top: 8px;
+  left: 154px;
+}
+.camera .s27 {
+  top: 47px;
+  left: 277px;
+}
+.camera .s28 {
+  top: 251px;
+  left: 109px;
+}
+.camera .s29 {
+  top: 59px;
+  left: 163px;
+}
+.camera .s30 {
+  top: 266px;
+  left: 256px;
+}
+.camera .s31 {
+  top: 89px;
+  left: 157px;
+}
+.camera .s32 {
+  top: 160px;
+  left: 251px;
+}
+.camera .s33 {
+  top: 245px;
+  left: 33px;
+}
+.camera .s34 {
+  top: 181px;
+  left: 95px;
+}
+.camera .s35 {
+  top: 252px;
+  left: 52px;
+}
+.camera .s36 {
+  top: 202px;
+  left: 230px;
+}
+.camera .s37 {
+  top: 240px;
+  left: 169px;
+}
+.camera .s38 {
+  top: 149px;
+  left: 187px;
+}
+.camera .s39 {
+  top: 160px;
+  left: 160px;
+}
+.camera .s40 {
+  top: 194px;
+  left: 177px;
+}
+.camera .s41 {
+  top: 271px;
+  left: 206px;
+}
+.camera .s42 {
+  top: 136px;
+  left: 248px;
+}
+.camera .s43 {
+  top: 240px;
+  left: 47px;
+}
+.camera .s44 {
+  top: 144px;
+  left: 125px;
+}
+.camera .s45 {
+  top: 155px;
+  left: 124px;
+}
+.camera .s46 {
+  top: 36px;
+  left: 87px;
+}
+.camera .s47 {
+  top: 146px;
+  left: 194px;
+}
+.camera .s48 {
+  top: 65px;
+  left: 93px;
+}
+.camera .s49 {
+  top: 195px;
+  left: 217px;
+}
+.camera .s50 {
+  top: 165px;
+  left: 15px;
+}
+.camera .s51 {
+  top: 153px;
+  left: 115px;
+}
+.camera .s52 {
+  top: 232px;
+  left: 44px;
+}
+.camera .s53 {
+  top: 126px;
+  left: 139px;
+}
+.camera .s54 {
+  top: 240px;
+  left: 162px;
+}
+.camera .s55 {
+  top: 65px;
+  left: 101px;
+}
+.camera .s56 {
+  top: 238px;
+  left: 286px;
+}
+.camera .s57 {
+  top: 241px;
+  left: 235px;
+}
+.camera .s58 {
+  top: 130px;
+  left: 227px;
+}
+.camera .s59 {
+  top: 85px;
+  left: 75px;
+}
+.camera .s60 {
+  top: 133px;
+  left: 70px;
+}
+.camera .s61 {
+  top: 65px;
+  left: 106px;
+}
+.camera .s62 {
+  top: 211px;
+  left: 132px;
+}
+.camera .s63 {
+  top: 274px;
+  left: 78px;
+}
+.camera .s64 {
+  top: 106px;
+  left: 61px;
+}
+.camera .s65 {
+  top: 188px;
+  left: 16px;
+}
+.camera .s66 {
+  top: 222px;
+  left: 52px;
+}
+.camera .s67 {
+  top: 276px;
+  left: 121px;
+}
+.camera .s68 {
+  top: 73px;
+  left: 141px;
+}
+.camera .s69 {
+  top: 101px;
+  left: 298px;
+}
+.camera .s70 {
+  top: 283px;
+  left: 217px;
+}
+.camera .s71 {
+  top: 111px;
+  left: 165px;
+}
+.camera .s72 {
+  top: 124px;
+  left: 298px;
+}
+.camera .s73 {
+  top: 127px;
+  left: 283px;
+}
+.camera .s74 {
+  top: 188px;
+  left: 131px;
+}
+.camera .s75 {
+  top: 281px;
+  left: 31px;
+}
+.camera .s76 {
+  top: 128px;
+  left: 187px;
+}
+.camera .s77 {
+  top: 152px;
+  left: 145px;
+}
+.camera .s78 {
+  top: 83px;
+  left: 59px;
+}
+.camera .s79 {
+  top: 267px;
+  left: 140px;
+}
+.camera .s80 {
+  top: 279px;
+  left: 125px;
+}
+.camera .s81 {
+  top: 77px;
+  left: 266px;
+}
+.camera .s82 {
+  top: 193px;
+  left: 139px;
+}
+.camera .s83 {
+  top: 75px;
+  left: 58px;
+}
+.camera .s84 {
+  top: 84px;
+  left: 12px;
+}
+.camera .s85 {
+  top: 210px;
+  left: 280px;
+}
+.camera .s86 {
+  top: 161px;
+  left: 6px;
+}
+.camera .s87 {
+  top: 85px;
+  left: 235px;
+}
+.camera .s88 {
+  top: 239px;
+  left: 165px;
+}
+.camera .s89 {
+  top: 267px;
+  left: 112px;
+}
+.camera .s90 {
+  top: 45px;
+  left: 183px;
+}
+.camera .s91 {
+  top: 42px;
+  left: 278px;
+}
+.camera .s92 {
+  top: 187px;
+  left: 254px;
+}
+.camera .s93 {
+  top: 296px;
+  left: 137px;
+}
+.camera .s94 {
+  top: 159px;
+  left: 231px;
+}
+.camera .s95 {
+  top: 158px;
+  left: 232px;
+}
+.camera .s96 {
+  top: 83px;
+  left: 256px;
+}
+.camera .s97 {
+  top: 294px;
+  left: 15px;
+}
+.camera .s98 {
+  top: 235px;
+  left: 276px;
+}
+.camera .s99 {
+  top: 131px;
+  left: 293px;
+}
+.camera .s100 {
+  top: 271px;
+  left: 98px;
+}
+.camera .s101 {
+  top: 181px;
+  left: 146px;
+}
+.camera .s102 {
+  top: 176px;
+  left: 30px;
+}
+.camera .s103 {
+  top: 204px;
+  left: 226px;
+}
+.camera .s104 {
+  top: 118px;
+  left: 9px;
+}
+.camera .s105 {
+  top: 214px;
+  left: 232px;
+}
+.camera .s106 {
+  top: 261px;
+  left: 118px;
+}
+.camera .s107 {
+  top: 124px;
+  left: 4px;
+}
+.camera .s108 {
+  top: 300px;
+  left: 60px;
+}
+.camera .s109 {
+  top: 217px;
+  left: 266px;
+}
+.camera .s110 {
+  top: 196px;
+  left: 213px;
+}
+.camera .s111 {
+  top: 2px;
+  left: 202px;
+}
+.camera .s112 {
+  top: 128px;
+  left: 3px;
+}
+.camera .s113 {
+  top: 229px;
+  left: 165px;
+}
+.camera .s114 {
+  top: 127px;
+  left: 57px;
+}
+.camera .s115 {
+  top: 77px;
+  left: 79px;
+}
+.camera .s116 {
+  top: 167px;
+  left: 11px;
+}
+.camera .s117 {
+  top: 19px;
+  left: 184px;
+}
+.camera .s118 {
+  top: 76px;
+  left: 21px;
+}
+.camera .s119 {
+  top: 267px;
+  left: 114px;
+}
+.camera .s120 {
+  top: 275px;
+  left: 93px;
+}
+.camera .s121 {
+  top: 123px;
+  left: 71px;
+}
+.camera .s122 {
+  top: 179px;
+  left: 235px;
+}
+.camera .s123 {
+  top: 258px;
+  left: 29px;
+}
+.camera .s124 {
+  top: 46px;
+  left: 53px;
+}
+.camera .s125 {
+  top: 130px;
+  left: 62px;
+}
+.camera .s126 {
+  top: 282px;
+  left: 12px;
+}
+.camera .s127 {
+  top: 147px;
+  left: 255px;
+}
+.camera .s128 {
+  top: 70px;
+  left: 294px;
+}
+.camera .s129 {
+  top: 3px;
+  left: 79px;
+}
+.camera .s130 {
+  top: 184px;
+  left: 177px;
+}
+.camera .s131 {
+  top: 92px;
+  left: 289px;
+}
+.camera .s132 {
+  top: 291px;
+  left: 63px;
+}
+.camera .s133 {
+  top: 242px;
+  left: 62px;
+}
+.camera .s134 {
+  top: 18px;
+  left: 54px;
+}
+.camera .s135 {
+  top: 47px;
+  left: 252px;
+}
+.camera .s136 {
+  top: 94px;
+  left: 13px;
+}
+.camera .s137 {
+  top: 194px;
+  left: 128px;
+}
+.camera .s138 {
+  top: 283px;
+  left: 223px;
+}
+.camera .s139 {
+  top: 196px;
+  left: 112px;
+}
+.camera .s140 {
+  top: 245px;
+  left: 252px;
+}
+.camera .s141 {
+  top: 33px;
+  left: 91px;
+}
+.camera .s142 {
+  top: 13px;
+  left: 6px;
+}
+.camera .s143 {
+  top: 289px;
+  left: 26px;
+}
+.camera .s144 {
+  top: 52px;
+  left: 49px;
+}
+.camera .s145 {
+  top: 49px;
+  left: 159px;
+}
+.camera .s146 {
+  top: 109px;
+  left: 240px;
+}
+.camera .s147 {
+  top: 148px;
+  left: 79px;
+}
+.camera .s148 {
+  top: 232px;
+  left: 272px;
+}
+.camera .s149 {
+  top: 32px;
+  left: 115px;
+}
+.camera .s150 {
+  top: 221px;
+  left: 80px;
+}
+.camera .s151 {
+  top: 184px;
+  left: 286px;
+}
+.camera .s152 {
+  top: 166px;
+  left: 235px;
+}
+.camera .s153 {
+  top: 250px;
+  left: 58px;
+}
+.camera .s154 {
+  top: 28px;
+  left: 228px;
+}
+.camera .s155 {
+  top: 35px;
+  left: 250px;
+}
+.camera .s156 {
+  top: 50px;
+  left: 252px;
+}
+.camera .s157 {
+  top: 201px;
+  left: 2px;
+}
+.camera .s158 {
+  top: 172px;
+  left: 206px;
+}
+.camera .s159 {
+  top: 1px;
+  left: 2px;
+}
+.camera .s160 {
+  top: 115px;
+  left: 52px;
+}
+.camera .s161 {
+  top: 237px;
+  left: 217px;
+}
+.camera .s162 {
+  top: 195px;
+  left: 216px;
+}
+.camera .s163 {
+  top: 257px;
+  left: 282px;
+}
+.camera .s164 {
+  top: 48px;
+  left: 65px;
+}
+.camera .s165 {
+  top: 126px;
+  left: 114px;
+}
+.camera .s166 {
+  top: 88px;
+  left: 138px;
+}
+.camera .s167 {
+  top: 129px;
+  left: 234px;
+}
+.camera .s168 {
+  top: 25px;
+  left: 195px;
+}
+.camera .s169 {
+  top: 108px;
+  left: 26px;
+}
+.camera .s170 {
+  top: 12px;
+  left: 63px;
+}
+.camera .s171 {
+  top: 229px;
+  left: 201px;
+}
+.camera .s172 {
+  top: 210px;
+  left: 300px;
+}
+.camera .s173 {
+  top: 229px;
+  left: 187px;
+}
+.camera .s174 {
+  top: 120px;
+  left: 90px;
+}
+.camera .s175 {
+  top: 120px;
+  left: 97px;
+}
+.camera .s176 {
+  top: 263px;
+  left: 107px;
+}
+.camera .s177 {
+  top: 257px;
+  left: 260px;
+}
+.camera .s178 {
+  top: 96px;
+  left: 262px;
+}
+.camera .s179 {
+  top: 210px;
+  left: 22px;
+}
+.camera .s180 {
+  top: 173px;
+  left: 283px;
+}
+.camera .s181 {
+  top: 240px;
+  left: 83px;
+}
+.camera .s182 {
+  top: 294px;
+  left: 156px;
+}
+.camera .s183 {
+  top: 121px;
+  left: 175px;
+}
+.camera .s184 {
+  top: 68px;
+  left: 249px;
+}
+.camera .s185 {
+  top: 218px;
+  left: 45px;
+}
+.camera .s186 {
+  top: 191px;
+  left: 113px;
+}
+.camera .s187 {
+  top: 29px;
+  left: 283px;
+}
+.camera .s188 {
+  top: 199px;
+  left: 154px;
+}
+.camera .s189 {
+  top: 287px;
+  left: 93px;
+}
+.camera .s190 {
+  top: 254px;
+  left: 149px;
+}
+.camera .s191 {
+  top: 165px;
+  left: 282px;
+}
+.camera .s192 {
+  top: 55px;
+  left: 124px;
+}
+.camera .s193 {
+  top: 285px;
+  left: 90px;
+}
+.camera .s194 {
+  top: 62px;
+  left: 9px;
+}
+.camera .s195 {
+  top: 159px;
+  left: 181px;
+}
+.camera .s196 {
+  top: 158px;
+  left: 139px;
+}
+.camera .s197 {
+  top: 130px;
+  left: 255px;
+}
+.camera .s198 {
+  top: 130px;
+  left: 262px;
+}
+.camera .s199 {
+  top: 6px;
+  left: 119px;
+}
+.camera .s200 {
+  top: 84px;
+  left: 24px;
+}
+.camera .s201 {
+  top: 260px;
+  left: 81px;
+}
+.camera .s202 {
+  top: 207px;
+  left: 273px;
+}
+.camera .s203 {
+  top: 283px;
+  left: 108px;
+}
+.camera .s204 {
+  top: 265px;
+  left: 133px;
+}
+.camera .s205 {
+  top: 275px;
+  left: 23px;
+}
+.camera .s206 {
+  top: 267px;
+  left: 26px;
+}
+.camera .s207 {
+  top: 160px;
+  left: 120px;
+}
+.camera .s208 {
+  top: 3px;
+  left: 227px;
+}
+.camera .s209 {
+  top: 196px;
+  left: 220px;
+}
+.camera .s210 {
+  top: 268px;
+  left: 17px;
+}
+.camera .s211 {
+  top: 41px;
+  left: 292px;
+}
+.camera .s212 {
+  top: 270px;
+  left: 33px;
+}
+.camera .s213 {
+  top: 138px;
+  left: 294px;
+}
+.camera .s214 {
+  top: 230px;
+  left: 208px;
+}
+.camera .s215 {
+  top: 178px;
+  left: 27px;
+}
+.camera .s216 {
+  top: 52px;
+  left: 231px;
+}
+.camera .s217 {
+  top: 5px;
+  left: 235px;
+}
+.camera .s218 {
+  top: 124px;
+  left: 138px;
+}
+.camera .s219 {
+  top: 300px;
+  left: 69px;
+}
+.camera .s220 {
+  top: 3px;
+  left: 76px;
+}
+.camera .s221 {
+  top: 96px;
+  left: 143px;
+}
+.camera .s222 {
+  top: 179px;
+  left: 226px;
+}
+.camera .s223 {
+  top: 294px;
+  left: 172px;
+}
+.camera .s224 {
+  top: 233px;
+  left: 210px;
+}
+.camera .s225 {
+  top: 92px;
+  left: 46px;
+}
+.camera .s226 {
+  top: 37px;
+  left: 240px;
+}
+.camera .s227 {
+  top: 197px;
+  left: 201px;
+}
+.camera .s228 {
+  top: 17px;
+  left: 94px;
+}
+.camera .s229 {
+  top: 205px;
+  left: 237px;
+}
+.camera .s230 {
+  top: 281px;
+  left: 151px;
+}
+.camera .s231 {
+  top: 118px;
+  left: 192px;
+}
+.camera .s232 {
+  top: 277px;
+  left: 22px;
+}
+.camera .s233 {
+  top: 267px;
+  left: 273px;
+}
+.camera .s234 {
+  top: 222px;
+  left: 271px;
+}
+.camera .s235 {
+  top: 11px;
+  left: 173px;
+}
+.camera .s236 {
+  top: 227px;
+  left: 66px;
+}
+.camera .s237 {
+  top: 291px;
+  left: 300px;
+}
+.camera .s238 {
+  top: 140px;
+  left: 297px;
+}
+.camera .s239 {
+  top: 295px;
+  left: 103px;
+}
+.camera .s240 {
+  top: 252px;
+  left: 257px;
+}
+.camera .s241 {
+  top: 9px;
+  left: 239px;
+}
+.camera .s242 {
+  top: 118px;
+  left: 30px;
+}
+.camera .s243 {
+  top: 4px;
+  left: 263px;
+}
+.camera .s244 {
+  top: 204px;
+  left: 233px;
+}
+.camera .s245 {
+  top: 153px;
+  left: 36px;
+}
+.camera .s246 {
+  top: 221px;
+  left: 68px;
+}
+.camera .s247 {
+  top: 107px;
+  left: 292px;
+}
+.camera .s248 {
+  top: 231px;
+  left: 265px;
+}
+.camera .s249 {
+  top: 165px;
+  left: 59px;
+}
+.camera .s250 {
+  top: 15px;
+  left: 173px;
+}
+.camera .s251 {
+  top: 3px;
+  left: 189px;
+}
+.camera .s252 {
+  top: 200px;
+  left: 13px;
+}
+.camera .s253 {
+  top: 87px;
+  left: 281px;
+}
+.camera .s254 {
+  top: 32px;
+  left: 26px;
+}
+.camera .s255 {
+  top: 98px;
+  left: 296px;
+}
+.camera .s256 {
+  top: 257px;
+  left: 285px;
+}
+.camera .s257 {
+  top: 133px;
+  left: 31px;
+}
+.camera .s258 {
+  top: 230px;
+  left: 129px;
+}
+.camera .s259 {
+  top: 269px;
+  left: 6px;
+}
+.camera .s260 {
+  top: 78px;
+  left: 144px;
+}
+.camera .s261 {
+  top: 175px;
+  left: 150px;
+}
+.camera .s262 {
+  top: 80px;
+  left: 100px;
+}
+.camera .s263 {
+  top: 136px;
+  left: 130px;
+}
+.camera .s264 {
+  top: 138px;
+  left: 43px;
+}
+.camera .s265 {
+  top: 107px;
+  left: 238px;
+}
+.camera .s266 {
+  top: 152px;
+  left: 8px;
+}
+.camera .s267 {
+  top: 271px;
+  left: 30px;
+}
+.camera .s268 {
+  top: 147px;
+  left: 148px;
+}
+.camera .s269 {
+  top: 152px;
+  left: 294px;
+}
+.camera .s270 {
+  top: 11px;
+  left: 220px;
+}
+.camera .s271 {
+  top: 114px;
+  left: 187px;
+}
+.camera .s272 {
+  top: 143px;
+  left: 275px;
+}
+.camera .s273 {
+  top: 175px;
+  left: 223px;
+}
+.camera .s274 {
+  top: 187px;
+  left: 276px;
+}
+.camera .s275 {
+  top: 48px;
+  left: 178px;
+}
+.camera .s276 {
+  top: 247px;
+  left: 192px;
+}
+.camera .s277 {
+  top: 225px;
+  left: 292px;
+}
+.camera .s278 {
+  top: 178px;
+  left: 215px;
+}
+.camera .s279 {
+  top: 215px;
+  left: 205px;
+}
+.camera .s280 {
+  top: 264px;
+  left: 196px;
+}
+.camera .s281 {
+  top: 280px;
+  left: 80px;
+}
+.camera .s282 {
+  top: 211px;
+  left: 48px;
+}
+.camera .s283 {
+  top: 235px;
+  left: 147px;
+}
+.camera .s284 {
+  top: 16px;
+  left: 68px;
+}
+.camera .s285 {
+  top: 1px;
+  left: 278px;
+}
+.camera .s286 {
+  top: 11px;
+  left: 159px;
+}
+.camera .s287 {
+  top: 176px;
+  left: 60px;
+}
+.camera .s288 {
+  top: 19px;
+  left: 37px;
+}
+.camera .s289 {
+  top: 3px;
+  left: 297px;
+}
+.camera .s290 {
+  top: 288px;
+  left: 271px;
+}
+.camera .s291 {
+  top: 209px;
+  left: 92px;
+}
+.camera .s292 {
+  top: 58px;
+  left: 85px;
+}
+.camera .s293 {
+  top: 239px;
+  left: 120px;
+}
+.camera .s294 {
+  top: 111px;
+  left: 124px;
+}
+.camera .s295 {
+  top: 91px;
+  left: 80px;
+}
+.camera .s296 {
+  top: 130px;
+  left: 206px;
+}
+.camera .s297 {
+  top: 195px;
+  left: 147px;
+}
+.camera .s298 {
+  top: 210px;
+  left: 164px;
+}
+.camera .s299 {
+  top: 249px;
+  left: 72px;
+}
+.camera .s300 {
+  top: 185px;
+  left: 22px;
 }/*# sourceMappingURL=index.css.map */

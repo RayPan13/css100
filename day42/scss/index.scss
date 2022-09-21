@@ -47,8 +47,22 @@ body {
     align-items: center;
 }
 .camera{
-    width: 80%;
-    height: 80%;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     background: linear-gradient( #1d4253 0%, #6bb5c4 100%);
+    position: relative;
+    .star {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        border-radius: 50%;
+        background: #fff;
+    }
+    @for $i from 1 through 300 {
+        .s#{$i} {
+            top: random(300) + px;
+            left: random(300) + px;
+        }
+    }
 }
