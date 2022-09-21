@@ -84,1804 +84,1804 @@ body {
   background: #fff;
 }
 .camera .star.s1 {
-  top: 211px;
-  left: 64px;
-  -webkit-animation: flicker 3s -0.4s infinite alternate;
-          animation: flicker 3s -0.4s infinite alternate;
+  top: 244px;
+  left: 210px;
+  -webkit-animation: flicker 2.4s -2s infinite alternate;
+          animation: flicker 2.4s -2s infinite alternate;
 }
 .camera .star.s2 {
-  top: 79px;
-  left: 133px;
-  -webkit-animation: flicker 3s -1.4s infinite alternate;
-          animation: flicker 3s -1.4s infinite alternate;
+  top: 135px;
+  left: 112px;
+  -webkit-animation: flicker 4s -0.6s infinite alternate;
+          animation: flicker 4s -0.6s infinite alternate;
 }
 .camera .star.s3 {
-  top: 208px;
-  left: 37px;
-  -webkit-animation: flicker 2.6s -0.2s infinite alternate;
-          animation: flicker 2.6s -0.2s infinite alternate;
+  top: 221px;
+  left: 33px;
+  -webkit-animation: flicker 2.4s -0.8s infinite alternate;
+          animation: flicker 2.4s -0.8s infinite alternate;
 }
 .camera .star.s4 {
-  top: 60px;
-  left: 173px;
-  -webkit-animation: flicker 3.8s -1.8s infinite alternate;
-          animation: flicker 3.8s -1.8s infinite alternate;
+  top: 184px;
+  left: 284px;
+  -webkit-animation: flicker 3s -1.6s infinite alternate;
+          animation: flicker 3s -1.6s infinite alternate;
 }
 .camera .star.s5 {
-  top: 187px;
-  left: 192px;
+  top: 116px;
+  left: 181px;
   -webkit-animation: flicker 3.4s -1s infinite alternate;
           animation: flicker 3.4s -1s infinite alternate;
 }
 .camera .star.s6 {
-  top: 80px;
-  left: 290px;
-  -webkit-animation: flicker 2.2s -1.8s infinite alternate;
-          animation: flicker 2.2s -1.8s infinite alternate;
+  top: 167px;
+  left: 111px;
+  -webkit-animation: flicker 3s -2s infinite alternate;
+          animation: flicker 3s -2s infinite alternate;
 }
 .camera .star.s7 {
-  top: 41px;
-  left: 267px;
-  -webkit-animation: flicker 3.2s -1.4s infinite alternate;
-          animation: flicker 3.2s -1.4s infinite alternate;
+  top: 194px;
+  left: 60px;
+  -webkit-animation: flicker 2.8s -0.8s infinite alternate;
+          animation: flicker 2.8s -0.8s infinite alternate;
 }
 .camera .star.s8 {
-  top: 24px;
-  left: 70px;
-  -webkit-animation: flicker 2.2s -1.2s infinite alternate;
-          animation: flicker 2.2s -1.2s infinite alternate;
+  top: 70px;
+  left: 250px;
+  -webkit-animation: flicker 3.8s -2s infinite alternate;
+          animation: flicker 3.8s -2s infinite alternate;
 }
 .camera .star.s9 {
-  top: 296px;
-  left: 113px;
-  -webkit-animation: flicker 4s -0.4s infinite alternate;
-          animation: flicker 4s -0.4s infinite alternate;
-}
-.camera .star.s10 {
-  top: 259px;
-  left: 197px;
-  -webkit-animation: flicker 3s -1.2s infinite alternate;
-          animation: flicker 3s -1.2s infinite alternate;
-}
-.camera .star.s11 {
-  top: 63px;
-  left: 26px;
-  -webkit-animation: flicker 3.2s -0.6s infinite alternate;
-          animation: flicker 3.2s -0.6s infinite alternate;
-}
-.camera .star.s12 {
-  top: 224px;
-  left: 251px;
-  -webkit-animation: flicker 2.8s -1s infinite alternate;
-          animation: flicker 2.8s -1s infinite alternate;
-}
-.camera .star.s13 {
-  top: 198px;
-  left: 287px;
-  -webkit-animation: flicker 2.6s -1.6s infinite alternate;
-          animation: flicker 2.6s -1.6s infinite alternate;
-}
-.camera .star.s14 {
-  top: 178px;
-  left: 219px;
-  -webkit-animation: flicker 4s -1.4s infinite alternate;
-          animation: flicker 4s -1.4s infinite alternate;
-}
-.camera .star.s15 {
-  top: 105px;
-  left: 126px;
-  -webkit-animation: flicker 4s -1.8s infinite alternate;
-          animation: flicker 4s -1.8s infinite alternate;
-}
-.camera .star.s16 {
-  top: 54px;
-  left: 252px;
-  -webkit-animation: flicker 3.6s -0.2s infinite alternate;
-          animation: flicker 3.6s -0.2s infinite alternate;
-}
-.camera .star.s17 {
-  top: 262px;
-  left: 137px;
+  top: 235px;
+  left: 96px;
   -webkit-animation: flicker 3.8s -1.2s infinite alternate;
           animation: flicker 3.8s -1.2s infinite alternate;
 }
+.camera .star.s10 {
+  top: 130px;
+  left: 136px;
+  -webkit-animation: flicker 2.6s -0.8s infinite alternate;
+          animation: flicker 2.6s -0.8s infinite alternate;
+}
+.camera .star.s11 {
+  top: 244px;
+  left: 153px;
+  -webkit-animation: flicker 4s -0.6s infinite alternate;
+          animation: flicker 4s -0.6s infinite alternate;
+}
+.camera .star.s12 {
+  top: 271px;
+  left: 199px;
+  -webkit-animation: flicker 4s -1.8s infinite alternate;
+          animation: flicker 4s -1.8s infinite alternate;
+}
+.camera .star.s13 {
+  top: 120px;
+  left: 64px;
+  -webkit-animation: flicker 2.4s -1s infinite alternate;
+          animation: flicker 2.4s -1s infinite alternate;
+}
+.camera .star.s14 {
+  top: 223px;
+  left: 239px;
+  -webkit-animation: flicker 2.6s -0.2s infinite alternate;
+          animation: flicker 2.6s -0.2s infinite alternate;
+}
+.camera .star.s15 {
+  top: 80px;
+  left: 221px;
+  -webkit-animation: flicker 3.6s -1.2s infinite alternate;
+          animation: flicker 3.6s -1.2s infinite alternate;
+}
+.camera .star.s16 {
+  top: 139px;
+  left: 128px;
+  -webkit-animation: flicker 3s -1s infinite alternate;
+          animation: flicker 3s -1s infinite alternate;
+}
+.camera .star.s17 {
+  top: 72px;
+  left: 211px;
+  -webkit-animation: flicker 2.8s -1.6s infinite alternate;
+          animation: flicker 2.8s -1.6s infinite alternate;
+}
 .camera .star.s18 {
-  top: 41px;
-  left: 103px;
+  top: 183px;
+  left: 159px;
+  -webkit-animation: flicker 3.4s -0.8s infinite alternate;
+          animation: flicker 3.4s -0.8s infinite alternate;
+}
+.camera .star.s19 {
+  top: 126px;
+  left: 285px;
+  -webkit-animation: flicker 2.4s -1.6s infinite alternate;
+          animation: flicker 2.4s -1.6s infinite alternate;
+}
+.camera .star.s20 {
+  top: 147px;
+  left: 99px;
+  -webkit-animation: flicker 3.8s -1s infinite alternate;
+          animation: flicker 3.8s -1s infinite alternate;
+}
+.camera .star.s21 {
+  top: 129px;
+  left: 6px;
+  -webkit-animation: flicker 3s -1.8s infinite alternate;
+          animation: flicker 3s -1.8s infinite alternate;
+}
+.camera .star.s22 {
+  top: 183px;
+  left: 17px;
   -webkit-animation: flicker 2.8s -2s infinite alternate;
           animation: flicker 2.8s -2s infinite alternate;
 }
-.camera .star.s19 {
-  top: 186px;
-  left: 148px;
+.camera .star.s23 {
+  top: 243px;
+  left: 99px;
+  -webkit-animation: flicker 3.8s -1.8s infinite alternate;
+          animation: flicker 3.8s -1.8s infinite alternate;
+}
+.camera .star.s24 {
+  top: 235px;
+  left: 166px;
+  -webkit-animation: flicker 3.6s -0.8s infinite alternate;
+          animation: flicker 3.6s -0.8s infinite alternate;
+}
+.camera .star.s25 {
+  top: 211px;
+  left: 256px;
+  -webkit-animation: flicker 2.8s -1.4s infinite alternate;
+          animation: flicker 2.8s -1.4s infinite alternate;
+}
+.camera .star.s26 {
+  top: 300px;
+  left: 263px;
   -webkit-animation: flicker 3.8s -0.4s infinite alternate;
           animation: flicker 3.8s -0.4s infinite alternate;
 }
-.camera .star.s20 {
-  top: 295px;
-  left: 207px;
-  -webkit-animation: flicker 2.6s -1.8s infinite alternate;
-          animation: flicker 2.6s -1.8s infinite alternate;
+.camera .star.s27 {
+  top: 133px;
+  left: 49px;
+  -webkit-animation: flicker 3.6s -1.2s infinite alternate;
+          animation: flicker 3.6s -1.2s infinite alternate;
 }
-.camera .star.s21 {
-  top: 132px;
-  left: 284px;
+.camera .star.s28 {
+  top: 19px;
+  left: 27px;
   -webkit-animation: flicker 3.2s -0.4s infinite alternate;
           animation: flicker 3.2s -0.4s infinite alternate;
 }
-.camera .star.s22 {
-  top: 220px;
+.camera .star.s29 {
+  top: 239px;
+  left: 212px;
+  -webkit-animation: flicker 3.4s -1s infinite alternate;
+          animation: flicker 3.4s -1s infinite alternate;
+}
+.camera .star.s30 {
+  top: 194px;
+  left: 230px;
+  -webkit-animation: flicker 2.8s -1.8s infinite alternate;
+          animation: flicker 2.8s -1.8s infinite alternate;
+}
+.camera .star.s31 {
+  top: 161px;
+  left: 252px;
+  -webkit-animation: flicker 2.4s -1s infinite alternate;
+          animation: flicker 2.4s -1s infinite alternate;
+}
+.camera .star.s32 {
+  top: 153px;
+  left: 22px;
+  -webkit-animation: flicker 3.6s -1s infinite alternate;
+          animation: flicker 3.6s -1s infinite alternate;
+}
+.camera .star.s33 {
+  top: 42px;
+  left: 51px;
+  -webkit-animation: flicker 3.8s -1.4s infinite alternate;
+          animation: flicker 3.8s -1.4s infinite alternate;
+}
+.camera .star.s34 {
+  top: 15px;
+  left: 259px;
+  -webkit-animation: flicker 3s -0.6s infinite alternate;
+          animation: flicker 3s -0.6s infinite alternate;
+}
+.camera .star.s35 {
+  top: 56px;
+  left: 9px;
+  -webkit-animation: flicker 3.8s -1.2s infinite alternate;
+          animation: flicker 3.8s -1.2s infinite alternate;
+}
+.camera .star.s36 {
+  top: 197px;
+  left: 236px;
+  -webkit-animation: flicker 2.4s -0.6s infinite alternate;
+          animation: flicker 2.4s -0.6s infinite alternate;
+}
+.camera .star.s37 {
+  top: 155px;
+  left: 171px;
+  -webkit-animation: flicker 2.4s -0.4s infinite alternate;
+          animation: flicker 2.4s -0.4s infinite alternate;
+}
+.camera .star.s38 {
+  top: 98px;
+  left: 240px;
+  -webkit-animation: flicker 3.4s -2s infinite alternate;
+          animation: flicker 3.4s -2s infinite alternate;
+}
+.camera .star.s39 {
+  top: 284px;
+  left: 287px;
+  -webkit-animation: flicker 3.6s -0.6s infinite alternate;
+          animation: flicker 3.6s -0.6s infinite alternate;
+}
+.camera .star.s40 {
+  top: 63px;
+  left: 300px;
+  -webkit-animation: flicker 2.8s -2s infinite alternate;
+          animation: flicker 2.8s -2s infinite alternate;
+}
+.camera .star.s41 {
+  top: 286px;
+  left: 254px;
+  -webkit-animation: flicker 2.2s -1s infinite alternate;
+          animation: flicker 2.2s -1s infinite alternate;
+}
+.camera .star.s42 {
+  top: 161px;
+  left: 239px;
+  -webkit-animation: flicker 4s -0.2s infinite alternate;
+          animation: flicker 4s -0.2s infinite alternate;
+}
+.camera .star.s43 {
+  top: 19px;
+  left: 92px;
+  -webkit-animation: flicker 4s -1.6s infinite alternate;
+          animation: flicker 4s -1.6s infinite alternate;
+}
+.camera .star.s44 {
+  top: 51px;
+  left: 158px;
+  -webkit-animation: flicker 2.2s -0.8s infinite alternate;
+          animation: flicker 2.2s -0.8s infinite alternate;
+}
+.camera .star.s45 {
+  top: 264px;
+  left: 115px;
+  -webkit-animation: flicker 2.6s -1s infinite alternate;
+          animation: flicker 2.6s -1s infinite alternate;
+}
+.camera .star.s46 {
+  top: 121px;
+  left: 257px;
+  -webkit-animation: flicker 3.2s -2s infinite alternate;
+          animation: flicker 3.2s -2s infinite alternate;
+}
+.camera .star.s47 {
+  top: 171px;
+  left: 225px;
+  -webkit-animation: flicker 2.2s -0.4s infinite alternate;
+          animation: flicker 2.2s -0.4s infinite alternate;
+}
+.camera .star.s48 {
+  top: 285px;
+  left: 26px;
+  -webkit-animation: flicker 2.4s -0.2s infinite alternate;
+          animation: flicker 2.4s -0.2s infinite alternate;
+}
+.camera .star.s49 {
+  top: 232px;
+  left: 267px;
+  -webkit-animation: flicker 3.6s -1.8s infinite alternate;
+          animation: flicker 3.6s -1.8s infinite alternate;
+}
+.camera .star.s50 {
+  top: 193px;
+  left: 297px;
+  -webkit-animation: flicker 2.4s -1.8s infinite alternate;
+          animation: flicker 2.4s -1.8s infinite alternate;
+}
+.camera .star.s51 {
+  top: 179px;
+  left: 182px;
+  -webkit-animation: flicker 2.6s -0.8s infinite alternate;
+          animation: flicker 2.6s -0.8s infinite alternate;
+}
+.camera .star.s52 {
+  top: 234px;
+  left: 140px;
+  -webkit-animation: flicker 4s -1.4s infinite alternate;
+          animation: flicker 4s -1.4s infinite alternate;
+}
+.camera .star.s53 {
+  top: 77px;
+  left: 114px;
+  -webkit-animation: flicker 3.2s -1.6s infinite alternate;
+          animation: flicker 3.2s -1.6s infinite alternate;
+}
+.camera .star.s54 {
+  top: 258px;
+  left: 102px;
+  -webkit-animation: flicker 3.6s -1.2s infinite alternate;
+          animation: flicker 3.6s -1.2s infinite alternate;
+}
+.camera .star.s55 {
+  top: 294px;
+  left: 121px;
+  -webkit-animation: flicker 2.2s -0.2s infinite alternate;
+          animation: flicker 2.2s -0.2s infinite alternate;
+}
+.camera .star.s56 {
+  top: 171px;
+  left: 270px;
+  -webkit-animation: flicker 3.8s -1s infinite alternate;
+          animation: flicker 3.8s -1s infinite alternate;
+}
+.camera .star.s57 {
+  top: 228px;
+  left: 252px;
+  -webkit-animation: flicker 4s -1.6s infinite alternate;
+          animation: flicker 4s -1.6s infinite alternate;
+}
+.camera .star.s58 {
+  top: 177px;
+  left: 206px;
+  -webkit-animation: flicker 3s -0.4s infinite alternate;
+          animation: flicker 3s -0.4s infinite alternate;
+}
+.camera .star.s59 {
+  top: 76px;
+  left: 62px;
+  -webkit-animation: flicker 3.4s -0.6s infinite alternate;
+          animation: flicker 3.4s -0.6s infinite alternate;
+}
+.camera .star.s60 {
+  top: 228px;
+  left: 5px;
+  -webkit-animation: flicker 2.8s -0.8s infinite alternate;
+          animation: flicker 2.8s -0.8s infinite alternate;
+}
+.camera .star.s61 {
+  top: 269px;
+  left: 125px;
+  -webkit-animation: flicker 3.6s -1.4s infinite alternate;
+          animation: flicker 3.6s -1.4s infinite alternate;
+}
+.camera .star.s62 {
+  top: 245px;
+  left: 35px;
+  -webkit-animation: flicker 2.6s -1.6s infinite alternate;
+          animation: flicker 2.6s -1.6s infinite alternate;
+}
+.camera .star.s63 {
+  top: 135px;
+  left: 185px;
+  -webkit-animation: flicker 2.4s -0.4s infinite alternate;
+          animation: flicker 2.4s -0.4s infinite alternate;
+}
+.camera .star.s64 {
+  top: 248px;
+  left: 209px;
+  -webkit-animation: flicker 2.6s -0.2s infinite alternate;
+          animation: flicker 2.6s -0.2s infinite alternate;
+}
+.camera .star.s65 {
+  top: 11px;
+  left: 282px;
+  -webkit-animation: flicker 3s -1.6s infinite alternate;
+          animation: flicker 3s -1.6s infinite alternate;
+}
+.camera .star.s66 {
+  top: 54px;
+  left: 221px;
+  -webkit-animation: flicker 3s -0.4s infinite alternate;
+          animation: flicker 3s -0.4s infinite alternate;
+}
+.camera .star.s67 {
+  top: 3px;
+  left: 187px;
+  -webkit-animation: flicker 3.4s -1s infinite alternate;
+          animation: flicker 3.4s -1s infinite alternate;
+}
+.camera .star.s68 {
+  top: 36px;
+  left: 271px;
+  -webkit-animation: flicker 2.2s -0.4s infinite alternate;
+          animation: flicker 2.2s -0.4s infinite alternate;
+}
+.camera .star.s69 {
+  top: 91px;
+  left: 47px;
+  -webkit-animation: flicker 4s -0.4s infinite alternate;
+          animation: flicker 4s -0.4s infinite alternate;
+}
+.camera .star.s70 {
+  top: 295px;
+  left: 121px;
+  -webkit-animation: flicker 2.2s -2s infinite alternate;
+          animation: flicker 2.2s -2s infinite alternate;
+}
+.camera .star.s71 {
+  top: 20px;
+  left: 258px;
+  -webkit-animation: flicker 2.4s -1.6s infinite alternate;
+          animation: flicker 2.4s -1.6s infinite alternate;
+}
+.camera .star.s72 {
+  top: 56px;
+  left: 155px;
+  -webkit-animation: flicker 2.8s -2s infinite alternate;
+          animation: flicker 2.8s -2s infinite alternate;
+}
+.camera .star.s73 {
+  top: 39px;
   left: 130px;
   -webkit-animation: flicker 3.8s -1.8s infinite alternate;
           animation: flicker 3.8s -1.8s infinite alternate;
 }
-.camera .star.s23 {
-  top: 269px;
-  left: 56px;
-  -webkit-animation: flicker 2.2s -0.4s infinite alternate;
-          animation: flicker 2.2s -0.4s infinite alternate;
-}
-.camera .star.s24 {
-  top: 270px;
-  left: 108px;
-  -webkit-animation: flicker 3.8s -0.4s infinite alternate;
-          animation: flicker 3.8s -0.4s infinite alternate;
-}
-.camera .star.s25 {
-  top: 144px;
-  left: 196px;
-  -webkit-animation: flicker 2.8s -0.6s infinite alternate;
-          animation: flicker 2.8s -0.6s infinite alternate;
-}
-.camera .star.s26 {
-  top: 156px;
-  left: 24px;
-  -webkit-animation: flicker 2.4s -0.8s infinite alternate;
-          animation: flicker 2.4s -0.8s infinite alternate;
-}
-.camera .star.s27 {
-  top: 147px;
-  left: 236px;
-  -webkit-animation: flicker 4s -1.2s infinite alternate;
-          animation: flicker 4s -1.2s infinite alternate;
-}
-.camera .star.s28 {
-  top: 141px;
-  left: 11px;
-  -webkit-animation: flicker 3.8s -1.2s infinite alternate;
-          animation: flicker 3.8s -1.2s infinite alternate;
-}
-.camera .star.s29 {
-  top: 134px;
-  left: 78px;
-  -webkit-animation: flicker 2.2s -0.4s infinite alternate;
-          animation: flicker 2.2s -0.4s infinite alternate;
-}
-.camera .star.s30 {
-  top: 135px;
-  left: 143px;
-  -webkit-animation: flicker 3.6s -0.8s infinite alternate;
-          animation: flicker 3.6s -0.8s infinite alternate;
-}
-.camera .star.s31 {
-  top: 36px;
-  left: 236px;
-  -webkit-animation: flicker 2.2s -0.8s infinite alternate;
-          animation: flicker 2.2s -0.8s infinite alternate;
-}
-.camera .star.s32 {
-  top: 27px;
-  left: 127px;
-  -webkit-animation: flicker 2.6s -1.2s infinite alternate;
-          animation: flicker 2.6s -1.2s infinite alternate;
-}
-.camera .star.s33 {
-  top: 207px;
-  left: 269px;
-  -webkit-animation: flicker 2.2s -2s infinite alternate;
-          animation: flicker 2.2s -2s infinite alternate;
-}
-.camera .star.s34 {
-  top: 276px;
-  left: 131px;
-  -webkit-animation: flicker 2.8s -0.4s infinite alternate;
-          animation: flicker 2.8s -0.4s infinite alternate;
-}
-.camera .star.s35 {
-  top: 1px;
-  left: 143px;
-  -webkit-animation: flicker 3.2s -0.8s infinite alternate;
-          animation: flicker 3.2s -0.8s infinite alternate;
-}
-.camera .star.s36 {
-  top: 22px;
-  left: 38px;
-  -webkit-animation: flicker 3s -0.4s infinite alternate;
-          animation: flicker 3s -0.4s infinite alternate;
-}
-.camera .star.s37 {
-  top: 276px;
-  left: 30px;
-  -webkit-animation: flicker 2.2s -0.6s infinite alternate;
-          animation: flicker 2.2s -0.6s infinite alternate;
-}
-.camera .star.s38 {
-  top: 252px;
-  left: 260px;
-  -webkit-animation: flicker 3.8s -0.4s infinite alternate;
-          animation: flicker 3.8s -0.4s infinite alternate;
-}
-.camera .star.s39 {
-  top: 255px;
-  left: 81px;
-  -webkit-animation: flicker 3.2s -1.4s infinite alternate;
-          animation: flicker 3.2s -1.4s infinite alternate;
-}
-.camera .star.s40 {
-  top: 174px;
-  left: 233px;
-  -webkit-animation: flicker 4s -1.2s infinite alternate;
-          animation: flicker 4s -1.2s infinite alternate;
-}
-.camera .star.s41 {
-  top: 129px;
-  left: 213px;
-  -webkit-animation: flicker 3.2s -1s infinite alternate;
-          animation: flicker 3.2s -1s infinite alternate;
-}
-.camera .star.s42 {
-  top: 99px;
-  left: 65px;
-  -webkit-animation: flicker 3.6s -1s infinite alternate;
-          animation: flicker 3.6s -1s infinite alternate;
-}
-.camera .star.s43 {
-  top: 153px;
-  left: 152px;
-  -webkit-animation: flicker 2.6s -1.6s infinite alternate;
-          animation: flicker 2.6s -1.6s infinite alternate;
-}
-.camera .star.s44 {
-  top: 223px;
-  left: 120px;
-  -webkit-animation: flicker 3.4s -1.2s infinite alternate;
-          animation: flicker 3.4s -1.2s infinite alternate;
-}
-.camera .star.s45 {
-  top: 62px;
-  left: 153px;
-  -webkit-animation: flicker 2.6s -1.8s infinite alternate;
-          animation: flicker 2.6s -1.8s infinite alternate;
-}
-.camera .star.s46 {
-  top: 199px;
-  left: 175px;
-  -webkit-animation: flicker 2.4s -1.8s infinite alternate;
-          animation: flicker 2.4s -1.8s infinite alternate;
-}
-.camera .star.s47 {
-  top: 123px;
-  left: 28px;
-  -webkit-animation: flicker 3.8s -1s infinite alternate;
-          animation: flicker 3.8s -1s infinite alternate;
-}
-.camera .star.s48 {
-  top: 259px;
-  left: 83px;
-  -webkit-animation: flicker 3.6s -1.4s infinite alternate;
-          animation: flicker 3.6s -1.4s infinite alternate;
-}
-.camera .star.s49 {
-  top: 20px;
-  left: 245px;
-  -webkit-animation: flicker 2.6s -2s infinite alternate;
-          animation: flicker 2.6s -2s infinite alternate;
-}
-.camera .star.s50 {
-  top: 95px;
-  left: 199px;
-  -webkit-animation: flicker 2.4s -1.2s infinite alternate;
-          animation: flicker 2.4s -1.2s infinite alternate;
-}
-.camera .star.s51 {
-  top: 103px;
-  left: 16px;
-  -webkit-animation: flicker 3.8s -0.2s infinite alternate;
-          animation: flicker 3.8s -0.2s infinite alternate;
-}
-.camera .star.s52 {
-  top: 150px;
-  left: 148px;
-  -webkit-animation: flicker 3.2s -1.8s infinite alternate;
-          animation: flicker 3.2s -1.8s infinite alternate;
-}
-.camera .star.s53 {
-  top: 26px;
-  left: 49px;
-  -webkit-animation: flicker 3.2s -0.6s infinite alternate;
-          animation: flicker 3.2s -0.6s infinite alternate;
-}
-.camera .star.s54 {
-  top: 45px;
-  left: 221px;
-  -webkit-animation: flicker 3.4s -1.4s infinite alternate;
-          animation: flicker 3.4s -1.4s infinite alternate;
-}
-.camera .star.s55 {
-  top: 9px;
-  left: 152px;
-  -webkit-animation: flicker 2.4s -0.6s infinite alternate;
-          animation: flicker 2.4s -0.6s infinite alternate;
-}
-.camera .star.s56 {
-  top: 46px;
-  left: 4px;
-  -webkit-animation: flicker 2.2s -0.6s infinite alternate;
-          animation: flicker 2.2s -0.6s infinite alternate;
-}
-.camera .star.s57 {
-  top: 92px;
-  left: 256px;
-  -webkit-animation: flicker 3.6s -1.6s infinite alternate;
-          animation: flicker 3.6s -1.6s infinite alternate;
-}
-.camera .star.s58 {
-  top: 299px;
-  left: 128px;
+.camera .star.s74 {
+  top: 117px;
+  left: 168px;
   -webkit-animation: flicker 4s -0.4s infinite alternate;
           animation: flicker 4s -0.4s infinite alternate;
 }
-.camera .star.s59 {
-  top: 209px;
-  left: 234px;
-  -webkit-animation: flicker 4s -1.4s infinite alternate;
-          animation: flicker 4s -1.4s infinite alternate;
-}
-.camera .star.s60 {
-  top: 14px;
-  left: 53px;
-  -webkit-animation: flicker 3.2s -1.4s infinite alternate;
-          animation: flicker 3.2s -1.4s infinite alternate;
-}
-.camera .star.s61 {
-  top: 66px;
-  left: 32px;
+.camera .star.s75 {
+  top: 198px;
+  left: 84px;
   -webkit-animation: flicker 4s -0.6s infinite alternate;
           animation: flicker 4s -0.6s infinite alternate;
-}
-.camera .star.s62 {
-  top: 156px;
-  left: 291px;
-  -webkit-animation: flicker 2.8s -1.8s infinite alternate;
-          animation: flicker 2.8s -1.8s infinite alternate;
-}
-.camera .star.s63 {
-  top: 126px;
-  left: 31px;
-  -webkit-animation: flicker 3s -1s infinite alternate;
-          animation: flicker 3s -1s infinite alternate;
-}
-.camera .star.s64 {
-  top: 15px;
-  left: 163px;
-  -webkit-animation: flicker 2.6s -1.6s infinite alternate;
-          animation: flicker 2.6s -1.6s infinite alternate;
-}
-.camera .star.s65 {
-  top: 85px;
-  left: 280px;
-  -webkit-animation: flicker 3.2s -0.4s infinite alternate;
-          animation: flicker 3.2s -0.4s infinite alternate;
-}
-.camera .star.s66 {
-  top: 218px;
-  left: 190px;
-  -webkit-animation: flicker 2.6s -0.2s infinite alternate;
-          animation: flicker 2.6s -0.2s infinite alternate;
-}
-.camera .star.s67 {
-  top: 283px;
-  left: 163px;
-  -webkit-animation: flicker 2.8s -1.2s infinite alternate;
-          animation: flicker 2.8s -1.2s infinite alternate;
-}
-.camera .star.s68 {
-  top: 262px;
-  left: 187px;
-  -webkit-animation: flicker 3s -1s infinite alternate;
-          animation: flicker 3s -1s infinite alternate;
-}
-.camera .star.s69 {
-  top: 147px;
-  left: 37px;
-  -webkit-animation: flicker 2.6s -0.2s infinite alternate;
-          animation: flicker 2.6s -0.2s infinite alternate;
-}
-.camera .star.s70 {
-  top: 203px;
-  left: 259px;
-  -webkit-animation: flicker 2.6s -1.2s infinite alternate;
-          animation: flicker 2.6s -1.2s infinite alternate;
-}
-.camera .star.s71 {
-  top: 67px;
-  left: 232px;
-  -webkit-animation: flicker 2.2s -0.4s infinite alternate;
-          animation: flicker 2.2s -0.4s infinite alternate;
-}
-.camera .star.s72 {
-  top: 298px;
-  left: 182px;
-  -webkit-animation: flicker 2.4s -0.2s infinite alternate;
-          animation: flicker 2.4s -0.2s infinite alternate;
-}
-.camera .star.s73 {
-  top: 164px;
-  left: 155px;
-  -webkit-animation: flicker 4s -1.4s infinite alternate;
-          animation: flicker 4s -1.4s infinite alternate;
-}
-.camera .star.s74 {
-  top: 64px;
-  left: 128px;
-  -webkit-animation: flicker 3s -0.8s infinite alternate;
-          animation: flicker 3s -0.8s infinite alternate;
-}
-.camera .star.s75 {
-  top: 297px;
-  left: 297px;
-  -webkit-animation: flicker 4s -1.4s infinite alternate;
-          animation: flicker 4s -1.4s infinite alternate;
 }
 .camera .star.s76 {
-  top: 157px;
-  left: 267px;
-  -webkit-animation: flicker 3.8s -1.2s infinite alternate;
-          animation: flicker 3.8s -1.2s infinite alternate;
+  top: 25px;
+  left: 169px;
+  -webkit-animation: flicker 3.2s -2s infinite alternate;
+          animation: flicker 3.2s -2s infinite alternate;
 }
 .camera .star.s77 {
-  top: 90px;
-  left: 85px;
-  -webkit-animation: flicker 4s -0.6s infinite alternate;
-          animation: flicker 4s -0.6s infinite alternate;
+  top: 251px;
+  left: 146px;
+  -webkit-animation: flicker 2.2s -1s infinite alternate;
+          animation: flicker 2.2s -1s infinite alternate;
 }
 .camera .star.s78 {
-  top: 23px;
-  left: 45px;
-  -webkit-animation: flicker 3.6s -1.6s infinite alternate;
-          animation: flicker 3.6s -1.6s infinite alternate;
+  top: 250px;
+  left: 86px;
+  -webkit-animation: flicker 3.4s -1.4s infinite alternate;
+          animation: flicker 3.4s -1.4s infinite alternate;
 }
 .camera .star.s79 {
-  top: 63px;
-  left: 126px;
-  -webkit-animation: flicker 3.2s -1s infinite alternate;
-          animation: flicker 3.2s -1s infinite alternate;
+  top: 22px;
+  left: 115px;
+  -webkit-animation: flicker 2.6s -0.8s infinite alternate;
+          animation: flicker 2.6s -0.8s infinite alternate;
 }
 .camera .star.s80 {
-  top: 168px;
-  left: 145px;
-  -webkit-animation: flicker 2.4s -0.6s infinite alternate;
-          animation: flicker 2.4s -0.6s infinite alternate;
+  top: 207px;
+  left: 265px;
+  -webkit-animation: flicker 3.4s -1s infinite alternate;
+          animation: flicker 3.4s -1s infinite alternate;
 }
 .camera .star.s81 {
-  top: 193px;
-  left: 213px;
-  -webkit-animation: flicker 2.8s -0.4s infinite alternate;
-          animation: flicker 2.8s -0.4s infinite alternate;
+  top: 145px;
+  left: 260px;
+  -webkit-animation: flicker 3.8s -0.6s infinite alternate;
+          animation: flicker 3.8s -0.6s infinite alternate;
 }
 .camera .star.s82 {
-  top: 228px;
-  left: 282px;
+  top: 299px;
+  left: 141px;
   -webkit-animation: flicker 4s -1.6s infinite alternate;
           animation: flicker 4s -1.6s infinite alternate;
 }
 .camera .star.s83 {
-  top: 293px;
-  left: 46px;
-  -webkit-animation: flicker 2.2s -0.4s infinite alternate;
-          animation: flicker 2.2s -0.4s infinite alternate;
+  top: 43px;
+  left: 228px;
+  -webkit-animation: flicker 2.6s -1s infinite alternate;
+          animation: flicker 2.6s -1s infinite alternate;
 }
 .camera .star.s84 {
-  top: 202px;
-  left: 47px;
-  -webkit-animation: flicker 2.4s -2s infinite alternate;
-          animation: flicker 2.4s -2s infinite alternate;
+  top: 120px;
+  left: 282px;
+  -webkit-animation: flicker 2.6s -0.4s infinite alternate;
+          animation: flicker 2.6s -0.4s infinite alternate;
 }
 .camera .star.s85 {
-  top: 244px;
-  left: 114px;
-  -webkit-animation: flicker 2.8s -0.8s infinite alternate;
-          animation: flicker 2.8s -0.8s infinite alternate;
+  top: 199px;
+  left: 165px;
+  -webkit-animation: flicker 2.8s -1.6s infinite alternate;
+          animation: flicker 2.8s -1.6s infinite alternate;
 }
 .camera .star.s86 {
-  top: 32px;
-  left: 254px;
-  -webkit-animation: flicker 2.4s -0.8s infinite alternate;
-          animation: flicker 2.4s -0.8s infinite alternate;
+  top: 215px;
+  left: 113px;
+  -webkit-animation: flicker 3.8s -0.8s infinite alternate;
+          animation: flicker 3.8s -0.8s infinite alternate;
 }
 .camera .star.s87 {
-  top: 130px;
-  left: 4px;
-  -webkit-animation: flicker 3s -1.6s infinite alternate;
-          animation: flicker 3s -1.6s infinite alternate;
+  top: 160px;
+  left: 294px;
+  -webkit-animation: flicker 3.6s -0.6s infinite alternate;
+          animation: flicker 3.6s -0.6s infinite alternate;
 }
 .camera .star.s88 {
-  top: 44px;
-  left: 140px;
-  -webkit-animation: flicker 3.6s -0.2s infinite alternate;
-          animation: flicker 3.6s -0.2s infinite alternate;
+  top: 12px;
+  left: 206px;
+  -webkit-animation: flicker 3s -1.4s infinite alternate;
+          animation: flicker 3s -1.4s infinite alternate;
 }
 .camera .star.s89 {
-  top: 180px;
-  left: 5px;
-  -webkit-animation: flicker 3.2s -1.6s infinite alternate;
-          animation: flicker 3.2s -1.6s infinite alternate;
-}
-.camera .star.s90 {
-  top: 266px;
-  left: 189px;
-  -webkit-animation: flicker 2.4s -1.4s infinite alternate;
-          animation: flicker 2.4s -1.4s infinite alternate;
-}
-.camera .star.s91 {
-  top: 35px;
-  left: 246px;
-  -webkit-animation: flicker 2.6s -1.8s infinite alternate;
-          animation: flicker 2.6s -1.8s infinite alternate;
-}
-.camera .star.s92 {
-  top: 297px;
-  left: 87px;
-  -webkit-animation: flicker 2.6s -0.2s infinite alternate;
-          animation: flicker 2.6s -0.2s infinite alternate;
-}
-.camera .star.s93 {
-  top: 82px;
-  left: 231px;
-  -webkit-animation: flicker 3s -1.8s infinite alternate;
-          animation: flicker 3s -1.8s infinite alternate;
-}
-.camera .star.s94 {
-  top: 46px;
-  left: 173px;
+  top: 154px;
+  left: 159px;
   -webkit-animation: flicker 2.2s -0.6s infinite alternate;
           animation: flicker 2.2s -0.6s infinite alternate;
 }
+.camera .star.s90 {
+  top: 46px;
+  left: 65px;
+  -webkit-animation: flicker 3.6s -0.6s infinite alternate;
+          animation: flicker 3.6s -0.6s infinite alternate;
+}
+.camera .star.s91 {
+  top: 13px;
+  left: 219px;
+  -webkit-animation: flicker 3.4s -1s infinite alternate;
+          animation: flicker 3.4s -1s infinite alternate;
+}
+.camera .star.s92 {
+  top: 81px;
+  left: 168px;
+  -webkit-animation: flicker 3s -0.6s infinite alternate;
+          animation: flicker 3s -0.6s infinite alternate;
+}
+.camera .star.s93 {
+  top: 66px;
+  left: 27px;
+  -webkit-animation: flicker 2.6s -2s infinite alternate;
+          animation: flicker 2.6s -2s infinite alternate;
+}
+.camera .star.s94 {
+  top: 4px;
+  left: 192px;
+  -webkit-animation: flicker 2.2s -0.4s infinite alternate;
+          animation: flicker 2.2s -0.4s infinite alternate;
+}
 .camera .star.s95 {
-  top: 9px;
-  left: 202px;
-  -webkit-animation: flicker 2.8s -1.4s infinite alternate;
-          animation: flicker 2.8s -1.4s infinite alternate;
+  top: 135px;
+  left: 38px;
+  -webkit-animation: flicker 3.6s -1.6s infinite alternate;
+          animation: flicker 3.6s -1.6s infinite alternate;
 }
 .camera .star.s96 {
-  top: 139px;
-  left: 289px;
-  -webkit-animation: flicker 2.8s -1.2s infinite alternate;
-          animation: flicker 2.8s -1.2s infinite alternate;
+  top: 221px;
+  left: 172px;
+  -webkit-animation: flicker 3.8s -1.2s infinite alternate;
+          animation: flicker 3.8s -1.2s infinite alternate;
 }
 .camera .star.s97 {
-  top: 18px;
-  left: 109px;
-  -webkit-animation: flicker 3.2s -0.4s infinite alternate;
-          animation: flicker 3.2s -0.4s infinite alternate;
+  top: 218px;
+  left: 297px;
+  -webkit-animation: flicker 3.8s -1.2s infinite alternate;
+          animation: flicker 3.8s -1.2s infinite alternate;
 }
 .camera .star.s98 {
-  top: 190px;
-  left: 56px;
-  -webkit-animation: flicker 3.6s -0.2s infinite alternate;
-          animation: flicker 3.6s -0.2s infinite alternate;
+  top: 271px;
+  left: 77px;
+  -webkit-animation: flicker 3.8s -2s infinite alternate;
+          animation: flicker 3.8s -2s infinite alternate;
 }
 .camera .star.s99 {
-  top: 196px;
-  left: 138px;
+  top: 223px;
+  left: 60px;
   -webkit-animation: flicker 2.2s -1.4s infinite alternate;
           animation: flicker 2.2s -1.4s infinite alternate;
 }
 .camera .star.s100 {
-  top: 92px;
-  left: 188px;
-  -webkit-animation: flicker 3.4s -0.6s infinite alternate;
-          animation: flicker 3.4s -0.6s infinite alternate;
+  top: 32px;
+  left: 52px;
+  -webkit-animation: flicker 2.2s -1.2s infinite alternate;
+          animation: flicker 2.2s -1.2s infinite alternate;
 }
 .camera .star.s101 {
-  top: 276px;
-  left: 12px;
-  -webkit-animation: flicker 4s -1.8s infinite alternate;
-          animation: flicker 4s -1.8s infinite alternate;
-}
-.camera .star.s102 {
-  top: 145px;
-  left: 51px;
-  -webkit-animation: flicker 2.8s -1.2s infinite alternate;
-          animation: flicker 2.8s -1.2s infinite alternate;
-}
-.camera .star.s103 {
-  top: 133px;
-  left: 294px;
-  -webkit-animation: flicker 2.2s -0.6s infinite alternate;
-          animation: flicker 2.2s -0.6s infinite alternate;
-}
-.camera .star.s104 {
-  top: 141px;
-  left: 12px;
-  -webkit-animation: flicker 3.8s -0.6s infinite alternate;
-          animation: flicker 3.8s -0.6s infinite alternate;
-}
-.camera .star.s105 {
-  top: 13px;
-  left: 120px;
-  -webkit-animation: flicker 2.8s -1s infinite alternate;
-          animation: flicker 2.8s -1s infinite alternate;
-}
-.camera .star.s106 {
-  top: 234px;
-  left: 229px;
-  -webkit-animation: flicker 4s -1.2s infinite alternate;
-          animation: flicker 4s -1.2s infinite alternate;
-}
-.camera .star.s107 {
-  top: 291px;
-  left: 245px;
-  -webkit-animation: flicker 2.2s -0.2s infinite alternate;
-          animation: flicker 2.2s -0.2s infinite alternate;
-}
-.camera .star.s108 {
-  top: 1px;
-  left: 90px;
-  -webkit-animation: flicker 2.2s -1.6s infinite alternate;
-          animation: flicker 2.2s -1.6s infinite alternate;
-}
-.camera .star.s109 {
-  top: 168px;
-  left: 2px;
-  -webkit-animation: flicker 2.6s -1.8s infinite alternate;
-          animation: flicker 2.6s -1.8s infinite alternate;
-}
-.camera .star.s110 {
-  top: 171px;
-  left: 89px;
-  -webkit-animation: flicker 2.6s -0.6s infinite alternate;
-          animation: flicker 2.6s -0.6s infinite alternate;
-}
-.camera .star.s111 {
-  top: 195px;
-  left: 188px;
-  -webkit-animation: flicker 3.4s -1s infinite alternate;
-          animation: flicker 3.4s -1s infinite alternate;
-}
-.camera .star.s112 {
-  top: 168px;
-  left: 8px;
-  -webkit-animation: flicker 3.8s -1.2s infinite alternate;
-          animation: flicker 3.8s -1.2s infinite alternate;
-}
-.camera .star.s113 {
-  top: 146px;
-  left: 237px;
-  -webkit-animation: flicker 2.6s -1.8s infinite alternate;
-          animation: flicker 2.6s -1.8s infinite alternate;
-}
-.camera .star.s114 {
-  top: 101px;
-  left: 290px;
-  -webkit-animation: flicker 2.6s -1.4s infinite alternate;
-          animation: flicker 2.6s -1.4s infinite alternate;
-}
-.camera .star.s115 {
-  top: 213px;
-  left: 198px;
-  -webkit-animation: flicker 3s -1.6s infinite alternate;
-          animation: flicker 3s -1.6s infinite alternate;
-}
-.camera .star.s116 {
-  top: 50px;
-  left: 123px;
-  -webkit-animation: flicker 3.2s -1s infinite alternate;
-          animation: flicker 3.2s -1s infinite alternate;
-}
-.camera .star.s117 {
-  top: 28px;
-  left: 144px;
-  -webkit-animation: flicker 3.2s -0.4s infinite alternate;
-          animation: flicker 3.2s -0.4s infinite alternate;
-}
-.camera .star.s118 {
-  top: 246px;
-  left: 234px;
-  -webkit-animation: flicker 3.2s -1.6s infinite alternate;
-          animation: flicker 3.2s -1.6s infinite alternate;
-}
-.camera .star.s119 {
-  top: 262px;
-  left: 273px;
-  -webkit-animation: flicker 2.4s -1.6s infinite alternate;
-          animation: flicker 2.4s -1.6s infinite alternate;
-}
-.camera .star.s120 {
-  top: 62px;
-  left: 8px;
-  -webkit-animation: flicker 3.8s -1.6s infinite alternate;
-          animation: flicker 3.8s -1.6s infinite alternate;
-}
-.camera .star.s121 {
-  top: 254px;
-  left: 120px;
-  -webkit-animation: flicker 4s -1s infinite alternate;
-          animation: flicker 4s -1s infinite alternate;
-}
-.camera .star.s122 {
-  top: 260px;
-  left: 65px;
-  -webkit-animation: flicker 3.2s -1.8s infinite alternate;
-          animation: flicker 3.2s -1.8s infinite alternate;
-}
-.camera .star.s123 {
-  top: 138px;
-  left: 145px;
-  -webkit-animation: flicker 3.2s -1.6s infinite alternate;
-          animation: flicker 3.2s -1.6s infinite alternate;
-}
-.camera .star.s124 {
-  top: 243px;
-  left: 288px;
-  -webkit-animation: flicker 3.2s -1.8s infinite alternate;
-          animation: flicker 3.2s -1.8s infinite alternate;
-}
-.camera .star.s125 {
-  top: 15px;
-  left: 58px;
-  -webkit-animation: flicker 2.6s -1.2s infinite alternate;
-          animation: flicker 2.6s -1.2s infinite alternate;
-}
-.camera .star.s126 {
-  top: 292px;
-  left: 41px;
-  -webkit-animation: flicker 3.4s -0.4s infinite alternate;
-          animation: flicker 3.4s -0.4s infinite alternate;
-}
-.camera .star.s127 {
-  top: 97px;
-  left: 152px;
-  -webkit-animation: flicker 3.2s -1s infinite alternate;
-          animation: flicker 3.2s -1s infinite alternate;
-}
-.camera .star.s128 {
-  top: 138px;
-  left: 178px;
-  -webkit-animation: flicker 2.2s -1.8s infinite alternate;
-          animation: flicker 2.2s -1.8s infinite alternate;
-}
-.camera .star.s129 {
-  top: 32px;
-  left: 193px;
-  -webkit-animation: flicker 3.4s -1s infinite alternate;
-          animation: flicker 3.4s -1s infinite alternate;
-}
-.camera .star.s130 {
-  top: 276px;
-  left: 184px;
-  -webkit-animation: flicker 4s -1s infinite alternate;
-          animation: flicker 4s -1s infinite alternate;
-}
-.camera .star.s131 {
-  top: 290px;
-  left: 56px;
-  -webkit-animation: flicker 3.8s -1.4s infinite alternate;
-          animation: flicker 3.8s -1.4s infinite alternate;
-}
-.camera .star.s132 {
-  top: 285px;
-  left: 160px;
-  -webkit-animation: flicker 2.8s -1s infinite alternate;
-          animation: flicker 2.8s -1s infinite alternate;
-}
-.camera .star.s133 {
-  top: 166px;
-  left: 253px;
-  -webkit-animation: flicker 3.2s -1.6s infinite alternate;
-          animation: flicker 3.2s -1.6s infinite alternate;
-}
-.camera .star.s134 {
-  top: 12px;
-  left: 4px;
-  -webkit-animation: flicker 4s -1.6s infinite alternate;
-          animation: flicker 4s -1.6s infinite alternate;
-}
-.camera .star.s135 {
-  top: 126px;
-  left: 188px;
-  -webkit-animation: flicker 3.4s -0.6s infinite alternate;
-          animation: flicker 3.4s -0.6s infinite alternate;
-}
-.camera .star.s136 {
-  top: 88px;
-  left: 125px;
-  -webkit-animation: flicker 2.2s -0.8s infinite alternate;
-          animation: flicker 2.2s -0.8s infinite alternate;
-}
-.camera .star.s137 {
-  top: 237px;
-  left: 126px;
-  -webkit-animation: flicker 3.2s -1.8s infinite alternate;
-          animation: flicker 3.2s -1.8s infinite alternate;
-}
-.camera .star.s138 {
-  top: 215px;
-  left: 99px;
-  -webkit-animation: flicker 3.6s -0.4s infinite alternate;
-          animation: flicker 3.6s -0.4s infinite alternate;
-}
-.camera .star.s139 {
-  top: 42px;
-  left: 114px;
-  -webkit-animation: flicker 3.2s -1.2s infinite alternate;
-          animation: flicker 3.2s -1.2s infinite alternate;
-}
-.camera .star.s140 {
-  top: 219px;
-  left: 158px;
-  -webkit-animation: flicker 2.6s -2s infinite alternate;
-          animation: flicker 2.6s -2s infinite alternate;
-}
-.camera .star.s141 {
-  top: 150px;
-  left: 278px;
-  -webkit-animation: flicker 3.6s -1.8s infinite alternate;
-          animation: flicker 3.6s -1.8s infinite alternate;
-}
-.camera .star.s142 {
-  top: 208px;
-  left: 165px;
-  -webkit-animation: flicker 2.8s -1.4s infinite alternate;
-          animation: flicker 2.8s -1.4s infinite alternate;
-}
-.camera .star.s143 {
-  top: 95px;
-  left: 273px;
-  -webkit-animation: flicker 3.2s -0.2s infinite alternate;
-          animation: flicker 3.2s -0.2s infinite alternate;
-}
-.camera .star.s144 {
-  top: 169px;
-  left: 286px;
-  -webkit-animation: flicker 2.6s -1.2s infinite alternate;
-          animation: flicker 2.6s -1.2s infinite alternate;
-}
-.camera .star.s145 {
-  top: 224px;
-  left: 210px;
-  -webkit-animation: flicker 3s -2s infinite alternate;
-          animation: flicker 3s -2s infinite alternate;
-}
-.camera .star.s146 {
-  top: 288px;
-  left: 100px;
-  -webkit-animation: flicker 2.4s -0.8s infinite alternate;
-          animation: flicker 2.4s -0.8s infinite alternate;
-}
-.camera .star.s147 {
-  top: 284px;
-  left: 241px;
-  -webkit-animation: flicker 3.4s -1.8s infinite alternate;
-          animation: flicker 3.4s -1.8s infinite alternate;
-}
-.camera .star.s148 {
-  top: 149px;
-  left: 22px;
-  -webkit-animation: flicker 2.2s -0.2s infinite alternate;
-          animation: flicker 2.2s -0.2s infinite alternate;
-}
-.camera .star.s149 {
-  top: 210px;
-  left: 183px;
-  -webkit-animation: flicker 2.2s -0.6s infinite alternate;
-          animation: flicker 2.2s -0.6s infinite alternate;
-}
-.camera .star.s150 {
-  top: 293px;
-  left: 105px;
-  -webkit-animation: flicker 3.8s -1.2s infinite alternate;
-          animation: flicker 3.8s -1.2s infinite alternate;
-}
-.camera .star.s151 {
-  top: 247px;
-  left: 230px;
-  -webkit-animation: flicker 2.2s -0.4s infinite alternate;
-          animation: flicker 2.2s -0.4s infinite alternate;
-}
-.camera .star.s152 {
-  top: 150px;
-  left: 107px;
-  -webkit-animation: flicker 2.2s -0.8s infinite alternate;
-          animation: flicker 2.2s -0.8s infinite alternate;
-}
-.camera .star.s153 {
-  top: 80px;
-  left: 70px;
-  -webkit-animation: flicker 3.4s -1.2s infinite alternate;
-          animation: flicker 3.4s -1.2s infinite alternate;
-}
-.camera .star.s154 {
-  top: 160px;
-  left: 71px;
-  -webkit-animation: flicker 2.6s -1.8s infinite alternate;
-          animation: flicker 2.6s -1.8s infinite alternate;
-}
-.camera .star.s155 {
-  top: 154px;
-  left: 226px;
-  -webkit-animation: flicker 3.4s -1.8s infinite alternate;
-          animation: flicker 3.4s -1.8s infinite alternate;
-}
-.camera .star.s156 {
-  top: 140px;
-  left: 122px;
-  -webkit-animation: flicker 2.4s -1.6s infinite alternate;
-          animation: flicker 2.4s -1.6s infinite alternate;
-}
-.camera .star.s157 {
-  top: 51px;
-  left: 164px;
-  -webkit-animation: flicker 4s -0.4s infinite alternate;
-          animation: flicker 4s -0.4s infinite alternate;
-}
-.camera .star.s158 {
-  top: 101px;
-  left: 290px;
-  -webkit-animation: flicker 2.2s -1.8s infinite alternate;
-          animation: flicker 2.2s -1.8s infinite alternate;
-}
-.camera .star.s159 {
-  top: 152px;
-  left: 69px;
-  -webkit-animation: flicker 4s -1.4s infinite alternate;
-          animation: flicker 4s -1.4s infinite alternate;
-}
-.camera .star.s160 {
-  top: 216px;
-  left: 25px;
-  -webkit-animation: flicker 2.8s -0.2s infinite alternate;
-          animation: flicker 2.8s -0.2s infinite alternate;
-}
-.camera .star.s161 {
-  top: 146px;
-  left: 203px;
-  -webkit-animation: flicker 3.4s -1.2s infinite alternate;
-          animation: flicker 3.4s -1.2s infinite alternate;
-}
-.camera .star.s162 {
-  top: 266px;
-  left: 101px;
-  -webkit-animation: flicker 3.8s -1.8s infinite alternate;
-          animation: flicker 3.8s -1.8s infinite alternate;
-}
-.camera .star.s163 {
-  top: 150px;
-  left: 218px;
-  -webkit-animation: flicker 3.8s -1.2s infinite alternate;
-          animation: flicker 3.8s -1.2s infinite alternate;
-}
-.camera .star.s164 {
-  top: 104px;
-  left: 63px;
+  top: 174px;
+  left: 94px;
   -webkit-animation: flicker 3.6s -1.4s infinite alternate;
           animation: flicker 3.6s -1.4s infinite alternate;
 }
-.camera .star.s165 {
-  top: 100px;
-  left: 271px;
-  -webkit-animation: flicker 3.4s -1.8s infinite alternate;
-          animation: flicker 3.4s -1.8s infinite alternate;
+.camera .star.s102 {
+  top: 223px;
+  left: 68px;
+  -webkit-animation: flicker 2.2s -1.4s infinite alternate;
+          animation: flicker 2.2s -1.4s infinite alternate;
 }
-.camera .star.s166 {
-  top: 13px;
-  left: 41px;
-  -webkit-animation: flicker 3.4s -1s infinite alternate;
-          animation: flicker 3.4s -1s infinite alternate;
+.camera .star.s103 {
+  top: 176px;
+  left: 165px;
+  -webkit-animation: flicker 3s -1.6s infinite alternate;
+          animation: flicker 3s -1.6s infinite alternate;
 }
-.camera .star.s167 {
-  top: 254px;
-  left: 174px;
-  -webkit-animation: flicker 2.8s -0.2s infinite alternate;
-          animation: flicker 2.8s -0.2s infinite alternate;
+.camera .star.s104 {
+  top: 130px;
+  left: 31px;
+  -webkit-animation: flicker 3.4s -1.2s infinite alternate;
+          animation: flicker 3.4s -1.2s infinite alternate;
 }
-.camera .star.s168 {
-  top: 186px;
-  left: 76px;
-  -webkit-animation: flicker 3.2s -2s infinite alternate;
-          animation: flicker 3.2s -2s infinite alternate;
+.camera .star.s105 {
+  top: 241px;
+  left: 259px;
+  -webkit-animation: flicker 2.6s -1s infinite alternate;
+          animation: flicker 2.6s -1s infinite alternate;
 }
-.camera .star.s169 {
-  top: 219px;
-  left: 4px;
-  -webkit-animation: flicker 3.4s -0.8s infinite alternate;
-          animation: flicker 3.4s -0.8s infinite alternate;
-}
-.camera .star.s170 {
-  top: 146px;
-  left: 280px;
-  -webkit-animation: flicker 2.6s -0.4s infinite alternate;
-          animation: flicker 2.6s -0.4s infinite alternate;
-}
-.camera .star.s171 {
-  top: 288px;
-  left: 291px;
-  -webkit-animation: flicker 3s -0.6s infinite alternate;
-          animation: flicker 3s -0.6s infinite alternate;
-}
-.camera .star.s172 {
-  top: 167px;
-  left: 96px;
-  -webkit-animation: flicker 2.8s -1.8s infinite alternate;
-          animation: flicker 2.8s -1.8s infinite alternate;
-}
-.camera .star.s173 {
-  top: 75px;
-  left: 215px;
-  -webkit-animation: flicker 3.4s -0.4s infinite alternate;
-          animation: flicker 3.4s -0.4s infinite alternate;
-}
-.camera .star.s174 {
-  top: 121px;
-  left: 256px;
-  -webkit-animation: flicker 3.2s -1.6s infinite alternate;
-          animation: flicker 3.2s -1.6s infinite alternate;
-}
-.camera .star.s175 {
-  top: 61px;
-  left: 17px;
-  -webkit-animation: flicker 3.6s -0.6s infinite alternate;
-          animation: flicker 3.6s -0.6s infinite alternate;
-}
-.camera .star.s176 {
-  top: 57px;
-  left: 83px;
-  -webkit-animation: flicker 2.2s -0.6s infinite alternate;
-          animation: flicker 2.2s -0.6s infinite alternate;
-}
-.camera .star.s177 {
-  top: 185px;
-  left: 41px;
-  -webkit-animation: flicker 3.4s -0.6s infinite alternate;
-          animation: flicker 3.4s -0.6s infinite alternate;
-}
-.camera .star.s178 {
-  top: 87px;
-  left: 278px;
-  -webkit-animation: flicker 2.6s -2s infinite alternate;
-          animation: flicker 2.6s -2s infinite alternate;
-}
-.camera .star.s179 {
-  top: 221px;
-  left: 260px;
-  -webkit-animation: flicker 4s -0.2s infinite alternate;
-          animation: flicker 4s -0.2s infinite alternate;
-}
-.camera .star.s180 {
-  top: 239px;
-  left: 295px;
-  -webkit-animation: flicker 2.6s -1.4s infinite alternate;
-          animation: flicker 2.6s -1.4s infinite alternate;
-}
-.camera .star.s181 {
-  top: 148px;
-  left: 92px;
-  -webkit-animation: flicker 3.6s -2s infinite alternate;
-          animation: flicker 3.6s -2s infinite alternate;
-}
-.camera .star.s182 {
-  top: 106px;
-  left: 224px;
-  -webkit-animation: flicker 4s -1s infinite alternate;
-          animation: flicker 4s -1s infinite alternate;
-}
-.camera .star.s183 {
-  top: 160px;
-  left: 137px;
+.camera .star.s106 {
+  top: 204px;
+  left: 287px;
   -webkit-animation: flicker 2.2s -2s infinite alternate;
           animation: flicker 2.2s -2s infinite alternate;
 }
-.camera .star.s184 {
-  top: 13px;
-  left: 69px;
-  -webkit-animation: flicker 4s -0.2s infinite alternate;
-          animation: flicker 4s -0.2s infinite alternate;
+.camera .star.s107 {
+  top: 202px;
+  left: 277px;
+  -webkit-animation: flicker 4s -2s infinite alternate;
+          animation: flicker 4s -2s infinite alternate;
 }
-.camera .star.s185 {
-  top: 58px;
+.camera .star.s108 {
+  top: 246px;
+  left: 154px;
+  -webkit-animation: flicker 4s -1.8s infinite alternate;
+          animation: flicker 4s -1.8s infinite alternate;
+}
+.camera .star.s109 {
+  top: 67px;
   left: 193px;
-  -webkit-animation: flicker 2.8s -1.4s infinite alternate;
-          animation: flicker 2.8s -1.4s infinite alternate;
+  -webkit-animation: flicker 2.8s -2s infinite alternate;
+          animation: flicker 2.8s -2s infinite alternate;
 }
-.camera .star.s186 {
-  top: 146px;
-  left: 18px;
+.camera .star.s110 {
+  top: 207px;
+  left: 294px;
+  -webkit-animation: flicker 3.2s -0.6s infinite alternate;
+          animation: flicker 3.2s -0.6s infinite alternate;
+}
+.camera .star.s111 {
+  top: 113px;
+  left: 14px;
+  -webkit-animation: flicker 3.4s -0.4s infinite alternate;
+          animation: flicker 3.4s -0.4s infinite alternate;
+}
+.camera .star.s112 {
+  top: 111px;
+  left: 243px;
+  -webkit-animation: flicker 2.4s -2s infinite alternate;
+          animation: flicker 2.4s -2s infinite alternate;
+}
+.camera .star.s113 {
+  top: 135px;
+  left: 282px;
+  -webkit-animation: flicker 4s -1.2s infinite alternate;
+          animation: flicker 4s -1.2s infinite alternate;
+}
+.camera .star.s114 {
+  top: 234px;
+  left: 217px;
+  -webkit-animation: flicker 2.8s -0.4s infinite alternate;
+          animation: flicker 2.8s -0.4s infinite alternate;
+}
+.camera .star.s115 {
+  top: 224px;
+  left: 55px;
+  -webkit-animation: flicker 2.2s -0.6s infinite alternate;
+          animation: flicker 2.2s -0.6s infinite alternate;
+}
+.camera .star.s116 {
+  top: 212px;
+  left: 196px;
+  -webkit-animation: flicker 3.8s -0.6s infinite alternate;
+          animation: flicker 3.8s -0.6s infinite alternate;
+}
+.camera .star.s117 {
+  top: 188px;
+  left: 165px;
+  -webkit-animation: flicker 2.2s -0.6s infinite alternate;
+          animation: flicker 2.2s -0.6s infinite alternate;
+}
+.camera .star.s118 {
+  top: 230px;
+  left: 143px;
   -webkit-animation: flicker 3.4s -1.6s infinite alternate;
           animation: flicker 3.4s -1.6s infinite alternate;
 }
-.camera .star.s187 {
-  top: 149px;
+.camera .star.s119 {
+  top: 270px;
+  left: 15px;
+  -webkit-animation: flicker 3.2s -1.2s infinite alternate;
+          animation: flicker 3.2s -1.2s infinite alternate;
+}
+.camera .star.s120 {
+  top: 267px;
+  left: 210px;
+  -webkit-animation: flicker 3.6s -1s infinite alternate;
+          animation: flicker 3.6s -1s infinite alternate;
+}
+.camera .star.s121 {
+  top: 244px;
+  left: 234px;
+  -webkit-animation: flicker 3.8s -1.6s infinite alternate;
+          animation: flicker 3.8s -1.6s infinite alternate;
+}
+.camera .star.s122 {
+  top: 116px;
+  left: 61px;
+  -webkit-animation: flicker 3.8s -1.8s infinite alternate;
+          animation: flicker 3.8s -1.8s infinite alternate;
+}
+.camera .star.s123 {
+  top: 24px;
+  left: 268px;
+  -webkit-animation: flicker 4s -2s infinite alternate;
+          animation: flicker 4s -2s infinite alternate;
+}
+.camera .star.s124 {
+  top: 74px;
+  left: 271px;
+  -webkit-animation: flicker 2.8s -0.8s infinite alternate;
+          animation: flicker 2.8s -0.8s infinite alternate;
+}
+.camera .star.s125 {
+  top: 199px;
+  left: 256px;
+  -webkit-animation: flicker 2.6s -2s infinite alternate;
+          animation: flicker 2.6s -2s infinite alternate;
+}
+.camera .star.s126 {
+  top: 96px;
+  left: 281px;
+  -webkit-animation: flicker 3.2s -0.6s infinite alternate;
+          animation: flicker 3.2s -0.6s infinite alternate;
+}
+.camera .star.s127 {
+  top: 243px;
+  left: 32px;
+  -webkit-animation: flicker 3.6s -0.4s infinite alternate;
+          animation: flicker 3.6s -0.4s infinite alternate;
+}
+.camera .star.s128 {
+  top: 143px;
+  left: 49px;
+  -webkit-animation: flicker 4s -0.4s infinite alternate;
+          animation: flicker 4s -0.4s infinite alternate;
+}
+.camera .star.s129 {
+  top: 91px;
+  left: 200px;
+  -webkit-animation: flicker 3.8s -1.8s infinite alternate;
+          animation: flicker 3.8s -1.8s infinite alternate;
+}
+.camera .star.s130 {
+  top: 44px;
+  left: 145px;
+  -webkit-animation: flicker 3.2s -1s infinite alternate;
+          animation: flicker 3.2s -1s infinite alternate;
+}
+.camera .star.s131 {
+  top: 121px;
+  left: 214px;
+  -webkit-animation: flicker 2.6s -1.8s infinite alternate;
+          animation: flicker 2.6s -1.8s infinite alternate;
+}
+.camera .star.s132 {
+  top: 31px;
+  left: 200px;
+  -webkit-animation: flicker 2.2s -0.2s infinite alternate;
+          animation: flicker 2.2s -0.2s infinite alternate;
+}
+.camera .star.s133 {
+  top: 244px;
+  left: 80px;
+  -webkit-animation: flicker 3s -1.2s infinite alternate;
+          animation: flicker 3s -1.2s infinite alternate;
+}
+.camera .star.s134 {
+  top: 8px;
+  left: 137px;
+  -webkit-animation: flicker 4s -1.8s infinite alternate;
+          animation: flicker 4s -1.8s infinite alternate;
+}
+.camera .star.s135 {
+  top: 208px;
+  left: 183px;
+  -webkit-animation: flicker 2.6s -1.8s infinite alternate;
+          animation: flicker 2.6s -1.8s infinite alternate;
+}
+.camera .star.s136 {
+  top: 47px;
+  left: 186px;
+  -webkit-animation: flicker 2.8s -0.4s infinite alternate;
+          animation: flicker 2.8s -0.4s infinite alternate;
+}
+.camera .star.s137 {
+  top: 182px;
+  left: 224px;
+  -webkit-animation: flicker 2.8s -0.2s infinite alternate;
+          animation: flicker 2.8s -0.2s infinite alternate;
+}
+.camera .star.s138 {
+  top: 36px;
+  left: 137px;
+  -webkit-animation: flicker 3.6s -0.6s infinite alternate;
+          animation: flicker 3.6s -0.6s infinite alternate;
+}
+.camera .star.s139 {
+  top: 232px;
+  left: 223px;
+  -webkit-animation: flicker 3s -0.6s infinite alternate;
+          animation: flicker 3s -0.6s infinite alternate;
+}
+.camera .star.s140 {
+  top: 201px;
+  left: 16px;
+  -webkit-animation: flicker 3.6s -1.6s infinite alternate;
+          animation: flicker 3.6s -1.6s infinite alternate;
+}
+.camera .star.s141 {
+  top: 4px;
+  left: 135px;
+  -webkit-animation: flicker 2.6s -2s infinite alternate;
+          animation: flicker 2.6s -2s infinite alternate;
+}
+.camera .star.s142 {
+  top: 279px;
+  left: 168px;
+  -webkit-animation: flicker 2.2s -1.2s infinite alternate;
+          animation: flicker 2.2s -1.2s infinite alternate;
+}
+.camera .star.s143 {
+  top: 68px;
+  left: 76px;
+  -webkit-animation: flicker 2.4s -0.6s infinite alternate;
+          animation: flicker 2.4s -0.6s infinite alternate;
+}
+.camera .star.s144 {
+  top: 129px;
+  left: 34px;
+  -webkit-animation: flicker 4s -0.8s infinite alternate;
+          animation: flicker 4s -0.8s infinite alternate;
+}
+.camera .star.s145 {
+  top: 216px;
+  left: 120px;
+  -webkit-animation: flicker 2.8s -2s infinite alternate;
+          animation: flicker 2.8s -2s infinite alternate;
+}
+.camera .star.s146 {
+  top: 259px;
+  left: 24px;
+  -webkit-animation: flicker 3.6s -1.2s infinite alternate;
+          animation: flicker 3.6s -1.2s infinite alternate;
+}
+.camera .star.s147 {
+  top: 144px;
+  left: 250px;
+  -webkit-animation: flicker 3.6s -1.6s infinite alternate;
+          animation: flicker 3.6s -1.6s infinite alternate;
+}
+.camera .star.s148 {
+  top: 79px;
+  left: 89px;
+  -webkit-animation: flicker 3.8s -2s infinite alternate;
+          animation: flicker 3.8s -2s infinite alternate;
+}
+.camera .star.s149 {
+  top: 257px;
+  left: 279px;
+  -webkit-animation: flicker 2.8s -0.4s infinite alternate;
+          animation: flicker 2.8s -0.4s infinite alternate;
+}
+.camera .star.s150 {
+  top: 162px;
+  left: 220px;
+  -webkit-animation: flicker 3.8s -2s infinite alternate;
+          animation: flicker 3.8s -2s infinite alternate;
+}
+.camera .star.s151 {
+  top: 273px;
+  left: 71px;
+  -webkit-animation: flicker 3.2s -0.6s infinite alternate;
+          animation: flicker 3.2s -0.6s infinite alternate;
+}
+.camera .star.s152 {
+  top: 250px;
+  left: 279px;
+  -webkit-animation: flicker 3s -0.4s infinite alternate;
+          animation: flicker 3s -0.4s infinite alternate;
+}
+.camera .star.s153 {
+  top: 153px;
+  left: 210px;
+  -webkit-animation: flicker 3.8s -0.4s infinite alternate;
+          animation: flicker 3.8s -0.4s infinite alternate;
+}
+.camera .star.s154 {
+  top: 194px;
+  left: 161px;
+  -webkit-animation: flicker 3.2s -0.2s infinite alternate;
+          animation: flicker 3.2s -0.2s infinite alternate;
+}
+.camera .star.s155 {
+  top: 98px;
+  left: 266px;
+  -webkit-animation: flicker 3.8s -1.6s infinite alternate;
+          animation: flicker 3.8s -1.6s infinite alternate;
+}
+.camera .star.s156 {
+  top: 116px;
+  left: 290px;
+  -webkit-animation: flicker 3.2s -0.2s infinite alternate;
+          animation: flicker 3.2s -0.2s infinite alternate;
+}
+.camera .star.s157 {
+  top: 7px;
+  left: 47px;
+  -webkit-animation: flicker 3.6s -0.6s infinite alternate;
+          animation: flicker 3.6s -0.6s infinite alternate;
+}
+.camera .star.s158 {
+  top: 135px;
+  left: 219px;
+  -webkit-animation: flicker 4s -0.6s infinite alternate;
+          animation: flicker 4s -0.6s infinite alternate;
+}
+.camera .star.s159 {
+  top: 2px;
+  left: 40px;
+  -webkit-animation: flicker 2.6s -2s infinite alternate;
+          animation: flicker 2.6s -2s infinite alternate;
+}
+.camera .star.s160 {
+  top: 250px;
+  left: 44px;
+  -webkit-animation: flicker 2.6s -1.6s infinite alternate;
+          animation: flicker 2.6s -1.6s infinite alternate;
+}
+.camera .star.s161 {
+  top: 119px;
+  left: 27px;
+  -webkit-animation: flicker 3.2s -0.4s infinite alternate;
+          animation: flicker 3.2s -0.4s infinite alternate;
+}
+.camera .star.s162 {
+  top: 17px;
+  left: 162px;
+  -webkit-animation: flicker 3.4s -0.2s infinite alternate;
+          animation: flicker 3.4s -0.2s infinite alternate;
+}
+.camera .star.s163 {
+  top: 165px;
+  left: 83px;
+  -webkit-animation: flicker 3.6s -2s infinite alternate;
+          animation: flicker 3.6s -2s infinite alternate;
+}
+.camera .star.s164 {
+  top: 63px;
+  left: 289px;
+  -webkit-animation: flicker 3.4s -1.4s infinite alternate;
+          animation: flicker 3.4s -1.4s infinite alternate;
+}
+.camera .star.s165 {
+  top: 255px;
+  left: 126px;
+  -webkit-animation: flicker 2.6s -2s infinite alternate;
+          animation: flicker 2.6s -2s infinite alternate;
+}
+.camera .star.s166 {
+  top: 250px;
   left: 118px;
+  -webkit-animation: flicker 3.8s -1.4s infinite alternate;
+          animation: flicker 3.8s -1.4s infinite alternate;
+}
+.camera .star.s167 {
+  top: 209px;
+  left: 35px;
+  -webkit-animation: flicker 2.8s -0.8s infinite alternate;
+          animation: flicker 2.8s -0.8s infinite alternate;
+}
+.camera .star.s168 {
+  top: 215px;
+  left: 91px;
+  -webkit-animation: flicker 2.6s -1.6s infinite alternate;
+          animation: flicker 2.6s -1.6s infinite alternate;
+}
+.camera .star.s169 {
+  top: 223px;
+  left: 102px;
+  -webkit-animation: flicker 2.8s -1.8s infinite alternate;
+          animation: flicker 2.8s -1.8s infinite alternate;
+}
+.camera .star.s170 {
+  top: 254px;
+  left: 248px;
+  -webkit-animation: flicker 2.8s -0.4s infinite alternate;
+          animation: flicker 2.8s -0.4s infinite alternate;
+}
+.camera .star.s171 {
+  top: 84px;
+  left: 245px;
+  -webkit-animation: flicker 4s -2s infinite alternate;
+          animation: flicker 4s -2s infinite alternate;
+}
+.camera .star.s172 {
+  top: 60px;
+  left: 272px;
+  -webkit-animation: flicker 3.2s -1.2s infinite alternate;
+          animation: flicker 3.2s -1.2s infinite alternate;
+}
+.camera .star.s173 {
+  top: 295px;
+  left: 234px;
+  -webkit-animation: flicker 4s -0.2s infinite alternate;
+          animation: flicker 4s -0.2s infinite alternate;
+}
+.camera .star.s174 {
+  top: 188px;
+  left: 170px;
+  -webkit-animation: flicker 2.6s -0.8s infinite alternate;
+          animation: flicker 2.6s -0.8s infinite alternate;
+}
+.camera .star.s175 {
+  top: 157px;
+  left: 63px;
+  -webkit-animation: flicker 2.8s -0.2s infinite alternate;
+          animation: flicker 2.8s -0.2s infinite alternate;
+}
+.camera .star.s176 {
+  top: 128px;
+  left: 290px;
+  -webkit-animation: flicker 2.6s -2s infinite alternate;
+          animation: flicker 2.6s -2s infinite alternate;
+}
+.camera .star.s177 {
+  top: 76px;
+  left: 109px;
+  -webkit-animation: flicker 3.4s -0.4s infinite alternate;
+          animation: flicker 3.4s -0.4s infinite alternate;
+}
+.camera .star.s178 {
+  top: 30px;
+  left: 14px;
+  -webkit-animation: flicker 3s -0.2s infinite alternate;
+          animation: flicker 3s -0.2s infinite alternate;
+}
+.camera .star.s179 {
+  top: 31px;
+  left: 133px;
+  -webkit-animation: flicker 4s -0.6s infinite alternate;
+          animation: flicker 4s -0.6s infinite alternate;
+}
+.camera .star.s180 {
+  top: 56px;
+  left: 16px;
+  -webkit-animation: flicker 4s -0.4s infinite alternate;
+          animation: flicker 4s -0.4s infinite alternate;
+}
+.camera .star.s181 {
+  top: 108px;
+  left: 167px;
+  -webkit-animation: flicker 2.6s -1.4s infinite alternate;
+          animation: flicker 2.6s -1.4s infinite alternate;
+}
+.camera .star.s182 {
+  top: 178px;
+  left: 202px;
+  -webkit-animation: flicker 3.4s -1.2s infinite alternate;
+          animation: flicker 3.4s -1.2s infinite alternate;
+}
+.camera .star.s183 {
+  top: 295px;
+  left: 242px;
+  -webkit-animation: flicker 2.2s -1.6s infinite alternate;
+          animation: flicker 2.2s -1.6s infinite alternate;
+}
+.camera .star.s184 {
+  top: 39px;
+  left: 240px;
+  -webkit-animation: flicker 3.8s -1.2s infinite alternate;
+          animation: flicker 3.8s -1.2s infinite alternate;
+}
+.camera .star.s185 {
+  top: 169px;
+  left: 91px;
+  -webkit-animation: flicker 2.4s -0.4s infinite alternate;
+          animation: flicker 2.4s -0.4s infinite alternate;
+}
+.camera .star.s186 {
+  top: 176px;
+  left: 42px;
+  -webkit-animation: flicker 3.4s -0.2s infinite alternate;
+          animation: flicker 3.4s -0.2s infinite alternate;
+}
+.camera .star.s187 {
+  top: 34px;
+  left: 199px;
   -webkit-animation: flicker 3s -1.4s infinite alternate;
           animation: flicker 3s -1.4s infinite alternate;
 }
 .camera .star.s188 {
-  top: 240px;
-  left: 257px;
-  -webkit-animation: flicker 3.4s -1.4s infinite alternate;
-          animation: flicker 3.4s -1.4s infinite alternate;
-}
-.camera .star.s189 {
-  top: 84px;
-  left: 237px;
-  -webkit-animation: flicker 2.8s -1.6s infinite alternate;
-          animation: flicker 2.8s -1.6s infinite alternate;
-}
-.camera .star.s190 {
-  top: 118px;
-  left: 109px;
-  -webkit-animation: flicker 2.2s -1.6s infinite alternate;
-          animation: flicker 2.2s -1.6s infinite alternate;
-}
-.camera .star.s191 {
-  top: 181px;
-  left: 37px;
+  top: 292px;
+  left: 200px;
   -webkit-animation: flicker 3.8s -1s infinite alternate;
           animation: flicker 3.8s -1s infinite alternate;
 }
-.camera .star.s192 {
-  top: 285px;
-  left: 76px;
-  -webkit-animation: flicker 3.4s -0.4s infinite alternate;
-          animation: flicker 3.4s -0.4s infinite alternate;
+.camera .star.s189 {
+  top: 200px;
+  left: 240px;
+  -webkit-animation: flicker 3.2s -0.4s infinite alternate;
+          animation: flicker 3.2s -0.4s infinite alternate;
 }
-.camera .star.s193 {
-  top: 106px;
-  left: 28px;
-  -webkit-animation: flicker 3s -1s infinite alternate;
-          animation: flicker 3s -1s infinite alternate;
-}
-.camera .star.s194 {
-  top: 106px;
-  left: 167px;
-  -webkit-animation: flicker 2.8s -0.6s infinite alternate;
-          animation: flicker 2.8s -0.6s infinite alternate;
-}
-.camera .star.s195 {
-  top: 90px;
-  left: 38px;
-  -webkit-animation: flicker 2.6s -1.4s infinite alternate;
-          animation: flicker 2.6s -1.4s infinite alternate;
-}
-.camera .star.s196 {
-  top: 86px;
-  left: 293px;
-  -webkit-animation: flicker 4s -0.2s infinite alternate;
-          animation: flicker 4s -0.2s infinite alternate;
-}
-.camera .star.s197 {
-  top: 101px;
-  left: 79px;
-  -webkit-animation: flicker 3.2s -0.6s infinite alternate;
-          animation: flicker 3.2s -0.6s infinite alternate;
-}
-.camera .star.s198 {
-  top: 220px;
-  left: 164px;
-  -webkit-animation: flicker 3s -0.4s infinite alternate;
-          animation: flicker 3s -0.4s infinite alternate;
-}
-.camera .star.s199 {
-  top: 33px;
-  left: 40px;
-  -webkit-animation: flicker 3s -0.2s infinite alternate;
-          animation: flicker 3s -0.2s infinite alternate;
-}
-.camera .star.s200 {
-  top: 122px;
-  left: 94px;
-  -webkit-animation: flicker 2.4s -0.2s infinite alternate;
-          animation: flicker 2.4s -0.2s infinite alternate;
-}
-.camera .star.s201 {
-  top: 245px;
-  left: 242px;
-  -webkit-animation: flicker 4s -0.8s infinite alternate;
-          animation: flicker 4s -0.8s infinite alternate;
-}
-.camera .star.s202 {
-  top: 271px;
-  left: 155px;
-  -webkit-animation: flicker 2.8s -0.6s infinite alternate;
-          animation: flicker 2.8s -0.6s infinite alternate;
-}
-.camera .star.s203 {
-  top: 248px;
-  left: 300px;
-  -webkit-animation: flicker 2.2s -1.8s infinite alternate;
-          animation: flicker 2.2s -1.8s infinite alternate;
-}
-.camera .star.s204 {
-  top: 149px;
-  left: 292px;
-  -webkit-animation: flicker 2.4s -1.8s infinite alternate;
-          animation: flicker 2.4s -1.8s infinite alternate;
-}
-.camera .star.s205 {
-  top: 272px;
-  left: 293px;
-  -webkit-animation: flicker 2.8s -1.6s infinite alternate;
-          animation: flicker 2.8s -1.6s infinite alternate;
-}
-.camera .star.s206 {
-  top: 256px;
-  left: 81px;
-  -webkit-animation: flicker 4s -1.8s infinite alternate;
-          animation: flicker 4s -1.8s infinite alternate;
-}
-.camera .star.s207 {
-  top: 42px;
-  left: 269px;
-  -webkit-animation: flicker 4s -0.4s infinite alternate;
-          animation: flicker 4s -0.4s infinite alternate;
-}
-.camera .star.s208 {
-  top: 212px;
-  left: 4px;
-  -webkit-animation: flicker 2.6s -0.4s infinite alternate;
-          animation: flicker 2.6s -0.4s infinite alternate;
-}
-.camera .star.s209 {
-  top: 225px;
-  left: 84px;
+.camera .star.s190 {
+  top: 6px;
+  left: 189px;
   -webkit-animation: flicker 3.6s -1.2s infinite alternate;
           animation: flicker 3.6s -1.2s infinite alternate;
 }
-.camera .star.s210 {
-  top: 239px;
-  left: 270px;
-  -webkit-animation: flicker 2.2s -0.8s infinite alternate;
-          animation: flicker 2.2s -0.8s infinite alternate;
+.camera .star.s191 {
+  top: 280px;
+  left: 15px;
+  -webkit-animation: flicker 2.4s -0.6s infinite alternate;
+          animation: flicker 2.4s -0.6s infinite alternate;
 }
-.camera .star.s211 {
-  top: 20px;
-  left: 111px;
-  -webkit-animation: flicker 3.6s -1.4s infinite alternate;
-          animation: flicker 3.6s -1.4s infinite alternate;
+.camera .star.s192 {
+  top: 272px;
+  left: 271px;
+  -webkit-animation: flicker 3.2s -0.4s infinite alternate;
+          animation: flicker 3.2s -0.4s infinite alternate;
 }
-.camera .star.s212 {
-  top: 26px;
-  left: 107px;
-  -webkit-animation: flicker 2.6s -1.2s infinite alternate;
-          animation: flicker 2.6s -1.2s infinite alternate;
+.camera .star.s193 {
+  top: 112px;
+  left: 13px;
+  -webkit-animation: flicker 2.6s -1.8s infinite alternate;
+          animation: flicker 2.6s -1.8s infinite alternate;
 }
-.camera .star.s213 {
-  top: 248px;
-  left: 140px;
-  -webkit-animation: flicker 3.4s -0.6s infinite alternate;
-          animation: flicker 3.4s -0.6s infinite alternate;
-}
-.camera .star.s214 {
-  top: 198px;
-  left: 193px;
+.camera .star.s194 {
+  top: 284px;
+  left: 82px;
   -webkit-animation: flicker 3.8s -1.2s infinite alternate;
           animation: flicker 3.8s -1.2s infinite alternate;
 }
-.camera .star.s215 {
-  top: 21px;
-  left: 22px;
-  -webkit-animation: flicker 3.2s -1.4s infinite alternate;
-          animation: flicker 3.2s -1.4s infinite alternate;
+.camera .star.s195 {
+  top: 276px;
+  left: 60px;
+  -webkit-animation: flicker 2.4s -2s infinite alternate;
+          animation: flicker 2.4s -2s infinite alternate;
 }
-.camera .star.s216 {
-  top: 41px;
-  left: 35px;
-  -webkit-animation: flicker 3.2s -1.2s infinite alternate;
-          animation: flicker 3.2s -1.2s infinite alternate;
+.camera .star.s196 {
+  top: 44px;
+  left: 134px;
+  -webkit-animation: flicker 3.6s -2s infinite alternate;
+          animation: flicker 3.6s -2s infinite alternate;
 }
-.camera .star.s217 {
-  top: 156px;
-  left: 213px;
-  -webkit-animation: flicker 2.6s -1.2s infinite alternate;
-          animation: flicker 2.6s -1.2s infinite alternate;
-}
-.camera .star.s218 {
-  top: 250px;
-  left: 165px;
-  -webkit-animation: flicker 3.8s -0.2s infinite alternate;
-          animation: flicker 3.8s -0.2s infinite alternate;
-}
-.camera .star.s219 {
-  top: 151px;
-  left: 179px;
-  -webkit-animation: flicker 3.8s -0.8s infinite alternate;
-          animation: flicker 3.8s -0.8s infinite alternate;
-}
-.camera .star.s220 {
-  top: 34px;
-  left: 5px;
-  -webkit-animation: flicker 2.6s -1s infinite alternate;
-          animation: flicker 2.6s -1s infinite alternate;
-}
-.camera .star.s221 {
-  top: 297px;
-  left: 145px;
-  -webkit-animation: flicker 2.6s -0.8s infinite alternate;
-          animation: flicker 2.6s -0.8s infinite alternate;
-}
-.camera .star.s222 {
-  top: 157px;
-  left: 224px;
-  -webkit-animation: flicker 3.8s -1.2s infinite alternate;
-          animation: flicker 3.8s -1.2s infinite alternate;
-}
-.camera .star.s223 {
-  top: 130px;
-  left: 260px;
-  -webkit-animation: flicker 3.6s -1.6s infinite alternate;
-          animation: flicker 3.6s -1.6s infinite alternate;
-}
-.camera .star.s224 {
-  top: 14px;
-  left: 50px;
-  -webkit-animation: flicker 3.4s -1.8s infinite alternate;
-          animation: flicker 3.4s -1.8s infinite alternate;
-}
-.camera .star.s225 {
-  top: 70px;
-  left: 247px;
-  -webkit-animation: flicker 2.6s -0.4s infinite alternate;
-          animation: flicker 2.6s -0.4s infinite alternate;
-}
-.camera .star.s226 {
-  top: 173px;
-  left: 116px;
+.camera .star.s197 {
+  top: 163px;
+  left: 128px;
   -webkit-animation: flicker 2.4s -0.2s infinite alternate;
           animation: flicker 2.4s -0.2s infinite alternate;
 }
-.camera .star.s227 {
+.camera .star.s198 {
+  top: 296px;
+  left: 110px;
+  -webkit-animation: flicker 2.6s -0.6s infinite alternate;
+          animation: flicker 2.6s -0.6s infinite alternate;
+}
+.camera .star.s199 {
+  top: 153px;
+  left: 91px;
+  -webkit-animation: flicker 3s -1.2s infinite alternate;
+          animation: flicker 3s -1.2s infinite alternate;
+}
+.camera .star.s200 {
+  top: 173px;
+  left: 197px;
+  -webkit-animation: flicker 2.2s -0.6s infinite alternate;
+          animation: flicker 2.2s -0.6s infinite alternate;
+}
+.camera .star.s201 {
+  top: 151px;
+  left: 24px;
+  -webkit-animation: flicker 2.4s -1.4s infinite alternate;
+          animation: flicker 2.4s -1.4s infinite alternate;
+}
+.camera .star.s202 {
+  top: 118px;
+  left: 86px;
+  -webkit-animation: flicker 3s -0.4s infinite alternate;
+          animation: flicker 3s -0.4s infinite alternate;
+}
+.camera .star.s203 {
+  top: 174px;
+  left: 223px;
+  -webkit-animation: flicker 3.8s -0.2s infinite alternate;
+          animation: flicker 3.8s -0.2s infinite alternate;
+}
+.camera .star.s204 {
+  top: 154px;
+  left: 70px;
+  -webkit-animation: flicker 3.6s -1.4s infinite alternate;
+          animation: flicker 3.6s -1.4s infinite alternate;
+}
+.camera .star.s205 {
+  top: 166px;
+  left: 222px;
+  -webkit-animation: flicker 2.2s -0.4s infinite alternate;
+          animation: flicker 2.2s -0.4s infinite alternate;
+}
+.camera .star.s206 {
+  top: 76px;
+  left: 39px;
+  -webkit-animation: flicker 2.4s -1.8s infinite alternate;
+          animation: flicker 2.4s -1.8s infinite alternate;
+}
+.camera .star.s207 {
+  top: 97px;
+  left: 199px;
+  -webkit-animation: flicker 4s -1.8s infinite alternate;
+          animation: flicker 4s -1.8s infinite alternate;
+}
+.camera .star.s208 {
+  top: 89px;
+  left: 70px;
+  -webkit-animation: flicker 4s -0.2s infinite alternate;
+          animation: flicker 4s -0.2s infinite alternate;
+}
+.camera .star.s209 {
+  top: 230px;
+  left: 182px;
+  -webkit-animation: flicker 3.4s -1.4s infinite alternate;
+          animation: flicker 3.4s -1.4s infinite alternate;
+}
+.camera .star.s210 {
+  top: 159px;
+  left: 190px;
+  -webkit-animation: flicker 3s -0.2s infinite alternate;
+          animation: flicker 3s -0.2s infinite alternate;
+}
+.camera .star.s211 {
+  top: 124px;
+  left: 293px;
+  -webkit-animation: flicker 2.6s -0.4s infinite alternate;
+          animation: flicker 2.6s -0.4s infinite alternate;
+}
+.camera .star.s212 {
+  top: 252px;
+  left: 148px;
+  -webkit-animation: flicker 3.6s -1s infinite alternate;
+          animation: flicker 3.6s -1s infinite alternate;
+}
+.camera .star.s213 {
+  top: 268px;
+  left: 153px;
+  -webkit-animation: flicker 2.2s -0.6s infinite alternate;
+          animation: flicker 2.2s -0.6s infinite alternate;
+}
+.camera .star.s214 {
+  top: 64px;
+  left: 191px;
+  -webkit-animation: flicker 4s -0.4s infinite alternate;
+          animation: flicker 4s -0.4s infinite alternate;
+}
+.camera .star.s215 {
+  top: 62px;
+  left: 138px;
+  -webkit-animation: flicker 4s -0.6s infinite alternate;
+          animation: flicker 4s -0.6s infinite alternate;
+}
+.camera .star.s216 {
+  top: 184px;
+  left: 228px;
+  -webkit-animation: flicker 3.8s -1s infinite alternate;
+          animation: flicker 3.8s -1s infinite alternate;
+}
+.camera .star.s217 {
+  top: 232px;
+  left: 77px;
+  -webkit-animation: flicker 3.4s -0.4s infinite alternate;
+          animation: flicker 3.4s -0.4s infinite alternate;
+}
+.camera .star.s218 {
+  top: 118px;
+  left: 207px;
+  -webkit-animation: flicker 2.2s -1.8s infinite alternate;
+          animation: flicker 2.2s -1.8s infinite alternate;
+}
+.camera .star.s219 {
+  top: 145px;
+  left: 11px;
+  -webkit-animation: flicker 2.8s -0.2s infinite alternate;
+          animation: flicker 2.8s -0.2s infinite alternate;
+}
+.camera .star.s220 {
+  top: 49px;
+  left: 6px;
+  -webkit-animation: flicker 3.2s -1.4s infinite alternate;
+          animation: flicker 3.2s -1.4s infinite alternate;
+}
+.camera .star.s221 {
+  top: 200px;
+  left: 262px;
+  -webkit-animation: flicker 2.8s -1.2s infinite alternate;
+          animation: flicker 2.8s -1.2s infinite alternate;
+}
+.camera .star.s222 {
   top: 60px;
-  left: 128px;
-  -webkit-animation: flicker 3.2s -0.6s infinite alternate;
-          animation: flicker 3.2s -0.6s infinite alternate;
+  left: 272px;
+  -webkit-animation: flicker 2.8s -1s infinite alternate;
+          animation: flicker 2.8s -1s infinite alternate;
+}
+.camera .star.s223 {
+  top: 236px;
+  left: 151px;
+  -webkit-animation: flicker 2.6s -2s infinite alternate;
+          animation: flicker 2.6s -2s infinite alternate;
+}
+.camera .star.s224 {
+  top: 203px;
+  left: 160px;
+  -webkit-animation: flicker 3.8s -1.6s infinite alternate;
+          animation: flicker 3.8s -1.6s infinite alternate;
+}
+.camera .star.s225 {
+  top: 182px;
+  left: 202px;
+  -webkit-animation: flicker 3.8s -0.8s infinite alternate;
+          animation: flicker 3.8s -0.8s infinite alternate;
+}
+.camera .star.s226 {
+  top: 188px;
+  left: 138px;
+  -webkit-animation: flicker 3.4s -0.2s infinite alternate;
+          animation: flicker 3.4s -0.2s infinite alternate;
+}
+.camera .star.s227 {
+  top: 241px;
+  left: 208px;
+  -webkit-animation: flicker 4s -1.6s infinite alternate;
+          animation: flicker 4s -1.6s infinite alternate;
 }
 .camera .star.s228 {
+  top: 67px;
+  left: 73px;
+  -webkit-animation: flicker 3.6s -1.4s infinite alternate;
+          animation: flicker 3.6s -1.4s infinite alternate;
+}
+.camera .star.s229 {
+  top: 234px;
+  left: 215px;
+  -webkit-animation: flicker 3.6s -0.8s infinite alternate;
+          animation: flicker 3.6s -0.8s infinite alternate;
+}
+.camera .star.s230 {
+  top: 128px;
+  left: 5px;
+  -webkit-animation: flicker 2.4s -1.4s infinite alternate;
+          animation: flicker 2.4s -1.4s infinite alternate;
+}
+.camera .star.s231 {
+  top: 30px;
+  left: 190px;
+  -webkit-animation: flicker 2.2s -0.4s infinite alternate;
+          animation: flicker 2.2s -0.4s infinite alternate;
+}
+.camera .star.s232 {
+  top: 273px;
+  left: 224px;
+  -webkit-animation: flicker 2.8s -1.8s infinite alternate;
+          animation: flicker 2.8s -1.8s infinite alternate;
+}
+.camera .star.s233 {
+  top: 45px;
+  left: 223px;
+  -webkit-animation: flicker 3.6s -1.8s infinite alternate;
+          animation: flicker 3.6s -1.8s infinite alternate;
+}
+.camera .star.s234 {
+  top: 227px;
+  left: 33px;
+  -webkit-animation: flicker 3.8s -1.6s infinite alternate;
+          animation: flicker 3.8s -1.6s infinite alternate;
+}
+.camera .star.s235 {
+  top: 206px;
+  left: 253px;
+  -webkit-animation: flicker 4s -0.6s infinite alternate;
+          animation: flicker 4s -0.6s infinite alternate;
+}
+.camera .star.s236 {
+  top: 19px;
+  left: 54px;
+  -webkit-animation: flicker 2.6s -0.2s infinite alternate;
+          animation: flicker 2.6s -0.2s infinite alternate;
+}
+.camera .star.s237 {
+  top: 124px;
+  left: 164px;
+  -webkit-animation: flicker 2.4s -0.4s infinite alternate;
+          animation: flicker 2.4s -0.4s infinite alternate;
+}
+.camera .star.s238 {
+  top: 193px;
+  left: 256px;
+  -webkit-animation: flicker 3.2s -1.6s infinite alternate;
+          animation: flicker 3.2s -1.6s infinite alternate;
+}
+.camera .star.s239 {
+  top: 27px;
+  left: 156px;
+  -webkit-animation: flicker 2.6s -1s infinite alternate;
+          animation: flicker 2.6s -1s infinite alternate;
+}
+.camera .star.s240 {
+  top: 233px;
+  left: 30px;
+  -webkit-animation: flicker 3.2s -1s infinite alternate;
+          animation: flicker 3.2s -1s infinite alternate;
+}
+.camera .star.s241 {
+  top: 39px;
+  left: 224px;
+  -webkit-animation: flicker 2.4s -0.2s infinite alternate;
+          animation: flicker 2.4s -0.2s infinite alternate;
+}
+.camera .star.s242 {
+  top: 261px;
+  left: 170px;
+  -webkit-animation: flicker 3.4s -1.4s infinite alternate;
+          animation: flicker 3.4s -1.4s infinite alternate;
+}
+.camera .star.s243 {
+  top: 221px;
+  left: 261px;
+  -webkit-animation: flicker 3s -0.2s infinite alternate;
+          animation: flicker 3s -0.2s infinite alternate;
+}
+.camera .star.s244 {
+  top: 170px;
+  left: 78px;
+  -webkit-animation: flicker 3.8s -1s infinite alternate;
+          animation: flicker 3.8s -1s infinite alternate;
+}
+.camera .star.s245 {
+  top: 93px;
+  left: 260px;
+  -webkit-animation: flicker 3.6s -1.8s infinite alternate;
+          animation: flicker 3.6s -1.8s infinite alternate;
+}
+.camera .star.s246 {
+  top: 68px;
+  left: 290px;
+  -webkit-animation: flicker 2.4s -1.2s infinite alternate;
+          animation: flicker 2.4s -1.2s infinite alternate;
+}
+.camera .star.s247 {
+  top: 168px;
+  left: 63px;
+  -webkit-animation: flicker 3.2s -0.8s infinite alternate;
+          animation: flicker 3.2s -0.8s infinite alternate;
+}
+.camera .star.s248 {
+  top: 162px;
+  left: 290px;
+  -webkit-animation: flicker 3.4s -1.8s infinite alternate;
+          animation: flicker 3.4s -1.8s infinite alternate;
+}
+.camera .star.s249 {
+  top: 203px;
+  left: 277px;
+  -webkit-animation: flicker 3.2s -0.2s infinite alternate;
+          animation: flicker 3.2s -0.2s infinite alternate;
+}
+.camera .star.s250 {
+  top: 238px;
+  left: 295px;
+  -webkit-animation: flicker 2.2s -1.4s infinite alternate;
+          animation: flicker 2.2s -1.4s infinite alternate;
+}
+.camera .star.s251 {
+  top: 276px;
+  left: 53px;
+  -webkit-animation: flicker 3s -2s infinite alternate;
+          animation: flicker 3s -2s infinite alternate;
+}
+.camera .star.s252 {
+  top: 222px;
+  left: 192px;
+  -webkit-animation: flicker 3.8s -1.4s infinite alternate;
+          animation: flicker 3.8s -1.4s infinite alternate;
+}
+.camera .star.s253 {
+  top: 191px;
+  left: 55px;
+  -webkit-animation: flicker 2.2s -0.6s infinite alternate;
+          animation: flicker 2.2s -0.6s infinite alternate;
+}
+.camera .star.s254 {
+  top: 173px;
+  left: 204px;
+  -webkit-animation: flicker 4s -2s infinite alternate;
+          animation: flicker 4s -2s infinite alternate;
+}
+.camera .star.s255 {
+  top: 21px;
+  left: 72px;
+  -webkit-animation: flicker 2.8s -1.8s infinite alternate;
+          animation: flicker 2.8s -1.8s infinite alternate;
+}
+.camera .star.s256 {
+  top: 218px;
+  left: 162px;
+  -webkit-animation: flicker 2.2s -1.2s infinite alternate;
+          animation: flicker 2.2s -1.2s infinite alternate;
+}
+.camera .star.s257 {
+  top: 133px;
+  left: 143px;
+  -webkit-animation: flicker 3.2s -1s infinite alternate;
+          animation: flicker 3.2s -1s infinite alternate;
+}
+.camera .star.s258 {
   top: 126px;
-  left: 24px;
+  left: 193px;
+  -webkit-animation: flicker 2.8s -1.6s infinite alternate;
+          animation: flicker 2.8s -1.6s infinite alternate;
+}
+.camera .star.s259 {
+  top: 236px;
+  left: 71px;
+  -webkit-animation: flicker 2.6s -2s infinite alternate;
+          animation: flicker 2.6s -2s infinite alternate;
+}
+.camera .star.s260 {
+  top: 42px;
+  left: 249px;
+  -webkit-animation: flicker 2.2s -0.6s infinite alternate;
+          animation: flicker 2.2s -0.6s infinite alternate;
+}
+.camera .star.s261 {
+  top: 166px;
+  left: 95px;
+  -webkit-animation: flicker 3.6s -0.4s infinite alternate;
+          animation: flicker 3.6s -0.4s infinite alternate;
+}
+.camera .star.s262 {
+  top: 270px;
+  left: 219px;
+  -webkit-animation: flicker 2.8s -0.6s infinite alternate;
+          animation: flicker 2.8s -0.6s infinite alternate;
+}
+.camera .star.s263 {
+  top: 73px;
+  left: 237px;
   -webkit-animation: flicker 3.2s -1.8s infinite alternate;
           animation: flicker 3.2s -1.8s infinite alternate;
 }
-.camera .star.s229 {
-  top: 175px;
+.camera .star.s264 {
+  top: 180px;
+  left: 292px;
+  -webkit-animation: flicker 2.2s -1s infinite alternate;
+          animation: flicker 2.2s -1s infinite alternate;
+}
+.camera .star.s265 {
+  top: 80px;
+  left: 283px;
+  -webkit-animation: flicker 4s -0.4s infinite alternate;
+          animation: flicker 4s -0.4s infinite alternate;
+}
+.camera .star.s266 {
+  top: 263px;
+  left: 191px;
+  -webkit-animation: flicker 3.6s -2s infinite alternate;
+          animation: flicker 3.6s -2s infinite alternate;
+}
+.camera .star.s267 {
+  top: 138px;
+  left: 16px;
+  -webkit-animation: flicker 3.2s -1.8s infinite alternate;
+          animation: flicker 3.2s -1.8s infinite alternate;
+}
+.camera .star.s268 {
+  top: 104px;
+  left: 199px;
+  -webkit-animation: flicker 4s -0.6s infinite alternate;
+          animation: flicker 4s -0.6s infinite alternate;
+}
+.camera .star.s269 {
+  top: 76px;
+  left: 299px;
+  -webkit-animation: flicker 4s -1.2s infinite alternate;
+          animation: flicker 4s -1.2s infinite alternate;
+}
+.camera .star.s270 {
+  top: 19px;
+  left: 300px;
+  -webkit-animation: flicker 3.2s -0.6s infinite alternate;
+          animation: flicker 3.2s -0.6s infinite alternate;
+}
+.camera .star.s271 {
+  top: 79px;
+  left: 250px;
+  -webkit-animation: flicker 2.8s -1.4s infinite alternate;
+          animation: flicker 2.8s -1.4s infinite alternate;
+}
+.camera .star.s272 {
+  top: 246px;
+  left: 145px;
+  -webkit-animation: flicker 3.6s -1.4s infinite alternate;
+          animation: flicker 3.6s -1.4s infinite alternate;
+}
+.camera .star.s273 {
+  top: 4px;
+  left: 242px;
+  -webkit-animation: flicker 3s -0.6s infinite alternate;
+          animation: flicker 3s -0.6s infinite alternate;
+}
+.camera .star.s274 {
+  top: 203px;
+  left: 71px;
+  -webkit-animation: flicker 3.2s -0.8s infinite alternate;
+          animation: flicker 3.2s -0.8s infinite alternate;
+}
+.camera .star.s275 {
+  top: 82px;
+  left: 186px;
+  -webkit-animation: flicker 2.6s -0.6s infinite alternate;
+          animation: flicker 2.6s -0.6s infinite alternate;
+}
+.camera .star.s276 {
+  top: 119px;
   left: 46px;
   -webkit-animation: flicker 2.8s -0.6s infinite alternate;
           animation: flicker 2.8s -0.6s infinite alternate;
 }
-.camera .star.s230 {
-  top: 239px;
-  left: 69px;
-  -webkit-animation: flicker 3.8s -0.2s infinite alternate;
-          animation: flicker 3.8s -0.2s infinite alternate;
-}
-.camera .star.s231 {
-  top: 295px;
-  left: 246px;
+.camera .star.s277 {
+  top: 87px;
+  left: 179px;
   -webkit-animation: flicker 3.4s -0.2s infinite alternate;
           animation: flicker 3.4s -0.2s infinite alternate;
 }
-.camera .star.s232 {
-  top: 20px;
-  left: 177px;
-  -webkit-animation: flicker 2.4s -1.4s infinite alternate;
-          animation: flicker 2.4s -1.4s infinite alternate;
-}
-.camera .star.s233 {
-  top: 247px;
-  left: 211px;
-  -webkit-animation: flicker 2.6s -0.4s infinite alternate;
-          animation: flicker 2.6s -0.4s infinite alternate;
-}
-.camera .star.s234 {
-  top: 7px;
-  left: 7px;
-  -webkit-animation: flicker 2.4s -1.6s infinite alternate;
-          animation: flicker 2.4s -1.6s infinite alternate;
-}
-.camera .star.s235 {
-  top: 233px;
-  left: 103px;
-  -webkit-animation: flicker 3.6s -2s infinite alternate;
-          animation: flicker 3.6s -2s infinite alternate;
-}
-.camera .star.s236 {
-  top: 203px;
-  left: 22px;
-  -webkit-animation: flicker 3.2s -0.6s infinite alternate;
-          animation: flicker 3.2s -0.6s infinite alternate;
-}
-.camera .star.s237 {
-  top: 89px;
-  left: 284px;
-  -webkit-animation: flicker 2.6s -0.2s infinite alternate;
-          animation: flicker 2.6s -0.2s infinite alternate;
-}
-.camera .star.s238 {
-  top: 249px;
-  left: 115px;
-  -webkit-animation: flicker 3.6s -2s infinite alternate;
-          animation: flicker 3.6s -2s infinite alternate;
-}
-.camera .star.s239 {
-  top: 134px;
-  left: 115px;
-  -webkit-animation: flicker 2.2s -1.2s infinite alternate;
-          animation: flicker 2.2s -1.2s infinite alternate;
-}
-.camera .star.s240 {
-  top: 111px;
-  left: 151px;
-  -webkit-animation: flicker 4s -0.8s infinite alternate;
-          animation: flicker 4s -0.8s infinite alternate;
-}
-.camera .star.s241 {
-  top: 19px;
-  left: 42px;
-  -webkit-animation: flicker 4s -1.4s infinite alternate;
-          animation: flicker 4s -1.4s infinite alternate;
-}
-.camera .star.s242 {
-  top: 66px;
-  left: 115px;
-  -webkit-animation: flicker 4s -1.4s infinite alternate;
-          animation: flicker 4s -1.4s infinite alternate;
-}
-.camera .star.s243 {
-  top: 83px;
-  left: 56px;
-  -webkit-animation: flicker 2.8s -0.2s infinite alternate;
-          animation: flicker 2.8s -0.2s infinite alternate;
-}
-.camera .star.s244 {
-  top: 86px;
-  left: 229px;
-  -webkit-animation: flicker 3.8s -2s infinite alternate;
-          animation: flicker 3.8s -2s infinite alternate;
-}
-.camera .star.s245 {
-  top: 21px;
-  left: 161px;
-  -webkit-animation: flicker 2.2s -0.4s infinite alternate;
-          animation: flicker 2.2s -0.4s infinite alternate;
-}
-.camera .star.s246 {
-  top: 240px;
-  left: 202px;
-  -webkit-animation: flicker 3.8s -1.6s infinite alternate;
-          animation: flicker 3.8s -1.6s infinite alternate;
-}
-.camera .star.s247 {
-  top: 295px;
-  left: 245px;
-  -webkit-animation: flicker 4s -0.4s infinite alternate;
-          animation: flicker 4s -0.4s infinite alternate;
-}
-.camera .star.s248 {
-  top: 197px;
-  left: 289px;
+.camera .star.s278 {
+  top: 39px;
+  left: 173px;
   -webkit-animation: flicker 4s -1.8s infinite alternate;
           animation: flicker 4s -1.8s infinite alternate;
 }
-.camera .star.s249 {
-  top: 164px;
-  left: 178px;
-  -webkit-animation: flicker 3.8s -0.6s infinite alternate;
-          animation: flicker 3.8s -0.6s infinite alternate;
-}
-.camera .star.s250 {
-  top: 187px;
-  left: 128px;
-  -webkit-animation: flicker 2.2s -0.4s infinite alternate;
-          animation: flicker 2.2s -0.4s infinite alternate;
-}
-.camera .star.s251 {
-  top: 35px;
-  left: 66px;
-  -webkit-animation: flicker 3.4s -2s infinite alternate;
-          animation: flicker 3.4s -2s infinite alternate;
-}
-.camera .star.s252 {
-  top: 66px;
-  left: 298px;
-  -webkit-animation: flicker 3.2s -0.6s infinite alternate;
-          animation: flicker 3.2s -0.6s infinite alternate;
-}
-.camera .star.s253 {
-  top: 227px;
-  left: 47px;
-  -webkit-animation: flicker 3.2s -1.6s infinite alternate;
-          animation: flicker 3.2s -1.6s infinite alternate;
-}
-.camera .star.s254 {
-  top: 111px;
-  left: 2px;
-  -webkit-animation: flicker 3s -1.2s infinite alternate;
-          animation: flicker 3s -1.2s infinite alternate;
-}
-.camera .star.s255 {
-  top: 37px;
-  left: 247px;
-  -webkit-animation: flicker 2.4s -0.4s infinite alternate;
-          animation: flicker 2.4s -0.4s infinite alternate;
-}
-.camera .star.s256 {
-  top: 63px;
-  left: 216px;
-  -webkit-animation: flicker 3s -2s infinite alternate;
-          animation: flicker 3s -2s infinite alternate;
-}
-.camera .star.s257 {
-  top: 166px;
-  left: 234px;
-  -webkit-animation: flicker 3.2s -1.4s infinite alternate;
-          animation: flicker 3.2s -1.4s infinite alternate;
-}
-.camera .star.s258 {
-  top: 179px;
-  left: 277px;
-  -webkit-animation: flicker 2.6s -1.2s infinite alternate;
-          animation: flicker 2.6s -1.2s infinite alternate;
-}
-.camera .star.s259 {
-  top: 131px;
-  left: 136px;
-  -webkit-animation: flicker 2.4s -1.4s infinite alternate;
-          animation: flicker 2.4s -1.4s infinite alternate;
-}
-.camera .star.s260 {
-  top: 288px;
-  left: 281px;
-  -webkit-animation: flicker 3.6s -1s infinite alternate;
-          animation: flicker 3.6s -1s infinite alternate;
-}
-.camera .star.s261 {
-  top: 120px;
-  left: 132px;
-  -webkit-animation: flicker 3.4s -1.8s infinite alternate;
-          animation: flicker 3.4s -1.8s infinite alternate;
-}
-.camera .star.s262 {
-  top: 131px;
-  left: 178px;
-  -webkit-animation: flicker 3.4s -1.4s infinite alternate;
-          animation: flicker 3.4s -1.4s infinite alternate;
-}
-.camera .star.s263 {
-  top: 274px;
-  left: 231px;
-  -webkit-animation: flicker 4s -1.4s infinite alternate;
-          animation: flicker 4s -1.4s infinite alternate;
-}
-.camera .star.s264 {
-  top: 216px;
-  left: 289px;
-  -webkit-animation: flicker 4s -0.4s infinite alternate;
-          animation: flicker 4s -0.4s infinite alternate;
-}
-.camera .star.s265 {
-  top: 201px;
-  left: 106px;
-  -webkit-animation: flicker 3.6s -2s infinite alternate;
-          animation: flicker 3.6s -2s infinite alternate;
-}
-.camera .star.s266 {
-  top: 134px;
-  left: 194px;
-  -webkit-animation: flicker 2.6s -0.4s infinite alternate;
-          animation: flicker 2.6s -0.4s infinite alternate;
-}
-.camera .star.s267 {
-  top: 13px;
-  left: 11px;
-  -webkit-animation: flicker 3.8s -1.8s infinite alternate;
-          animation: flicker 3.8s -1.8s infinite alternate;
-}
-.camera .star.s268 {
-  top: 41px;
-  left: 159px;
-  -webkit-animation: flicker 2.2s -0.4s infinite alternate;
-          animation: flicker 2.2s -0.4s infinite alternate;
-}
-.camera .star.s269 {
-  top: 277px;
-  left: 166px;
-  -webkit-animation: flicker 3.8s -1.8s infinite alternate;
-          animation: flicker 3.8s -1.8s infinite alternate;
-}
-.camera .star.s270 {
-  top: 192px;
-  left: 165px;
-  -webkit-animation: flicker 2.6s -2s infinite alternate;
-          animation: flicker 2.6s -2s infinite alternate;
-}
-.camera .star.s271 {
-  top: 272px;
-  left: 271px;
-  -webkit-animation: flicker 2.6s -1.8s infinite alternate;
-          animation: flicker 2.6s -1.8s infinite alternate;
-}
-.camera .star.s272 {
-  top: 59px;
-  left: 106px;
-  -webkit-animation: flicker 4s -1s infinite alternate;
-          animation: flicker 4s -1s infinite alternate;
-}
-.camera .star.s273 {
-  top: 271px;
-  left: 1px;
-  -webkit-animation: flicker 3.8s -1s infinite alternate;
-          animation: flicker 3.8s -1s infinite alternate;
-}
-.camera .star.s274 {
-  top: 199px;
-  left: 295px;
-  -webkit-animation: flicker 3s -0.2s infinite alternate;
-          animation: flicker 3s -0.2s infinite alternate;
-}
-.camera .star.s275 {
-  top: 36px;
-  left: 65px;
-  -webkit-animation: flicker 2.4s -1.6s infinite alternate;
-          animation: flicker 2.4s -1.6s infinite alternate;
-}
-.camera .star.s276 {
-  top: 294px;
-  left: 108px;
-  -webkit-animation: flicker 3.8s -0.8s infinite alternate;
-          animation: flicker 3.8s -0.8s infinite alternate;
-}
-.camera .star.s277 {
-  top: 39px;
-  left: 141px;
-  -webkit-animation: flicker 3.4s -0.6s infinite alternate;
-          animation: flicker 3.4s -0.6s infinite alternate;
-}
-.camera .star.s278 {
-  top: 86px;
-  left: 67px;
-  -webkit-animation: flicker 3.6s -0.6s infinite alternate;
-          animation: flicker 3.6s -0.6s infinite alternate;
-}
 .camera .star.s279 {
-  top: 91px;
-  left: 190px;
-  -webkit-animation: flicker 3.4s -0.6s infinite alternate;
-          animation: flicker 3.4s -0.6s infinite alternate;
-}
-.camera .star.s280 {
-  top: 104px;
-  left: 97px;
-  -webkit-animation: flicker 2.4s -1.6s infinite alternate;
-          animation: flicker 2.4s -1.6s infinite alternate;
-}
-.camera .star.s281 {
-  top: 10px;
-  left: 68px;
-  -webkit-animation: flicker 2.4s -0.2s infinite alternate;
-          animation: flicker 2.4s -0.2s infinite alternate;
-}
-.camera .star.s282 {
-  top: 274px;
-  left: 96px;
-  -webkit-animation: flicker 3.8s -1.6s infinite alternate;
-          animation: flicker 3.8s -1.6s infinite alternate;
-}
-.camera .star.s283 {
-  top: 34px;
-  left: 292px;
-  -webkit-animation: flicker 4s -0.2s infinite alternate;
-          animation: flicker 4s -0.2s infinite alternate;
-}
-.camera .star.s284 {
-  top: 103px;
-  left: 80px;
-  -webkit-animation: flicker 4s -1.2s infinite alternate;
-          animation: flicker 4s -1.2s infinite alternate;
-}
-.camera .star.s285 {
-  top: 157px;
-  left: 158px;
-  -webkit-animation: flicker 3s -0.2s infinite alternate;
-          animation: flicker 3s -0.2s infinite alternate;
-}
-.camera .star.s286 {
-  top: 223px;
-  left: 163px;
-  -webkit-animation: flicker 3.6s -1.6s infinite alternate;
-          animation: flicker 3.6s -1.6s infinite alternate;
-}
-.camera .star.s287 {
-  top: 238px;
-  left: 99px;
+  top: 196px;
+  left: 231px;
   -webkit-animation: flicker 3.8s -1.2s infinite alternate;
           animation: flicker 3.8s -1.2s infinite alternate;
 }
+.camera .star.s280 {
+  top: 163px;
+  left: 247px;
+  -webkit-animation: flicker 3.8s -1.2s infinite alternate;
+          animation: flicker 3.8s -1.2s infinite alternate;
+}
+.camera .star.s281 {
+  top: 4px;
+  left: 106px;
+  -webkit-animation: flicker 4s -0.6s infinite alternate;
+          animation: flicker 4s -0.6s infinite alternate;
+}
+.camera .star.s282 {
+  top: 293px;
+  left: 36px;
+  -webkit-animation: flicker 2.8s -1s infinite alternate;
+          animation: flicker 2.8s -1s infinite alternate;
+}
+.camera .star.s283 {
+  top: 98px;
+  left: 33px;
+  -webkit-animation: flicker 3s -1s infinite alternate;
+          animation: flicker 3s -1s infinite alternate;
+}
+.camera .star.s284 {
+  top: 155px;
+  left: 251px;
+  -webkit-animation: flicker 3.2s -0.2s infinite alternate;
+          animation: flicker 3.2s -0.2s infinite alternate;
+}
+.camera .star.s285 {
+  top: 240px;
+  left: 240px;
+  -webkit-animation: flicker 2.8s -0.4s infinite alternate;
+          animation: flicker 2.8s -0.4s infinite alternate;
+}
+.camera .star.s286 {
+  top: 144px;
+  left: 211px;
+  -webkit-animation: flicker 3.8s -0.6s infinite alternate;
+          animation: flicker 3.8s -0.6s infinite alternate;
+}
+.camera .star.s287 {
+  top: 137px;
+  left: 34px;
+  -webkit-animation: flicker 2.4s -1.4s infinite alternate;
+          animation: flicker 2.4s -1.4s infinite alternate;
+}
 .camera .star.s288 {
-  top: 290px;
-  left: 237px;
-  -webkit-animation: flicker 4s -2s infinite alternate;
-          animation: flicker 4s -2s infinite alternate;
-}
-.camera .star.s289 {
-  top: 264px;
-  left: 75px;
-  -webkit-animation: flicker 3.4s -0.6s infinite alternate;
-          animation: flicker 3.4s -0.6s infinite alternate;
-}
-.camera .star.s290 {
-  top: 237px;
-  left: 266px;
-  -webkit-animation: flicker 3.8s -0.4s infinite alternate;
-          animation: flicker 3.8s -0.4s infinite alternate;
-}
-.camera .star.s291 {
-  top: 30px;
-  left: 30px;
-  -webkit-animation: flicker 3.4s -1.6s infinite alternate;
-          animation: flicker 3.4s -1.6s infinite alternate;
-}
-.camera .star.s292 {
-  top: 208px;
-  left: 54px;
-  -webkit-animation: flicker 2.2s -1s infinite alternate;
-          animation: flicker 2.2s -1s infinite alternate;
-}
-.camera .star.s293 {
-  top: 224px;
-  left: 42px;
-  -webkit-animation: flicker 3s -2s infinite alternate;
-          animation: flicker 3s -2s infinite alternate;
-}
-.camera .star.s294 {
-  top: 114px;
-  left: 296px;
-  -webkit-animation: flicker 2.8s -1.4s infinite alternate;
-          animation: flicker 2.8s -1.4s infinite alternate;
-}
-.camera .star.s295 {
-  top: 146px;
-  left: 233px;
+  top: 16px;
+  left: 188px;
   -webkit-animation: flicker 2.8s -0.8s infinite alternate;
           animation: flicker 2.8s -0.8s infinite alternate;
 }
+.camera .star.s289 {
+  top: 81px;
+  left: 229px;
+  -webkit-animation: flicker 3.6s -0.4s infinite alternate;
+          animation: flicker 3.6s -0.4s infinite alternate;
+}
+.camera .star.s290 {
+  top: 33px;
+  left: 272px;
+  -webkit-animation: flicker 3.6s -1.6s infinite alternate;
+          animation: flicker 3.6s -1.6s infinite alternate;
+}
+.camera .star.s291 {
+  top: 22px;
+  left: 45px;
+  -webkit-animation: flicker 2.8s -0.6s infinite alternate;
+          animation: flicker 2.8s -0.6s infinite alternate;
+}
+.camera .star.s292 {
+  top: 292px;
+  left: 81px;
+  -webkit-animation: flicker 3.8s -1s infinite alternate;
+          animation: flicker 3.8s -1s infinite alternate;
+}
+.camera .star.s293 {
+  top: 42px;
+  left: 32px;
+  -webkit-animation: flicker 2.6s -0.2s infinite alternate;
+          animation: flicker 2.6s -0.2s infinite alternate;
+}
+.camera .star.s294 {
+  top: 120px;
+  left: 177px;
+  -webkit-animation: flicker 3.8s -1.4s infinite alternate;
+          animation: flicker 3.8s -1.4s infinite alternate;
+}
+.camera .star.s295 {
+  top: 67px;
+  left: 124px;
+  -webkit-animation: flicker 2.6s -1.2s infinite alternate;
+          animation: flicker 2.6s -1.2s infinite alternate;
+}
 .camera .star.s296 {
-  top: 31px;
-  left: 110px;
+  top: 135px;
+  left: 18px;
+  -webkit-animation: flicker 3.4s -0.8s infinite alternate;
+          animation: flicker 3.4s -0.8s infinite alternate;
+}
+.camera .star.s297 {
+  top: 229px;
+  left: 129px;
   -webkit-animation: flicker 2.2s -1.4s infinite alternate;
           animation: flicker 2.2s -1.4s infinite alternate;
 }
-.camera .star.s297 {
-  top: 159px;
-  left: 240px;
-  -webkit-animation: flicker 2.6s -1.4s infinite alternate;
-          animation: flicker 2.6s -1.4s infinite alternate;
-}
 .camera .star.s298 {
-  top: 162px;
-  left: 61px;
-  -webkit-animation: flicker 4s -1.2s infinite alternate;
-          animation: flicker 4s -1.2s infinite alternate;
+  top: 46px;
+  left: 134px;
+  -webkit-animation: flicker 3.2s -0.6s infinite alternate;
+          animation: flicker 3.2s -0.6s infinite alternate;
 }
 .camera .star.s299 {
-  top: 14px;
-  left: 280px;
-  -webkit-animation: flicker 3.4s -0.2s infinite alternate;
-          animation: flicker 3.4s -0.2s infinite alternate;
+  top: 288px;
+  left: 286px;
+  -webkit-animation: flicker 4s -0.8s infinite alternate;
+          animation: flicker 4s -0.8s infinite alternate;
 }
 .camera .star.s300 {
-  top: 132px;
-  left: 103px;
-  -webkit-animation: flicker 2.6s -1.2s infinite alternate;
-          animation: flicker 2.6s -1.2s infinite alternate;
+  top: 204px;
+  left: 10px;
+  -webkit-animation: flicker 3.8s -1.4s infinite alternate;
+          animation: flicker 3.8s -1.4s infinite alternate;
 }
 .camera .meteor {
   position: absolute;
@@ -1896,22 +1896,34 @@ body {
           transform: rotate(24deg);
 }
 .camera .meteor.m1 {
-  top: 6px;
+  top: 38px;
+  -webkit-animation: move 4s 36.8s infinite;
+          animation: move 4s 36.8s infinite;
 }
 .camera .meteor.m2 {
-  top: 57px;
+  top: -20px;
+  -webkit-animation: move 5s 11s infinite;
+          animation: move 5s 11s infinite;
 }
 .camera .meteor.m3 {
-  top: 62px;
+  top: -7px;
+  -webkit-animation: move 5s 31.6s infinite;
+          animation: move 5s 31.6s infinite;
 }
 .camera .meteor.m4 {
-  top: 3px;
+  top: -29px;
+  -webkit-animation: move 5s 12.7s infinite;
+          animation: move 5s 12.7s infinite;
 }
 .camera .meteor.m5 {
-  top: 4px;
+  top: -18px;
+  -webkit-animation: move 4s 30.5s infinite;
+          animation: move 4s 30.5s infinite;
 }
 .camera .meteor.m6 {
-  top: -22px;
+  top: 43px;
+  -webkit-animation: move 4s 39.7s infinite;
+          animation: move 4s 39.7s infinite;
 }
 
 @-webkit-keyframes flicker {
@@ -1929,5 +1941,25 @@ body {
   }
   100% {
     opacity: 0.3;
+  }
+}
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform: translate(0, 0) rotate(24deg);
+            transform: translate(0, 0) rotate(24deg);
+  }
+  100% {
+    -webkit-transform: translate(600px, 350px) rotate(24deg);
+            transform: translate(600px, 350px) rotate(24deg);
+  }
+}
+@keyframes move {
+  0% {
+    -webkit-transform: translate(0, 0) rotate(24deg);
+            transform: translate(0, 0) rotate(24deg);
+  }
+  100% {
+    -webkit-transform: translate(600px, 350px) rotate(24deg);
+            transform: translate(600px, 350px) rotate(24deg);
   }
 }/*# sourceMappingURL=index.css.map */
