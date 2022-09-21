@@ -52,18 +52,34 @@ body {
     border-radius: 50%;
     background: linear-gradient( #1d4253 0%, #6bb5c4 100%);
     position: relative;
+    overflow: hidden;
     .star {
         position: absolute;
         width: 1px;
         height: 1px;
         border-radius: 50%;
         background: #fff;
+        @for $i from 1 through 300 {
+            &.s#{$i} {
+                top: random(300) + px;
+                left: random(300) + px;
+                animation: flicker (calc((random(10) + 10) / 5))+s (calc(random(10) / (-5)))+s infinite alternate;
+            }
+        }
     }
-    @for $i from 1 through 300 {
-        .s#{$i} {
-            top: random(300) + px;
-            left: random(300) + px;
-            animation: flicker (calc((random(10) + 10) / 5))+s (calc(random(10) / (-5)))+s infinite alternate;
+    .meteor {
+        position: absolute;
+        top: 0;
+        left: -120px;
+        width: 120px;
+        height: 2px;
+        border-radius: 50%;
+        background: linear-gradient(-90deg, #fff 0%, #fff 10%, rgba(255,255,255,0) 100%);
+        transform: rotate(24deg);
+        @for $i from 1 through 6 {
+            &.m#{$i}{
+                top: calc(random(100) - 30 )+px
+            }
         }
     }
 }
