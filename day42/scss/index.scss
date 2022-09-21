@@ -63,6 +63,15 @@ body {
         .s#{$i} {
             top: random(300) + px;
             left: random(300) + px;
+            animation: flicker (calc((random(10) + 10) / 5))+s (calc(random(10) / (-5)))+s infinite alternate;
         }
+    }
+}
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.3;
     }
 }
