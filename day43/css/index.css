@@ -68,12 +68,20 @@ body {
 
 .light-bulb {
   width: 76px;
+  cursor: pointer;
+}
+.light-bulb:hover .bulb {
+  fill: #8c8f99;
 }
 .light-bulb .bulb {
   width: 76px;
+  fill: #fff35c;
+  -webkit-transition: fill 0.5s;
+  transition: fill 0.5s;
 }
 .light-bulb .seat {
   display: block;
   width: 32px;
   margin: 0 auto;
+  fill: #e5e5e5;
 }/*# sourceMappingURL=index.css.map */
