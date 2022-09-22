@@ -74,6 +74,11 @@ body {
 .light-bulb:hover .bulb {
   fill: #8c8f99;
 }
+.light-bulb:hover .light {
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 0 0 transparent;
+          box-shadow: 0 0 0 0 transparent;
+}
 .light-bulb .light {
   position: absolute;
   top: 0;
@@ -86,12 +91,17 @@ body {
   background-color: #fff35c;
   -webkit-box-shadow: 0 0 64px 4px #fff35c;
           box-shadow: 0 0 64px 4px #fff35c;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 1;
 }
 .light-bulb .bulb {
+  position: relative;
   width: 76px;
   fill: #fff35c;
   -webkit-transition: fill 0.5s;
   transition: fill 0.5s;
+  z-index: 2;
 }
 .light-bulb .seat {
   display: block;
