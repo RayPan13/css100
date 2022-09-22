@@ -47,12 +47,24 @@ body {
     align-items: center;
 }
 .light-bulb {
+    position: relative;
     width: 76px;
     cursor: pointer;
     &:hover {
         .bulb {
             fill: #8c8f99;
         }
+    }
+    .light {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 76px;
+        height: 76px;
+        border-radius: 50%;
+        background-color: #fff35c;
+        box-shadow: 0 0 64px 4px #fff35c;
     }
     .bulb {
         width: 76px;

@@ -67,11 +67,25 @@ body {
 }
 
 .light-bulb {
+  position: relative;
   width: 76px;
   cursor: pointer;
 }
 .light-bulb:hover .bulb {
   fill: #8c8f99;
+}
+.light-bulb .light {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background-color: #fff35c;
+  -webkit-box-shadow: 0 0 64px 4px #fff35c;
+          box-shadow: 0 0 64px 4px #fff35c;
 }
 .light-bulb .bulb {
   width: 76px;
