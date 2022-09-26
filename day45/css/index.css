@@ -55,4 +55,23 @@ body {
   max-width: 400px;
   background-color: #5ca4ea;
   border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn {
+  color: #fff;
+  border: 1px solid #91c9ff;
+  background-color: #5ca4ea;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 16px 32px;
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
