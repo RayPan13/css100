@@ -72,6 +72,22 @@ body {
   background-color: #5ca4ea;
   font-size: 20px;
   font-family: sans-serif;
-  padding: 16px 32px;
+  width: 180px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: background 0.8s;
+  transition: background 0.8s;
   cursor: pointer;
+  position: relative;
+}
+.btn:hover {
+  background-color: #4f95da;
 }/*# sourceMappingURL=index.css.map */
