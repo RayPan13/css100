@@ -69,7 +69,25 @@ body {
 .box {
   width: 200px;
   height: 200px;
-  position: relative;
+  position: absolute;
+}
+.box.b1 .dot {
+  opacity: 1;
+}
+.box.b2 .dot {
+  opacity: 0.9;
+}
+.box.b3 .dot {
+  opacity: 0.8;
+}
+.box.b4 .dot {
+  opacity: 0.7;
+}
+.box.b5 .dot {
+  opacity: 0.6;
+}
+.box.b6 .dot {
+  opacity: 0.5;
 }
 .box .dot {
   position: absolute;
