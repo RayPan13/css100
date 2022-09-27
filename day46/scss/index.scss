@@ -52,6 +52,7 @@ body {
     position: absolute;
     @for $i from 1 through 6 {
         &.b#{$i} {
+            animation: inOut#{$i} 6s ease-in-out alternate infinite;
             .dot {
                 opacity: calc(1 - ($i - 1) / 10);
             }
@@ -75,3 +76,17 @@ body {
     }
 }
 
+@for $i from 1 through 6 {
+    @keyframes inOut#{$i} {
+        0% {
+            transform:
+                scale(1 - (($i - 1) / 7))
+                rotate((($i - 1) * 5) + deg);
+        }
+        100% {
+            transform:
+                scale(1 - (($i - 1) / 22))
+                rotate(((($i - 1) * 10) + 360) + deg);
+        }
+    }
+}
