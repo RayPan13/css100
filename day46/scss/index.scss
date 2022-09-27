@@ -42,4 +42,28 @@ body {
     max-width: 400px;
     background-color: #27ae60;
     border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    .dot {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #fff;
+        @for $i from 1 through 12 {
+            &.d#{$i} {
+                $deg: calc(360 / 12) * ($i - 1);
+                transform-origin: 0 100px;
+                transform: translate(0, -100px) rotate($deg + deg);
+            }
+        }
+    }
 }
