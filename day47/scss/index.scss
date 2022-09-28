@@ -56,7 +56,6 @@ body {
     overflow: hidden;
     .pixel {
         flex-basis: calc(100% / 20);
-        border: 1px solid #e24e3f;
         position: relative;
         &:hover {
             background-color: #ec5142;
@@ -70,7 +69,12 @@ body {
             left: 0;
             right: 0;
             bottom: 0;
+            border: 1px solid #e24e3f;
             cursor: pointer;
+        }
+        :checked + label {
+            background-color: #fff;
+            border-color: #fff;
         }
     }
 }

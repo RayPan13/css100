@@ -76,7 +76,6 @@ body {
 #app .pixel {
   -ms-flex-preferred-size: 5%;
       flex-basis: 5%;
-  border: 1px solid #e24e3f;
   position: relative;
 }
 #app .pixel:hover {
@@ -91,5 +90,10 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+  border: 1px solid #e24e3f;
   cursor: pointer;
+}
+#app .pixel :checked + label {
+  background-color: #fff;
+  border-color: #fff;
 }/*# sourceMappingURL=index.css.map */
