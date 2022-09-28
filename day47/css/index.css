@@ -77,8 +77,19 @@ body {
   -ms-flex-preferred-size: 5%;
       flex-basis: 5%;
   border: 1px solid #e24e3f;
-  cursor: pointer;
+  position: relative;
 }
 #app .pixel:hover {
   background-color: #ec5142;
+}
+#app .pixel input {
+  display: none;
+}
+#app .pixel label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
