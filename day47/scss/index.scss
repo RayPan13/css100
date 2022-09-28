@@ -30,6 +30,15 @@ p {
     margin: 0;
     line-height: 1.5;
 }
+button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    background: #eee;
+    box-shadow: none;
+    font-family: inherit;
+}
 body {
     height: 100vh;
     display: flex;
@@ -40,6 +49,17 @@ body {
     width: 100%;
     height: 400px;
     max-width: 400px;
-    background-color: #DE4738;
+    background-color: #de4738;
     border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    .pixel {
+        flex-basis: calc(100% / 20);
+        border: 1px solid #e24e3f;
+        cursor: pointer;
+        &:hover {
+            background-color: #ec5142;
+        }
+    }
 }
