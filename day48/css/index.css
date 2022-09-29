@@ -73,6 +73,12 @@ body {
           transform-style: preserve-3d;
   -webkit-transform: translateZ(-100px) rotateX(70deg) rotateZ(-45deg);
           transform: translateZ(-100px) rotateX(70deg) rotateZ(-45deg);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+#app .cube:hover {
+  -webkit-transform: translateZ(-100px) rotateX(-120deg) rotateZ(135deg);
+          transform: translateZ(-100px) rotateX(-120deg) rotateZ(135deg);
 }
 #app .cube .side {
   position: absolute;
