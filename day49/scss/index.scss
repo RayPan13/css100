@@ -52,15 +52,29 @@ body {
     flex-wrap: wrap;
     overflow: hidden;
     position: relative;
+    .cube {
+        width: 20px;
+        height: 20px;
+        outline: 1px solid #fff;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        @for $i from 1 through 400 {
+            &.c#{$i}:hover ~ .ball {
+                transform: translate(10px,10px);
+            }
+        }
+    }
     .ball {
         background-color: #2ecc71;
         width: 20px;
         height: 20px;
         border-radius: 50%;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
+        top: -10px;
+        left: -10px;
+        transform: translate(200px,200px);
+        transition: transform 1s;
         &::after {
             content: '';
             display: block;
@@ -71,11 +85,6 @@ body {
             height: 100%;
             animation: halo 1.5s  infinite;
         }
-    }
-    .cube {
-        width: 20px;
-        height: 20px;
-        outline: 1px solid #fff;
     }
 }
 @keyframes halo {
