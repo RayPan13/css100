@@ -65,6 +65,110 @@ body {
   top: 135px;
   left: 150px;
   background: #fff;
+  -webkit-animation: move 2.5s infinite;
+          animation: move 2.5s infinite;
   border-radius: 50px 50px 50px 50px/80px 80px 50px 50px;
   background-color: #fff;
+}
+
+@-webkit-keyframes move {
+  0% {
+    -webkit-transform: translate(0, -350px) scale(0.8, 1.2);
+            transform: translate(0, -350px) scale(0.8, 1.2);
+  }
+  25% {
+    -webkit-transform: translate(0, 40px) scale(1.05, 0.9);
+            transform: translate(0, 40px) scale(1.05, 0.9);
+  }
+  30% {
+    -webkit-transform: translate(0, -20px) scale(0.95, 1.02);
+            transform: translate(0, -20px) scale(0.95, 1.02);
+  }
+  35% {
+    -webkit-transform: translate(0, 10px) scale(1.01, 0.98);
+            transform: translate(0, 10px) scale(1.01, 0.98);
+  }
+  40%, 45% {
+    -webkit-transform: translate(0, 0) scale(1) rotate(0);
+            transform: translate(0, 0) scale(1) rotate(0);
+  }
+  50% {
+    -webkit-transform: translate(0, 0) scale(1) rotate(5deg);
+            transform: translate(0, 0) scale(1) rotate(5deg);
+  }
+  55% {
+    -webkit-transform: translate(0, 0) scale(1) rotate(-5deg);
+            transform: translate(0, 0) scale(1) rotate(-5deg);
+  }
+  60% {
+    -webkit-transform: translate(0, 0) scale(1) rotate(5deg);
+            transform: translate(0, 0) scale(1) rotate(5deg);
+  }
+  65%, 70% {
+    -webkit-transform: translate(0, 0) scale(1) rotate(0deg);
+            transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+  75% {
+    -webkit-transform: translate(0, 10px) scale(1.01, 0.98);
+            transform: translate(0, 10px) scale(1.01, 0.98);
+  }
+  80% {
+    -webkit-transform: translate(0, -20px) scale(1.02, 0.95);
+            transform: translate(0, -20px) scale(1.02, 0.95);
+  }
+  100% {
+    -webkit-transform: translate(0, 350px) scale(0.9, 1.1);
+            transform: translate(0, 350px) scale(0.9, 1.1);
+  }
+}
+
+@keyframes move {
+  0% {
+    -webkit-transform: translate(0, -350px) scale(0.8, 1.2);
+            transform: translate(0, -350px) scale(0.8, 1.2);
+  }
+  25% {
+    -webkit-transform: translate(0, 40px) scale(1.05, 0.9);
+            transform: translate(0, 40px) scale(1.05, 0.9);
+  }
+  30% {
+    -webkit-transform: translate(0, -20px) scale(0.95, 1.02);
+            transform: translate(0, -20px) scale(0.95, 1.02);
+  }
+  35% {
+    -webkit-transform: translate(0, 10px) scale(1.01, 0.98);
+            transform: translate(0, 10px) scale(1.01, 0.98);
+  }
+  40%, 45% {
+    -webkit-transform: translate(0, 0) scale(1) rotate(0);
+            transform: translate(0, 0) scale(1) rotate(0);
+  }
+  50% {
+    -webkit-transform: translate(0, 0) scale(1) rotate(5deg);
+            transform: translate(0, 0) scale(1) rotate(5deg);
+  }
+  55% {
+    -webkit-transform: translate(0, 0) scale(1) rotate(-5deg);
+            transform: translate(0, 0) scale(1) rotate(-5deg);
+  }
+  60% {
+    -webkit-transform: translate(0, 0) scale(1) rotate(5deg);
+            transform: translate(0, 0) scale(1) rotate(5deg);
+  }
+  65%, 70% {
+    -webkit-transform: translate(0, 0) scale(1) rotate(0deg);
+            transform: translate(0, 0) scale(1) rotate(0deg);
+  }
+  75% {
+    -webkit-transform: translate(0, 10px) scale(1.01, 0.98);
+            transform: translate(0, 10px) scale(1.01, 0.98);
+  }
+  80% {
+    -webkit-transform: translate(0, -20px) scale(1.02, 0.95);
+            transform: translate(0, -20px) scale(1.02, 0.95);
+  }
+  100% {
+    -webkit-transform: translate(0, 350px) scale(0.9, 1.1);
+            transform: translate(0, 350px) scale(0.9, 1.1);
+  }
 }/*# sourceMappingURL=index.css.map */

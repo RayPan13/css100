@@ -51,6 +51,47 @@ body {
     top: calc(400 / 2 - 130 / 2) + px;
     left: calc(400 / 2 - 100 / 2) + px;
     background: #fff;
+    animation: move 2.5s infinite;
     border-radius: 50px 50px 50px 50px/80px 80px 50px 50px;
     background-color: #fff;
+}
+@keyframes move {
+    0% {
+        transform: translate(0, -350px) scale(0.8, 1.2);
+    }
+    25% {
+        transform: translate(0, 40px) scale(1.05, 0.9);
+    }
+    30% {
+        transform: translate(0, -20px) scale(0.95, 1.02);
+    }
+    35% {
+        transform: translate(0, 10px) scale(1.01, 0.98);
+    }
+    40%,
+    45% {
+        transform: translate(0, 0) scale(1) rotate(0);
+    }
+    50% {
+        transform: translate(0, 0) scale(1) rotate(5deg);
+    }
+    55% {
+        transform: translate(0, 0) scale(1) rotate(-5deg);
+    }
+    60% {
+        transform: translate(0, 0) scale(1) rotate(5deg);
+    }
+    65%,
+    70% {
+        transform: translate(0, 0) scale(1) rotate(0deg);
+    }
+    75% {
+        transform: translate(0, 10px) scale(1.01, 0.98);
+    }
+    80% {
+        transform: translate(0, -20px) scale(1.02, 0.95);
+    }
+    100% {
+        transform: translate(0, 350px) scale(0.9, 1.1);
+    }
 }
