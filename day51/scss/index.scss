@@ -54,14 +54,24 @@ button {
     background-color: #313c46;
     border-radius: 8px;
 }
-#check:checked ~ label {
-    .play {
-        transform: scale(1);
-        opacity: 1;
-    }
-    .pause {
-        transform: scale(0);
-        opacity: 0;
+#check{
+    display: none;
+    &:checked{
+        & ~ label {
+            .play {
+                transform: scale(1);
+                opacity: 1;
+            }
+            .pause {
+                transform: scale(0);
+                opacity: 0;
+            }
+        }
+        & ~ .number {
+            .col span{
+                animation-play-state: paused;
+            }
+        }
     }
 }
 .number {
@@ -84,26 +94,26 @@ button {
         text-align: center;
         font-size: 3rem;
         color: #478bb8;
-        // &:nth-child(1){
-        //     span {
-        //         animation: count 10000s steps(1) infinite;
-        //     }
-        // }
-        // &:nth-child(2){
-        //     span {
-        //         animation: count 1000s steps(1) infinite;
-        //     }
-        // }
-        // &:nth-child(3){
-        //     span {
-        //         animation: count 100s steps(1) infinite;
-        //     }
-        // }
-        // &:nth-child(4){
-        //     span {
-        //         animation: count 10s steps(1) infinite;
-        //     }
-        // }
+        &:nth-child(1){
+            span {
+                animation: count 10000s steps(1) infinite;
+            }
+        }
+        &:nth-child(2){
+            span {
+                animation: count 1000s steps(1) infinite;
+            }
+        }
+        &:nth-child(3){
+            span {
+                animation: count 100s steps(1) infinite;
+            }
+        }
+        &:nth-child(4){
+            span {
+                animation: count 10s steps(1) infinite;
+            }
+        }
     }
 }
 label {

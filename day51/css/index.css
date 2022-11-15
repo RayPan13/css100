@@ -70,6 +70,9 @@ button {
   border-radius: 8px;
 }
 
+#check {
+  display: none;
+}
 #check:checked ~ label .play {
   -webkit-transform: scale(1);
           transform: scale(1);
@@ -79,6 +82,10 @@ button {
   -webkit-transform: scale(0);
           transform: scale(0);
   opacity: 0;
+}
+#check:checked ~ .number .col span {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
 
 .number {
@@ -112,6 +119,22 @@ button {
   text-align: center;
   font-size: 3rem;
   color: #478bb8;
+}
+.number .col:nth-child(1) span {
+  -webkit-animation: count 10000s steps(1) infinite;
+          animation: count 10000s steps(1) infinite;
+}
+.number .col:nth-child(2) span {
+  -webkit-animation: count 1000s steps(1) infinite;
+          animation: count 1000s steps(1) infinite;
+}
+.number .col:nth-child(3) span {
+  -webkit-animation: count 100s steps(1) infinite;
+          animation: count 100s steps(1) infinite;
+}
+.number .col:nth-child(4) span {
+  -webkit-animation: count 10s steps(1) infinite;
+          animation: count 10s steps(1) infinite;
 }
 
 label {
