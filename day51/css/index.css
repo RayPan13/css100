@@ -50,12 +50,31 @@ body {
           align-items: center;
 }
 
+button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
 #app {
   width: 100%;
   height: 400px;
   max-width: 400px;
   background-color: #313C46;
   border-radius: 8px;
+}
+
+#check:checked ~ label .play {
+  display: block;
+}
+#check:checked ~ label .pause {
+  display: none;
 }
 
 .number {
@@ -90,21 +109,24 @@ body {
   font-size: 3rem;
   color: #478BB8;
 }
-.number .col:nth-child(1) span {
-  -webkit-animation: count 10000s steps(1) infinite;
-          animation: count 10000s steps(1) infinite;
+
+label {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 20px;
+  cursor: pointer;
 }
-.number .col:nth-child(2) span {
-  -webkit-animation: count 1000s steps(1) infinite;
-          animation: count 1000s steps(1) infinite;
+label svg {
+  fill: #fff;
 }
-.number .col:nth-child(3) span {
-  -webkit-animation: count 100s steps(1) infinite;
-          animation: count 100s steps(1) infinite;
+label .play {
+  display: none;
 }
-.number .col:nth-child(4) span {
-  -webkit-animation: count 10s steps(1) infinite;
-          animation: count 10s steps(1) infinite;
+label .pause {
+  display: block;
 }
 
 @-webkit-keyframes count {
