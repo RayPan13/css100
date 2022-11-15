@@ -55,6 +55,7 @@ body {
     padding: 0 8px;
     border-radius: 4px;
     background-color: #fff;
+    overflow: hidden;
     .col {
         display: flex;
         flex: 1;
@@ -63,5 +64,19 @@ body {
         text-align: center;
         font-size: 3rem;
         color: #478BB8;
+        &:nth-child(4){
+            span {
+                animation: count 10s steps(1) infinite;
+            }
+        }
     }
 }
+
+@keyframes count {
+    @for $i from 0 through 10 {
+        #{$i*10 + '%'} {
+            transform: translateY(#{-40 * $i}px);
+        }
+    }
+}
+
