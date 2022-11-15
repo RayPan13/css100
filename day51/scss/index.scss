@@ -51,15 +51,17 @@ button {
     width: 100%;
     height: 400px;
     max-width: 400px;
-    background-color: #313C46;
+    background-color: #313c46;
     border-radius: 8px;
 }
-#check:checked ~ label{
+#check:checked ~ label {
     .play {
-        display: block;
+        transform: scale(1);
+        opacity: 1;
     }
     .pause {
-        display: none;
+        transform: scale(0);
+        opacity: 0;
     }
 }
 .number {
@@ -67,7 +69,7 @@ button {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 100px;
     height: 40px;
     padding: 0 8px;
@@ -81,7 +83,7 @@ button {
         line-height: 40px;
         text-align: center;
         font-size: 3rem;
-        color: #478BB8;
+        color: #478bb8;
         // &:nth-child(1){
         //     span {
         //         animation: count 10000s steps(1) infinite;
@@ -113,12 +115,18 @@ label {
     cursor: pointer;
     svg {
         fill: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all 0.5s;
     }
     .play {
-        display: none;
+        transform: scale(0);
+        opacity: 0;
     }
     .pause {
-        display: block;
+        transform: scale(1);
+        opacity: 1;
     }
 }
 

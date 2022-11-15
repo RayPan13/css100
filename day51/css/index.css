@@ -66,15 +66,19 @@ button {
   width: 100%;
   height: 400px;
   max-width: 400px;
-  background-color: #313C46;
+  background-color: #313c46;
   border-radius: 8px;
 }
 
 #check:checked ~ label .play {
-  display: block;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
 }
 #check:checked ~ label .pause {
-  display: none;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
 }
 
 .number {
@@ -107,7 +111,7 @@ button {
   line-height: 40px;
   text-align: center;
   font-size: 3rem;
-  color: #478BB8;
+  color: #478bb8;
 }
 
 label {
@@ -121,12 +125,21 @@ label {
 }
 label svg {
   fill: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 label .play {
-  display: none;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
 }
 label .pause {
-  display: block;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
 }
 
 @-webkit-keyframes count {
