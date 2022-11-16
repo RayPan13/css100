@@ -49,6 +49,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    width: 80px;
+    height: 80px;
     .dot {
         width: 1px;
         height: 50%;
@@ -60,14 +62,14 @@ body {
         &::after {
             content: '';
             display: inline-block;
-            width: 10px;
-            height: 10px;
+            width: 8px;
+            height: 8px;
             background-color: #fff;
             border-radius: 50%;
             position: absolute;
             top: 0;
             left: 0;
-            transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%) scale(0);
         }
         @for $i from 1 through 18 {
             &.d#{$i} {
@@ -75,11 +77,13 @@ body {
             }
         }
     }
-    &.b1 {
-        width: 80px;
-        height: 80px;
-        .dot::after {
-            animation: breathe 2s linear infinite alternate;
+    @for $i from 1 through 10 {
+        &.b#{$i} {
+            width: #{($i*20) + 60}px;
+            height: #{($i*20) + 60}px;
+            .dot::after {
+                animation: breathe #{($i/10) + 2}s linear infinite alternate;
+            }
         }
     }
 }

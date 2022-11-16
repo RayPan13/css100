@@ -64,6 +64,8 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
 }
 .box .dot {
   width: 1px;
@@ -79,15 +81,15 @@ body {
 .box .dot::after {
   content: "";
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   background-color: #fff;
   border-radius: 50%;
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
 }
 .box .dot.d1 {
   -webkit-transform: translateX(-50%) rotate(20deg);
@@ -166,8 +168,80 @@ body {
   height: 80px;
 }
 .box.b1 .dot::after {
-  -webkit-animation: breathe 2s linear infinite alternate;
-          animation: breathe 2s linear infinite alternate;
+  -webkit-animation: breathe 2.1s linear infinite alternate;
+          animation: breathe 2.1s linear infinite alternate;
+}
+.box.b2 {
+  width: 100px;
+  height: 100px;
+}
+.box.b2 .dot::after {
+  -webkit-animation: breathe 2.2s linear infinite alternate;
+          animation: breathe 2.2s linear infinite alternate;
+}
+.box.b3 {
+  width: 120px;
+  height: 120px;
+}
+.box.b3 .dot::after {
+  -webkit-animation: breathe 2.3s linear infinite alternate;
+          animation: breathe 2.3s linear infinite alternate;
+}
+.box.b4 {
+  width: 140px;
+  height: 140px;
+}
+.box.b4 .dot::after {
+  -webkit-animation: breathe 2.4s linear infinite alternate;
+          animation: breathe 2.4s linear infinite alternate;
+}
+.box.b5 {
+  width: 160px;
+  height: 160px;
+}
+.box.b5 .dot::after {
+  -webkit-animation: breathe 2.5s linear infinite alternate;
+          animation: breathe 2.5s linear infinite alternate;
+}
+.box.b6 {
+  width: 180px;
+  height: 180px;
+}
+.box.b6 .dot::after {
+  -webkit-animation: breathe 2.6s linear infinite alternate;
+          animation: breathe 2.6s linear infinite alternate;
+}
+.box.b7 {
+  width: 200px;
+  height: 200px;
+}
+.box.b7 .dot::after {
+  -webkit-animation: breathe 2.7s linear infinite alternate;
+          animation: breathe 2.7s linear infinite alternate;
+}
+.box.b8 {
+  width: 220px;
+  height: 220px;
+}
+.box.b8 .dot::after {
+  -webkit-animation: breathe 2.8s linear infinite alternate;
+          animation: breathe 2.8s linear infinite alternate;
+}
+.box.b9 {
+  width: 240px;
+  height: 240px;
+}
+.box.b9 .dot::after {
+  -webkit-animation: breathe 2.9s linear infinite alternate;
+          animation: breathe 2.9s linear infinite alternate;
+}
+.box.b10 {
+  width: 260px;
+  height: 260px;
+}
+.box.b10 .dot::after {
+  -webkit-animation: breathe 3s linear infinite alternate;
+          animation: breathe 3s linear infinite alternate;
 }
 
 @-webkit-keyframes breathe {
