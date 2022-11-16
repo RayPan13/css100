@@ -69,12 +69,7 @@ body {
             position: absolute;
             top: 0;
             left: 0;
-            transform: translate(-50%,-50%) scale(0);
-        }
-        @for $i from 1 through 18 {
-            &.d#{$i} {
-                transform: translateX(-50%) rotate(#{$i*20}deg);
-            }
+            transform: translate(-50%,-50%) scale(1);
         }
     }
     @for $i from 1 through 10 {
@@ -82,10 +77,43 @@ body {
             width: #{($i*20) + 60}px;
             height: #{($i*20) + 60}px;
             .dot::after {
-                animation: breathe #{($i/10) + 2}s linear infinite alternate;
+                animation: breathe #{calc($i / 10) + 1.2}s linear infinite alternate;
             }
         }
     }
+    &.b1,
+    &.b2 {
+        .dot{
+            @for $i from 1 through 18 {
+                &.d#{$i} {
+                    transform: translateX(-50%) rotate(#{$i*20}deg);
+                }
+            }
+        }
+    }
+    &.b3,
+    &.b4 {
+        .dot{
+            @for $i from 1 through 24 {
+                &.d#{$i} {
+                    transform: translateX(-50%) rotate(#{$i*15}deg);
+                }
+            }
+        }
+    }
+    &.b5,
+    &.b6,
+    &.b7,
+    &.b8 {
+        .dot{
+            @for $i from 1 through 36 {
+                &.d#{$i} {
+                    transform: translateX(-50%) rotate(#{$i*10}deg);
+                }
+            }
+        }
+    }
+
 }
 
 @keyframes breathe {
