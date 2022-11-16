@@ -84,7 +84,7 @@ body {
                     }
                 }
                 &::after {
-                    animation: breathe 1.5s linear infinite alternate;
+                    animation: wave 1.5s linear infinite alternate;
                     animation-delay: #{calc($i / 5)}s;
                 }
             }
@@ -92,7 +92,7 @@ body {
     }
 }
 
-@keyframes breathe {
+@keyframes wave {
     0% {
         transform: translate(-50%, -50%) scale(0);
     }
