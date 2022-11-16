@@ -64,8 +64,6 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 80px;
-  height: 80px;
 }
 .box .dot {
   width: 1px;
@@ -81,8 +79,8 @@ body {
 .box .dot::after {
   content: "";
   display: inline-block;
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   background-color: #fff;
   border-radius: 50%;
   position: absolute;
@@ -162,4 +160,34 @@ body {
 .box .dot.d18 {
   -webkit-transform: translateX(-50%) rotate(360deg);
           transform: translateX(-50%) rotate(360deg);
+}
+.box.b1 {
+  width: 80px;
+  height: 80px;
+}
+.box.b1 .dot::after {
+  -webkit-animation: breathe 2s linear infinite alternate;
+          animation: breathe 2s linear infinite alternate;
+}
+
+@-webkit-keyframes breathe {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes breathe {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
+  }
 }/*# sourceMappingURL=index.css.map */
