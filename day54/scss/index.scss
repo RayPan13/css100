@@ -48,20 +48,48 @@ body {
 .wave {
     width: 500px;
     height: 60px;
-    background-color: #7EB3E6;
-    animation: move 4s linear infinite alternate;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    display: flex;
+    transform: translate(-50%,0);
+    .circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        transform: translateY(-25px);
+
+    }
     &.w1 {
-        position: absolute;
-        left: 50%;
-        bottom: 0;
-        display: flex;
-        transform: translate(-50%,0);
+        background-color: #7EB3E6;
+        z-index: 3;
+        animation: w1 4s linear infinite alternate;
         .circle {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: #7EB3E6;
-            transform: translateY(-25px);
+            background-color: inherit;
+            &:nth-child(even){
+                background-color: #5D90BF;
+            }
+        }
+    }
+    &.w2 {
+        background-color: #5D90BF;
+        bottom: 60px;
+        z-index: 2;
+        animation: w2 4s linear infinite alternate;
+        .circle {
+            background-color: inherit;
+            &:nth-child(even){
+                background-color: #406384;
+            }
+        }
+    }
+    &.w3 {
+        background-color: #406384;
+        bottom: 120px;
+        z-index: 1;
+        animation: w3 4s linear infinite alternate;
+        .circle {
+            background-color: inherit;
             &:nth-child(even){
                 background-color: #263A4D;
             }
@@ -70,12 +98,28 @@ body {
 
 }
 
-@keyframes move {
+@keyframes w1 {
     0% {
         left: 60%;
     }
     100% {
         left: 40%;
+    }
+}
+@keyframes w2 {
+    0% {
+        left: 51%;
+    }
+    100% {
+        left: 49%;
+    }
+}
+@keyframes w3 {
+    0% {
+        left: 55%;
+    }
+    100% {
+        left: 45%;
     }
 }
 

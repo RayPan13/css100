@@ -62,11 +62,6 @@ body {
 .wave {
   width: 500px;
   height: 60px;
-  background-color: #7EB3E6;
-  -webkit-animation: move 4s linear infinite alternate;
-          animation: move 4s linear infinite alternate;
-}
-.wave.w1 {
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -76,19 +71,53 @@ body {
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
 }
-.wave.w1 .circle {
+.wave .circle {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #7EB3E6;
   -webkit-transform: translateY(-25px);
           transform: translateY(-25px);
 }
+.wave.w1 {
+  background-color: #7EB3E6;
+  z-index: 3;
+  -webkit-animation: w1 4s linear infinite alternate;
+          animation: w1 4s linear infinite alternate;
+}
+.wave.w1 .circle {
+  background-color: inherit;
+}
 .wave.w1 .circle:nth-child(even) {
+  background-color: #5D90BF;
+}
+.wave.w2 {
+  background-color: #5D90BF;
+  bottom: 60px;
+  z-index: 2;
+  -webkit-animation: w2 4s linear infinite alternate;
+          animation: w2 4s linear infinite alternate;
+}
+.wave.w2 .circle {
+  background-color: inherit;
+}
+.wave.w2 .circle:nth-child(even) {
+  background-color: #406384;
+}
+.wave.w3 {
+  background-color: #406384;
+  bottom: 120px;
+  z-index: 1;
+  -webkit-animation: w3 4s linear infinite alternate;
+          animation: w3 4s linear infinite alternate;
+}
+.wave.w3 .circle {
+  background-color: inherit;
+}
+.wave.w3 .circle:nth-child(even) {
   background-color: #263A4D;
 }
 
-@-webkit-keyframes move {
+@-webkit-keyframes w1 {
   0% {
     left: 60%;
   }
@@ -97,11 +126,43 @@ body {
   }
 }
 
-@keyframes move {
+@keyframes w1 {
   0% {
     left: 60%;
   }
   100% {
     left: 40%;
+  }
+}
+@-webkit-keyframes w2 {
+  0% {
+    left: 51%;
+  }
+  100% {
+    left: 49%;
+  }
+}
+@keyframes w2 {
+  0% {
+    left: 51%;
+  }
+  100% {
+    left: 49%;
+  }
+}
+@-webkit-keyframes w3 {
+  0% {
+    left: 55%;
+  }
+  100% {
+    left: 45%;
+  }
+}
+@keyframes w3 {
+  0% {
+    left: 55%;
+  }
+  100% {
+    left: 45%;
   }
 }/*# sourceMappingURL=index.css.map */
