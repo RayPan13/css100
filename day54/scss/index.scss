@@ -100,26 +100,26 @@ body {
 
 @keyframes w1 {
     0% {
-        left: 60%;
+        transform: translate(-300px,0);
     }
     100% {
-        left: 40%;
+        transform: translate(-200px,0);
     }
 }
 @keyframes w2 {
     0% {
-        left: 51%;
+        transform: translate(-240px,0);
     }
     100% {
-        left: 49%;
+        transform: translate(-260px,0);
     }
 }
 @keyframes w3 {
     0% {
-        left: 55%;
+        transform: translate(-275px,0);
     }
     100% {
-        left: 45%;
+        transform: translate(-225px,0);
     }
 }
 

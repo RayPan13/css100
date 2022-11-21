@@ -119,50 +119,62 @@ body {
 
 @-webkit-keyframes w1 {
   0% {
-    left: 60%;
+    -webkit-transform: translate(-300px, 0);
+            transform: translate(-300px, 0);
   }
   100% {
-    left: 40%;
+    -webkit-transform: translate(-200px, 0);
+            transform: translate(-200px, 0);
   }
 }
 
 @keyframes w1 {
   0% {
-    left: 60%;
+    -webkit-transform: translate(-300px, 0);
+            transform: translate(-300px, 0);
   }
   100% {
-    left: 40%;
+    -webkit-transform: translate(-200px, 0);
+            transform: translate(-200px, 0);
   }
 }
 @-webkit-keyframes w2 {
   0% {
-    left: 51%;
+    -webkit-transform: translate(-240px, 0);
+            transform: translate(-240px, 0);
   }
   100% {
-    left: 49%;
+    -webkit-transform: translate(-260px, 0);
+            transform: translate(-260px, 0);
   }
 }
 @keyframes w2 {
   0% {
-    left: 51%;
+    -webkit-transform: translate(-240px, 0);
+            transform: translate(-240px, 0);
   }
   100% {
-    left: 49%;
+    -webkit-transform: translate(-260px, 0);
+            transform: translate(-260px, 0);
   }
 }
 @-webkit-keyframes w3 {
   0% {
-    left: 55%;
+    -webkit-transform: translate(-275px, 0);
+            transform: translate(-275px, 0);
   }
   100% {
-    left: 45%;
+    -webkit-transform: translate(-225px, 0);
+            transform: translate(-225px, 0);
   }
 }
 @keyframes w3 {
   0% {
-    left: 55%;
+    -webkit-transform: translate(-275px, 0);
+            transform: translate(-275px, 0);
   }
   100% {
-    left: 45%;
+    -webkit-transform: translate(-225px, 0);
+            transform: translate(-225px, 0);
   }
 }/*# sourceMappingURL=index.css.map */
