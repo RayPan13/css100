@@ -43,11 +43,13 @@ body {
     background-color: #263A4D;
     border-radius: 8px;
     position: relative;
+    overflow: hidden;
 }
 .wave {
     width: 500px;
     height: 60px;
     background-color: #7EB3E6;
+    animation: move 4s linear infinite alternate;
     &.w1 {
         position: absolute;
         left: 50%;
@@ -67,3 +69,13 @@ body {
     }
 
 }
+
+@keyframes move {
+    0% {
+        left: 60%;
+    }
+    100% {
+        left: 40%;
+    }
+}
+
