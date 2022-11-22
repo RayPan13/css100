@@ -101,6 +101,17 @@ body {
             line-height: 1;
             color: #a7a7a7;
         }
+        .indicator {
+            width: 1px;
+            height: 12px;
+            background-color: #a7a7a7;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: rotate(-45deg);
+            transform-origin: 0 65px;
+            transition: transform 0.5s;
+        }
         .box {
             display: flex;
             overflow: hidden;
@@ -147,6 +158,9 @@ body {
                 transform: translateX(-80px) scale(1);
                 opacity: 1;
             }
+        }
+        .indicator {
+            transform: rotate(-20deg);
         }
     }
 }
