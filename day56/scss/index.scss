@@ -64,4 +64,12 @@ body {
             }
         }
     }
+    .core {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #f1c40f;
+        position: relative;
+        z-index: 2;
+    }
 }

@@ -144,4 +144,12 @@ body {
 .flower .leaf.l16 {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
+}
+.flower .core {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f1c40f;
+  position: relative;
+  z-index: 2;
 }/*# sourceMappingURL=index.css.map */
