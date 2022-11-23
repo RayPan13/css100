@@ -70,6 +70,7 @@ body {
   position: relative;
   -webkit-animation: flower 7s ease infinite;
           animation: flower 7s ease infinite;
+  cursor: pointer;
 }
 .flower .leaf {
   width: 100px;
@@ -158,6 +159,12 @@ body {
           transform: scale(0);
   -webkit-animation: core 7s ease-in-out infinite;
           animation: core 7s ease-in-out infinite;
+}
+.flower:hover .leaf {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.flower:hover .core {
+  opacity: 0.7;
 }
 
 @-webkit-keyframes l1 {
