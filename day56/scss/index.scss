@@ -52,7 +52,7 @@ body {
         width: 100px;
         height: 100px;
         background-color: #fff;
-        opacity: 0.8;
+        opacity: 1;
         border-radius: 2px 100px;
         position: absolute;
         top: 50%;
@@ -60,7 +60,7 @@ body {
         transform-origin: 0 0;
         @for $i from 1 through 16 {
             &.l#{$i} {
-                transform: rotate(#{calc(360 / 16) * $i}deg);
+                transform: rotate(#{calc(360 / 16) * $i}deg) scale(0.3);
             }
         }
     }
@@ -71,5 +71,6 @@ body {
         background-color: #f1c40f;
         position: relative;
         z-index: 2;
+        transform: scale(0);
     }
 }
