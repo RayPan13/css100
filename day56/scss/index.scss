@@ -48,6 +48,7 @@ body {
 }
 .flower {
     position: relative;
+    animation: flower 7s ease infinite;
     .leaf {
         width: 100px;
         height: 100px;
@@ -60,7 +61,7 @@ body {
         transform-origin: 0 0;
         @for $i from 1 through 16 {
             &.l#{$i} {
-                transform: rotate(#{calc(360 / 16) * $i}deg) scale(0.3);
+                animation: l#{$i} 7s ease infinite;
             }
         }
     }
@@ -72,5 +73,58 @@ body {
         position: relative;
         z-index: 2;
         transform: scale(0);
+        animation: core 7s ease-in-out infinite;
+    }
+}
+
+@for $i from 1 through 16 {
+    @keyframes l#{$i} {
+        $deg: #{calc(360 / 16) * $i}deg;
+        $percentIn: ( $i * calc(45 / 16) ) + 10% ;
+        0%, 100% {
+            transform: rotate($deg) scale(0.2);
+            opacity: 1;
+        }
+        #{$percentIn} {
+            transform: rotate($deg) scale(1);
+            opacity: 0.8;
+		}
+        60%,75% {
+            transform: rotate($deg) scale(1);
+            opacity: 0.8;
+        }
+    }
+}
+
+@keyframes core {
+	12% {
+		transform: scale(0);
+	}
+	20% {
+		transform: scale(1.1);
+	}
+	25% {
+		transform: scale(0.95);
+	}
+	30%, 55% {
+		transform: scale(1);
+	}
+	57.9% {
+		transform: scale(1.1);
+	}
+	70% {
+		transform: scale(0);
+	}
+}
+
+@keyframes flower {
+    0% {
+        transform: rotate(0);
+    }
+    60% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
     }
 }
