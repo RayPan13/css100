@@ -53,6 +53,95 @@ body {
   width: 100%;
   height: 400px;
   max-width: 400px;
-  outline: 1px solid red;
+  background-color: #16A078;
   border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flower {
+  position: relative;
+}
+.flower .leaf {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  opacity: 0.8;
+  border-radius: 2px 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+.flower .leaf.l1 {
+  -webkit-transform: rotate(22.5deg);
+          transform: rotate(22.5deg);
+}
+.flower .leaf.l2 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+.flower .leaf.l3 {
+  -webkit-transform: rotate(67.5deg);
+          transform: rotate(67.5deg);
+}
+.flower .leaf.l4 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.flower .leaf.l5 {
+  -webkit-transform: rotate(112.5deg);
+          transform: rotate(112.5deg);
+}
+.flower .leaf.l6 {
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+.flower .leaf.l7 {
+  -webkit-transform: rotate(157.5deg);
+          transform: rotate(157.5deg);
+}
+.flower .leaf.l8 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.flower .leaf.l9 {
+  -webkit-transform: rotate(202.5deg);
+          transform: rotate(202.5deg);
+}
+.flower .leaf.l10 {
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+}
+.flower .leaf.l11 {
+  -webkit-transform: rotate(247.5deg);
+          transform: rotate(247.5deg);
+}
+.flower .leaf.l12 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+.flower .leaf.l13 {
+  -webkit-transform: rotate(292.5deg);
+          transform: rotate(292.5deg);
+}
+.flower .leaf.l14 {
+  -webkit-transform: rotate(315deg);
+          transform: rotate(315deg);
+}
+.flower .leaf.l15 {
+  -webkit-transform: rotate(337.5deg);
+          transform: rotate(337.5deg);
+}
+.flower .leaf.l16 {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }/*# sourceMappingURL=index.css.map */
