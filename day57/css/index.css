@@ -73,6 +73,10 @@ body {
           transform: rotateX(-40deg) rotateY(-40deg);
   height: 280px;
   width: 160px;
+  -webkit-transition: -webkit-transform 3s ease-in-out;
+  transition: -webkit-transform 3s ease-in-out;
+  transition: transform 3s ease-in-out;
+  transition: transform 3s ease-in-out, -webkit-transform 3s ease-in-out;
   cursor: pointer;
 }
 .box .side {
@@ -84,6 +88,8 @@ body {
   border-color: transparent transparent #eee transparent;
   -webkit-transform-origin: 50% 100%;
           transform-origin: 50% 100%;
+  -webkit-transition: opacity 3s ease-in-out;
+  transition: opacity 3s ease-in-out;
 }
 .box .side.s1 {
   -webkit-transform: translateZ(129.2px) rotateZ(90deg) rotateX(159.095deg);
@@ -186,4 +192,11 @@ body {
   border-width: 138.56px 80px 0 80px;
   -webkit-transform: translateY(129.2px) translateX(-80px) rotateX(-45deg) rotateY(-35.264deg) rotateZ(8deg);
           transform: translateY(129.2px) translateX(-80px) rotateX(-45deg) rotateY(-35.264deg) rotateZ(8deg);
+}
+.box:hover {
+  -webkit-transform: rotateX(-400deg) rotateY(-400deg);
+          transform: rotateX(-400deg) rotateY(-400deg);
+}
+.box:hover .side {
+  opacity: 0.5;
 }/*# sourceMappingURL=index.css.map */

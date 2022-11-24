@@ -51,6 +51,7 @@ body {
     transform: rotateX(-40deg) rotateY(-40deg);
     height: 280px;
     width: 160px;
+    transition: transform 3s ease-in-out;
     cursor: pointer;
     .side {
         position: absolute;
@@ -60,6 +61,7 @@ body {
         border-width: 0 80px 138.56px 80px;
         border-color: transparent transparent #eee transparent;
         transform-origin: 50% 100%;
+        transition: opacity 3s ease-in-out;
         &.s1 {
             transform: translateZ(129.2px) rotateZ(90deg) rotateX(159.095deg);
         }
@@ -157,6 +159,12 @@ body {
             transform:
                 translateY(129.2px) translateX(-80px)
                 rotateX(-45deg) rotateY(-35.264deg) rotateZ(8deg);
+        }
+    }
+    &:hover {
+        transform: rotateX(-400deg) rotateY(-400deg);
+        .side {
+            opacity: 0.5;
         }
     }
 }
