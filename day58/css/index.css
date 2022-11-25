@@ -68,6 +68,11 @@ body {
           perspective: 500px;
 }
 
+.perspective {
+  -webkit-perspective: 350px;
+          perspective: 350px;
+}
+
 .ball {
   width: 200px;
   height: 200px;

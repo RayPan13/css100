@@ -47,6 +47,9 @@ body {
     align-items: center;
     perspective: 500px;
 }
+.perspective {
+    perspective: 350px;
+}
 .ball {
     width: 200px;
     height: 200px;
@@ -179,6 +182,7 @@ body {
             animation: c19 6s ease-in-out infinite;
         }
     }
+
 }
 @keyframes c19 {
     0% {
