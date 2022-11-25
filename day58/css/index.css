@@ -82,6 +82,11 @@ body {
           transform: rotateX(-25deg);
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
+  cursor: pointer;
+}
+.ball:hover {
+  -webkit-transform: rotateX(25deg);
+          transform: rotateX(25deg);
 }
 .ball .circle {
   -webkit-box-sizing: border-box;
