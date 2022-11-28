@@ -48,15 +48,34 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-}
-.txt {
-    color: #fff;
-    font-size: 5rem;
-    font-weight: 600;
-    text-align: center;
-    font-family: sans-serif;
-    p {
-        line-height: 1;
-        margin: 0;
+    transition: opacity 1s;
+    &:hover {
+        opacity: 0;
+        .txt {
+            p{
+                &:first-child {
+                    transform: translateX(-40px);
+                }
+                &:last-child {
+                    transform: translateX(40px);
+                }
+            }
+        }
+    }
+    .txt {
+        color: #fff;
+        font-size: 5rem;
+        font-weight: 600;
+        text-align: center;
+        font-family: sans-serif;
+        p {
+            line-height: 1;
+            margin: 0;
+            transition: transform 1s;
+            &:first-child {
+                font-size: 6rem;
+            }
+        }
     }
 }
+

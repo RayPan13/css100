@@ -67,16 +67,35 @@ body {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
 }
-
-.txt {
+#app:hover {
+  opacity: 0;
+}
+#app:hover .txt p:first-child {
+  -webkit-transform: translateX(-40px);
+          transform: translateX(-40px);
+}
+#app:hover .txt p:last-child {
+  -webkit-transform: translateX(40px);
+          transform: translateX(40px);
+}
+#app .txt {
   color: #fff;
   font-size: 5rem;
   font-weight: 600;
   text-align: center;
   font-family: sans-serif;
 }
-.txt p {
+#app .txt p {
   line-height: 1;
   margin: 0;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+#app .txt p:first-child {
+  font-size: 6rem;
 }/*# sourceMappingURL=index.css.map */
