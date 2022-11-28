@@ -48,10 +48,9 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: opacity 1s;
     &:hover {
-        opacity: 0;
         .txt {
+            opacity: 0;
             p{
                 &:first-child {
                     transform: translateX(-40px);
@@ -68,6 +67,7 @@ body {
         font-weight: 600;
         text-align: center;
         font-family: sans-serif;
+        transition: opacity 1s;
         p {
             line-height: 1;
             margin: 0;

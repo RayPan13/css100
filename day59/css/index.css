@@ -67,10 +67,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
-  -webkit-transition: opacity 1s;
-  transition: opacity 1s;
 }
-#app:hover {
+#app:hover .txt {
   opacity: 0;
 }
 #app:hover .txt p:first-child {
@@ -87,6 +85,8 @@ body {
   font-weight: 600;
   text-align: center;
   font-family: sans-serif;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
 }
 #app .txt p {
   line-height: 1;
