@@ -47,6 +47,24 @@ body {
     align-items: center;
     position: relative;
     font-family: sans-serif;
+    .trigger {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 10px;
+        z-index: 2;
+        cursor: pointer;
+        @for $i from 1 through 40 {
+            $position: ($i - 1) * 10px;
+            &.t#{$i} {
+                top: $position;
+                &:hover ~ .cover {
+                    height: 10 + $position;
+                    transition: height 0.2s;
+                }
+            }
+        }
+    }
     .cover {
         width: 100%;
         height: 200px;
@@ -56,6 +74,7 @@ body {
         left: 0;
         right: 0;
         overflow: hidden;
+        transition: height 0.5s;
         .shadow {
             font-size: 4rem;
             color: #fff;
