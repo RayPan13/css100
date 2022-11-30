@@ -55,6 +55,7 @@ body {
   max-width: 400px;
   border-radius: 8px;
   background: linear-gradient(135deg, #77c8c0 0%, #267aac 100%);
+  overflow: hidden;
 }
 #app .box {
   width: 100%;
