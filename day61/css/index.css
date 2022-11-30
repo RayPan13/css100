@@ -61,4 +61,24 @@ body {
   height: 100%;
   background: linear-gradient(135deg, #4ad7b8 0%, #f39c12 100%);
   opacity: 0;
+  -webkit-animation: change 3s linear infinite alternate;
+          animation: change 3s linear infinite alternate;
+}
+
+@-webkit-keyframes change {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes change {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.css.map */
