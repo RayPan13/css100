@@ -58,4 +58,72 @@ body {
   max-width: 400px;
   background-color: #e9edef;
   border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 48px 12px;
+}
+
+.plan {
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 8px;
+  overflow: hidden;
+}
+.plan h3 {
+  text-align: center;
+  background-color: #7dd0ed;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 8px 0;
+}
+.plan .price {
+  text-align: center;
+  padding: 16px 0;
+  color: #5e5e5e;
+}
+.plan .price p {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  font-weight: 900;
+}
+.plan .price p::before {
+  content: "$";
+  display: inline-block;
+}
+.plan .price span {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+.plan .desc {
+  margin: 0 0 16px;
+}
+.plan .desc .line {
+  background-color: #E4E4E4;
+  height: 4px;
+  margin: 0 auto 6px;
+}
+.plan .desc .line:nth-child(1) {
+  width: 80%;
+}
+.plan .desc .line:nth-child(2) {
+  width: 60%;
+}
+.plan .desc .line:nth-child(3) {
+  width: 75%;
+}
+.plan .desc .line:nth-child(4) {
+  width: 50%;
 }/*# sourceMappingURL=index.css.map */
