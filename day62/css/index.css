@@ -143,4 +143,11 @@ body {
 }
 .plan .desc .line:nth-child(4) {
   width: 50%;
+}
+
+.info {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  padding: 12px;
+  background-color: #fff;
 }/*# sourceMappingURL=index.css.map */
