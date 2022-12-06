@@ -71,6 +71,33 @@ body {
             color: #27a6d2;
         }
     }
+    &.basic:hover {
+        & ~ .info {
+            .line::after {
+                width: 5%;
+            }
+        }
+    }
+    &.pro:hover {
+        & ~ .info {
+            .data:nth-child(1) .line:after {
+                width: 30%;
+            }
+            .data:nth-child(2) .line:after {
+                width: 70%;
+            }
+            .data:nth-child(3) .line:after {
+                width: 50%;
+            }
+        }
+    }
+    &.premium:hover {
+        & ~ .info {
+            .line::after {
+                width: 100%;
+            }
+        }
+    }
     h3 {
         text-align: center;
         background-color: #7dd0ed;
@@ -139,6 +166,19 @@ body {
             height: 10px;
             border-radius: 6px;
             background-color: #e9edef;
+            position: relative;
+            overflow: hidden;
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 10px;
+                background-color: #7dd0ed;
+                transition: width 0.5s;
+            }
         }
     }
 }

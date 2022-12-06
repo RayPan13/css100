@@ -98,6 +98,21 @@ body {
 .plan:hover .price {
   color: #27a6d2;
 }
+.plan.basic:hover ~ .info .line::after {
+  width: 5%;
+}
+.plan.pro:hover ~ .info .data:nth-child(1) .line:after {
+  width: 30%;
+}
+.plan.pro:hover ~ .info .data:nth-child(2) .line:after {
+  width: 70%;
+}
+.plan.pro:hover ~ .info .data:nth-child(3) .line:after {
+  width: 50%;
+}
+.plan.premium:hover ~ .info .line::after {
+  width: 100%;
+}
 .plan h3 {
   text-align: center;
   background-color: #7dd0ed;
@@ -176,4 +191,18 @@ body {
   height: 10px;
   border-radius: 6px;
   background-color: #e9edef;
+  position: relative;
+  overflow: hidden;
+}
+.info .data .line::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 10px;
+  background-color: #7dd0ed;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
 }/*# sourceMappingURL=index.css.map */
