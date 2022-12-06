@@ -81,7 +81,22 @@ body {
   margin: 0 8px;
   -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
           box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
   overflow: hidden;
+  cursor: pointer;
+}
+.plan:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.plan:hover h3 {
+  background-color: #27A6D2;
+}
+.plan:hover .price {
+  color: #27A6D2;
 }
 .plan h3 {
   text-align: center;
