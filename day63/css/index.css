@@ -55,16 +55,48 @@ body {
   max-width: 400px;
   background-color: #27ae60;
   border-radius: 8px;
+  overflow: hidden;
+  position: relative;
 }
 
 .circle {
   width: 200px;
   height: 200px;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 0;
+  left: 0;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  -webkit-transform-origin: center;
+          transform-origin: center;
   border: 2px dotted #fff;
   border-radius: 50%;
+  -webkit-animation: circle 10s linear infinite;
+          animation: circle 10s linear infinite;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    -webkit-transform: scale(0) translate(-50%, -50%);
+            transform: scale(0) translate(-50%, -50%);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(4) translate(0, 0);
+            transform: scale(4) translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes circle {
+  0% {
+    -webkit-transform: scale(0) translate(-50%, -50%);
+            transform: scale(0) translate(-50%, -50%);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: scale(4) translate(0, 0);
+            transform: scale(4) translate(0, 0);
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.css.map */
