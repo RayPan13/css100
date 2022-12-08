@@ -76,4 +76,14 @@ body {
   text-align: center;
   font-family: monospace;
   cursor: pointer;
+  -webkit-transition: backgroundColor 0.5s, -webkit-transform 0.3s;
+  transition: backgroundColor 0.5s, -webkit-transform 0.3s;
+  transition: transform 0.3s, backgroundColor 0.5s;
+  transition: transform 0.3s, backgroundColor 0.5s, -webkit-transform 0.3s;
+}
+.button:hover {
+  -webkit-transform: translate(10px, 10px);
+          transform: translate(10px, 10px);
+  background-color: #8e44ad;
+  color: #fff;
 }/*# sourceMappingURL=index.css.map */

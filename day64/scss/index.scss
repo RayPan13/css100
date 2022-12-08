@@ -56,4 +56,10 @@ body {
     text-align: center;
     font-family: monospace;
     cursor: pointer;
+    transition: transform 0.3s, backgroundColor 0.5s;
+    &:hover {
+        transform: translate(10px,10px);
+        background-color: #8e44ad;
+        color: #fff;
+    }
 }
