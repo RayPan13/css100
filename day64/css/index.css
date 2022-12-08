@@ -80,10 +80,42 @@ body {
   transition: backgroundColor 0.5s, -webkit-transform 0.3s;
   transition: transform 0.3s, backgroundColor 0.5s;
   transition: transform 0.3s, backgroundColor 0.5s, -webkit-transform 0.3s;
+  position: relative;
+  z-index: 3;
 }
 .button:hover {
-  -webkit-transform: translate(10px, 10px);
-          transform: translate(10px, 10px);
-  background-color: #8e44ad;
+  -webkit-transform: translate(12px, 12px);
+          transform: translate(12px, 12px);
   color: #fff;
+}
+.button:hover::before {
+  background: #8e44ad;
+}
+.button:hover::after {
+  -webkit-transform: translate(-12px, -12px);
+          transform: translate(-12px, -12px);
+  background-color: #fff;
+}
+.button::before, .button::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.button::before {
+  background-color: #fff;
+  z-index: -1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+.button::after {
+  background-color: #8e44ad;
+  z-index: -2;
+  -webkit-transform: translate(12px, 12px);
+          transform: translate(12px, 12px);
 }/*# sourceMappingURL=index.css.map */

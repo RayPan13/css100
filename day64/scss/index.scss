@@ -57,9 +57,38 @@ body {
     font-family: monospace;
     cursor: pointer;
     transition: transform 0.3s, backgroundColor 0.5s;
+    position: relative;
+    z-index: 3;
     &:hover {
-        transform: translate(10px,10px);
-        background-color: #8e44ad;
+        transform: translate(12px, 12px);
         color: #fff;
+        &::before {
+            background: #8e44ad;
+        }
+        &::after {
+            transform: translate(-12px, -12px);
+            background-color: #fff;
+        }
+    }
+    &::before,
+    &::after {
+        content: '';
+        display: block;
+        width: 200px;
+        height: 70px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all 0.3s;
+    }
+    &::before {
+        background-color: #fff;
+        z-index: -1;
+        transform: translate(0, 0);
+    }
+    &::after {
+        background-color: #8e44ad;
+        z-index: -2;
+        transform: translate(12px, 12px);
     }
 }
