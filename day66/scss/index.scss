@@ -45,6 +45,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     input {
         display: none;
         &:checked {
@@ -62,5 +63,14 @@ body {
         border-radius: 50%;
         cursor: pointer;
         transition: border 0.3s, backgroundColor 0.3s;
+    }
+    .fireworks {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 40px;
+        height: 40px;
+        outline: 1px solid red;
     }
 }
