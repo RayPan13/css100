@@ -53,13 +53,19 @@ body {
                 border-width: 15px;
                 background-color: #5fd17a;
             }
+            & ~ .fireworks {
+                width: 120px;
+                height: 120px;
+                opacity: 0;
+                transition: width 0.5s, height 0.5s, opacity 0.5s;
+            }
         }
     }
     label {
         width: 40px;
         height: 40px;
         border: 2px solid #fff;
-        background-color: transparent;
+        background-color: #5a717b;
         border-radius: 50%;
         cursor: pointer;
         transition: border 0.3s, backgroundColor 0.3s;
@@ -71,9 +77,10 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 120px;
-        height: 120px;
-        outline: 1px solid red;
+        width: 12px;
+        height: 12px;
+        opacity: 0.8;
+        transition: none;
         .fire {
             width: 2px;
             height: 50%;
