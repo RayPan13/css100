@@ -67,6 +67,20 @@ body {
   -webkit-transform: rotateX(70deg) rotateY(-15deg);
           transform: rotateX(70deg) rotateY(-15deg);
 }
+.parasol .pole {
+  position: absolute;
+  z-index: 2;
+  width: 6px;
+  height: 150px;
+  top: 100px;
+  left: 97px;
+  background: #888;
+  -webkit-transform-origin: 50% 0;
+          transform-origin: 50% 0;
+  -webkit-transform: translateZ(-1px) rotateX(-90deg);
+          transform: translateZ(-1px) rotateX(-90deg);
+  border-radius: 2px;
+}
 .parasol .top {
   position: relative;
   z-index: 3;
