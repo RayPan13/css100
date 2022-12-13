@@ -40,6 +40,41 @@ body {
     width: 100%;
     height: 400px;
     max-width: 400px;
-    outline: 1px solid red;
+    background-color: #f5ce51;
     border-radius: 8px;
+    position: relative;
+}
+.parasol {
+    position: absolute;
+    top: 8%;
+    left: 13%;
+    transform-style: preserve-3d;
+    transform: rotateX(70deg) rotateY(-15deg);
+    .top {
+        position: relative;
+        z-index: 3;
+        width: 200px;
+        height: 200px;
+        transform-style: preserve-3d;
+        .triangle {
+            position: absolute;
+            top: 100px;
+            left: 77px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 24px 98px 24px;
+            border-color: transparent transparent #fff transparent;
+            transform-origin: 50% 0;
+            &:nth-child(odd) {
+                border-color: transparent transparent #d70606 transparent;
+            }
+            @for $i from 1 through 12 {
+                $deg: (calc(360 / 12) * ($i - 1)) + deg;
+                &.t#{$i} {
+                    transform: rotateZ($deg) rotateX(-24deg);
+                }
+            }
+        }
+    }
 }
