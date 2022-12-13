@@ -81,6 +81,7 @@ body {
         width: 200px;
         height: 200px;
         transform-style: preserve-3d;
+        animation: rotateTop 5s linear infinite;
         .triangle {
             position: absolute;
             top: 100px;
@@ -111,6 +112,7 @@ body {
         left: 0;
         border-radius: 50%;
         transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9);
+        animation: rotateShadow 5s linear infinite;
         .triangle {
             position: absolute;
             top: 100px;
@@ -129,5 +131,21 @@ body {
                 }
             }
         }
+    }
+}
+@keyframes rotateTop {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+@keyframes rotateShadow {
+    0% {
+        transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9) rotateZ(0deg);
+    }
+    100% {
+        transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9) rotateZ(360deg);
     }
 }

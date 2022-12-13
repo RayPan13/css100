@@ -104,6 +104,8 @@ body {
   height: 200px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
+  -webkit-animation: rotateTop 5s linear infinite;
+          animation: rotateTop 5s linear infinite;
 }
 .parasol .top .triangle {
   position: absolute;
@@ -178,6 +180,8 @@ body {
   border-radius: 50%;
   -webkit-transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9);
           transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9);
+  -webkit-animation: rotateShadow 5s linear infinite;
+          animation: rotateShadow 5s linear infinite;
 }
 .parasol .topShadow .triangle {
   position: absolute;
@@ -240,4 +244,46 @@ body {
 .parasol .topShadow .triangle.t12 {
   -webkit-transform: rotateZ(330deg) rotateX(-24deg) translateY(-1px);
           transform: rotateZ(330deg) rotateX(-24deg) translateY(-1px);
+}
+
+@-webkit-keyframes rotateTop {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+@keyframes rotateTop {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+@-webkit-keyframes rotateShadow {
+  0% {
+    -webkit-transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9) rotateZ(0deg);
+            transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9) rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9) rotateZ(360deg);
+            transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9) rotateZ(360deg);
+  }
+}
+@keyframes rotateShadow {
+  0% {
+    -webkit-transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9) rotateZ(0deg);
+            transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9) rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9) rotateZ(360deg);
+            transform: translateZ(-150px) translateX(120px) translateY(-40px) scale(0.9) rotateZ(360deg);
+  }
 }/*# sourceMappingURL=index.css.map */
