@@ -68,4 +68,23 @@ body {
 }
 input {
     display: none;
+    &:checked + .microphone {
+        .circle {
+            animation: circle 5s linear infinite;
+        }
+    }
 }
+@keyframes circle {
+    0% {
+        stroke-dashoffset: 0;
+        stroke-dasharray: 296 296;
+        transform: rotate(0deg);
+    }
+    100% {
+        stroke-dashoffset: (-296 * 2);
+        stroke-dasharray: 296 296;
+        transform: rotate(360deg);
+    }
+}
+
+

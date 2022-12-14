@@ -90,4 +90,38 @@ body {
 
 input {
   display: none;
+}
+input:checked + .microphone .circle {
+  -webkit-animation: circle 5s linear infinite;
+          animation: circle 5s linear infinite;
+}
+
+@-webkit-keyframes circle {
+  0% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 296 296;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    stroke-dashoffset: -592;
+    stroke-dasharray: 296 296;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes circle {
+  0% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 296 296;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    stroke-dashoffset: -592;
+    stroke-dasharray: 296 296;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=index.css.map */
