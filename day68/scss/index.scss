@@ -70,7 +70,7 @@ body {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
         width: 40px;
         opacity: 1;
         svg {
@@ -81,10 +81,11 @@ body {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%) scale(0);
+        transform: translate(-50%, -50%) scale(0);
         display: flex;
         justify-content: space-between;
         width: 48px;
+        opacity: 0;
         .dot {
             width: 10px;
             height: 10px;
@@ -101,6 +102,15 @@ input {
         }
         .dots {
             animation: dots 1s forwards;
+            .dot {
+                animation: jump 1s infinite;
+                @for $i from 1 through 3 {
+                    $sec: 0.2 * ($i - 1);
+                    &.d#{$i} {
+                        animation-delay: $sec + s;
+                    }
+                }
+            }
         }
         .circle {
             animation: circle 5s linear infinite;
@@ -121,25 +131,37 @@ input {
 }
 @keyframes microphone {
     0% {
-        transform: translate(-50%,-50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
         opacity: 1;
     }
     20% {
-        transform: translate(-50%,-50%) scale(1.2);
+        transform: translate(-50%, -50%) scale(1.2);
         opacity: 1;
     }
     100% {
-        transform: translate(-50%,-50%) scale(0);
+        transform: translate(-50%, -50%) scale(0);
         opacity: 0;
     }
 }
 @keyframes dots {
-    0%,50% {
-        transform: translate(-50%,-50%) scale(0);
+    0%,
+    50% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0;
     }
     100% {
-        transform: translate(-50%,-50%) scale(1);
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
     }
 }
-
-
+@keyframes jump {
+    0% {
+        transform: translateY(4px);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+    100% {
+        transform: translateY(4px);
+    }
+}

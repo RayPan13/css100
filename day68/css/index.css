@@ -113,6 +113,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 48px;
+  opacity: 0;
 }
 .microphone .dots .dot {
   width: 10px;
@@ -131,6 +132,22 @@ input:checked + .microphone .icon {
 input:checked + .microphone .dots {
   -webkit-animation: dots 1s forwards;
           animation: dots 1s forwards;
+}
+input:checked + .microphone .dots .dot {
+  -webkit-animation: jump 1s infinite;
+          animation: jump 1s infinite;
+}
+input:checked + .microphone .dots .dot.d1 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+input:checked + .microphone .dots .dot.d2 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+input:checked + .microphone .dots .dot.d3 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
 }
 input:checked + .microphone .circle {
   -webkit-animation: circle 5s linear infinite;
@@ -204,19 +221,51 @@ input:checked + .microphone .circle {
   0%, 50% {
     -webkit-transform: translate(-50%, -50%) scale(0);
             transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
   }
   100% {
     -webkit-transform: translate(-50%, -50%) scale(1);
             transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
   }
 }
 @keyframes dots {
   0%, 50% {
     -webkit-transform: translate(-50%, -50%) scale(0);
             transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
   }
   100% {
     -webkit-transform: translate(-50%, -50%) scale(1);
             transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes jump {
+  0% {
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+  }
+}
+@keyframes jump {
+  0% {
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
   }
 }/*# sourceMappingURL=index.css.map */
