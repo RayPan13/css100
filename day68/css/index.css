@@ -87,6 +87,17 @@ body {
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
 }
+.microphone .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 40px;
+}
+.microphone .icon svg {
+  fill: #fff;
+}
 
 input {
   display: none;

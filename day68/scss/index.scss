@@ -65,6 +65,16 @@ body {
         stroke-linecap: round;
         transform-origin: 50% 50%;
     }
+    .icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 40px;
+        svg {
+            fill: #fff;
+        }
+    }
 }
 input {
     display: none;
