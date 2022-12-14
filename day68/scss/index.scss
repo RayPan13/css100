@@ -57,6 +57,7 @@ body {
         right: 0;
         bottom: 0;
         cursor: pointer;
+        z-index: 3;
     }
     .circle {
         fill: none;
@@ -79,6 +80,9 @@ body {
 input {
     display: none;
     &:checked + .microphone {
+        .icon {
+            animation: microphone 1s forwards;
+        }
         .circle {
             animation: circle 5s linear infinite;
         }
@@ -94,6 +98,17 @@ input {
         stroke-dashoffset: (-296 * 2);
         stroke-dasharray: 296 296;
         transform: rotate(360deg);
+    }
+}
+@keyframes microphone {
+    0% {
+        transform: translate(-50%,-50%) scale(1);
+    }
+    20% {
+        transform: translate(-50%,-50%) scale(1.2);
+    }
+    100% {
+        transform: translate(-50%,-50%) scale(0);
     }
 }
 

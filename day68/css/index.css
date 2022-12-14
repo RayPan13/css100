@@ -78,6 +78,7 @@ body {
   right: 0;
   bottom: 0;
   cursor: pointer;
+  z-index: 3;
 }
 .microphone .circle {
   fill: none;
@@ -101,6 +102,10 @@ body {
 
 input {
   display: none;
+}
+input:checked + .microphone .icon {
+  -webkit-animation: microphone 1s forwards;
+          animation: microphone 1s forwards;
 }
 input:checked + .microphone .circle {
   -webkit-animation: circle 5s linear infinite;
@@ -134,5 +139,33 @@ input:checked + .microphone .circle {
     stroke-dasharray: 296 296;
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes microphone {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
+  }
+  20% {
+    -webkit-transform: translate(-50%, -50%) scale(1.2);
+            transform: translate(-50%, -50%) scale(1.2);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
+  }
+}
+@keyframes microphone {
+  0% {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
+  }
+  20% {
+    -webkit-transform: translate(-50%, -50%) scale(1.2);
+            transform: translate(-50%, -50%) scale(1.2);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
   }
 }/*# sourceMappingURL=index.css.map */
