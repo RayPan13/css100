@@ -72,8 +72,24 @@ body {
         left: 50%;
         transform: translate(-50%,-50%);
         width: 40px;
+        opacity: 1;
         svg {
             fill: #fff;
+        }
+    }
+    .dots {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(0);
+        display: flex;
+        justify-content: space-between;
+        width: 48px;
+        .dot {
+            width: 10px;
+            height: 10px;
+            background-color: #fff;
+            border-radius: 50%;
         }
     }
 }
@@ -81,7 +97,10 @@ input {
     display: none;
     &:checked + .microphone {
         .icon {
-            animation: microphone 1s forwards;
+            animation: microphone 0.75s forwards;
+        }
+        .dots {
+            animation: dots 1s forwards;
         }
         .circle {
             animation: circle 5s linear infinite;
@@ -103,12 +122,23 @@ input {
 @keyframes microphone {
     0% {
         transform: translate(-50%,-50%) scale(1);
+        opacity: 1;
     }
     20% {
         transform: translate(-50%,-50%) scale(1.2);
+        opacity: 1;
     }
     100% {
         transform: translate(-50%,-50%) scale(0);
+        opacity: 0;
+    }
+}
+@keyframes dots {
+    0%,50% {
+        transform: translate(-50%,-50%) scale(0);
+    }
+    100% {
+        transform: translate(-50%,-50%) scale(1);
     }
 }
 

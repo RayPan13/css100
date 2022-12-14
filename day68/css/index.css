@@ -95,17 +95,42 @@ body {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 40px;
+  opacity: 1;
 }
 .microphone .icon svg {
   fill: #fff;
+}
+.microphone .dots {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 48px;
+}
+.microphone .dots .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
 input {
   display: none;
 }
 input:checked + .microphone .icon {
-  -webkit-animation: microphone 1s forwards;
-          animation: microphone 1s forwards;
+  -webkit-animation: microphone 0.75s forwards;
+          animation: microphone 0.75s forwards;
+}
+input:checked + .microphone .dots {
+  -webkit-animation: dots 1s forwards;
+          animation: dots 1s forwards;
 }
 input:checked + .microphone .circle {
   -webkit-animation: circle 5s linear infinite;
@@ -145,27 +170,53 @@ input:checked + .microphone .circle {
   0% {
     -webkit-transform: translate(-50%, -50%) scale(1);
             transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
   }
   20% {
     -webkit-transform: translate(-50%, -50%) scale(1.2);
             transform: translate(-50%, -50%) scale(1.2);
+    opacity: 1;
   }
   100% {
     -webkit-transform: translate(-50%, -50%) scale(0);
             transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
   }
 }
 @keyframes microphone {
   0% {
     -webkit-transform: translate(-50%, -50%) scale(1);
             transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
   }
   20% {
     -webkit-transform: translate(-50%, -50%) scale(1.2);
             transform: translate(-50%, -50%) scale(1.2);
+    opacity: 1;
   }
   100% {
     -webkit-transform: translate(-50%, -50%) scale(0);
             transform: translate(-50%, -50%) scale(0);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes dots {
+  0%, 50% {
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
+  }
+}
+@keyframes dots {
+  0%, 50% {
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
   }
 }/*# sourceMappingURL=index.css.map */
