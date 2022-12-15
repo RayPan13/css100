@@ -52,7 +52,7 @@ body {
     width: 160px;
     height: 160px;
     border-radius: 160px 0;
-    background: #D8D8D8;
+    background: #d8d8d8;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,11 +65,28 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        animation: ball 5s ease-in-out infinite;
     }
     .ball {
         width: 36px;
         height: 36px;
         background-color: #617983;
         border-radius: 50%;
+    }
+}
+
+@keyframes ball {
+    0%,
+    14%,
+    56% {
+        transform: rotate(-45deg) translateX(0);
+    }
+    18%,
+    30% {
+        transform: rotate(-45deg) translate(-25px, 5px) scale(0.9);
+    }
+    34%,
+    52% {
+        transform: rotate(-45deg) translate(25px, 10px) scale(0.9);
     }
 }
