@@ -40,6 +40,36 @@ body {
     width: 100%;
     height: 400px;
     max-width: 400px;
-    outline: 1px solid red;
+    background-color: #363847;
     border-radius: 8px;
+    position: relative;
+}
+.eye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 160px;
+    height: 160px;
+    border-radius: 160px 0;
+    background: #D8D8D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .circle {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ball {
+        width: 36px;
+        height: 36px;
+        background-color: #617983;
+        border-radius: 50%;
+    }
 }
