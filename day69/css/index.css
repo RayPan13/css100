@@ -56,6 +56,39 @@ body {
   background-color: #363847;
   border-radius: 8px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#app .top,
+#app .bottom {
+  width: 240px;
+  height: 106px;
+  background-color: #363847;
+  position: relative;
+  z-index: 2;
+}
+#app .top {
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+  -webkit-animation: top 5s ease-in-out infinite;
+          animation: top 5s ease-in-out infinite;
+}
+#app .bottom {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  -webkit-animation: bottom 5s ease-in-out infinite;
+          animation: bottom 5s ease-in-out infinite;
 }
 
 .eye {
@@ -130,5 +163,45 @@ body {
   34%, 52% {
     -webkit-transform: rotate(-45deg) translate(25px, 10px) scale(0.9);
             transform: rotate(-45deg) translate(25px, 10px) scale(0.9);
+  }
+}
+@-webkit-keyframes top {
+  0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+  14%, 30%, 52%, 80% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes top {
+  0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+  14%, 30%, 52%, 80% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@-webkit-keyframes bottom {
+  0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  14%, 30%, 52%, 80% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+@keyframes bottom {
+  0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  14%, 30%, 52%, 80% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }/*# sourceMappingURL=index.css.map */

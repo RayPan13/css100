@@ -43,6 +43,26 @@ body {
     background-color: #363847;
     border-radius: 8px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .top,
+    .bottom {
+        width: 240px;
+        height: 106px;
+        background-color: #363847;
+        position: relative;
+        z-index: 2;
+    }
+    .top {
+        transform: translateY(-50px);
+        animation: top 5s ease-in-out infinite;
+    }
+    .bottom {
+        transform: translateY(50px);
+        animation: bottom 5s ease-in-out infinite;
+    }
 }
 .eye {
     position: absolute;
@@ -88,5 +108,21 @@ body {
     34%,
     52% {
         transform: rotate(-45deg) translate(25px, 10px) scale(0.9);
+    }
+}
+@keyframes top {
+    0%,10%,18%, 26%,34%, 48%,56%, 76%, 84% {
+        transform: translateY(-50px);
+    }
+    14%, 30%, 52%, 80% {
+        transform: translateY(0);
+    }
+}
+@keyframes bottom {
+    0%,10%,18%, 26%,34%, 48%,56%, 76%, 84% {
+        transform: translateY(50px);
+    }
+    14%, 30%, 52%, 80% {
+        transform: translateY(0);
     }
 }
