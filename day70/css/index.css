@@ -72,7 +72,7 @@ body {
       flex-basis: 50%;
   padding-top: 50%;
   position: relative;
-  background-color: #E27474;
+  background-color: #000;
 }
 #app .txt {
   position: absolute;
@@ -93,7 +93,18 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #e27474;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
   cursor: pointer;
+}
+#app .txt:hover {
+  -webkit-box-shadow: inset 2px 2px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 2px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
 }
 #app .txt p {
   margin: 0;
