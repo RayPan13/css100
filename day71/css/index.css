@@ -79,6 +79,7 @@ body {
   border-top: 2px solid #888;
   padding: 8px 0 0;
   background-color: #666;
+  position: relative;
 }
 #app .keyboard ul {
   padding: 0;
@@ -95,6 +96,12 @@ body {
 }
 #app .keyboard li input {
   display: none;
+}
+#app .keyboard li input:checked ~ .light {
+  opacity: 1;
+  background-color: red;
+  -webkit-box-shadow: 0 0 15px 0 red;
+          box-shadow: 0 0 15px 0 red;
 }
 #app .keyboard li label {
   width: 32px;
@@ -116,4 +123,18 @@ body {
 }
 #app .keyboard li label:hover {
   background-color: #999;
+}
+#app .keyboard .light {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fff;
+  -webkit-box-shadow: 0 0 15px 0 #fff;
+          box-shadow: 0 0 15px 0 #fff;
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  opacity: 0;
 }/*# sourceMappingURL=index.css.map */

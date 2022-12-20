@@ -55,6 +55,7 @@ body {
         border-top: 2px solid #888;
         padding: 8px 0 0;
         background-color: #666;
+        position: relative;
         ul {
             padding: 0;
             margin: 0;
@@ -65,7 +66,12 @@ body {
         li {
             padding: 0px 4px 4px;
             input {
-                display: none;
+                 display: none;
+                 &:checked ~ .light {
+                    opacity: 1;
+                    background-color: red;
+                    box-shadow: 0 0 15px 0 red;
+                 }
             }
             label {
                 width: 32px;
@@ -82,6 +88,18 @@ body {
                     background-color: #999;
                 }
             }
+        }
+        .light {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #fff;
+            box-shadow: 0 0 15px 0 #fff;
+            position: absolute;
+            top: -120px;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
         }
     }
 }
