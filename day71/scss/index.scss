@@ -66,12 +66,7 @@ body {
         li {
             padding: 0px 4px 4px;
             input {
-                 display: none;
-                 &:checked ~ .light {
-                    opacity: 1;
-                    background-color: red;
-                    box-shadow: 0 0 15px 0 red;
-                 }
+                display: none;
             }
             label {
                 width: 32px;
@@ -101,5 +96,30 @@ body {
             transform: translateX(-50%);
             opacity: 0;
         }
+    }
+}
+
+@keyframes di {
+    0%,
+    40%,
+    60%,
+    100% {
+        opacity: 0;
+    }
+    41%,
+    59% {
+        opacity: 1;
+    }
+}
+@keyframes da {
+    0%,
+    15%,
+    85%,
+    100% {
+        opacity: 0;
+    }
+    16%,
+    84% {
+        opacity: 1;
     }
 }

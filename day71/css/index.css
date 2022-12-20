@@ -97,12 +97,6 @@ body {
 #app .keyboard li input {
   display: none;
 }
-#app .keyboard li input:checked ~ .light {
-  opacity: 1;
-  background-color: red;
-  -webkit-box-shadow: 0 0 15px 0 red;
-          box-shadow: 0 0 15px 0 red;
-}
 #app .keyboard li label {
   width: 32px;
   height: 32px;
@@ -137,4 +131,38 @@ body {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   opacity: 0;
+}
+
+@-webkit-keyframes di {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+
+@keyframes di {
+  0%, 40%, 60%, 100% {
+    opacity: 0;
+  }
+  41%, 59% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes da {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
+}
+@keyframes da {
+  0%, 15%, 85%, 100% {
+    opacity: 0;
+  }
+  16%, 84% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.css.map */
