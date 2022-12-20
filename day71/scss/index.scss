@@ -127,6 +127,84 @@ body {
     #btn9:checked ~ .light {
         animation: da 1s, da 1s 1s, da 1s 2s, da 1s 3s, di 1s 4s;
     }
+    #btnA:checked ~ .light {
+        animation: di 1s, da 1s 1s;
+    }
+    #btnB:checked ~ .light {
+        animation: da 1s, di 1s 1s, di 1s 2s, di 1s 3s;
+    }
+    #btnC:checked ~ .light {
+        animation: da 1s, di 1s 1s, da 1s 2s, di 1s 3s;
+    }
+    #btnD:checked ~ .light {
+        animation: da 1s, di 1s 1s, di 1s 2s;
+    }
+    #btnE:checked ~ .light {
+        animation: di 1s;
+    }
+    #btnF:checked ~ .light {
+        animation: di 1s, di 1s 1s, da 1s 2s, di 1s 3s;
+    }
+    #btnG:checked ~ .light {
+        animation: da 1s, da 1s 1s, di 1s 2s;
+    }
+    #btnH:checked ~ .light {
+        animation: di 1s, di 1s 1s, di 1s 2s, di 1s 3s;
+    }
+    #btnI:checked ~ .light {
+        animation: di 1s, di 1s 1s;
+    }
+    #btnJ:checked ~ .light {
+        animation: di 1s, da 1s 1s, da 1s 2s, da 1s 3s;
+    }
+    #btnK:checked ~ .light {
+        animation: da 1s, di 1s 1s, da 1s 2s;
+    }
+    #btnL:checked ~ .light {
+        animation: di 1s, da 1s 1s, di 1s 2s, di 1s 3s;
+    }
+    #btnM:checked ~ .light {
+        animation: da 1s, da 1s 1s;
+    }
+    #btnN:checked ~ .light {
+        animation: da 1s, di 1s 1s;
+    }
+    #btnO:checked ~ .light {
+        animation: da 1s, da 1s 1s, da 1s 2s;
+    }
+    #btnP:checked ~ .light {
+        animation: di 1s, da 1s 1s, da 1s 2s, di 1s 3s;
+    }
+    #btnQ:checked ~ .light {
+        animation: da 1s, da 1s 1s, di 1s 2s, da 1s 3s;
+    }
+    #btnR:checked ~ .light {
+        animation: di 1s, da 1s 1s, di 1s 2s;
+    }
+    #btnS:checked ~ .light {
+        animation: di 1s, di 1s 1s, di 1s 2s;
+    }
+    #btnT:checked ~ .light {
+        animation: da 1s;
+    }
+    #btnU:checked ~ .light {
+        animation: di 1s, di 1s 1s, da 1s 2s;
+    }
+    #btnV:checked ~ .light {
+        animation: di 1s, di 1s 1s, di 1s 2s, da 1s 3s;
+    }
+    #btnW:checked ~ .light {
+        animation: di 1s, da 1s 1s, da 1s 2s;
+    }
+    #btnX:checked ~ .light {
+        animation: da 1s, di 1s 1s, di 1s 2s, da 1s 3s;
+    }
+    #btnY:checked ~ .light {
+        animation: da 1s, di 1s 1s, da 1s 2s, da 1s 3s;
+    }
+    #btnZ:checked ~ .light {
+        animation: da 1s, da 1s 1s, di 1s 2s, di 1s 3s;
+    }
 }
 
 @keyframes di {

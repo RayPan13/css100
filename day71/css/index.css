@@ -172,6 +172,110 @@ body {
   -webkit-animation: da 1s, da 1s 1s, da 1s 2s, da 1s 3s, di 1s 4s;
           animation: da 1s, da 1s 1s, da 1s 2s, da 1s 3s, di 1s 4s;
 }
+#app #btnA:checked ~ .light {
+  -webkit-animation: di 1s, da 1s 1s;
+          animation: di 1s, da 1s 1s;
+}
+#app #btnB:checked ~ .light {
+  -webkit-animation: da 1s, di 1s 1s, di 1s 2s, di 1s 3s;
+          animation: da 1s, di 1s 1s, di 1s 2s, di 1s 3s;
+}
+#app #btnC:checked ~ .light {
+  -webkit-animation: da 1s, di 1s 1s, da 1s 2s, di 1s 3s;
+          animation: da 1s, di 1s 1s, da 1s 2s, di 1s 3s;
+}
+#app #btnD:checked ~ .light {
+  -webkit-animation: da 1s, di 1s 1s, di 1s 2s;
+          animation: da 1s, di 1s 1s, di 1s 2s;
+}
+#app #btnE:checked ~ .light {
+  -webkit-animation: di 1s;
+          animation: di 1s;
+}
+#app #btnF:checked ~ .light {
+  -webkit-animation: di 1s, di 1s 1s, da 1s 2s, di 1s 3s;
+          animation: di 1s, di 1s 1s, da 1s 2s, di 1s 3s;
+}
+#app #btnG:checked ~ .light {
+  -webkit-animation: da 1s, da 1s 1s, di 1s 2s;
+          animation: da 1s, da 1s 1s, di 1s 2s;
+}
+#app #btnH:checked ~ .light {
+  -webkit-animation: di 1s, di 1s 1s, di 1s 2s, di 1s 3s;
+          animation: di 1s, di 1s 1s, di 1s 2s, di 1s 3s;
+}
+#app #btnI:checked ~ .light {
+  -webkit-animation: di 1s, di 1s 1s;
+          animation: di 1s, di 1s 1s;
+}
+#app #btnJ:checked ~ .light {
+  -webkit-animation: di 1s, da 1s 1s, da 1s 2s, da 1s 3s;
+          animation: di 1s, da 1s 1s, da 1s 2s, da 1s 3s;
+}
+#app #btnK:checked ~ .light {
+  -webkit-animation: da 1s, di 1s 1s, da 1s 2s;
+          animation: da 1s, di 1s 1s, da 1s 2s;
+}
+#app #btnL:checked ~ .light {
+  -webkit-animation: di 1s, da 1s 1s, di 1s 2s, di 1s 3s;
+          animation: di 1s, da 1s 1s, di 1s 2s, di 1s 3s;
+}
+#app #btnM:checked ~ .light {
+  -webkit-animation: da 1s, da 1s 1s;
+          animation: da 1s, da 1s 1s;
+}
+#app #btnN:checked ~ .light {
+  -webkit-animation: da 1s, di 1s 1s;
+          animation: da 1s, di 1s 1s;
+}
+#app #btnO:checked ~ .light {
+  -webkit-animation: da 1s, da 1s 1s, da 1s 2s;
+          animation: da 1s, da 1s 1s, da 1s 2s;
+}
+#app #btnP:checked ~ .light {
+  -webkit-animation: di 1s, da 1s 1s, da 1s 2s, di 1s 3s;
+          animation: di 1s, da 1s 1s, da 1s 2s, di 1s 3s;
+}
+#app #btnQ:checked ~ .light {
+  -webkit-animation: da 1s, da 1s 1s, di 1s 2s, da 1s 3s;
+          animation: da 1s, da 1s 1s, di 1s 2s, da 1s 3s;
+}
+#app #btnR:checked ~ .light {
+  -webkit-animation: di 1s, da 1s 1s, di 1s 2s;
+          animation: di 1s, da 1s 1s, di 1s 2s;
+}
+#app #btnS:checked ~ .light {
+  -webkit-animation: di 1s, di 1s 1s, di 1s 2s;
+          animation: di 1s, di 1s 1s, di 1s 2s;
+}
+#app #btnT:checked ~ .light {
+  -webkit-animation: da 1s;
+          animation: da 1s;
+}
+#app #btnU:checked ~ .light {
+  -webkit-animation: di 1s, di 1s 1s, da 1s 2s;
+          animation: di 1s, di 1s 1s, da 1s 2s;
+}
+#app #btnV:checked ~ .light {
+  -webkit-animation: di 1s, di 1s 1s, di 1s 2s, da 1s 3s;
+          animation: di 1s, di 1s 1s, di 1s 2s, da 1s 3s;
+}
+#app #btnW:checked ~ .light {
+  -webkit-animation: di 1s, da 1s 1s, da 1s 2s;
+          animation: di 1s, da 1s 1s, da 1s 2s;
+}
+#app #btnX:checked ~ .light {
+  -webkit-animation: da 1s, di 1s 1s, di 1s 2s, da 1s 3s;
+          animation: da 1s, di 1s 1s, di 1s 2s, da 1s 3s;
+}
+#app #btnY:checked ~ .light {
+  -webkit-animation: da 1s, di 1s 1s, da 1s 2s, da 1s 3s;
+          animation: da 1s, di 1s 1s, da 1s 2s, da 1s 3s;
+}
+#app #btnZ:checked ~ .light {
+  -webkit-animation: da 1s, da 1s 1s, di 1s 2s, di 1s 3s;
+          animation: da 1s, da 1s 1s, di 1s 2s, di 1s 3s;
+}
 
 @-webkit-keyframes di {
   0%, 40%, 60%, 100% {
