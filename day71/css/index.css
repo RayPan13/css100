@@ -132,6 +132,46 @@ body {
           transform: translateX(-50%);
   opacity: 0;
 }
+#app #btn0:checked ~ .light {
+  -webkit-animation: da 1s, da 1s 1s, da 1s 2s, da 1s 3s, da 1s 4s;
+          animation: da 1s, da 1s 1s, da 1s 2s, da 1s 3s, da 1s 4s;
+}
+#app #btn1:checked ~ .light {
+  -webkit-animation: di 1s, da 1s 1s, da 1s 2s, da 1s 3s, da 1s 4s;
+          animation: di 1s, da 1s 1s, da 1s 2s, da 1s 3s, da 1s 4s;
+}
+#app #btn2:checked ~ .light {
+  -webkit-animation: di 1s, di 1s 1s, da 1s 2s, da 1s 3s, da 1s 4s;
+          animation: di 1s, di 1s 1s, da 1s 2s, da 1s 3s, da 1s 4s;
+}
+#app #btn3:checked ~ .light {
+  -webkit-animation: di 1s, di 1s 1s, di 1s 2s, da 1s 3s, da 1s 4s;
+          animation: di 1s, di 1s 1s, di 1s 2s, da 1s 3s, da 1s 4s;
+}
+#app #btn4:checked ~ .light {
+  -webkit-animation: di 1s, di 1s 1s, di 1s 2s, di 1s 3s, da 1s 4s;
+          animation: di 1s, di 1s 1s, di 1s 2s, di 1s 3s, da 1s 4s;
+}
+#app #btn5:checked ~ .light {
+  -webkit-animation: di 1s, di 1s 1s, di 1s 2s, di 1s 3s, di 1s 4s;
+          animation: di 1s, di 1s 1s, di 1s 2s, di 1s 3s, di 1s 4s;
+}
+#app #btn6:checked ~ .light {
+  -webkit-animation: da 1s, di 1s 1s, di 1s 2s, di 1s 3s, di 1s 4s;
+          animation: da 1s, di 1s 1s, di 1s 2s, di 1s 3s, di 1s 4s;
+}
+#app #btn7:checked ~ .light {
+  -webkit-animation: da 1s, da 1s 1s, di 1s 2s, di 1s 3s, di 1s 4s;
+          animation: da 1s, da 1s 1s, di 1s 2s, di 1s 3s, di 1s 4s;
+}
+#app #btn8:checked ~ .light {
+  -webkit-animation: da 1s, da 1s 1s, da 1s 2s, di 1s 3s, di 1s 4s;
+          animation: da 1s, da 1s 1s, da 1s 2s, di 1s 3s, di 1s 4s;
+}
+#app #btn9:checked ~ .light {
+  -webkit-animation: da 1s, da 1s 1s, da 1s 2s, da 1s 3s, di 1s 4s;
+          animation: da 1s, da 1s 1s, da 1s 2s, da 1s 3s, di 1s 4s;
+}
 
 @-webkit-keyframes di {
   0%, 40%, 60%, 100% {

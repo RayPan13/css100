@@ -97,6 +97,36 @@ body {
             opacity: 0;
         }
     }
+    #btn0:checked ~ .light {
+        animation: da 1s, da 1s 1s, da 1s 2s, da 1s 3s, da 1s 4s;
+    }
+    #btn1:checked ~ .light {
+        animation: di 1s, da 1s 1s, da 1s 2s, da 1s 3s, da 1s 4s;
+    }
+    #btn2:checked ~ .light {
+        animation: di 1s, di 1s 1s, da 1s 2s, da 1s 3s, da 1s 4s;
+    }
+    #btn3:checked ~ .light {
+        animation: di 1s, di 1s 1s, di 1s 2s, da 1s 3s, da 1s 4s;
+    }
+    #btn4:checked ~ .light {
+        animation: di 1s, di 1s 1s, di 1s 2s, di 1s 3s, da 1s 4s;
+    }
+    #btn5:checked ~ .light {
+        animation: di 1s, di 1s 1s, di 1s 2s, di 1s 3s, di 1s 4s;
+    }
+    #btn6:checked ~ .light {
+        animation: da 1s, di 1s 1s, di 1s 2s, di 1s 3s, di 1s 4s;
+    }
+    #btn7:checked ~ .light {
+        animation: da 1s, da 1s 1s, di 1s 2s, di 1s 3s, di 1s 4s;
+    }
+    #btn8:checked ~ .light {
+        animation: da 1s, da 1s 1s, da 1s 2s, di 1s 3s, di 1s 4s;
+    }
+    #btn9:checked ~ .light {
+        animation: da 1s, da 1s 1s, da 1s 2s, da 1s 3s, di 1s 4s;
+    }
 }
 
 @keyframes di {
