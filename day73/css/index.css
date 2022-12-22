@@ -34,7 +34,6 @@ h5,
 h6,
 p {
   margin: 0;
-  line-height: 1.5;
 }
 
 body {
@@ -70,15 +69,75 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 45px;
   font-size: 3rem;
   font-family: sans-serif;
   color: #fff;
 }
-#app .change {
-  margin-left: 8px;
+#app .text span {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
 }
-#app .change span {
+#app .marquee {
+  width: 120px;
+  margin-left: 8px;
+  position: relative;
+  overflow: hidden;
+}
+#app .marquee .box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: marquee 6s linear infinite;
+          animation: marquee 6s linear infinite;
+}
+#app .marquee span {
   font-weight: bold;
   text-shadow: 2px 2px 2px #e67e22;
+}
+
+@-webkit-keyframes marquee {
+  0%, 20% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25%, 45% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+  50%, 70% {
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
+  }
+  75%, 95% {
+    -webkit-transform: translateY(-120px);
+            transform: translateY(-120px);
+  }
+  100% {
+    -webkit-transform: translateY(-160px);
+            transform: translateY(-160px);
+  }
+}
+
+@keyframes marquee {
+  0%, 20% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  25%, 45% {
+    -webkit-transform: translateY(-40px);
+            transform: translateY(-40px);
+  }
+  50%, 70% {
+    -webkit-transform: translateY(-80px);
+            transform: translateY(-80px);
+  }
+  75%, 95% {
+    -webkit-transform: translateY(-120px);
+            transform: translateY(-120px);
+  }
+  100% {
+    -webkit-transform: translateY(-160px);
+            transform: translateY(-160px);
+  }
 }/*# sourceMappingURL=index.css.map */
