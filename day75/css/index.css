@@ -69,7 +69,6 @@ body {
   width: 200px;
   height: 200px;
   position: relative;
-  outline: 1px solid;
 }
 #app .container .circle {
   width: 100%;
@@ -79,4 +78,28 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+}
+#app .container .circle.c1 {
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+}
+#app .container .circle.c2 {
+  -webkit-transform: rotateX(30deg);
+          transform: rotateX(30deg);
+}
+#app .container .circle.c3 {
+  -webkit-transform: rotateX(60deg);
+          transform: rotateX(60deg);
+}
+#app .container .circle.c4 {
+  -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
+}
+#app .container .circle.c5 {
+  -webkit-transform: rotateX(120deg);
+          transform: rotateX(120deg);
+}
+#app .container .circle.c6 {
+  -webkit-transform: rotateX(150deg);
+          transform: rotateX(150deg);
 }/*# sourceMappingURL=index.css.map */

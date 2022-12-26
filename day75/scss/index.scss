@@ -49,7 +49,6 @@ body {
         width: 200px;
         height: 200px;
         position: relative;
-        outline: 1px solid;
         .circle {
             width: 100%;
             height: 100%;
@@ -58,6 +57,12 @@ body {
             position: absolute;
             top: 0;
             left: 0;
+            @for $i from 1 through 6 {
+                $angle: (($i - 1)*30deg);
+                &.c#{$i} {
+                    transform: rotateX($angle);
+                }
+            }
         }
     }
 }
