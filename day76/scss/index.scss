@@ -41,17 +41,42 @@ body {
     width: 100%;
     height: 400px;
     max-width: 400px;
-    background-color: #34495E;
+    background-color: #34495e;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+    .container {
+        position: relative;
+    }
     .inputBox {
+        position: relative;
+        z-index: 2;
+        transform-style: preserve-3d;
+        transform-origin: 50% 0;
+        transition: all 0.5s;
+        box-shadow: 2px 4px 8px 0 rgb(0 0 0 / 30%);
         input {
             text-align: center;
             padding: 12px;
             font-size: 1.6rem;
             outline: none;
+        }
+        .back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            font-size: 1.8rem;
+            font-weight: 700;
+            font-family: sans-serif;
+            color: #34495e;
+            text-align: center;
+            line-height: 50px;
+            background: #fff;
+            backface-visibility: hidden;
+            transform: rotateX(-180deg);
         }
     }
 }
