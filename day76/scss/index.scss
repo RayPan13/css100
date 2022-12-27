@@ -48,19 +48,20 @@ body {
     align-items: center;
     .container {
         position: relative;
+        box-shadow: 2px 4px 8px 0 rgb(0 0 0 / 30%);
     }
     .inputBox {
         position: relative;
-        z-index: 2;
         transform-style: preserve-3d;
         transform-origin: 50% 0;
         transition: all 0.5s;
-        box-shadow: 2px 4px 8px 0 rgb(0 0 0 / 30%);
+        z-index: 1;
         input {
             text-align: center;
             padding: 12px;
             font-size: 1.6rem;
             outline: none;
+            border: 0;
         }
         .back {
             position: absolute;
@@ -71,12 +72,25 @@ body {
             font-size: 1.8rem;
             font-weight: 700;
             font-family: sans-serif;
-            color: #34495e;
             text-align: center;
-            line-height: 50px;
-            background: #fff;
+            line-height: 42px;
+            background-color: #fff;
+            color: #34495e;
             backface-visibility: hidden;
             transform: rotateX(-180deg);
         }
+    }
+    .key {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+        line-height: 42px;
+        background-color: #64c760;
+        color: #fff;
+        font-size: 1.8rem;
+        font-family: sans-serif;
     }
 }
