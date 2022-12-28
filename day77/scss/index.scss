@@ -54,6 +54,32 @@ body {
         transform: translate(-50%,-50%);
         animation: ball 2s ease-in-out infinite;
     }
+    .blur {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 50%;
+        background-color: rgb(255 255 255 / 30%);
+        @for $i from 1 through 6 {
+            &.b#{$i} {
+                opacity: (10 - $i) * 0.1;
+                animation: blur#{$i} 2s ease-in-out infinite;
+            }
+            @keyframes blur#{$i} {
+                0%,50%,100% {
+                    transform: translateX(0);
+                }
+                25% {
+                    transform: translateX($i * -5px);
+                }
+                75% {
+                    transform: translateX($i * 5px);
+                }
+            }
+        }
+    }
 }
 
 @keyframes ball {
