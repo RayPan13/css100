@@ -67,4 +67,24 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  -webkit-animation: ball 2s ease-in-out infinite;
+          animation: ball 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes ball {
+  0%, 100% {
+    left: 10%;
+  }
+  50% {
+    left: 90%;
+  }
+}
+
+@keyframes ball {
+  0%, 100% {
+    left: 10%;
+  }
+  50% {
+    left: 90%;
+  }
 }/*# sourceMappingURL=index.css.map */
