@@ -81,4 +81,24 @@ body {
   background-color: #fff;
   color: #34495e;
   cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#app .button.b1:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 2px 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 2px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+#app .button.b2:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  -webkit-box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2), 4px 8px 8px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2), 4px 8px 8px 0 rgba(0, 0, 0, 0.25);
+}
+#app .button.b3:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.2), 6px 12px 12px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.2), 6px 12px 12px 0 rgba(0, 0, 0, 0.25);
 }/*# sourceMappingURL=index.css.map */
