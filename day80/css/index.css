@@ -69,13 +69,12 @@ body {
   background-color: #34495e;
   color: #fff;
   font-size: 3.2rem;
+  font-weight: bold;
   font-family: sans-serif;
   position: relative;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-}
-#app .box:nth-child(even) {
-  background-color: #e67e22;
+  cursor: pointer;
 }
 #app .box span {
   position: absolute;
@@ -83,6 +82,19 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%) scale(0);
           transform: translate(-50%, -50%) scale(0);
+  opacity: 0;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+}
+#app .box:nth-child(even) {
+  background-color: #e67e22;
+}
+#app .box:hover {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+#app .box:hover span {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
 }/*# sourceMappingURL=index.css.map */
