@@ -80,7 +80,7 @@ body {
   overflow: hidden;
   cursor: pointer;
 }
-#app .button .front {
+#app .button span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,19 +90,24 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fff;
-  border: 2px solid #fff;
-  color: #34495e;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  border: 2px solid #fff;
+  border-radius: 25px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
 }
-#app .button .back {
+#app .button .front {
   display: none;
+  background-color: #fff;
+  color: #34495e;
+}
+#app .button .back {
+  background-color: #64C760;
+  color: #fff;
 }/*# sourceMappingURL=index.css.map */

@@ -58,22 +58,27 @@ body {
         box-shadow: 4px 8px 12px 0 rgb(0 0 0 / 10%);
         overflow: hidden;
         cursor: pointer;
-        .front {
+        span {
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #fff;
-            border: 2px solid #fff;
-            color: #34495e;
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
+            border: 2px solid #fff;
+            border-radius: 25px;
             user-select: none;
         }
-        .back {
+        .front {
             display: none;
+            background-color: #fff;
+            color: #34495e;
+        }
+        .back {
+            background-color: #64C760;
+            color: #fff;
         }
     }
 }
