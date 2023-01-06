@@ -45,8 +45,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	perspective: 150px;
     input {
         display: none;
+        &:checked + .button {
+            box-shadow: 4px -8px 12px 0 rgb(0 0 0 / 10%);
+            .front {
+                transform: rotateX(180deg);
+            }
+            .back {
+                transform: rotateX(0deg);
+            }
+        }
     }
     .button {
         position: relative;
@@ -56,12 +68,13 @@ body {
         font-weight: 600;
         border-radius: 25px;
         box-shadow: 4px 8px 12px 0 rgb(0 0 0 / 10%);
+        transition: all 0.5s;
         overflow: hidden;
         cursor: pointer;
         span {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            display: block;
+            text-align: center;
+            line-height: 50px;
             position: absolute;
             top: 0;
             left: 0;
@@ -70,15 +83,20 @@ body {
             border: 2px solid #fff;
             border-radius: 25px;
             user-select: none;
+            transition: all 0.5s;
+            backface-visibility: hidden;
         }
         .front {
-            display: none;
             background-color: #fff;
             color: #34495e;
+            z-index: 2;
+            transform: rotateX(0deg);
         }
         .back {
-            background-color: #64C760;
+            transform: rotateX(180deg);
+            background-color: #64c760;
             color: #fff;
+            z-index: 1;
         }
     }
 }
