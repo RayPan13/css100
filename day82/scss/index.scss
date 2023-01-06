@@ -45,9 +45,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	perspective: 150px;
     input {
         display: none;
         &:checked + .button {
