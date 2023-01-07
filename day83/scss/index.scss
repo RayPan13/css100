@@ -64,13 +64,14 @@ body {
             background-color: #c3dcec;
         }
 
-        $rings: 10;
+        $rings: 30;
         $stripes: 24;
+        $duration: 4s;
         @for $i from 1 through $rings {
             $base: $i - 1;
-            $delay: $base * (2s / $rings) * -1;
+            $delay: $base * ($duration / $rings) * -1;
             .r#{$i} {
-                animation: ring 2s cubic-bezier(.98,.02,.97,.12) $delay infinite;
+                animation: ring $duration cubic-bezier(.98,.02,.97,.12) $delay infinite;
                 @for $j from 1 through $stripes {
                     $base2: $j - 1;
                     $deg: (calc(360 / $stripes) * $base2) - (random() * 10);
