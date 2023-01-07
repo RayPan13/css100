@@ -54,7 +54,6 @@ body {
             position: absolute;
             width: 200px;
             height: 200px;
-            animation: ring 2s cubic-bezier(.98,.02,.97,.12) infinite;
         }
         .stripe {
             position: absolute;
@@ -64,14 +63,22 @@ body {
             left: 99px;
             background-color: #c3dcec;
         }
-        $stripes: 24;
 
-        @for $i from 1 through $stripes {
+        $rings: 10;
+        $stripes: 24;
+        @for $i from 1 through $rings {
             $base: $i - 1;
-            $deg: (calc(360 / $stripes) * $base) - (random() * 10);
-            $offset: 100 - (random() * 40);
-            .s#{$i} {
-                transform: rotate(($deg) + deg) translate3d(0, ($offset) + px, 0) scaleY(calc($offset / 100));
+            $delay: $base * (2s / $rings) * -1;
+            .r#{$i} {
+                animation: ring 2s cubic-bezier(.98,.02,.97,.12) $delay infinite;
+                @for $j from 1 through $stripes {
+                    $base2: $j - 1;
+                    $deg: (calc(360 / $stripes) * $base2) - (random() * 10);
+                    $offset: 100 - (random() * 40);
+                    .s#{$j} {
+                        transform: rotate(($deg) + deg) translate3d(0, ($offset) + px, 0) scaleY(calc($offset / 100));
+                    }
+                }
             }
         }
     }
