@@ -53,6 +53,158 @@ body {
   width: 100%;
   height: 400px;
   max-width: 400px;
-  outline: 1px solid red;
+  background-color: #1e3242;
   border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+#app .container {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  left: 100px;
+}
+#app .container .ring {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  -webkit-animation: ring 2s cubic-bezier(0.98, 0.02, 0.97, 0.12) infinite;
+          animation: ring 2s cubic-bezier(0.98, 0.02, 0.97, 0.12) infinite;
+}
+#app .container .stripe {
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  top: 90px;
+  left: 99px;
+  background-color: #c3dcec;
+}
+#app .container .s1 {
+  -webkit-transform: rotate(-1.5223767884deg) translate3d(0, 63.8338451426px, 0) scaleY(0.6383384514);
+          transform: rotate(-1.5223767884deg) translate3d(0, 63.8338451426px, 0) scaleY(0.6383384514);
+}
+#app .container .s2 {
+  -webkit-transform: rotate(10.8677783468deg) translate3d(0, 84.5677313701px, 0) scaleY(0.8456773137);
+          transform: rotate(10.8677783468deg) translate3d(0, 84.5677313701px, 0) scaleY(0.8456773137);
+}
+#app .container .s3 {
+  -webkit-transform: rotate(25.1041852102deg) translate3d(0, 71.5097751427px, 0) scaleY(0.7150977514);
+          transform: rotate(25.1041852102deg) translate3d(0, 71.5097751427px, 0) scaleY(0.7150977514);
+}
+#app .container .s4 {
+  -webkit-transform: rotate(41.8199287721deg) translate3d(0, 80.9127592692px, 0) scaleY(0.8091275927);
+          transform: rotate(41.8199287721deg) translate3d(0, 80.9127592692px, 0) scaleY(0.8091275927);
+}
+#app .container .s5 {
+  -webkit-transform: rotate(57.7980029357deg) translate3d(0, 85.9417181288px, 0) scaleY(0.8594171813);
+          transform: rotate(57.7980029357deg) translate3d(0, 85.9417181288px, 0) scaleY(0.8594171813);
+}
+#app .container .s6 {
+  -webkit-transform: rotate(71.7119683178deg) translate3d(0, 98.6837498794px, 0) scaleY(0.9868374988);
+          transform: rotate(71.7119683178deg) translate3d(0, 98.6837498794px, 0) scaleY(0.9868374988);
+}
+#app .container .s7 {
+  -webkit-transform: rotate(88.3603799879deg) translate3d(0, 87.9144487752px, 0) scaleY(0.8791444878);
+          transform: rotate(88.3603799879deg) translate3d(0, 87.9144487752px, 0) scaleY(0.8791444878);
+}
+#app .container .s8 {
+  -webkit-transform: rotate(98.2421577821deg) translate3d(0, 99.7983109237px, 0) scaleY(0.9979831092);
+          transform: rotate(98.2421577821deg) translate3d(0, 99.7983109237px, 0) scaleY(0.9979831092);
+}
+#app .container .s9 {
+  -webkit-transform: rotate(117.6854610903deg) translate3d(0, 67.0335428879px, 0) scaleY(0.6703354289);
+          transform: rotate(117.6854610903deg) translate3d(0, 67.0335428879px, 0) scaleY(0.6703354289);
+}
+#app .container .s10 {
+  -webkit-transform: rotate(127.7715501788deg) translate3d(0, 97.5140752283px, 0) scaleY(0.9751407523);
+          transform: rotate(127.7715501788deg) translate3d(0, 97.5140752283px, 0) scaleY(0.9751407523);
+}
+#app .container .s11 {
+  -webkit-transform: rotate(145.4590258122deg) translate3d(0, 94.8054824574px, 0) scaleY(0.9480548246);
+          transform: rotate(145.4590258122deg) translate3d(0, 94.8054824574px, 0) scaleY(0.9480548246);
+}
+#app .container .s12 {
+  -webkit-transform: rotate(159.2922088171deg) translate3d(0, 97.4967579696px, 0) scaleY(0.9749675797);
+          transform: rotate(159.2922088171deg) translate3d(0, 97.4967579696px, 0) scaleY(0.9749675797);
+}
+#app .container .s13 {
+  -webkit-transform: rotate(177.5012303441deg) translate3d(0, 91.4585344753px, 0) scaleY(0.9145853448);
+          transform: rotate(177.5012303441deg) translate3d(0, 91.4585344753px, 0) scaleY(0.9145853448);
+}
+#app .container .s14 {
+  -webkit-transform: rotate(189.6508104626deg) translate3d(0, 77.4603059959px, 0) scaleY(0.77460306);
+          transform: rotate(189.6508104626deg) translate3d(0, 77.4603059959px, 0) scaleY(0.77460306);
+}
+#app .container .s15 {
+  -webkit-transform: rotate(200.5065996661deg) translate3d(0, 65.7917963032px, 0) scaleY(0.657917963);
+          transform: rotate(200.5065996661deg) translate3d(0, 65.7917963032px, 0) scaleY(0.657917963);
+}
+#app .container .s16 {
+  -webkit-transform: rotate(223.4992760476deg) translate3d(0, 79.5619365096px, 0) scaleY(0.7956193651);
+          transform: rotate(223.4992760476deg) translate3d(0, 79.5619365096px, 0) scaleY(0.7956193651);
+}
+#app .container .s17 {
+  -webkit-transform: rotate(235.5421724776deg) translate3d(0, 75.192283472px, 0) scaleY(0.7519228347);
+          transform: rotate(235.5421724776deg) translate3d(0, 75.192283472px, 0) scaleY(0.7519228347);
+}
+#app .container .s18 {
+  -webkit-transform: rotate(249.4715969393deg) translate3d(0, 61.681558077px, 0) scaleY(0.6168155808);
+          transform: rotate(249.4715969393deg) translate3d(0, 61.681558077px, 0) scaleY(0.6168155808);
+}
+#app .container .s19 {
+  -webkit-transform: rotate(261.0778325942deg) translate3d(0, 83.8216392726px, 0) scaleY(0.8382163927);
+          transform: rotate(261.0778325942deg) translate3d(0, 83.8216392726px, 0) scaleY(0.8382163927);
+}
+#app .container .s20 {
+  -webkit-transform: rotate(281.0417859392deg) translate3d(0, 81.1198602322px, 0) scaleY(0.8111986023);
+          transform: rotate(281.0417859392deg) translate3d(0, 81.1198602322px, 0) scaleY(0.8111986023);
+}
+#app .container .s21 {
+  -webkit-transform: rotate(293.5004647299deg) translate3d(0, 84.6899854208px, 0) scaleY(0.8468998542);
+          transform: rotate(293.5004647299deg) translate3d(0, 84.6899854208px, 0) scaleY(0.8468998542);
+}
+#app .container .s22 {
+  -webkit-transform: rotate(308.0115473904deg) translate3d(0, 68.3949653615px, 0) scaleY(0.6839496536);
+          transform: rotate(308.0115473904deg) translate3d(0, 68.3949653615px, 0) scaleY(0.6839496536);
+}
+#app .container .s23 {
+  -webkit-transform: rotate(325.2553422755deg) translate3d(0, 79.5761301427px, 0) scaleY(0.7957613014);
+          transform: rotate(325.2553422755deg) translate3d(0, 79.5761301427px, 0) scaleY(0.7957613014);
+}
+#app .container .s24 {
+  -webkit-transform: rotate(336.4643613222deg) translate3d(0, 70.7383226269px, 0) scaleY(0.7073832263);
+          transform: rotate(336.4643613222deg) translate3d(0, 70.7383226269px, 0) scaleY(0.7073832263);
+}
+
+@-webkit-keyframes ring {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0.1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(4);
+            transform: scale(4);
+    opacity: 1;
+  }
+}
+
+@keyframes ring {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 0.1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(4);
+            transform: scale(4);
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.css.map */
