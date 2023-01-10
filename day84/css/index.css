@@ -10,6 +10,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-size: 10px;
 }
 
 main {
@@ -99,4 +100,21 @@ body {
           box-shadow: -1px 0px 1px 0 rgba(0, 0, 0, 0.4);
   background: -webkit-gradient(linear, left top, right top, from(#a90329), color-stop(12%, #8e0028), color-stop(25%, #a90329), color-stop(37%, #8e0028), color-stop(50%, #a90329), color-stop(62%, #8e0028), color-stop(75%, #a90329), color-stop(87%, #8e0028), to(#a90329));
   background: linear-gradient(90deg, #a90329 0%, #8e0028 12%, #a90329 25%, #8e0028 37%, #a90329 50%, #8e0028 62%, #a90329 75%, #8e0028 87%, #a90329 100%);
+}
+#app .txt {
+  position: absolute;
+  top: 55px;
+  left: 33px;
+  font-family: sans-serif;
+  color: #fff;
+}
+#app .txt h3 {
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 1;
+}
+#app .txt p {
+  font-size: 1.2rem;
+  font-style: italic;
+  opacity: 0.6;
 }/*# sourceMappingURL=index.css.map */
