@@ -52,6 +52,27 @@ body {
         .dot {
             flex: 1;
             background-color: #fff;
+            @for $i from 1 through 200 {
+                &.d#{$i} {
+                    animation: move#{$i} 3s ease-in-out infinite;
+                }
+            }
         }
     }
+}
+@for $i from 1 through 200 {
+	@keyframes move#{$i} {
+		$offset: 100px;
+		@if $i < 100 {
+			$offset: calc($i * $i / 70);
+		} @else {
+			$offset: calc((200 - $i) * (200 - $i) / 70);
+		}
+		0%, 100% {
+			transform: translateY($offset * -1px);
+		}
+		50% {
+			transform: translateY($offset + 0px);
+		}
+	}
 }
