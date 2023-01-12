@@ -90,6 +90,8 @@ body {
   border-radius: 50%;
   background-color: #fff;
   position: relative;
+  -webkit-transform-origin: 50% -100px;
+          transform-origin: 50% -100px;
 }
 #app .cradle .ball::before {
   content: "";
@@ -100,4 +102,54 @@ body {
   top: -100px;
   left: 19px;
   background: #bdc3c7;
+}
+#app .cradle .ball:first-child {
+  -webkit-animation: first 0.8s ease-out infinite alternate;
+          animation: first 0.8s ease-out infinite alternate;
+}
+#app .cradle .ball:last-child {
+  -webkit-animation: last 0.8s ease-out 0.8s infinite alternate;
+          animation: last 0.8s ease-out 0.8s infinite alternate;
+}
+
+@-webkit-keyframes first {
+  0%, 50% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+  }
+}
+
+@keyframes first {
+  0%, 50% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+  }
+}
+@-webkit-keyframes last {
+  0%, 50% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+  }
+}
+@keyframes last {
+  0%, 50% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+  }
 }/*# sourceMappingURL=index.css.map */

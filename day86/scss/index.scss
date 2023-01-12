@@ -67,6 +67,7 @@ body {
             border-radius: 50%;
             background-color: #fff;
             position: relative;
+            transform-origin: 50% -100px;
             &::before {
                 content: '';
                 display: block;
@@ -77,6 +78,32 @@ body {
                 left: 19px;
                 background: #bdc3c7;
             }
+            &:first-child {
+                animation: first 0.8s ease-out infinite alternate;
+            }
+            &:last-child {
+                animation: last 0.8s ease-out 0.8s infinite alternate;
+            }
         }
+    }
+}
+
+@keyframes first {
+    0%,
+    50% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(30deg);
+    }
+}
+
+@keyframes last {
+    0%,
+    50% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(-30deg);
     }
 }
