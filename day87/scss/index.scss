@@ -49,7 +49,6 @@ body {
         position: relative;
         width: 192px;
         height: 126px;
-        outline: 1px solid red;
         .top1 {
             position: absolute;
             top: 0;
@@ -90,6 +89,17 @@ body {
             background-color: #f58181;
             overflow: hidden;
             z-index: 1;
+            .flash {
+                position: absolute;
+                top: -40px;
+                left: 30px;
+                transform: rotate(-44deg) translateX(-30px);
+                width: 4px;
+                height: 80px;
+                background-color: #ffdfdf;
+                box-shadow: 0 0 5px 0 #ffdfdf;
+                animation: flash 3s linear infinite both;
+            }
         }
         .top5 {
             position: absolute;
@@ -135,5 +145,15 @@ body {
             border-color: #c81718 transparent transparent transparent;
             z-index: 2;
         }
+    }
+}
+
+@keyframes flash {
+    0% {
+        transform: rotate(-44deg) translateX(-30px);
+    }
+    10%,
+    100% {
+        transform: rotate(-44deg) translateX(30px);
     }
 }

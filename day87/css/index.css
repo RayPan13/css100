@@ -69,7 +69,6 @@ body {
   position: relative;
   width: 192px;
   height: 126px;
-  outline: 1px solid red;
 }
 #app .ruby .top1 {
   position: absolute;
@@ -111,6 +110,20 @@ body {
   background-color: #f58181;
   overflow: hidden;
   z-index: 1;
+}
+#app .ruby .top4 .flash {
+  position: absolute;
+  top: -40px;
+  left: 30px;
+  -webkit-transform: rotate(-44deg) translateX(-30px);
+          transform: rotate(-44deg) translateX(-30px);
+  width: 4px;
+  height: 80px;
+  background-color: #ffdfdf;
+  -webkit-box-shadow: 0 0 5px 0 #ffdfdf;
+          box-shadow: 0 0 5px 0 #ffdfdf;
+  -webkit-animation: flash 3s linear infinite both;
+          animation: flash 3s linear infinite both;
 }
 #app .ruby .top5 {
   position: absolute;
@@ -155,4 +168,26 @@ body {
   border-width: 84px 96px 0 0px;
   border-color: #c81718 transparent transparent transparent;
   z-index: 2;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    -webkit-transform: rotate(-44deg) translateX(-30px);
+            transform: rotate(-44deg) translateX(-30px);
+  }
+  10%, 100% {
+    -webkit-transform: rotate(-44deg) translateX(30px);
+            transform: rotate(-44deg) translateX(30px);
+  }
+}
+
+@keyframes flash {
+  0% {
+    -webkit-transform: rotate(-44deg) translateX(-30px);
+            transform: rotate(-44deg) translateX(-30px);
+  }
+  10%, 100% {
+    -webkit-transform: rotate(-44deg) translateX(30px);
+            transform: rotate(-44deg) translateX(30px);
+  }
 }/*# sourceMappingURL=index.css.map */
