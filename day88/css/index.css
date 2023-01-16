@@ -88,9 +88,20 @@ body {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
+#app .candle .fire {
+  width: 16px;
+  height: 26px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #ffad00;
+  border-radius: 8px 8px 8px 8px/20px 20px 8px 8px;
+}
 #app .floor {
   width: 120px;
   height: 8px;
-  background-color: #1B233E;
+  background-color: #1b233e;
   border-radius: 3px;
 }/*# sourceMappingURL=index.css.map */
