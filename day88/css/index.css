@@ -92,16 +92,76 @@ body {
   width: 16px;
   height: 26px;
   position: absolute;
-  top: -30px;
+  top: -32px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   background-color: #ffad00;
   border-radius: 8px 8px 8px 8px/20px 20px 8px 8px;
+  -webkit-animation: wind 15s ease-in-out infinite, size 20s ease-in-out infinite, flickr 5s ease-in-out infinite;
+          animation: wind 15s ease-in-out infinite, size 20s ease-in-out infinite, flickr 5s ease-in-out infinite;
 }
 #app .floor {
   width: 120px;
   height: 8px;
   background-color: #1b233e;
   border-radius: 3px;
+}
+
+@-webkit-keyframes wind {
+  0%, 22%, 49%, 62%, 81%, 100% {
+    border-radius: 2px 14px 8px 8px/20px 20px 8px 8px;
+  }
+  14%, 32%, 56%, 70%, 89% {
+    border-radius: 14px 2px 8px 8px/20px 20px 8px 8px;
+  }
+}
+
+@keyframes wind {
+  0%, 22%, 49%, 62%, 81%, 100% {
+    border-radius: 2px 14px 8px 8px/20px 20px 8px 8px;
+  }
+  14%, 32%, 56%, 70%, 89% {
+    border-radius: 14px 2px 8px 8px/20px 20px 8px 8px;
+  }
+}
+@-webkit-keyframes size {
+  0%, 22%, 49%, 62%, 81%, 100% {
+    -webkit-transform: translateX(-50%) scale(1, 1);
+            transform: translateX(-50%) scale(1, 1);
+  }
+  14%, 32%, 56%, 70%, 89% {
+    -webkit-transform: translateX(-50%) scale(0.9, 1.2);
+            transform: translateX(-50%) scale(0.9, 1.2);
+  }
+}
+@keyframes size {
+  0%, 22%, 49%, 62%, 81%, 100% {
+    -webkit-transform: translateX(-50%) scale(1, 1);
+            transform: translateX(-50%) scale(1, 1);
+  }
+  14%, 32%, 56%, 70%, 89% {
+    -webkit-transform: translateX(-50%) scale(0.9, 1.2);
+            transform: translateX(-50%) scale(0.9, 1.2);
+  }
+}
+@-webkit-keyframes flickr {
+  0%, 22%, 49%, 62%, 81%, 100% {
+    -webkit-box-shadow: 0 0 20px 0 rgba(255, 202, 0, 0.7);
+            box-shadow: 0 0 20px 0 rgba(255, 202, 0, 0.7);
+  }
+  14%, 32%, 56%, 70%, 89% {
+    -webkit-box-shadow: 0 0 20px 0 rgba(255, 202, 0, 0.8);
+            box-shadow: 0 0 20px 0 rgba(255, 202, 0, 0.8);
+  }
+}
+@keyframes flickr {
+  0%, 22%, 49%, 62%, 81%, 100% {
+    -webkit-box-shadow: 0 0 20px 0 rgba(255, 202, 0, 0.7);
+            box-shadow: 0 0 20px 0 rgba(255, 202, 0, 0.7);
+  }
+  14%, 32%, 56%, 70%, 89% {
+    -webkit-box-shadow: 0 0 20px 0 rgba(255, 202, 0, 0.8);
+            box-shadow: 0 0 20px 0 rgba(255, 202, 0, 0.8);
+  }
 }/*# sourceMappingURL=index.css.map */
