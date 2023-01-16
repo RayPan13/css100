@@ -45,6 +45,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     .candle {
         width: 60px;
         height: 100px;
@@ -57,9 +58,15 @@ body {
             height: 15px;
             background-color: #ad88a9;
             position: absolute;
-            top: 1px;
+            top: -15px;
             left: 50%;
             transform: translateX(-50%);
         }
+    }
+    .floor {
+        width: 120px;
+        height: 8px;
+        background-color: #1B233E;
+        border-radius: 3px;
     }
 }
