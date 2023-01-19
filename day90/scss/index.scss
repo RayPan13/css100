@@ -45,11 +45,85 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 10px 0;
+    position: relative;
+    .lines {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        .line {
+            width: 100%;
+            height: 1px;
+            margin: 19px 0;
+            position: relative;
+            .left,
+            .right {
+                position: absolute;
+                top: 0;
+                width: 200px;
+                height: 1px;
+                background-color: #fff;
+                transform: scaleX(0);
+                transition: all 0.3s;
+            }
+            .left {
+                left: 0;
+                transform-origin: 0 50%;
+            }
+            .right {
+                right: 0;
+                transform-origin: 100% 50%;
+            }
+        }
+    }
     .trigger {
         width: 20px;
         height: 20px;
-        &:hover {
-            background-color: #fff;
+        z-index: 3;
+    }
+    $rows: 19;
+    $columns: 20;
+    $row: 1;
+    $column: 1;
+    @for $i from 1 through ($rows * $columns) {
+        @if ($row * $columns) < $i {
+            $row: $row + 1;
+        }
+        $column: $i - (($row - 1) * $columns);
+        .t#{$i}:hover {
+            & ~ .lines .l#{$row} {
+                $scale: calc(($column - 3) / 10);
+                .left {
+                    transform: scaleX($scale);
+                }
+                $scale: calc(($columns - ($column + 2)) / 10);
+                .right {
+                    transform: scaleX($scale);
+                }
+            }
+            & ~ .lines .l#{$row - 1},
+            & ~ .lines .l#{$row + 1} {
+                $scale: calc(($column - 2) / 10);
+                .left {
+                    transform: scaleX($scale);
+                }
+                $scale: calc(($columns - ($column + 1)) / 10);
+                .right {
+                    transform: scaleX($scale);
+                }
+            }
+            & ~ .lines .l#{$row - 2},
+            & ~ .lines .l#{$row + 2} {
+                $scale: calc(($column - 1) / 10);
+                .left {
+                    transform: scaleX($scale);
+                }
+                $scale: calc(($columns - $column) / 10);
+                .right {
+                    transform: scaleX($scale);
+                }
+            }
         }
     }
 }
