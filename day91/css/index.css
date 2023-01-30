@@ -53,6 +53,73 @@ body {
   width: 100%;
   height: 400px;
   max-width: 400px;
-  outline: 1px solid red;
+  background-color: #34495e;
   border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#app .box {
+  width: 120px;
+  height: 120px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: rotateX(-25deg) rotateY(45deg);
+          transform: rotateX(-25deg) rotateY(45deg);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+#app .box:hover {
+  -webkit-transform: rotateX(-25deg) rotateY(45deg) translateY(-15px);
+          transform: rotateX(-25deg) rotateY(45deg) translateY(-15px);
+}
+#app .box:hover .bottom {
+  -webkit-box-shadow: -22px -22px 30px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: -22px -22px 30px 0 rgba(0, 0, 0, 0.4);
+}
+#app .box .plane {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+#app .box .bottom {
+  -webkit-transform: rotateX(-90deg) translateZ(60px);
+          transform: rotateX(-90deg) translateZ(60px);
+  background-color: #2ecc71;
+  opacity: 0.8;
+  -webkit-box-shadow: -8px -8px 10px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: -8px -8px 10px 0 rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+#app .box .left {
+  -webkit-transform: rotateY(-90deg) translateZ(60px);
+          transform: rotateY(-90deg) translateZ(60px);
+}
+#app .box .right {
+  -webkit-transform: rotateY(90deg) translateZ(60px);
+          transform: rotateY(90deg) translateZ(60px);
+}
+#app .box .back {
+  -webkit-transform: rotateY(180deg) translateZ(60px);
+          transform: rotateY(180deg) translateZ(60px);
+}
+#app .box .front {
+  -webkit-transform: rotateY(0deg) translateZ(60px);
+          transform: rotateY(0deg) translateZ(60px);
+}
+#app .box .top {
+  -webkit-transform: rotateX(90deg) translateZ(60px);
+          transform: rotateX(90deg) translateZ(60px);
+  opacity: 0.5;
 }/*# sourceMappingURL=index.css.map */
