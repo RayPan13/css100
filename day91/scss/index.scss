@@ -75,19 +75,94 @@ body {
         }
         .left {
             transform: rotateY(-90deg) translateZ(60px);
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #2ecc71;
+                opacity: 0.8;
+                transform-origin: 50% 100%;
+                animation: fill 4s ease-in-out infinite alternate;
+            }
         }
         .right {
             transform: rotateY(90deg) translateZ(60px);
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #2ecc71;
+                opacity: 0.8;
+                transform-origin: 50% 100%;
+                animation: fill 4s ease-in-out infinite alternate;
+            }
         }
         .back {
             transform: rotateY(180deg) translateZ(60px);
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #2ecc71;
+                opacity: 0.8;
+                transform-origin: 50% 100%;
+                animation: fill 4s ease-in-out infinite alternate;
+            }
         }
         .front {
             transform: rotateY(0deg) translateZ(60px);
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #2ecc71;
+                opacity: 0.8;
+                transform-origin: 50% 100%;
+                animation: fill 4s ease-in-out infinite alternate;
+            }
         }
         .top {
             transform: rotateX(90deg) translateZ(60px);
             opacity: 0.5;
         }
+        .fillTop {
+            background-color: #2ecc71;
+                opacity: 0.8;
+            animation:
+                fillTop 4s ease-in-out infinite alternate,
+        }
     }
+}
+
+@keyframes fill {
+	0%,25% {
+		transform: scaleY(0);
+	}
+	75%, 100% {
+		transform: scaleY(1);
+	}
+}
+@keyframes fillTop {
+	0%,25% {
+		transform: rotateX(90deg) translateZ(-60px);
+	}
+	75%, 100% {
+		transform: rotateX(90deg) translateZ(59px);
+	}
 }

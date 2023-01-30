@@ -106,20 +106,128 @@ body {
   -webkit-transform: rotateY(-90deg) translateZ(60px);
           transform: rotateY(-90deg) translateZ(60px);
 }
+#app .box .left:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2ecc71;
+  opacity: 0.8;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-animation: fill 4s ease-in-out infinite alternate;
+          animation: fill 4s ease-in-out infinite alternate;
+}
 #app .box .right {
   -webkit-transform: rotateY(90deg) translateZ(60px);
           transform: rotateY(90deg) translateZ(60px);
+}
+#app .box .right:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2ecc71;
+  opacity: 0.8;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-animation: fill 4s ease-in-out infinite alternate;
+          animation: fill 4s ease-in-out infinite alternate;
 }
 #app .box .back {
   -webkit-transform: rotateY(180deg) translateZ(60px);
           transform: rotateY(180deg) translateZ(60px);
 }
+#app .box .back:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2ecc71;
+  opacity: 0.8;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-animation: fill 4s ease-in-out infinite alternate;
+          animation: fill 4s ease-in-out infinite alternate;
+}
 #app .box .front {
   -webkit-transform: rotateY(0deg) translateZ(60px);
           transform: rotateY(0deg) translateZ(60px);
+}
+#app .box .front:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2ecc71;
+  opacity: 0.8;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+  -webkit-animation: fill 4s ease-in-out infinite alternate;
+          animation: fill 4s ease-in-out infinite alternate;
 }
 #app .box .top {
   -webkit-transform: rotateX(90deg) translateZ(60px);
           transform: rotateX(90deg) translateZ(60px);
   opacity: 0.5;
+}
+#app .box .fillTop {
+  background-color: #2ecc71;
+  opacity: 0.8;
+  -webkit-animation: fillTop 4s ease-in-out infinite alternate;
+          animation: fillTop 4s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes fill {
+  0%, 25% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  75%, 100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@keyframes fill {
+  0%, 25% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  75%, 100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+@-webkit-keyframes fillTop {
+  0%, 25% {
+    -webkit-transform: rotateX(90deg) translateZ(-60px);
+            transform: rotateX(90deg) translateZ(-60px);
+  }
+  75%, 100% {
+    -webkit-transform: rotateX(90deg) translateZ(59px);
+            transform: rotateX(90deg) translateZ(59px);
+  }
+}
+@keyframes fillTop {
+  0%, 25% {
+    -webkit-transform: rotateX(90deg) translateZ(-60px);
+            transform: rotateX(90deg) translateZ(-60px);
+  }
+  75%, 100% {
+    -webkit-transform: rotateX(90deg) translateZ(59px);
+            transform: rotateX(90deg) translateZ(59px);
+  }
 }/*# sourceMappingURL=index.css.map */
