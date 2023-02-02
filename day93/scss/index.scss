@@ -47,6 +47,12 @@ body {
     align-items: center;
     .lock {
         transform: translateY(-24px);
+        cursor: pointer;
+        &:hover {
+            .ring {
+                transform: rotate(360deg);
+            }
+        }
     }
     .hanger {
         position: relative;
@@ -85,6 +91,7 @@ body {
             height: 150px;
             background-color: #333;
             border-radius: 50%;
+            transition: transform 1.5s ease-in-out;
             .line {
                 position: absolute;
                 width: 2px;

@@ -68,6 +68,11 @@ body {
 #app .lock {
   -webkit-transform: translateY(-24px);
           transform: translateY(-24px);
+  cursor: pointer;
+}
+#app .lock:hover .ring {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 #app .hanger {
   position: relative;
@@ -114,6 +119,10 @@ body {
   height: 150px;
   background-color: #333;
   border-radius: 50%;
+  -webkit-transition: -webkit-transform 1.5s ease-in-out;
+  transition: -webkit-transform 1.5s ease-in-out;
+  transition: transform 1.5s ease-in-out;
+  transition: transform 1.5s ease-in-out, -webkit-transform 1.5s ease-in-out;
 }
 #app .base .ring .line {
   position: absolute;
