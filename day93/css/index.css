@@ -65,6 +65,31 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+#app .lock {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+#app .hanger {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px 60px 0 0;
+  background-color: #d1dde5;
+  margin: 0 auto;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+  -webkit-box-shadow: inset 4px 4px 1px 0 rgba(255, 255, 255, 0.8), inset -3px -2px 1px 0 rgba(0, 0, 0, 0.3), 4px 8px 12px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: inset 4px 4px 1px 0 rgba(255, 255, 255, 0.8), inset -3px -2px 1px 0 rgba(0, 0, 0, 0.3), 4px 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+#app .hanger .inside {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px 50px 0 0;
+  background-color: #f57e15;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
 #app .base {
   position: relative;
   display: -webkit-box;
@@ -429,7 +454,7 @@ body {
 #app .base .ring .num {
   width: 20px;
   height: 14px;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 14px;
   text-align: center;
