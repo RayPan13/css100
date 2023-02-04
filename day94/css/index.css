@@ -65,6 +65,31 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+#app .tree {
+  position: relative;
+}
+#app .leafs {
+  position: absolute;
+  width: 124px;
+  height: 204px;
+  top: -60px;
+  left: -60px;
+  border-style: solid;
+  border-width: 0 62px 204px 62px;
+  border-color: transparent transparent #e84624 transparent;
+}
+#app .leafs:before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: -62px;
+  border-style: solid;
+  border-width: 0 0px 204px 62px;
+  border-color: transparent transparent rgba(0, 0, 0, 0.2) transparent;
+}
 #app .trunk {
   position: relative;
   background-color: #e8c87e;
