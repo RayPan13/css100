@@ -57,9 +57,10 @@ body {
         border-style: solid;
         border-width: 0 62px 204px 62px;
         border-color: transparent transparent #e84624 transparent;
+        animation: scaleX 1s ease-in-out 0.7s both;
         &:before {
             position: absolute;
-            content: "";
+            content: '';
             display: block;
             width: 0;
             height: 0;
@@ -76,6 +77,8 @@ body {
         width: 4px;
         height: 200px;
         border-radius: 2px;
+        transform-origin: center bottom;
+        animation: scaleY 0.7s ease-in-out both;
     }
     .branch {
         position: absolute;
@@ -105,6 +108,52 @@ body {
         position: absolute;
         left: 0;
         bottom: 0;
-        transform: translateX(-40px);
+        transform: translateX(-38px);
+        animation: shadow 0.7s ease-in-out both;
+    }
+}
+
+@keyframes scaleY {
+    0% {
+        transform: scaleY(0);
+    }
+    60% {
+        transform: scaleY(1.1);
+    }
+    80% {
+        transform: scaleY(0.95);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes scaleX {
+    0% {
+        transform: scaleX(0);
+    }
+    60% {
+        transform: scaleX(1.1);
+    }
+    80% {
+        transform: scaleX(0.95);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes shadow {
+    0% {
+        transform: translateX(-38px) scaleX(0);
+    }
+    60% {
+        transform: translateX(-38px) scaleX(1.1);
+    }
+    80% {
+        transform: translateX(-38px) scaleX(0.95);
+    }
+    100% {
+        transform: translateX(-38px) scaleX(1);
     }
 }
