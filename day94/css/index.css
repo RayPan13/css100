@@ -107,4 +107,14 @@ body {
 #app .branch:nth-child(5) {
   top: 80px;
   height: 60px;
+}
+#app .shadow {
+  width: 80px;
+  height: 4px;
+  background-color: #b9d6c2;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  -webkit-transform: translateX(-40px);
+          transform: translateX(-40px);
 }/*# sourceMappingURL=index.css.map */
