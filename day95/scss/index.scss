@@ -72,7 +72,7 @@ body {
                 transform: rotate(12deg) skewY(-27deg);
             }
         }
-        .eye {
+        .eyes {
             position: absolute;
             top: 42%;
             width: 22px;
@@ -82,6 +82,7 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
+            animation: eyes 15s ease-in-out infinite;
             &::before {
                 content: '';
                 display: block;
@@ -117,3 +118,22 @@ body {
         }
     }
 }
+
+@keyframes eyes {
+    0%,
+    23%,
+    25%,
+    65%,
+    67%,
+    89%,
+    91%,
+    100% {
+        transform: scaleY(1);
+    }
+    24%,
+    66%,
+    90% {
+        transform: scaleY(0);
+    }
+}
+

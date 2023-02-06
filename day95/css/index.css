@@ -95,7 +95,7 @@ body {
   -webkit-transform: rotate(12deg) skewY(-27deg);
           transform: rotate(12deg) skewY(-27deg);
 }
-#app .pig .eye {
+#app .pig .eyes {
   position: absolute;
   top: 42%;
   width: 22px;
@@ -111,8 +111,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation: eyes 15s ease-in-out infinite;
+          animation: eyes 15s ease-in-out infinite;
 }
-#app .pig .eye::before {
+#app .pig .eyes::before {
   content: "";
   display: block;
   width: 4px;
@@ -120,10 +122,10 @@ body {
   background-color: #000;
   border-radius: 50%;
 }
-#app .pig .eye.left {
+#app .pig .eyes.left {
   left: 24%;
 }
-#app .pig .eye.right {
+#app .pig .eyes.right {
   right: 24%;
 }
 #app .pig .nose {
@@ -147,4 +149,26 @@ body {
   border-radius: 50%;
   background-color: #ce666d;
   margin: 12px 0 0;
+}
+
+@-webkit-keyframes eyes {
+  0%, 23%, 25%, 65%, 67%, 89%, 91%, 100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  24%, 66%, 90% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+}
+
+@keyframes eyes {
+  0%, 23%, 25%, 65%, 67%, 89%, 91%, 100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  24%, 66%, 90% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
 }/*# sourceMappingURL=index.css.map */
