@@ -46,11 +46,31 @@ body {
     justify-content: center;
     align-items: center;
     .pig {
+        position: relative;
         .head {
             width: 160px;
             height: 160px;
             border-radius: 50%;
             background-color: #f7949a;
+            position: relative;
+        }
+        .ear {
+            width: 60px;
+            height: 60px;
+            background-color: #ffb7bc;
+            border: 7px solid #f7949a;
+            position: absolute;
+            top: -5px;
+            &.left {
+                border-radius: 15px 0 0 0;
+                left: 10px;
+                transform: rotate(-12deg) skewY(27deg);
+            }
+            &.right {
+                border-radius: 0 15px 0 0;
+                right: 10px;
+                transform: rotate(12deg) skewY(-27deg);
+            }
         }
     }
 }
