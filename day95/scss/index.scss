@@ -97,5 +97,23 @@ body {
                 right: 24%;
             }
         }
+        .nose {
+            width: 60px;
+            height: 50px;
+            border-radius: 100px / 80px;
+            background-color: #ffb7bc;
+            position: absolute;
+            top: 55%;
+            left: 51px;
+            display: flex;
+            justify-content: space-evenly;
+            .nostril {
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                background-color: #ce666d;
+                margin: 12px 0 0;
+            }
+        }
     }
 }
