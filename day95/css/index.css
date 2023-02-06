@@ -94,4 +94,35 @@ body {
   right: 10px;
   -webkit-transform: rotate(12deg) skewY(-27deg);
           transform: rotate(12deg) skewY(-27deg);
+}
+#app .pig .eye {
+  position: absolute;
+  top: 42%;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#app .pig .eye::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 50%;
+}
+#app .pig .eye.left {
+  left: 24%;
+}
+#app .pig .eye.right {
+  right: 24%;
 }/*# sourceMappingURL=index.css.map */
