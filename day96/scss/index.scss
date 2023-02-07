@@ -63,6 +63,7 @@ $duration: 1.6s;
         border-radius: 50%;
         background: rgba(0, 0, 0, 0.2);
         box-shadow: 0 0 0px 8px rgb(0 0 0 / 20%);
+        animation: shadow $duration ease-in-out infinite both;
     }
     .up {
         position: relative;
@@ -83,7 +84,15 @@ $duration: 1.6s;
         animation: squeeze $duration cubic-bezier(0.72, 0.03, 0.28, 0.97) infinite both;
     }
 }
-
+@keyframes up {
+    0%,
+    75% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100px);
+    }
+}
 @keyframes down {
     0% {
         transform: translateY(-100px);
@@ -93,14 +102,22 @@ $duration: 1.6s;
         transform: translateY(0);
     }
 }
-
-@keyframes up {
+@keyframes rotateIn {
+    0% {
+        transform: rotate(-135deg);
+    }
+    20%,
+    100% {
+        transform: rotate(0deg);
+    }
+}
+@keyframes rotateOut {
     0%,
-    75% {
-        transform: translateY(0);
+    80% {
+        transform: rotate(0);
     }
     100% {
-        transform: translateY(-100px);
+        transform: rotate(135deg);
     }
 }
 @keyframes squeeze {
@@ -115,22 +132,13 @@ $duration: 1.6s;
         transform: scale(1);
     }
 }
-@keyframes rotateIn {
-    0% {
-        transform: rotate(-135deg);
-    }
-    20%,
-    100% {
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes rotateOut {
+@keyframes shadow {
     0%,
-    80% {
-        transform: rotate(0);
-    }
     100% {
-        transform: rotate(135deg);
+        transform: scaleX(0.5);
+    }
+    45%,
+    50% {
+        transform: scaleX(1.8);
     }
 }
