@@ -53,8 +53,6 @@ $duration: 1.6s;
         width: 100px;
         height: 100px;
         background-color: #fff;
-        position: relative;
-        z-index: 1;
     }
     .shadow {
         position: absolute;
@@ -65,5 +63,74 @@ $duration: 1.6s;
         border-radius: 50%;
         background: rgba(0, 0, 0, 0.2);
         box-shadow: 0 0 0px 8px rgb(0 0 0 / 20%);
+    }
+    .up {
+        position: relative;
+        z-index: 1;
+        animation: up $duration ease-in-out infinite both;
+    }
+    .down {
+        animation: down $duration ease-in infinite both;
+    }
+    .rotateIn {
+        animation: rotateIn $duration ease-out infinite both;
+    }
+    .rotateOut {
+        animation: rotateOut $duration ease-in infinite both;
+    }
+    .squeeze {
+        transform-origin: 50% 100%;
+        animation: squeeze $duration cubic-bezier(0.72, 0.03, 0.28, 0.97) infinite both;
+    }
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(-100px);
+    }
+    20%,
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes up {
+    0%,
+    75% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100px);
+    }
+}
+@keyframes squeeze {
+    0%,
+    4% {
+        transform: scale(1);
+    }
+    45% {
+        transform: scale(1.8, 0.4);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes rotateIn {
+    0% {
+        transform: rotate(-135deg);
+    }
+    20%,
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes rotateOut {
+    0%,
+    80% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(135deg);
     }
 }
