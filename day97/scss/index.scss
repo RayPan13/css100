@@ -95,6 +95,7 @@ body {
         border-radius: 8px;
         transform-origin: 8px 8px;
         transform: rotate(-75deg);
+        animation: upper 1s ease-in-out infinite alternate;
         &::after {
             content: '';
             display: block;
@@ -107,6 +108,7 @@ body {
             border-radius: 8px;
             transform-origin: 8px 8px;
             transform: rotate(-75deg);
+            animation: lower 1s ease-in-out infinite alternate;
         }
     }
     .leg {
@@ -132,5 +134,22 @@ body {
         &.right {
             right: 0;
         }
+    }
+}
+@keyframes upper {
+    0% {
+        transform: rotate(-75deg);
+    }
+    100% {
+        transform: rotate(-85deg);
+    }
+}
+
+@keyframes lower {
+    0% {
+        transform: rotate(-75deg);
+    }
+    100% {
+        transform: rotate(-105deg);
     }
 }
