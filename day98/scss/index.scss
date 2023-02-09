@@ -45,6 +45,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     .box {
         position: relative;
         width: 160px;
@@ -60,24 +61,68 @@ body {
             left: 0;
             border-width: 80px 80px 0 80px;
             border-color: #3f91c7 transparent transparent transparent;
+            animation: top 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
         }
         .right {
             top: 0;
             right: 0;
             border-width: 80px 80px 80px 0;
             border-color: transparent #2b82bb transparent transparent;
+            animation: right 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
         }
         .bottom {
             bottom: 0;
             right: 0;
             border-width: 0 80px 80px 80px;
             border-color: transparent transparent #2578ae transparent;
+            animation: bottom 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
         }
         .left {
             top: 0;
             left: 0;
             border-width: 80px 0 80px 80px;
             border-color: transparent transparent transparent #3289c3;
+            animation: left 1.5s cubic-bezier(0.19, 0.69, 0.4, 1) infinite alternate;
         }
+    }
+}
+
+@keyframes top {
+    0%,
+    20% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-180px);
+    }
+}
+
+@keyframes left {
+    0%,
+    20% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateX(-180px);
+    }
+}
+
+@keyframes right {
+    0%,
+    20% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateX(180px);
+    }
+}
+
+@keyframes bottom {
+    0%,
+    20% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(180px);
     }
 }
