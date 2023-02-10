@@ -57,7 +57,7 @@ body {
         z-index: 9;
     }
     input {
-        // display: none;
+        display: none;
         &:checked {
             & ~ .bg {
                 transform: translate(-50%, -50%) scale(1);
@@ -67,7 +67,8 @@ body {
                 transform: rotate(180deg) scale(1.1);
                 box-shadow: -4px -8px 16px rgba(0, 0, 0, 0.2);
             }
-            & ~ .ring{
+            & ~ .ring,
+            & ~ .stripes {
                 opacity: 0;
                 transform: translate(-50%, -50%) scale(1);
                 transition: transform 0.6s ease-out, opacity 0.3s ease-out 0.3s;
@@ -103,6 +104,29 @@ body {
         border: 5px solid #fff;
         border-radius: 50%;
         transition: transform 0.6s ease-in, opacity 0.3s ease-in;
+    }
+    .stripes {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        transition: transform 0.6s ease-in, opacity 0.3s ease-in;
+        div {
+            position: absolute;
+            height: 26px;
+            width: 4px;
+            background: #fff;
+            top: 137px;
+            left: 148px;
+        }
+        @for $i from 1 through 18 {
+            $deg: 20deg * $i;
+            .s#{$i} {
+                transform: rotate($deg) translateY(-120px);
+            }
+        }
     }
 
 }

@@ -76,6 +76,9 @@ body {
   cursor: pointer;
   z-index: 9;
 }
+#app input {
+  display: none;
+}
 #app input:checked ~ .bg {
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
@@ -87,7 +90,7 @@ body {
   -webkit-box-shadow: -4px -8px 16px rgba(0, 0, 0, 0.2);
           box-shadow: -4px -8px 16px rgba(0, 0, 0, 0.2);
 }
-#app input:checked ~ .ring {
+#app input:checked ~ .ring, #app input:checked ~ .stripes {
   opacity: 0;
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
@@ -133,4 +136,97 @@ body {
   transition: opacity 0.3s ease-in, -webkit-transform 0.6s ease-in;
   transition: transform 0.6s ease-in, opacity 0.3s ease-in;
   transition: transform 0.6s ease-in, opacity 0.3s ease-in, -webkit-transform 0.6s ease-in;
+}
+#app .stripes {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  -webkit-transition: opacity 0.3s ease-in, -webkit-transform 0.6s ease-in;
+  transition: opacity 0.3s ease-in, -webkit-transform 0.6s ease-in;
+  transition: transform 0.6s ease-in, opacity 0.3s ease-in;
+  transition: transform 0.6s ease-in, opacity 0.3s ease-in, -webkit-transform 0.6s ease-in;
+}
+#app .stripes div {
+  position: absolute;
+  height: 26px;
+  width: 4px;
+  background: #fff;
+  top: 137px;
+  left: 148px;
+}
+#app .stripes .s1 {
+  -webkit-transform: rotate(20deg) translateY(-120px);
+          transform: rotate(20deg) translateY(-120px);
+}
+#app .stripes .s2 {
+  -webkit-transform: rotate(40deg) translateY(-120px);
+          transform: rotate(40deg) translateY(-120px);
+}
+#app .stripes .s3 {
+  -webkit-transform: rotate(60deg) translateY(-120px);
+          transform: rotate(60deg) translateY(-120px);
+}
+#app .stripes .s4 {
+  -webkit-transform: rotate(80deg) translateY(-120px);
+          transform: rotate(80deg) translateY(-120px);
+}
+#app .stripes .s5 {
+  -webkit-transform: rotate(100deg) translateY(-120px);
+          transform: rotate(100deg) translateY(-120px);
+}
+#app .stripes .s6 {
+  -webkit-transform: rotate(120deg) translateY(-120px);
+          transform: rotate(120deg) translateY(-120px);
+}
+#app .stripes .s7 {
+  -webkit-transform: rotate(140deg) translateY(-120px);
+          transform: rotate(140deg) translateY(-120px);
+}
+#app .stripes .s8 {
+  -webkit-transform: rotate(160deg) translateY(-120px);
+          transform: rotate(160deg) translateY(-120px);
+}
+#app .stripes .s9 {
+  -webkit-transform: rotate(180deg) translateY(-120px);
+          transform: rotate(180deg) translateY(-120px);
+}
+#app .stripes .s10 {
+  -webkit-transform: rotate(200deg) translateY(-120px);
+          transform: rotate(200deg) translateY(-120px);
+}
+#app .stripes .s11 {
+  -webkit-transform: rotate(220deg) translateY(-120px);
+          transform: rotate(220deg) translateY(-120px);
+}
+#app .stripes .s12 {
+  -webkit-transform: rotate(240deg) translateY(-120px);
+          transform: rotate(240deg) translateY(-120px);
+}
+#app .stripes .s13 {
+  -webkit-transform: rotate(260deg) translateY(-120px);
+          transform: rotate(260deg) translateY(-120px);
+}
+#app .stripes .s14 {
+  -webkit-transform: rotate(280deg) translateY(-120px);
+          transform: rotate(280deg) translateY(-120px);
+}
+#app .stripes .s15 {
+  -webkit-transform: rotate(300deg) translateY(-120px);
+          transform: rotate(300deg) translateY(-120px);
+}
+#app .stripes .s16 {
+  -webkit-transform: rotate(320deg) translateY(-120px);
+          transform: rotate(320deg) translateY(-120px);
+}
+#app .stripes .s17 {
+  -webkit-transform: rotate(340deg) translateY(-120px);
+          transform: rotate(340deg) translateY(-120px);
+}
+#app .stripes .s18 {
+  -webkit-transform: rotate(360deg) translateY(-120px);
+          transform: rotate(360deg) translateY(-120px);
 }/*# sourceMappingURL=index.css.map */
