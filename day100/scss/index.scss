@@ -60,12 +60,14 @@ body {
                 left: 0;
                 width: 6px;
                 height: 120px;
+                animation: flicker 6s ease-in-out (calc(random(400) / 100) * 1s) infinite alternate both;
             }
             .top {
                 top: 0;
                 left: 9px;
                 width: 60px;
                 height: 6px;
+                animation: flicker 6s ease-in-out (calc(random(400) / 100) * 1s) infinite alternate both;
             }
             .middle {
                 top: 50%;
@@ -73,12 +75,14 @@ body {
                 width: 50px;
                 height: 6px;
                 transform: translateY(-50%);
+                animation: flicker 6s ease-in-out (calc(random(400) / 100) * 1s) infinite alternate both;
             }
             .bottom {
                 bottom: 0;
                 left: 9px;
                 width: 60px;
                 height: 6px;
+                animation: flicker 6s ease-in-out (calc(random(400) / 100) * 1s) infinite alternate both;
             }
         }
         .n {
@@ -91,6 +95,8 @@ body {
                 left: 0;
                 width: 6px;
                 height: 120px;
+                animation: flicker 6s ease-in-out (calc(random(400) / 100) * 1s) infinite alternate both;
+                z-index: 2;
             }
             .middle {
                 top: 0;
@@ -99,14 +105,19 @@ body {
                 width: 135px;
                 transform-origin: 3px 3px;
                 transform: rotate(62deg);
+                animation: flicker 6s ease-in-out (calc(random(400) / 100) * 1s) infinite alternate both;
+                z-index: 2;
             }
             .right {
                 top: 0;
                 right: 0;
                 width: 6px;
                 height: 120px;
+                animation: flicker 6s ease-in-out (calc(random(400) / 100) * 1s) infinite alternate both;
+                z-index: 2;
             }
         }
+        $halfCircle: calc(random(400) / 100) * 1s;
         .d {
             width: 72px;
             height: 120px;
@@ -116,12 +127,49 @@ body {
                 left: 0;
                 width: 6px;
                 height: 120px;
+                animation: flicker 6s ease-in-out (calc(random(400) / 100) * 1s) infinite alternate both;
+                z-index: 2;
+                .dot {
+                    width: 15px;
+                    height: 6px;
+                    animation: flickerDots 6s ease-in-out $halfCircle infinite alternate both;
+                }
+                .top {
+                    position: absolute;
+                    top: -10px;
+                    right: -6px;
+                    width: 26px;
+                    height: 26px;
+                    overflow: hidden;
+                    .dot {
+                        top: 10px;
+                        right: -12px;
+                    }
+                }
+                .bottom {
+                    position: absolute;
+                    bottom: -10px;
+                    right: -6px;
+                    width: 26px;
+                    height: 26px;
+                    overflow: hidden;
+                    .dot {
+                        bottom: 10px;
+                        right: -12px;
+                    }
+                }
             }
             .right {
                 position: absolute;
-                top: 0;
-                left: -47px;
+                top: -10px;
+                left: 12px;
+                width: 80px;
+                height: 140px;
+                overflow: hidden;
                 .circle {
+                    position: absolute;
+                    top: 10px;
+                    left: -60px;
                     box-sizing: border-box;
                     width: 120px;
                     height: 120px;
@@ -130,32 +178,73 @@ body {
                     border-color: #1a1e24 #1a1e24 transparent transparent;
                     border-radius: 50%;
                     transform: rotate(45deg);
-                    &::before,
-                    &::after {
-                        content: '';
-                        display: block;
-                        width: 6px;
-                        height: 6px;
-                        border-radius: 50%;
-                        background-color: #1a1e24;
-                        position: absolute;
-                    }
-                    &::before {
-                        top: 11px;
-                        left: 10px;
-                    }
-                    &::after {
-                        bottom: 11px;
-                        right: 10px;
-                    }
+                    animation: flickerCircle 6s ease-in-out $halfCircle infinite alternate both;
                 }
             }
         }
         .light {
             position: absolute;
-            background: #1a1e24;
+            background-color: #1a1e24;
             box-shadow: 0px 0px 6px 0px #1a1e24;
             border-radius: 3px;
         }
+    }
+}
+
+@keyframes flicker {
+    35%,
+    37%,
+    39%,
+    41%,
+    100% {
+        background: #f1f4f5;
+        box-shadow: 0px 0px 10px 0px #f1f4f5;
+    }
+    0%,
+    34%,
+    36%,
+    36%,
+    38%,
+    40% {
+        background: #1a1e24;
+        box-shadow: 0px 0px 6px 0px #1a1e24;
+    }
+}
+@keyframes flickerCircle {
+    35%,
+    37%,
+    39%,
+    41%,
+    100% {
+        border-color: #f1f4f5 #f1f4f5 transparent transparent;
+        box-shadow: 0px 0px 10px 0px #f1f4f5, inset 0px 0px 10px 0px #f1f4f5;
+    }
+    0%,
+    34%,
+    36%,
+    36%,
+    38%,
+    40% {
+        border-color: #1a1e24 #1a1e24 transparent transparent;
+        box-shadow: 0px 0px 6px 0px #1a1e24, inset 0px 0px 6px 0px #1a1e24;
+    }
+}
+@keyframes flickerDots {
+    35%,
+    37%,
+    39%,
+    41%,
+    100% {
+        background-color: #f1f4f5;
+        box-shadow: 0px 0px 9px 1px #f1f4f5;
+    }
+    0%,
+    34%,
+    36%,
+    36%,
+    38%,
+    40% {
+        background-color: #1a1e24;
+        box-shadow: 0px 0px 5px 1px #1a1e24;
     }
 }

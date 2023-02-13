@@ -86,12 +86,16 @@ body {
   left: 0;
   width: 6px;
   height: 120px;
+  -webkit-animation: flicker 6s ease-in-out 2.1s infinite alternate both;
+          animation: flicker 6s ease-in-out 2.1s infinite alternate both;
 }
 #app .word .e .top {
   top: 0;
   left: 9px;
   width: 60px;
   height: 6px;
+  -webkit-animation: flicker 6s ease-in-out 4s infinite alternate both;
+          animation: flicker 6s ease-in-out 4s infinite alternate both;
 }
 #app .word .e .middle {
   top: 50%;
@@ -100,12 +104,16 @@ body {
   height: 6px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  -webkit-animation: flicker 6s ease-in-out 3.27s infinite alternate both;
+          animation: flicker 6s ease-in-out 3.27s infinite alternate both;
 }
 #app .word .e .bottom {
   bottom: 0;
   left: 9px;
   width: 60px;
   height: 6px;
+  -webkit-animation: flicker 6s ease-in-out 0.18s infinite alternate both;
+          animation: flicker 6s ease-in-out 0.18s infinite alternate both;
 }
 #app .word .n {
   width: 85px;
@@ -118,6 +126,9 @@ body {
   left: 0;
   width: 6px;
   height: 120px;
+  -webkit-animation: flicker 6s ease-in-out 1.66s infinite alternate both;
+          animation: flicker 6s ease-in-out 1.66s infinite alternate both;
+  z-index: 2;
 }
 #app .word .n .middle {
   top: 0;
@@ -128,12 +139,18 @@ body {
           transform-origin: 3px 3px;
   -webkit-transform: rotate(62deg);
           transform: rotate(62deg);
+  -webkit-animation: flicker 6s ease-in-out 3.18s infinite alternate both;
+          animation: flicker 6s ease-in-out 3.18s infinite alternate both;
+  z-index: 2;
 }
 #app .word .n .right {
   top: 0;
   right: 0;
   width: 6px;
   height: 120px;
+  -webkit-animation: flicker 6s ease-in-out 0.3s infinite alternate both;
+          animation: flicker 6s ease-in-out 0.3s infinite alternate both;
+  z-index: 2;
 }
 #app .word .d {
   width: 72px;
@@ -145,13 +162,52 @@ body {
   left: 0;
   width: 6px;
   height: 120px;
+  -webkit-animation: flicker 6s ease-in-out 3.61s infinite alternate both;
+          animation: flicker 6s ease-in-out 3.61s infinite alternate both;
+  z-index: 2;
+}
+#app .word .d .left .dot {
+  width: 15px;
+  height: 6px;
+  -webkit-animation: flickerDots 6s ease-in-out 0.25s infinite alternate both;
+          animation: flickerDots 6s ease-in-out 0.25s infinite alternate both;
+}
+#app .word .d .left .top {
+  position: absolute;
+  top: -10px;
+  right: -6px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+}
+#app .word .d .left .top .dot {
+  top: 10px;
+  right: -12px;
+}
+#app .word .d .left .bottom {
+  position: absolute;
+  bottom: -10px;
+  right: -6px;
+  width: 26px;
+  height: 26px;
+  overflow: hidden;
+}
+#app .word .d .left .bottom .dot {
+  bottom: 10px;
+  right: -12px;
 }
 #app .word .d .right {
   position: absolute;
-  top: 0;
-  left: -47px;
+  top: -10px;
+  left: 12px;
+  width: 80px;
+  height: 140px;
+  overflow: hidden;
 }
 #app .word .d .right .circle {
+  position: absolute;
+  top: 10px;
+  left: -60px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 120px;
@@ -162,28 +218,87 @@ body {
   border-radius: 50%;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-}
-#app .word .d .right .circle::before, #app .word .d .right .circle::after {
-  content: "";
-  display: block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: #1a1e24;
-  position: absolute;
-}
-#app .word .d .right .circle::before {
-  top: 11px;
-  left: 10px;
-}
-#app .word .d .right .circle::after {
-  bottom: 11px;
-  right: 10px;
+  -webkit-animation: flickerCircle 6s ease-in-out 0.25s infinite alternate both;
+          animation: flickerCircle 6s ease-in-out 0.25s infinite alternate both;
 }
 #app .word .light {
   position: absolute;
-  background: #1a1e24;
+  background-color: #1a1e24;
   -webkit-box-shadow: 0px 0px 6px 0px #1a1e24;
           box-shadow: 0px 0px 6px 0px #1a1e24;
   border-radius: 3px;
+}
+
+@-webkit-keyframes flicker {
+  35%, 37%, 39%, 41%, 100% {
+    background: #f1f4f5;
+    -webkit-box-shadow: 0px 0px 10px 0px #f1f4f5;
+            box-shadow: 0px 0px 10px 0px #f1f4f5;
+  }
+  0%, 34%, 36%, 36%, 38%, 40% {
+    background: #1a1e24;
+    -webkit-box-shadow: 0px 0px 6px 0px #1a1e24;
+            box-shadow: 0px 0px 6px 0px #1a1e24;
+  }
+}
+
+@keyframes flicker {
+  35%, 37%, 39%, 41%, 100% {
+    background: #f1f4f5;
+    -webkit-box-shadow: 0px 0px 10px 0px #f1f4f5;
+            box-shadow: 0px 0px 10px 0px #f1f4f5;
+  }
+  0%, 34%, 36%, 36%, 38%, 40% {
+    background: #1a1e24;
+    -webkit-box-shadow: 0px 0px 6px 0px #1a1e24;
+            box-shadow: 0px 0px 6px 0px #1a1e24;
+  }
+}
+@-webkit-keyframes flickerCircle {
+  35%, 37%, 39%, 41%, 100% {
+    border-color: #f1f4f5 #f1f4f5 transparent transparent;
+    -webkit-box-shadow: 0px 0px 10px 0px #f1f4f5, inset 0px 0px 10px 0px #f1f4f5;
+            box-shadow: 0px 0px 10px 0px #f1f4f5, inset 0px 0px 10px 0px #f1f4f5;
+  }
+  0%, 34%, 36%, 36%, 38%, 40% {
+    border-color: #1a1e24 #1a1e24 transparent transparent;
+    -webkit-box-shadow: 0px 0px 6px 0px #1a1e24, inset 0px 0px 6px 0px #1a1e24;
+            box-shadow: 0px 0px 6px 0px #1a1e24, inset 0px 0px 6px 0px #1a1e24;
+  }
+}
+@keyframes flickerCircle {
+  35%, 37%, 39%, 41%, 100% {
+    border-color: #f1f4f5 #f1f4f5 transparent transparent;
+    -webkit-box-shadow: 0px 0px 10px 0px #f1f4f5, inset 0px 0px 10px 0px #f1f4f5;
+            box-shadow: 0px 0px 10px 0px #f1f4f5, inset 0px 0px 10px 0px #f1f4f5;
+  }
+  0%, 34%, 36%, 36%, 38%, 40% {
+    border-color: #1a1e24 #1a1e24 transparent transparent;
+    -webkit-box-shadow: 0px 0px 6px 0px #1a1e24, inset 0px 0px 6px 0px #1a1e24;
+            box-shadow: 0px 0px 6px 0px #1a1e24, inset 0px 0px 6px 0px #1a1e24;
+  }
+}
+@-webkit-keyframes flickerDots {
+  35%, 37%, 39%, 41%, 100% {
+    background-color: #f1f4f5;
+    -webkit-box-shadow: 0px 0px 9px 1px #f1f4f5;
+            box-shadow: 0px 0px 9px 1px #f1f4f5;
+  }
+  0%, 34%, 36%, 36%, 38%, 40% {
+    background-color: #1a1e24;
+    -webkit-box-shadow: 0px 0px 5px 1px #1a1e24;
+            box-shadow: 0px 0px 5px 1px #1a1e24;
+  }
+}
+@keyframes flickerDots {
+  35%, 37%, 39%, 41%, 100% {
+    background-color: #f1f4f5;
+    -webkit-box-shadow: 0px 0px 9px 1px #f1f4f5;
+            box-shadow: 0px 0px 9px 1px #f1f4f5;
+  }
+  0%, 34%, 36%, 36%, 38%, 40% {
+    background-color: #1a1e24;
+    -webkit-box-shadow: 0px 0px 5px 1px #1a1e24;
+            box-shadow: 0px 0px 5px 1px #1a1e24;
+  }
 }/*# sourceMappingURL=index.css.map */
